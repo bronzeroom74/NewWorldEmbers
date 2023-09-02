@@ -279,29 +279,29 @@ guiTypes = {
 			alwaysTransparent = yes
 		}
 		
-		buttonType = {
-			name = "friends_button"
-			position = { x = 33 y = 198 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			buttonText = "MENU_BAR_FRIENDS"
-			buttonFont = "ashes_font"
-			clicksound = click_default
-			oversound = ui_menu_over
-		}
+		#buttonType = {
+		#	name = "friends_button"
+		#	position = { x = 33 y = 198 }
+		#	quadTextureSprite ="GFX_main_lobby_button"
+		#	buttonText = "MENU_BAR_FRIENDS"
+		#	buttonFont = "ashes_font"
+		#	clicksound = click_default
+		#	oversound = ui_menu_over
+		#}
 
-		ButtonType = {
-			name = "credits_button"
-			position = {  x = 33 y = 238 }
-			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "FE_CREDITS"
-			buttonFont = "ashes_font"
-			clicksound = click_default
-			oversound = ui_menu_over
-		}
+		#ButtonType = {
+		#	name = "credits_button"
+		#	position = {  x = 33 y = 238 }
+		#	quadTextureSprite ="GFX_main_lobby_button"	
+		#	buttonText = "FE_CREDITS"
+		#	buttonFont = "ashes_font"
+		#	clicksound = click_default
+		#	oversound = ui_menu_over
+		#}
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 33 y = 400 }
+			position = { x = 33 y = 332 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
 			buttonFont = "ashes_font"
@@ -309,7 +309,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 33 y = 332 }
+			position = { x = 33 y = 228 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "ashes_font"			
 			text = "FE_EXIT"			

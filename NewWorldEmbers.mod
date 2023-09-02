@@ -2,7 +2,7 @@ version="0.01"
 tags={
 	"Alternative History,Events,Gameplay,Graphics,Technologies,Sound,National Focuses,Military,Map,Ideologies"
 }
-name="Ashes of the Old World"
+name="New World Embers"
 replace_path="history/states"
 replace_path="history/countries"
 replace_path="history/general"
