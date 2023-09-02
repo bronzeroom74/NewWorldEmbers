@@ -1,0 +1,16 @@
+characters = {
+	HAL_bishop_zollitsch = {
+		name = HAL_bishop_zollitsch_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HAL/portrait_bishop_zollitsch.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

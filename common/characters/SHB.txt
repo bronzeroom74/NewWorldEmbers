@@ -1,0 +1,16 @@
+characters = {
+	SHB_kommandant_valter = {
+		name = SHB_kommandant_valter_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SHB/portrait_kommandant_valter.dds"
+			}
+		}
+		country_leader = {
+			ideology = warlordship
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

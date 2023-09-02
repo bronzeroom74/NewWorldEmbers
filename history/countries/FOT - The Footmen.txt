@@ -6,15 +6,17 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = aggression
+	ruling_party = adaptation
 	last_election = "2265.1.1"
 	elections_allowed = no
 }
 
 set_popularities = {
-	ascension = 15
-	aggression = 70
+	ascension = 5
+	aggression = 10
 	absolution = 10
-	adaptation = 5
+	adaptation = 75
 	apocalypse = 0
 }
+
+recruit_character = FOT_high_elder_paykull

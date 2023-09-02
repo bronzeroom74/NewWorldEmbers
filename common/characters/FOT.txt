@@ -1,0 +1,16 @@
+characters = {
+	FOT_high_elder_paykull = {
+		name = FOT_high_elder_paykull_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FOT/portrait_high_elder_paykull.dds"
+			}
+		}
+		country_leader = {
+			ideology = wasteland_community
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

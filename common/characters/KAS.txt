@@ -1,0 +1,16 @@
+characters = {
+	KAS_air_marshal_rall = {
+		name = KAS_air_marshal_rall_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KAS/portrait_air_marshal_rall.dds"
+			}
+		}
+		country_leader = {
+			ideology = wasteland_community
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}
