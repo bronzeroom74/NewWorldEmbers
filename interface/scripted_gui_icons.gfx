@@ -1,0 +1,28 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_autonomy_icon"
+		texturefile = "gfx/interface/scripted_gui/state_autonomy.dds"
+	}
+	spriteType = {
+		name = "GFX_arrow_up_small_icon"
+		texturefile = "gfx/interface/scripted_gui/arrow_up_small.dds"
+	}
+	spriteType = {
+		name = "GFX_deautonomy_icon"
+		texturefile = "gfx/interface/scripted_gui/deautonomise_baddn.dds"
+	}
+	spriteType = {
+		name = "GFX_coring_icon"
+		texturefile = "gfx/interface/scripted_gui/coring_baddn.dds"
+	}
+	spriteType = {
+		name = "GFX_autonomy_modifier_icon"
+		texturefile = "gfx/interface/scripted_gui/autonomy_state_modifier.dds"
+	}
+	spriteType = {
+		name = "GFX_state_development_modifier_icon"
+		texturefile = "gfx/interface/scripted_gui/state_development_modifier.dds"
+	}
+
+}

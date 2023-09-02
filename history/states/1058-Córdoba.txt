@@ -1,0 +1,25 @@
+
+state = {
+	id = 1058
+	name = "STATE_1058"
+	provinces = {
+		15 2434 3083 6033 8696 15355 15389 15399 15416 19772 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			19772 20 #Córdoba
+		}
+		victory_points = {
+			15416 2 #Lucena
+		}
+	}
+	manpower = 71540
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+}

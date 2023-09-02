@@ -1,0 +1,18 @@
+state = {
+	id = 2611
+	name = "STATE_2611"
+	provinces = {
+		13544 13636 
+	}
+	history = {
+		owner = CLD
+		add_core_of = CLD
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower = 5320
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

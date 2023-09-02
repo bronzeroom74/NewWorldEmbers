@@ -1,0 +1,24 @@
+VLC_commie = {
+	color = rgb { 105 10 16 }
+	color_ui = rgb { 105 10 16 }
+}
+
+UFS_commie = {
+	color = rgb { 105 10 16 }
+	color_ui = rgb { 105 10 16 }
+}
+
+NET_commie = {
+	color = rgb { 105 10 16 }
+	color_ui = rgb { 105 10 16 }
+}
+
+NOM_commie = {
+	color = rgb { 105 10 16 }
+	color_ui = rgb { 105 10 16 }
+}
+
+ICM_SON = {
+	color = rgb { 90 93 110 }
+	color_ui = rgb { 90 93 110 }
+}

@@ -1,0 +1,22 @@
+
+state = {
+	id = 414
+	name = "STATE_414"
+	provinces = {
+		395 11898 11952 20698
+	}
+	history = {
+		buildings = {
+			infrastructure = 4
+		}
+		owner = RED
+		add_core_of = RED
+		victory_points = {
+			20698 5 #Ahlen
+		}
+	}
+	manpower = 13527
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

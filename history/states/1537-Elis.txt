@@ -1,0 +1,21 @@
+state = {
+	id = 1537
+	name = "STATE_1537"
+	history = {
+		owner = ATH
+		add_core_of = ATH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			8576 2
+		}
+	}
+	provinces = {
+		8576 20262 
+	}
+	manpower = 12228
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

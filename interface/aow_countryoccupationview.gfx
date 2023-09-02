@@ -1,0 +1,11 @@
+spriteTypes = {
+	progressbartype = {
+		name = "GFX_occupation_state_autonomy_bar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/scripted_gui/autonomy_bar_state.dds"
+		textureFile2 = "gfx/interface/occupation/state_bar_empty.dds"
+		size = { x = 81 y = 14 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

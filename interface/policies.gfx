@@ -1,0 +1,256 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_categories"
+		texturefile = "gfx/interface/idea_categories.dds"
+		noOfFrames = 15
+	}
+
+	#Prosperity
+	spriteType = {
+		name = "GFX_idea_shithole"
+		texturefile = "gfx/interface/ideas/policies/prosperity_shithole.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_unstable_endeavour"
+		texturefile = "gfx/interface/ideas/policies/prosperity_unstableendeavour.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_wasteland_operation"
+		texturefile = "gfx/interface/ideas/policies/prosperity_wastelandoperation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_booming_enterprise"
+		texturefile = "gfx/interface/ideas/policies/prosperity_boomingenterprise.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_riches_beyond_belief"
+		texturefile = "gfx/interface/ideas/policies/prosperity_richesbeyondbelief.dds"
+	}
+
+	#Science Base
+	spriteType = {
+		name = "GFX_idea_conservative_primitism"
+		texturefile = "gfx/interface/ideas/policies/conservative_primitism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_backwater_knowledge"
+		texturefile = "gfx/interface/ideas/policies/backwater_knowledge.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_wasteland_science"
+		texturefile = "gfx/interface/ideas/policies/wasteland_science.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_sophisticated_education"
+		texturefile = "gfx/interface/ideas/policies/sophisticated_education.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_prewar_enlightenment"
+		texturefile = "gfx/interface/ideas/policies/prewar_enlightenment.dds"
+	}
+
+	#Outsider Views
+	spriteType = {
+		name = "GFX_idea_aggressive_reclusion"
+		texturefile = "gfx/interface/ideas/policies/aggressive_reclusion.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_isolationism"
+		texturefile = "gfx/interface/ideas/policies/isolationism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_wasteland_travellers"
+		texturefile = "gfx/interface/ideas/policies/wasteland_travellers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_open_borders"
+		texturefile = "gfx/interface/ideas/policies/open_borders.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_melting_pot"
+		texturefile = "gfx/interface/ideas/policies/melting_pot.dds"
+	}
+
+	#Manpower Laws
+	spriteType = {
+		name = "GFX_idea_disorganised_militia"
+		texturefile = "gfx/interface/ideas/policies/disorganised_militia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_loose_warband"
+		texturefile = "gfx/interface/ideas/policies/loose_warband.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dedicated_defenders"
+		texturefile = "gfx/interface/ideas/policies/dedicated_defenders.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_organised_force"
+		texturefile = "gfx/interface/ideas/policies/organised_force.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_grand_army"
+		texturefile = "gfx/interface/ideas/policies/grand_army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_tapping_the_reserves"
+		texturefile = "gfx/interface/ideas/policies/tapping_the_reserves.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_last_ditch_effort"
+		texturefile = "gfx/interface/ideas/policies/last_ditch_effort.dds"
+	}
+
+	#Society Type
+	spriteType = {
+		name = "GFX_idea_democratorship"
+		texturefile = "gfx/interface/ideas/policies/democratorship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_raider_gang"
+		texturefile = "gfx/interface/ideas/policies/raider_gang.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_military_junta"
+		texturefile = "gfx/interface/ideas/policies/military_junta.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_tribal_confederation"
+		texturefile = "gfx/interface/ideas/policies/tribal_confederation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_technocracy"
+		texturefile = "gfx/interface/ideas/policies/technocracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_autocracy"
+		texturefile = "gfx/interface/ideas/policies/autocracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_rampant_starvation"
+		texturefile = "gfx/interface/ideas/policies/rampant_starvation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_food_for_the_few"
+		texturefile = "gfx/interface/ideas/policies/food_for_the_few.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_food_shortages"
+		texturefile = "gfx/interface/ideas/policies/food_shortages.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_wasteland_struggle"
+		texturefile = "gfx/interface/ideas/policies/wasteland_struggle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_a_nation_fed"
+		texturefile = "gfx/interface/ideas/policies/a_nation_fed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_groceries_o_plenty"
+		texturefile = "gfx/interface/ideas/policies/groceries_o_plenty.dds"
+	}
+
+	# Trading Laws
+	spriteType = {
+		name = "GFX_idea_full_privatisation"
+		texturefile = "gfx/interface/ideas/policies/full_privatisation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_free_market"
+		texturefile = "gfx/interface/ideas/policies/free_market.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_social_market"
+		texturefile = "gfx/interface/ideas/policies/social_market.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_weary_trades"
+		texturefile = "gfx/interface/ideas/policies/weary_trades.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_closed_economy2"
+		texturefile = "gfx/interface/ideas/policies/closed_economy2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_full_protectionism"
+		texturefile = "gfx/interface/ideas/policies/full_protectionism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_market_lockdown"
+		texturefile = "gfx/interface/ideas/policies/market_lockdown.dds"
+	}
+
+	# Eco Laws
+	spriteType = {
+		name = "GFX_idea_local_industries"
+		texturefile = "gfx/interface/ideas/policies/local_industries.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_decentralised_industry"
+		texturefile = "gfx/interface/ideas/policies/decentralised_industry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_trader_economy"
+		texturefile = "gfx/interface/ideas/policies/trader_economy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_partial_centralisation"
+		texturefile = "gfx/interface/ideas/policies/partial_centralisation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_full_centralisation"
+		texturefile = "gfx/interface/ideas/policies/full_centralisation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_military_primacy"
+		texturefile = "gfx/interface/ideas/policies/military_primacy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_war_time_effort"
+		texturefile = "gfx/interface/ideas/policies/war_time_effort.dds"
+	}
+
+}

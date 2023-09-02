@@ -1,0 +1,21 @@
+
+state = {
+	id = 983
+	name = "STATE_983"
+	history = {
+		owner = BYN
+		add_core_of = BYN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 21431 2 }
+		
+	}
+	provinces = {
+		1149 2030 15134 21431 21432 21440 
+	}
+	manpower = 4274
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

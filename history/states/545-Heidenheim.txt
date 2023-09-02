@@ -1,0 +1,36 @@
+
+state = {
+	id = 545
+	name = "STATE_545"
+	resources = {
+		energetics = 0
+		refined_metals = 4
+		polymers = 0
+		hypertech = 0
+		salvage = 3
+		electronics = 0
+	}
+	history = {
+		owner = WAF
+		add_core_of = WAF
+		add_claim_by = SON
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			20757 5 #Aalen
+		}
+		victory_points = {
+			13191 5 #Schwäbisch Gmünd
+		}
+	}
+	provinces = {
+		5343 5599 13134 13191 13207 13262 20757 20761
+	}
+	manpower = 30637
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

@@ -1,0 +1,33 @@
+
+state = {
+	id = 305
+	name = "STATE_305"
+	resources = {
+		energetics = 0
+		refined_metals = 6
+		polymers = 3
+		hypertech = 0
+		salvage = 6
+		electronics = 0
+	}
+	history = {
+		owner = FIS
+		add_core_of = FIS
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			4891 2
+		}
+
+	}
+
+	provinces = {
+		4891 11389 11406 20678 20692
+	}
+	manpower = 8546
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,39 @@
+﻿capital = 1674
+
+set_research_slots = 2
+
+set_technology = {
+}
+
+add_ideas = {
+	weary_trades
+	disorganised_militia
+	local_industries
+	unstable_endeavour
+	isolationism
+	backwater_knowledge
+	groceries_o_plenty
+	CHU_teachings_of_saints
+	CHU_city_of_god_1
+}
+add_timed_idea = {
+	idea = CHU_corelands_deal
+	days = 100
+}
+
+set_politics = {
+	ruling_party = adaptation
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 5
+	aggression = 10
+	absolution = 10
+	adaptation = 55
+	apocalypse = 20
+}
+
+recruit_character = CHU_melcher
+recruit_character = CHU_kephrael

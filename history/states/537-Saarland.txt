@@ -1,0 +1,35 @@
+
+state = {
+	id = 537
+	name = "STATE_537"
+	resources = {
+		energetics = 7
+		refined_metals = 0
+		polymers = 0
+		hypertech = 0
+		salvage = 2
+		electronics = 7
+	}
+	provinces = {
+		6453 9312 9478 12977 12993 13047
+	}
+	history = {
+		owner = SLD
+		add_core_of = SLD
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			13047 10 #Saarbrücken
+		}
+		victory_points = {
+			12993 2 #Neunkirchen
+		}
+	}
+	manpower = 58808
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

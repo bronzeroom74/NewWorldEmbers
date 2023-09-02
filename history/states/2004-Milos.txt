@@ -1,0 +1,18 @@
+state = {
+	id = 2004
+	name = "STATE_2004"
+	history = {
+		owner = ATH
+		add_core_of = ATH
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		20310 
+	}
+	manpower = 2141
+	state_category = tiny_island
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,616 @@
+
+#TO-DO LIST: SKAGERRAK, DANISH BELTS
+
+adjacency_rule =
+{
+	name = "BOSPHORUS_STRAIT"
+
+	#is_friend = {
+	#	TUR_is_friend_for_bosphorus = yes
+	#}
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 15010 21464 21463 15013 }
+
+	is_disabled = {
+		has_country_flag = BOSPHORUS_STRAIT_BLOCKED_FOR_COUNTRY
+		tooltip = bosporus_strait_blocked_tt
+	}
+	
+	icon = 15013
+	offset = { -9 0 -5 }
+}
+adjacency_rule =
+{
+	name = "DARDANELLES_STRAIT"
+
+	#is_friend = {
+	#	TUR_is_friend_for_dardanelles = yes
+	#}
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 21445 21437 21439 15164 7535 11865 }
+
+	is_disabled = {
+		has_country_flag = DARDANELLES_STRAIT_BLOCKED_FOR_COUNTRY
+		tooltip = dardanelles_strait_blocked_tt
+	}
+	
+	icon = 15164
+	offset = { -5 0 0 }
+}
+adjacency_rule =
+{
+	name = "MESSINA_STRAIT"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 15368 15350 }
+	
+	icon = 15368
+	offset = { -10 0 2 }
+}
+adjacency_rule =
+{
+	name = "BONIFACIO_STRAIT"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 1754 4722 }
+	
+	icon = 17685
+	offset = { -10 0 -10 }
+}
+adjacency_rule =
+{
+	name = "OTRANTO_STRAIT"
+
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 9328 15141 }
+	
+	icon = 18016
+	offset = { 15 0 -20 }
+}
+adjacency_rule =
+{
+	name = "SUEZ_CANAL"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 21192 21182 21173 21169 21162 21160 21161 21165 459 21183 }
+	
+	is_disabled = {
+		OR = {
+			has_global_flag = SUEZ_CANAL_BLOCKED
+			has_country_flag = SUEZ_CANAL_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+	
+	icon = 19209
+	offset = { 0 0 0 }
+}
+adjacency_rule =
+{
+	name = "GIBRALTAR_STRAIT"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 19770 19768 19769 }
+	
+	icon = 19768
+	offset = { 0 0 7 }
+}
+adjacency_rule =
+{
+	name = "KIEL_CANAL"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 7356 5595 20651 11003 10956 10963 10927 10968 10938 7341 }
+	
+	is_disabled = {
+		OR = {
+			has_global_flag = KIEL_CANAL_BLOCKED
+			has_country_flag = KIEL_CANAL_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+	icon = 10963
+	offset = { 0 0 2 }
+}
+adjacency_rule =
+{
+	name = "VENETIAN_BRIDGE"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	is_disabled = {
+		OR = {
+			has_global_flag = VENICE_BRIDGE_BLOCKED
+			has_country_flag = VENICE_BRIDGE_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_bridge_venice_tt
+	}
+	
+	required_provinces = { 20051 547 }
+	
+	icon = 20051
+	offset = { -5 0 -2 }
+}
+adjacency_rule =
+{
+	name = "LITTLE_BELT_STRAIT"
+	
+	contested = 
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy = 
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = 
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = 
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 7073 10636 7789 6240 19614 19613 }
+	
+	icon = 17860
+	offset = { 0 0 0 }
+}
+adjacency_rule =
+{
+	name = "GREAT_BELT_STRAIT"
+	
+	contested = 
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy = 
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = 
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = 
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 10650 9674 8625 7574 19621 19622 19620 }
+	
+	icon = 16809
+	offset = { 0 0 0 }
+}
+adjacency_rule =
+{
+	name = "ORESUND_STRAIT"
+	
+	contested = 
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy = 
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = 
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = 
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 19533 10561 10625 10646 }
+	
+	icon = 6764
+	offset = { -7 0 0 }
+}
+adjacency_rule =
+{
+	name = "SKAGERRAK_STRAIT"
+
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 10201 7048 }
+	
+	icon = 17862
+	offset = { 0 0 5 }
+}
+adjacency_rule =
+{
+	name = "KERCH_STRAIT"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 14325 4075 }
+	
+	icon = 14325
+	offset = { 3 0 -3 }
+}
+adjacency_rule =
+{
+	name = "AMERICA_BORDER"
+
+	#is_friend = {
+	#	TUR_is_friend_for_dardanelles = yes
+	#}
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 18655 }
+
+	is_disabled = {
+		has_country_flag = AMERICA_BORDER_BLOCKED_FOR_COUNTRY
+		tooltip = america_blocked_tt
+	}
+	
+	icon = 18655
+	offset = { -5 0 0 }
+}

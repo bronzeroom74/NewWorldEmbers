@@ -1,0 +1,16 @@
+characters = {
+	RHW_major_bruno_ernst = {
+		name = RHW_major_bruno_ernst_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RHW/portrait_major_bruno_ernst.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

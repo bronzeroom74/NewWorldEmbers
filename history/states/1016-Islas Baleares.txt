@@ -1,0 +1,31 @@
+
+state = {
+	id = 1016
+	name = "STATE_1016"
+	provinces = {
+		1711 4335 7251 15241 19804 19805 20538 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			15241 = { naval_base = 2 }
+			19805 = { naval_base = 1 }
+			19804 = { naval_base = 1 }
+		}
+		victory_points = {
+			15241 20 #Palma
+		}
+		victory_points = {
+			19805 2 #Mahón
+		}
+		victory_points = {
+			19804 2 #Ibiza
+		}
+	}
+	manpower = 37670
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

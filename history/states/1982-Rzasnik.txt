@@ -1,0 +1,21 @@
+state = {
+	id = 1982
+	name = "STATE_1982"
+	provinces = {
+		4974 11466 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			11466 5 #Ostrołęka
+		}
+		buildings = {
+			infrastructure = 2
+		}
+  	}
+	manpower = 6140
+	state_category = enclave
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,25 @@
+
+state = {
+	id = 1122
+	name = "STATE_1122"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+			1956 = { naval_base = 1 }
+		}
+		victory_points = {
+			1956 5 #Bejaia
+			}
+	}
+	
+	provinces = {
+		1956 2674 15487 15533 20990 20994 
+	}
+	manpower = 25819
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

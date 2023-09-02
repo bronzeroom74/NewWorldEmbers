@@ -1,0 +1,25 @@
+
+state = {
+	id = 1183
+	name = "STATE_1183"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			20949 5 #Sidi Bel Abbes
+			}
+	}
+	
+	provinces = {
+		610 5082 5967 15622 15635 20949 21653 
+	}
+	manpower = 15200
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

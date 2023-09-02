@@ -1,0 +1,38 @@
+
+state = {
+	id = 364
+	name = "STATE_364"
+	resources = {
+		energetics = 0
+		refined_metals = 3
+		polymers = 0
+		hypertech = 0
+		salvage = 2
+		electronics = 0
+	}
+	history = {
+		owner = NET
+		add_core_of = NET
+		add_core_of = VLC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			11770 10
+		}
+		victory_points = {
+			19893 10
+		}
+
+	}
+
+	provinces = {
+		1181 1942 7126 9448 11628 11644 11699 11743 11770 19893 19897
+	}
+	manpower = 55300
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

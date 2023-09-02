@@ -1,0 +1,23 @@
+state = {
+	id = 1694
+	name = "STATE_1694"
+	provinces = {
+		8375 8415 11731 11765 11849 20634
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			20634 20
+		}
+	}
+	manpower = 44706
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

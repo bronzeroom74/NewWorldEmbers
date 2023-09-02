@@ -1,0 +1,19 @@
+
+state = {
+	id = 2367
+	name = "STATE_2367"
+	history = {
+		owner = LOR
+		add_core_of = LOR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		13423 13483 
+	}
+	manpower = 2836
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

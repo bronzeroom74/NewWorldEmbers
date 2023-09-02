@@ -1,0 +1,29 @@
+
+state = {
+	id = 554
+	name = "STATE_554"
+
+	history = {
+		owner = SON
+		add_core_of = SON
+		add_claim_by = FRI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			4897 5
+		}
+
+	}
+
+	provinces = {
+		642 4897 7845 13341 20788
+	}
+	manpower = 24130
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

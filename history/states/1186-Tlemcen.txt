@@ -1,0 +1,25 @@
+
+state = {
+	id = 1186
+	name = "STATE_1186"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			20946 5 #Tlemcen
+			}
+	}
+	
+	provinces = {
+		5748 7836 15624 20942 20946 
+	}
+	manpower = 19916
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

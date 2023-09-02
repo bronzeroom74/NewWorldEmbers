@@ -1,0 +1,25 @@
+
+state = {
+	id = 1162
+	name = "STATE_1162"
+	provinces = {
+		914 3241 4577 12808 12872 12911 12926 19909 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			19909 5 #Nowy Sącz
+		}
+		victory_points = {
+			914 2 #Jasło
+		}
+  	}
+	manpower = 32384
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

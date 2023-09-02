@@ -1,0 +1,8 @@
+opinion_modifiers = {
+
+    ###SONs Opinion Modifiers##
+	SON_in_our_way = { value = -50 }
+    WAF_threatening_our_existance = { value = -50 }
+    
+	
+}

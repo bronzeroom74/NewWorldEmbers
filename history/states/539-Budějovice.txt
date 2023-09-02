@@ -1,0 +1,34 @@
+
+state = {
+	id = 539
+	name = "STATE_539"
+	resources = {
+		energetics = 8
+		refined_metals = 0
+		polymers = 0
+		hypertech = 2
+		salvage = 0
+		electronics = 9
+	}
+	provinces = {
+		1434 5656 8215 13015 13154
+	}
+	history = {
+		owner = SSL
+		add_core_of = SSL
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
+
+		victory_points = {
+			13154 5 #České Budějovice
+		}
+	}
+	manpower = 25700
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+
+}

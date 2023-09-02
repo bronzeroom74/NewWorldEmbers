@@ -1,0 +1,21 @@
+state = {
+	id = 2329
+	name = "STATE_2329"
+	provinces = {
+		6515 6534 12675 12690 12711 12718 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			12690 5 #Rybnik
+		}
+		buildings = {
+			infrastructure = 3
+		}
+  	}
+	manpower = 23681
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

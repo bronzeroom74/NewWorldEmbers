@@ -1,0 +1,22 @@
+
+state = {
+	id = 1967
+	name = "STATE_1967"		
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9559 1
+		}
+	}
+	provinces = {
+		7623 8948 9559 
+	}
+	manpower = 2982
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

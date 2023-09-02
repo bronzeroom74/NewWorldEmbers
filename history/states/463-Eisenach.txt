@@ -1,0 +1,24 @@
+
+state = {
+	id = 463
+	name = "STATE_463"
+	history = {
+		owner = NAZ
+		add_core_of = NAZ
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			12294 2 #Eisenach
+		}
+	}
+	provinces = {
+		9364 12294 20632
+	}
+	manpower = 16120
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

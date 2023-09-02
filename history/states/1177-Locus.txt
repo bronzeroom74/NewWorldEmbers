@@ -1,0 +1,32 @@
+
+state = {
+	id = 1177
+	name = "STATE_1177"
+				
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+			20909 = { naval_base = 1 }
+		}
+	
+		victory_points = {
+			20909 10 #Larache
+			}
+			
+		victory_points = {
+			3292 5 #Ksar El Kebir
+			}
+			
+	}
+	
+	provinces = {
+		2256 3292 8510 20907 20909 
+	}
+	manpower = 11622
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

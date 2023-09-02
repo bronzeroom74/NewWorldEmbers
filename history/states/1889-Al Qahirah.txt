@@ -1,0 +1,28 @@
+state = {
+	id = 1889
+	name = "STATE_1889"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			15800 80 #Cairo
+			}
+			
+		victory_points = {
+			21158 10 #Halwan
+			}
+			
+	}
+	
+	provinces = {
+		15800 15803 15805 21158 
+	}
+	manpower = 146831
+	state_category = metropolis
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

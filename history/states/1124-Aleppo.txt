@@ -1,0 +1,25 @@
+
+state = {
+	id = 1124
+	name = "STATE_1124"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			15550 40 #Aleppo
+			}
+	}
+	
+	provinces = {
+		4183 5104 8638 15550 15554 15566 18753 21308 21331 21333 21336 
+	}
+	manpower = 35881
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

@@ -1,0 +1,22 @@
+
+state = {
+	id = 840
+	name = "STATE_840"
+	provinces = {
+		2915 5379 6510 6703 19828 20522 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			5379 5 #Pau
+		}
+	}
+	manpower = 18603
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

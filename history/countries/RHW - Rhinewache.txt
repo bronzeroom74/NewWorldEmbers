@@ -1,0 +1,25 @@
+﻿capital = 1771
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = absolution
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 10
+	aggression = 10
+	absolution = 75
+	adaptation = 5
+	apocalypse = 0
+}
+
+recruit_character = RHW_major_bruno_ernst
+
+parliament_gui_initial = yes
+set_country_flag = is_rhine_nation

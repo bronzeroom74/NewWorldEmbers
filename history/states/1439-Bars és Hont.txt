@@ -1,0 +1,27 @@
+
+state={
+	id=1439
+	name="STATE_1439"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 4
+		hypertech = 0
+		salvage = 0
+		electronics = 4
+	}
+	history={
+		owner = THI
+		add_core_of = THI
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		3990 13432 13433 13503 13580 
+	}
+	manpower = 14610
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

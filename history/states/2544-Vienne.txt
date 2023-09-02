@@ -1,0 +1,21 @@
+state = {
+	id = 2544
+	name = "STATE_2544"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			14283 2 #Vienne
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		2531 5224 6177 9089 14283 14300 
+	}
+	manpower = 10692
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

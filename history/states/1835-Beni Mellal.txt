@@ -1,0 +1,28 @@
+state = {
+	id = 1835
+	name = "STATE_1835"
+			
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			15736 5 #Beni Mellal
+			}
+			
+		victory_points = {
+			681 2 #Al Fqih Ben Calah
+			}
+	}
+	
+	provinces = {
+		340 681 1713 2114 15736 
+	}
+	manpower = 23218
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

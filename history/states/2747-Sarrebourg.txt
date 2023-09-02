@@ -1,0 +1,21 @@
+state = {
+	id = 2747
+	name = "STATE_2747"
+	provinces = {
+		13246 
+	}
+	history = {
+		owner = VRD
+		add_core_of = VRD
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	manpower = 1120
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

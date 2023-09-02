@@ -1,0 +1,26 @@
+
+state = {
+	id = 745
+	name = "STATE_745"
+
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			16144 2
+		}
+
+	}
+
+	provinces = {
+		2381 14204 16144 18364 20049 
+	}
+	manpower = 8345
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

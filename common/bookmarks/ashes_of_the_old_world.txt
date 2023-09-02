@@ -1,0 +1,110 @@
+bookmarks = {
+	bookmark = {
+		name = "FTA_NAME"
+		desc = "FTA_DESC"
+		date = 2266.1.1.12
+		picture = "GFX_select_date_2666"
+		default_country = "BER"
+		default = yes
+
+		"BER" = {
+			history = "FTA_BER_DESC"
+			ideology = absolution
+			ideas = { }
+			focuses = { }
+		}
+
+		"RUK" = {
+			history = "FTA_RUK_DESC"
+			ideology = ascension
+			ideas = { }
+			focuses = { }
+		}
+
+		"SON" = {
+			history = "FTA_SON_DESC"
+			ideology = aggression
+			ideas = { SON_memories_of_the_holdback
+			        SON_collaboration }
+			focuses = { }
+		}
+
+		"SOR" = {
+			history = "FTA_SOR_DESC"
+			ideology = ascension
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"KYB" = {
+			history = "FTA_KYB_DESC"
+			ideology = ascension
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"CHU" = {
+			history = "FTA_CHU_DESC"
+			ideology = adaptation
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"COL" = {
+			history = "FTA_COL_DESC"
+			ideology = adaptation
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"---" = {
+			history = "OTHER_FTA_DESC"
+		}
+
+		# minors ####
+
+		"NET" = {
+			minor = yes
+			history = "FTA_NET_DESC"
+			ideology = ascension
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"MPC" = {
+			minor = yes
+			history = "FTA_MPC_DESC"
+			ideology = ascension
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"VEG" = {
+			minor = yes
+			history = "VEG_NET_DESC"
+			ideology = ascension
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+	}
+}

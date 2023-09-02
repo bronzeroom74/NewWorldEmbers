@@ -1,0 +1,24 @@
+
+state = {
+	id = 1756
+	name = "STATE_1756"
+	provinces = {
+		4903 8499 9016 12902 12915 12953 20741
+	}
+	history = {
+		owner = SLD
+		add_core_of = SLD
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		victory_points = {
+			12953 5 #Kaiserslautern
+		}
+	}
+	manpower = 26792
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

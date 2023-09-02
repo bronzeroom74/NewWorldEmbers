@@ -1,0 +1,22 @@
+state = {
+	id = 1449
+	name = "STATE_1449"
+	provinces = {
+		7715 20099
+	}
+	history = {
+		owner = LOC
+		add_core_of = LOC
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			7715 10 #Basel
+		}
+	}
+	manpower = 26200
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

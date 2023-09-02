@@ -1,0 +1,22 @@
+
+state = {
+	id = 2594
+	name = "STATE_2594"
+	provinces = {
+		2247 11789
+	}
+	history = {
+		owner = BER
+		add_core_of = BER
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			2247 2 #Eisenhüttenstadt
+		}
+	}
+	manpower = 2745
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

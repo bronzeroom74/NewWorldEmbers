@@ -1,0 +1,25 @@
+state = {
+	id = 1852
+	name = "STATE_1852"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			20911 = { naval_base = 1 }
+		}
+	
+		victory_points = {
+			20911 5 #Melilla
+			}
+	}
+	
+	provinces = {
+		20911 
+	}
+	manpower = 7500
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

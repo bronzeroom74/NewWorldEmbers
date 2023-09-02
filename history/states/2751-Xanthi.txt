@@ -1,0 +1,21 @@
+state = {
+	id = 2751
+	name = "STATE_2751"
+	provinces = {
+		3756 
+	}
+	history = {
+		owner = BLU
+		add_core_of = BLU
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			3756 2
+		}
+	}
+	manpower = 4082
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

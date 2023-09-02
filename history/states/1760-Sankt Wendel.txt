@@ -1,0 +1,21 @@
+state = {
+	id = 1760
+	name = "STATE_1760"
+	history = {
+		owner = SLD
+		add_core_of = SLD
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			12853 2 #Idar-Oberstein
+		}
+	}
+	provinces = {
+		12853
+	}
+	manpower = 3640
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+}

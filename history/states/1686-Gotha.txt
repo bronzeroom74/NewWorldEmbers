@@ -1,0 +1,31 @@
+
+state = {
+	id = 1686
+	name = "STATE_1686"
+	resources = {
+		energetics = 8
+		refined_metals = 0
+		polymers = 5
+		hypertech = 0
+		salvage = 0
+		electronics = 0
+	}
+	history = {
+		owner = NAZ
+		add_core_of = NAZ
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces = {
+		2943 7501 12267 12391 18815 18816 20622 20623 20624 20627
+	}
+	manpower = 25745
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

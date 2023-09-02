@@ -1,0 +1,22 @@
+
+state = {
+	id = 491
+	name = "STATE_491"
+	provinces = {
+		661 2486 7788 8502 12440 12518 12530 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			2486 2 #Tomaszów Lubelski
+		}
+		buildings = {
+			infrastructure = 3
+		}
+  	}
+	manpower = 25110
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

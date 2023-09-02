@@ -1,0 +1,19 @@
+
+state = {
+	id = 2021
+	name = "STATE_2021"
+	history = {
+		owner = ATH
+		add_core_of = ATH
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		3133 15324 20278 
+	}
+	manpower = 1482
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

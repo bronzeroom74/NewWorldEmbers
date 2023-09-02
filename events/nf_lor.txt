@@ -1,0 +1,42 @@
+add_namespace = nf_lor
+
+country_event = {
+	id = nf_lor.1
+	title = nf_lor.1.t
+	desc = nf_lor.1.d
+	picture = GFX_event_picture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+
+	option = {
+		name = nf_lor.1.a
+	}
+}
+country_event = {
+	id = nf_lor.2
+	title = nf_lor.2.t
+	desc = nf_lor.2.d
+	picture = GFX_event_picture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = nf_lor.2.a
+	}
+}
+country_event = {
+	id = nf_lor.3
+	title = nf_lor.3.t
+	desc = nf_lor.3.d
+	picture = GFX_event_picture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = nf_lor.3.a
+	}
+}

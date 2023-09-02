@@ -1,0 +1,32 @@
+
+state = {
+	id = 822
+	name = "STATE_822"
+
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 4
+			14657 = { naval_base = 2 }
+		}
+		victory_points = {
+			14657 20 #Montpellier
+		}
+		victory_points = {
+			8584 5 #Beziers
+		}
+		victory_points = {
+			14692 2 #Sète
+		}
+
+	}
+
+	provinces = {
+		4929 6715 8584 8944 14657 14659 14689 14692 19832 20527 
+	}
+	manpower = 50200
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

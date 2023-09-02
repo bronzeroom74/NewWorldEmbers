@@ -1,0 +1,26 @@
+
+state = {
+	id = 1113
+	name = "STATE_1113"
+
+	history = {
+		owner = TUN
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 2
+			21037 = { naval_base = 1 }
+		}
+
+		victory_points = {
+			21037 2 #Douane
+			}
+	}
+
+	provinces = {
+		9565 21035 21037
+	}
+	manpower = 18858
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

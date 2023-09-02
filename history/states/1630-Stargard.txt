@@ -1,0 +1,23 @@
+state = {
+	id = 1630
+	name = "STATE_1630"
+		history = {
+		owner = VEG
+		add_core_of = VEG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			9655 5 #Stargard in Pommern
+		}
+	}
+	provinces = {
+		708 2932 9655
+	}
+	manpower = 8078
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

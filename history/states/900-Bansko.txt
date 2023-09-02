@@ -1,0 +1,22 @@
+
+state = {
+	id = 900
+	name = "STATE_900"
+	history = {
+		owner = ONE
+		add_core_of = ONE
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			6806 2
+		}
+	}
+	provinces = {
+		4751 6806 
+	}
+	manpower = 17598
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

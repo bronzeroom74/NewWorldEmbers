@@ -1,0 +1,25 @@
+
+state = {
+	id = 564
+	name = "STATE_564"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			5734 2 #Khust
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		5734 6337 6519 7759 8448 13281 13347 13375 13388 13456 13515 
+	}
+	manpower = 25321
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

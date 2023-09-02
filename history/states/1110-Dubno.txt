@@ -1,0 +1,25 @@
+
+state = {
+	id = 1110
+	name = "STATE_1110"
+	provinces = {
+		998 3385 5700 12485 12506 12608 12641 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			998 2 #Brody
+		}
+		victory_points = {
+			3385 2 #Dubno
+		}
+  	}
+	manpower = 22670
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

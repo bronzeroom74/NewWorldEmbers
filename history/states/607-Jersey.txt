@@ -1,0 +1,21 @@
+
+state = {
+	id = 607
+	name = "STATE_607"
+	history = {
+		owner = NRM
+		add_core_of = NRM
+		buildings = {
+			19867 = { naval_base = 1 }
+			19868 = { naval_base = 1 }
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		19867 19868 
+	}
+	manpower = 5100
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+}

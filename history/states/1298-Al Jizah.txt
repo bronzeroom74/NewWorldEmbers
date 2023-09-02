@@ -1,0 +1,24 @@
+
+state = {
+	id = 1298
+	name = "STATE_1298"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			21155 40 #Giza
+			}
+	}
+	
+	provinces = {
+		562 1441 4934 15802 21146 21153 21154 21155 
+	}
+	manpower = 131727
+	state_category = metropolis
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

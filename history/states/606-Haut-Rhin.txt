@@ -1,0 +1,38 @@
+
+state = {
+	id = 606
+	name = "STATE_606"
+	resources = {
+		energetics = 8
+		refined_metals = 0
+		polymers = 2
+		hypertech = 0
+		salvage = 0
+		electronics = 4
+	}
+	history = {
+		owner = LOR
+		add_core_of = LOR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			19848 5 
+		}
+		victory_points = {
+			19849 10 
+		}
+
+	}
+
+	provinces = {
+		2276 7841 13484 13538 17071 17872 19848 19849 
+	}
+	manpower = 50760
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

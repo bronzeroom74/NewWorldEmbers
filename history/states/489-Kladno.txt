@@ -1,0 +1,24 @@
+
+state = {
+	id = 489
+	name = "STATE_489"
+	history = {
+		owner = ALE
+		add_core_of = ALE
+		victory_points = {
+			12681 5 #Kladno
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1230 2211 7359 12681 12705
+	}
+	manpower = 44960
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

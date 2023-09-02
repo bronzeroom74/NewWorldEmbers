@@ -1,0 +1,27 @@
+
+state = {
+	id = 353
+	name = "STATE_353"
+
+	history = {
+		owner = HAL
+		add_core_of = HAL
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			3680 5
+		}
+
+	}
+
+	provinces = {
+		3680 11985 20636
+	}
+	manpower = 28791
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

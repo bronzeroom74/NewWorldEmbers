@@ -1,0 +1,19 @@
+
+state = {
+	id = 58
+	name = "STATE_58"
+	history = {
+		owner = PAR
+		add_core_of = PAR
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		19886 19889
+	}
+	manpower = 101960
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+}

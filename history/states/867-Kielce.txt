@@ -1,0 +1,25 @@
+
+state = {
+	id = 867
+	name = "STATE_867"
+	provinces = {
+		3005 6039 6487 7851 7907 8834 9512 12108 12113 12178 12314 19912 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			19912 20 #Kielce
+		}
+		victory_points = {
+			7907 2 #Końskie
+		}
+  	}
+	manpower = 24410
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

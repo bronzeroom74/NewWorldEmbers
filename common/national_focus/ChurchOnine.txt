@@ -1,0 +1,32 @@
+
+focus_tree = {
+	id = churchofnine_initial
+	country = {
+		factor = 0
+		modifier = {
+			add = 11
+			tag = CHU
+		}
+	}
+	continuous_focus_position = { x = 10 y = 0 }
+
+	shared_focus = CHU_the_preservers
+}
+
+focus_tree = {
+	id = churchofnine_kephrael
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHU
+		}
+		modifier = {
+			add = 10
+			has_country_flag = CHU_kephrael_arrived_flag
+		}
+	}
+	continuous_focus_position = { x = 10 y = 0 }
+
+	shared_focus = CHU_the_chosen_one
+}

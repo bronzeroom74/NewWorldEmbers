@@ -1,0 +1,16 @@
+characters = {
+	COE_kanzler_konig = {
+		name = COE_kanzler_konig_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COE/COE_kanzler_konig.dds"
+			}
+		}
+		country_leader = {
+			ideology = ambitious_democracy
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

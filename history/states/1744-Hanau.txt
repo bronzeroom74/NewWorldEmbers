@@ -1,0 +1,21 @@
+
+state = {
+	id = 1744
+	name = "STATE_1744"
+
+	history = {
+		owner = UIS
+		add_core_of = UIS
+		#buildings = {
+		#	infrastructure = 4
+		#}
+	}
+
+	provinces = {
+		21723
+	}
+	manpower = 1 #7381
+	buildings_max_level_factor = 1.000
+	state_category = wasteland #town
+	local_supplies = 0.000
+}

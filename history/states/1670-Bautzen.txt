@@ -1,0 +1,31 @@
+state = {
+	id = 1670
+	name = "STATE_1670"
+	resources = {
+		energetics = 12
+		refined_metals = 0
+		polymers = 6
+		hypertech = 2
+		salvage = 0
+		electronics = 4
+	}
+	provinces = {
+		12210 12251 12287 12326 20612
+	}
+	history = {
+		owner = SOR
+		add_core_of = SOR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			12210 2 #Bautzen
+		}
+	}
+	manpower = 1349
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

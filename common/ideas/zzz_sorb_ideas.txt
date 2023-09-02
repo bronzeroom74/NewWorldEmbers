@@ -1,0 +1,76 @@
+ideas = {
+	country = {
+		sor_beacon_of_hope = {
+			picture = weary_trades
+			allowed = {
+				tag = SOR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			modifier = {
+				adaptation_drift = 0.03
+				stability_weekly_factor = 0.001
+				monthly_population = 0.25
+				research_speed_factor = 0.05
+			}
+		}
+	}
+	country = {
+		sor_economic_titan = {
+			picture = groceries_o_plenty
+			allowed = {
+				tag = SOR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			modifier = {
+				supply_node_range = 0.1
+				local_supply_impact_factor = -0.15
+				supply_consumption_factor = -0.1
+			}
+		}
+	}
+	country = {
+		sor_oh_liberty = {
+			picture = groceries_o_plenty
+			allowed = {
+				tag = SOR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			modifier = {
+			}
+		}
+	}
+	country = {
+		sor_merchant_army = {
+			picture = groceries_o_plenty
+			allowed = {
+				tag = SOR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			modifier = {
+			army_attack_factor = -0.10
+			army_defence_factor = -0.20
+			army_speed_factor = -0.30
+			army_morale_factor = -0.25
+			army_org_factor = -0.35
+			max_planning_factor = -1
+			custom_modifier_tooltip = SOR_army_restrictions_tt
+		    }
+		}
+	}
+}

@@ -1,0 +1,101 @@
+﻿l_english:
+
+###Focus###
+
+CHU_the_preservers:0 "The Preservers"
+CHU_the_preservers_desc:0 ""
+
+
+
+###Ideas###
+
+CHU_corelands_deal:0 "Corelands Grain-deal"
+CHU_corelands_deal_desc:0 ""
+
+CHU_teachings_of_saints:0 "Teachings of the Saints"
+CHU_teachings_of_saints_desc:0 ""
+
+CHU_teachings_of_saints2:0 "Teachings of the Saints"
+CHU_teachings_of_saints2_desc:0 ""
+
+CHU_city_of_god_1:0 "Building the City of God"
+CHU_city_of_god_1_desc:0 ""
+
+CHU_prepare_for_the_storm:0 "Prepare for the Sturm"
+CHU_prepare_for_the_storm_desc:0 ""
+
+CHU_adventist_woes:0 "Adventist Woes"
+CHU_adventist_woes_desc:0 ""
+
+CHU_approach_baieronia:0 "Approach Baieronia"
+CHU_approach_baieronia_desc:0 ""
+
+CHU_in_search_for_food:0 "In search for food"
+CHU_in_search_for_food_desc:0 ""
+
+CHU_a_deal_with_constantine:0 "A deal with Konstantin"
+CHU_a_deal_with_constantine_desc:0 ""
+
+CHU_root_out_hunters:0 "Root out the Hunters"
+CHU_root_out_hunters_desc:0 ""
+
+CHU_mutual_assistance:0 "Mutual assistance"
+CHU_mutual_assistance_desc:0 ""
+
+CHU_press_homesteads:0 "Press the Homesteads"
+CHU_press_homesteads_desc:0 ""
+
+CHU_fish_from_coalition:0 "Fish from the Coalition"
+CHU_fish_from_coalition_desc:0 ""
+
+CHU_one_church:0 "One Church, Nine Saints"
+CHU_one_church_desc:0 ""
+
+CHU_in_service_of_god:0 "In service of God"
+CHU_in_service_of_god_desc:0 ""
+
+CHU_arms_of_ancestors:0 "The arms of our ancestors"
+CHU_arms_of_ancestors_desc:0 ""
+
+CHU_industrial_farming:0 "Industrial farming"
+CHU_industrial_farming_desc:0 ""
+
+CHU_continue_the_restoration:0 "Continue the Restoration"
+CHU_continue_the_restoration_desc:0 ""
+
+CHU_foundries_of_chemnitz:0 "Foundries of Chemnitz"
+CHU_foundries_of_chemnitz_desc:0 ""
+
+CHU_faith_restored:0 "Faith restored"
+CHU_faith_restored_desc:0 ""
+
+
+
+
+###Custom Loc###
+
+
+
+###Decisions###
+
+
+
+###Events###
+
+churchOnine.1.t:0 "From the Ashes"
+churchOnine.1.d:0 "WIP"
+churchOnine.1.a:0 "Offered shelter to the People"
+churchOnine.1.b:0 "Tamed the Nuclear Wilds"
+
+churchOnine.2.t:0 "The First Bricks"
+churchOnine.2.d:0 "WIP"
+churchOnine.2.a:0 "Connected the Settlements"
+churchOnine.2.b:0 "Armed the Faithful"
+
+churchOnine.3.t:0 "In Memmoriam"
+churchOnine.3.d:0 "WIP"
+churchOnine.3.a:0 "National day of remembrance"
+churchOnine.3.b:0 "Grand military parade"
+
+
+###Misc###

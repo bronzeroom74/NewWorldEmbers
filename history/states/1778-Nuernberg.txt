@@ -1,0 +1,34 @@
+state = {
+	id = 1778
+	name = "STATE_1778"
+	resources = {
+		energetics = 12
+		refined_metals = 0
+		polymers = 3
+		hypertech = 0
+		salvage = 8
+		electronics = 14
+	}
+	provinces = {
+		8154 12889 12918 12932 12954 20779
+	}
+	history = {
+		owner = FRI
+		add_core_of = FRI
+		victory_points = {
+			12918 20 #Nürnberg
+		}
+		victory_points = {
+			12889 10 #Erlangen
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	manpower = 70314
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+}

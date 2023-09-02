@@ -1,0 +1,22 @@
+
+state = {
+	id = 2538
+	name = "STATE_2538"
+	provinces = {
+		684 1161 2456 5894 6615 7371 7482 8026 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			6615 2 #Kostopol
+		}
+		buildings = {
+			infrastructure = 3
+		}
+  	}
+	manpower = 14434
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

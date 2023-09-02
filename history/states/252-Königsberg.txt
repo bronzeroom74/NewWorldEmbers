@@ -1,0 +1,26 @@
+
+state = {
+	id = 252
+	name = "STATE_252"
+	provinces = {
+		3541 7846 8131 19906 19933 20472 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			19906 20 #Königsberg
+		}
+		victory_points = {
+			3541 2 #Pillau
+		}
+		buildings = {
+			infrastructure = 3
+			19906 = { naval_base = 5 }
+		}
+	}
+	manpower = 37172
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

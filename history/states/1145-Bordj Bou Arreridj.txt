@@ -1,0 +1,29 @@
+
+state = {
+	id = 1145
+	name = "STATE_1145"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+	
+		victory_points = {
+			20985 10 #El Achir
+			}
+			
+		victory_points = {
+			20982 5 #M'sila
+			}
+	}
+	
+	provinces = {
+		41 4679 8372 20954 20982 20985 
+	}
+	manpower = 13912
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

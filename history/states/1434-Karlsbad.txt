@@ -1,0 +1,31 @@
+
+state = {
+	id = 1434
+	name = "STATE_1434"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 8
+		hypertech = 0
+		salvage = 3
+		electronics = 0
+	}
+	provinces = {
+		2499 5812 9433 12640 12655 12661 12695 12721
+	}
+	history = {
+		owner = CHU
+		add_core_of = CHU
+		add_core_of = KWH
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			12640 5 #Karlsbad
+		}
+	}
+	manpower = 28333
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

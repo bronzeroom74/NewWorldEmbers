@@ -1,0 +1,25 @@
+state = {
+	id = 1770
+	name = "STATE_1770"
+	history = {
+		owner = WAF
+		add_core_of = WAF
+		add_claim_by = SON
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			20762 2 #Schwäbisch Hall
+		}
+		victory_points = {
+			12947 2 #Bad Mergentheim
+		}
+	}
+	provinces = {
+		1378 12947 13024 13058 20762
+	}
+	manpower = 14382
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

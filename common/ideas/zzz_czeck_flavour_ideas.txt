@@ -1,0 +1,67 @@
+ideas = {
+	country = {
+		BLP_bloody_barons_idea = {
+			picture = starfall
+			allowed = {
+				tag = BLP
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.15
+				monthly_population = -0.20
+				army_attack_factor = 0.10
+				production_speed_buildings_factor = 0.10
+			}
+		}
+
+		SGG_bloody_hand_idea = {
+			picture = starfall
+			allowed = {
+				tag = SGG
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.20
+				monthly_population = -0.50
+				consumer_goods_factor = 0.05
+				conscription = 0.05
+				army_attack_factor = 0.15
+			}
+		}
+
+		BLP_frenzy_recovery_idea = {
+			picture = starfall
+			allowed = {
+				tag = BLP
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				army_attack_factor = -0.10
+				conscription_factor = -0.20
+			}
+		}
+
+		BLP_frenzy_active_idea = {
+			picture = starfall
+			allowed = {
+				tag = BLP
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				breakthrough_factor = 0.10
+				conscription_factor = 0.20
+			}
+		}
+
+	}
+}

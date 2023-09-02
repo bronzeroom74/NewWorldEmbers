@@ -1,0 +1,37 @@
+
+state = {
+	id = 1730
+	name = "STATE_1730"
+	resources = {
+		energetics = 0
+		refined_metals = 9
+		polymers = 4
+		hypertech = 0
+		salvage = 9
+		electronics = 0
+	}
+	history={
+		owner = MPC
+		add_core_of = MPC
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			9545 5
+		}
+		victory_points = {
+			11887 2
+		}
+
+	}
+
+	provinces = {
+		9545 9603 11887 20705
+	}
+	manpower = 14728
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

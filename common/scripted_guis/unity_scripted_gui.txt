@@ -1,0 +1,13 @@
+scripted_gui = {
+	country_unity_window = {
+		context_type = player_context
+
+		window_name = "country_unity_window"
+		parent_window_token = top_bar
+
+		visible = {
+			is_ai = no
+			calculate_daily_country_unity = yes
+		}
+	}
+}

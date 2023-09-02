@@ -1,0 +1,25 @@
+
+state = {
+	id = 2580
+	name = "STATE_2580"
+
+	history = {
+		owner = STR
+		add_core_of = STR
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			8152 5 #Hanau
+		}
+	}
+
+	provinces = {
+		8152 12583 12654 20717
+	}
+	manpower = 5334
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

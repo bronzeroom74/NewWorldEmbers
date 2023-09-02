@@ -1,0 +1,24 @@
+
+state = {
+	id = 350
+	name = "STATE_350"
+	provinces = {
+		4950 7578 11479 11552 20684
+	}
+	history = {
+		owner = NOM
+		add_core_of = NOM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			20684 2 #Meppen
+		}
+	}
+	manpower = 8908
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+}

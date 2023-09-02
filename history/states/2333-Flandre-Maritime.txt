@@ -1,0 +1,24 @@
+state = {
+	id = 2333
+	name = "STATE_2333"
+	provinces = {
+		12284 12334 12376 12411
+	}
+
+	history = {
+		owner = RAT
+		add_core_of = RAT
+		buildings = {
+			infrastructure = 4
+			12284 = { naval_base = 6 }
+		}
+		victory_points = {
+			12284 5 #Dunkirk
+		}
+	}
+
+	manpower = 40444
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

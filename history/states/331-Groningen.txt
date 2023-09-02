@@ -1,0 +1,33 @@
+
+state = {
+	id = 331
+	name = "STATE_331"
+	resources = {
+		energetics = 0
+		refined_metals = 5
+		polymers = 3
+		hypertech = 0
+		salvage = 0
+		electronics = 0
+	}
+	provinces = {
+		5009 6601 8761 11312 11352 11364 11371 11382 11488 19900
+	}
+	history = {
+		owner = NET
+		add_core_of = NET
+		add_core_of = UFS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			11312 10 #Groningen
+		}
+	}
+	manpower = 40950
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

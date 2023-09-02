@@ -1,0 +1,18 @@
+characters = {
+	NAZ_goldstein = {
+		name = NAZ_goldstein_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NAZ/portrait_goldstein.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_aggressionists
+			traits = {
+				NAZ_dictator_trait
+			}
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

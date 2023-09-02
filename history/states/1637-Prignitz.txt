@@ -1,0 +1,32 @@
+
+state = {
+	id = 1637
+	name = "STATE_1637"
+	resources = {
+		energetics = 0
+		refined_metals = 3
+		polymers = 3
+		hypertech = 0
+		salvage = 0
+		electronics = 0
+	}
+	history = {
+		owner = OHM
+		add_core_of = OHM
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 0
+		}
+		victory_points = {
+			11365 2 #Wittenberge
+		}
+	}
+	provinces = {
+		1554 2578 6528 7493 9072 11365 11500 20568 20596
+	}
+	manpower = 16211
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

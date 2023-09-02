@@ -1,0 +1,23 @@
+state = {
+	id = 787
+	name = "STATE_787"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			7290 2 #Millau
+		}
+		victory_points = {
+			787 2 #Rodez
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		620 2339 2564 6902 7047 7290 7399 7797 14563 14581 14609 
+	}
+	manpower = 31470
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

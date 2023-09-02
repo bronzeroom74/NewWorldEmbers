@@ -1,0 +1,25 @@
+
+state = {
+	id = 576
+	name = "STATE_576"
+	history = {
+		owner = SON
+		add_core_of = SON
+		add_claim_by = FRI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			8752 5 #Rosenheim
+		}
+	}
+	provinces = {
+		1374 3950 8752 9204 13442 13513 13547 20789 20795
+	}
+	manpower = 22237
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

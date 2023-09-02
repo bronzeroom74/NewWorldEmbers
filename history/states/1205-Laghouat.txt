@@ -1,0 +1,25 @@
+
+state = {
+	id = 1205
+	name = "STATE_1205"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+	
+		victory_points = {
+			20965 5 #Laghouat
+			}
+	}
+	
+	provinces = {
+		868 1024 1137 7050 15691 20935 20965 20966 
+	}
+	manpower = 6122
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

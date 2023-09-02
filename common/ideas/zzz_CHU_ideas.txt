@@ -1,0 +1,66 @@
+ideas = {
+	country = {
+		CHU_corelands_deal = {
+			picture = generic
+			allowed = {
+				tag = CHU
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = 0.20
+				consumer_goods_factor = 0.02
+				stability_factor = 0.10
+			}
+		}
+
+		CHU_teachings_of_saints = {
+			picture = generic
+			allowed = {
+				tag = CHU
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = -0.15
+				recruitable_population_factor = -0.40
+				justify_war_goal_time = 10
+				consumer_goods_factor = -0.04
+				monthly_population = 0.25
+			}
+		}
+
+		CHU_teachings_of_saints2 = {
+			picture = generic
+			allowed = {
+				tag = CHU
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = -0.05
+				recruitable_population_factor = -0.20
+				monthly_population = 0.1
+			}
+		}
+
+		CHU_city_of_god_1 = {
+			picture = generic
+			allowed = {
+				tag = CHU
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.10
+				stability_factor = 0.05
+			}
+		}
+
+	}
+}

@@ -1,0 +1,22 @@
+
+state = {
+	id = 1102
+	name = "STATE_1102"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			18831 20 #Erbil
+		}	
+	}
+	provinces = {
+		946 4015 4832 18831 18836 18837 
+	}
+	manpower = 25436
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

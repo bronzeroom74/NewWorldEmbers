@@ -1,0 +1,23 @@
+
+state = {
+	id = 1278
+	name = "STATE_1278"		
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			21194 = { naval_base = 1 }
+		}
+		victory_points = {
+			21194 2 #Baltim
+		}
+	}
+	provinces = {
+		6431 21187 21194 21198 
+	}
+	manpower = 52174
+	state_category = large_city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 2571
+	name = "STATE_2571"
+	provinces = {
+		21741
+	}
+	history = {
+		owner = BER
+		add_core_of = BER
+		#buildings = {
+		#	infrastructure = 4
+		#}
+	}
+	manpower = 1 #16983
+	state_category = wasteland #town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

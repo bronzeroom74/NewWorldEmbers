@@ -1,0 +1,22 @@
+
+state = {
+	id = 505
+	name = "STATE_505"
+	history = {
+		owner = RAB
+		add_core_of = RAB
+		victory_points = {
+			19885 10 #Amiens
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		6562 12716 12771 12797 12835 19885
+	}
+	manpower = 25712
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

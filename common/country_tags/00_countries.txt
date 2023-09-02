@@ -1,0 +1,5 @@
+SWI = "countries/SWI - Dark Zone.txt"
+
+###Quiz's Ashes Tags
+SON = "countries/SON - Sons of Frundsberg.txt"
+ONE = "countries/ONE - Tsardom of One.txt"

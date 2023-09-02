@@ -1,0 +1,24 @@
+state = {
+	id = 1769
+	name = "STATE_1769"
+	history = {
+		owner = WAF
+		add_core_of = WAF
+		add_claim_by = SON
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			13408 2 #Biberach
+		}
+	}
+	provinces = {
+		1985 13408 13431 13473 13535 20752
+	}
+	manpower = 18972
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

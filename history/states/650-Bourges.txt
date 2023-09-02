@@ -1,0 +1,25 @@
+
+state = {
+	id = 650
+	name = "STATE_650"
+	provinces = {
+		2032 4229 8807 13694 13715 13810 13846 13852 19826 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			13846 5 #Bourges
+		}
+		victory_points = {
+			13810 2 #Vierzon
+		}
+	}
+	manpower = 17322
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

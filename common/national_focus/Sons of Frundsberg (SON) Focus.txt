@@ -1,0 +1,865 @@
+
+focus_tree = {
+	id = sons_frundsberg_nf
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SON
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 10 y = 0 }
+
+	focus = {
+		id = son_heldback
+		icon = GFX_goal_generic_allies_build_infantry
+		search_filters = {
+			FOCUS_FILTER_FRUNDSBERG
+			FOCUS_FILTER_IRONCOMPANY
+			FOCUS_FILTER_HILMAR
+		}
+		x = 12
+		y = 0
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	
+	####Path of Grief####
+	focus = {
+		id = son_shock
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = -2
+		y = 1
+		cost = 4.3
+		prerequisite = {
+			focus = son_heldback
+		}
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_denial
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = 0
+		y = 1
+		cost = 30
+		prerequisite = {
+			focus = son_heldback
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_anger
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = 2
+		y = 1
+		cost = 30
+		prerequisite = {
+			focus = son_heldback
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_bargaining
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = -3
+		y = 2
+		cost = 30
+		prerequisite = {
+			focus = son_shock
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_depression
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = -1
+		y = 2
+		cost = 30
+		prerequisite = {
+			focus = son_denial
+			focus = son_shock
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_acceptance
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = 1
+		y = 2
+		cost = 30
+		prerequisite = {
+			focus = son_denial
+			focus = son_anger
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_hope
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = 3
+		y = 2
+		cost = 30
+		prerequisite = {
+			focus = son_anger
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_rememberance
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = 2
+		y = 3
+		cost = 30
+		prerequisite = {
+			focus = son_acceptance
+		}
+		prerequisite = {
+			focus = son_hope
+		}
+		prerequisite = {
+			focus = son_depression
+		}
+		prerequisite = {
+			focus = son_bargaining
+		}
+		mutually_exclusive = {
+			focus = son_forward_and_forget
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_forward_and_forget
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = -2
+		y = 3
+		cost = 30
+		prerequisite = {
+			focus = son_acceptance
+		}
+		prerequisite = {
+			focus = son_hope
+		}
+		prerequisite = {
+			focus = son_depression
+		}
+		prerequisite = {
+			focus = son_bargaining
+		}
+		mutually_exclusive = {
+			focus = son_rememberance
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	####War Internal####
+	focus = {
+		id = son_hands_frundsberg
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		relative_position_id = son_heldback
+		x = -9
+		y = 4
+		prerequisite = {
+			focus = son_forward_and_forget
+			focus = son_rememberance
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_thrice_struck
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		search_filters = {
+			FOCUS_FILTER_IRONCOMPANY
+		}
+		relative_position_id = son_hands_frundsberg
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = son_hands_frundsberg
+		}
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_people_person
+		icon = GFX_goal_generic_allies_build_infantry
+		search_filters = {
+			FOCUS_FILTER_HILMAR
+		}
+		cost = 30
+		relative_position_id = son_hands_frundsberg
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = son_hands_frundsberg
+		}
+		completion_reward = { 
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_lightning
+		icon = GFX_goal_generic_allies_build_infantry
+		search_filters = {
+			FOCUS_FILTER_IRONCOMPANY
+		}
+		cost = 30
+		relative_position_id = son_hands_frundsberg
+		x = -1
+		y = 2
+		prerequisite = {
+			focus = son_thrice_struck
+		}
+		completion_reward = { 
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_loyalty
+		icon = GFX_goal_generic_allies_build_infantry
+		search_filters = {
+			FOCUS_FILTER_HILMAR
+		}
+		cost = 30
+		relative_position_id = son_hands_frundsberg
+		x = 1
+		y = 2
+		prerequisite = {
+			focus = son_people_person
+		}
+		completion_reward = { 
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_force
+		icon = GFX_goal_generic_allies_build_infantry
+		search_filters = {
+			FOCUS_FILTER_FRUNDSBERG
+		}
+		cost = 30
+		relative_position_id = son_hands_frundsberg
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = son_loyalty
+		}
+		prerequisite = {
+			focus = son_lightning
+		}
+		mutually_exclusive = {
+			focus = son_fright
+			focus = son_fierce
+		}
+		completion_reward = { 
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_fright
+		icon = GFX_goal_generic_allies_build_infantry
+		search_filters = {
+			FOCUS_FILTER_IRONCOMPANY
+		}
+		cost = 30
+		relative_position_id = son_hands_frundsberg
+		x = -2
+		y = 3
+		prerequisite = {
+			focus = son_loyalty
+		}
+		prerequisite = {
+			focus = son_lightning
+		}
+		mutually_exclusive = {
+			focus = son_fierce
+			focus = son_force
+		}
+		completion_reward = { 
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_fierce
+		icon = GFX_goal_generic_allies_build_infantry
+		search_filters = {
+			FOCUS_FILTER_HILMAR
+		}
+		cost = 30
+		relative_position_id = son_hands_frundsberg
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = son_loyalty
+		}
+		prerequisite = {
+			focus = son_lightning
+		}
+		mutually_exclusive = {
+			focus = son_fright
+			focus = son_force
+		}
+		completion_reward = { 
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = son_furious
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_hands_frundsberg
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = son_force
+			focus = son_fierce
+			focus = son_fright
+		}
+		completion_reward = { 
+			army_experience = 5
+		}
+	}
+
+
+
+	####Landsknecht Devours####
+	focus = {
+		id = son_growing_hunger
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		relative_position_id = son_heldback
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = son_forward_and_forget
+			focus = son_rememberance
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	#OLD = STRONGER BUT LESS
+	focus = {
+		id = son_old_companies
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = -3
+		y = 1
+		prerequisite = {
+			focus = son_growing_hunger
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_great_company
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = -4
+		y = 2
+		prerequisite = {
+			focus = son_old_companies
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_iron_company
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		search_filters = {
+			FOCUS_FILTER_IRONCOMPANY
+		}
+		x = -2
+		y = 2
+		prerequisite = {
+			focus = son_old_companies
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_aint_broke
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = -5
+		y = 3
+		prerequisite = {
+			focus = son_iron_company
+			focus = son_great_company
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_sore_losers
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = -3
+		y = 3
+		prerequisite = {
+			focus = son_iron_company
+			focus = son_great_company
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_experience
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = -1
+		y = 3
+		prerequisite = {
+			focus = son_iron_company
+			focus = son_great_company
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_same_song
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = -2
+		y = 4
+		prerequisite = {
+			focus = son_experience
+		}
+		prerequisite = {
+			focus = son_sore_losers
+		}
+		prerequisite = {
+			focus = son_aint_broke
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	#NEW = MORE BUT WEAKER
+	focus = {
+		id = son_new_companies
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = son_growing_hunger
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_maneaters
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = 1
+		y = 2
+		prerequisite = {
+			focus = son_new_companies
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_hilmars_brigade
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		search_filters = {
+			FOCUS_FILTER_HILMAR
+		}
+		x = 3
+		y = 2
+		prerequisite = {
+			focus = son_new_companies
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_road_warriors
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = 5
+		y = 2
+		prerequisite = {
+			focus = son_new_companies
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_fixing_it
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = 5
+		y = 3
+		prerequisite = {
+			focus = son_road_warriors
+		}
+		prerequisite = {
+			focus = son_hilmars_brigade
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_new_blood
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = 1
+		y = 3
+		prerequisite = {
+			focus = son_maneaters
+		}
+		prerequisite = {
+			focus = son_hilmars_brigade
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_numbers
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = 3
+		y = 3
+		prerequisite = {
+			focus = son_road_warriors
+		}
+		prerequisite = {
+			focus = son_hilmars_brigade
+		}
+		prerequisite = {
+			focus = son_maneaters
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_different_dance
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = 2
+		y = 4
+		prerequisite = {
+			focus = son_numbers
+		}
+		prerequisite = {
+			focus = son_new_blood
+		}
+		prerequisite = {
+			focus = son_fixing_it
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_iron_and_blood
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		relative_position_id = son_growing_hunger
+		x = 0
+		y = 5
+		prerequisite = {
+			focus = son_same_song
+		}
+		prerequisite = {
+			focus = son_different_dance
+		}
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	####Neighbours####
+	focus = {
+		id = son_looking
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		relative_position_id = son_heldback
+		x = 10
+		y = 4
+		prerequisite = {
+			focus = son_forward_and_forget
+			focus = son_rememberance
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = son_free_pickings
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		relative_position_id = son_looking
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = son_looking
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_always_hungry
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		relative_position_id = son_looking
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = son_looking
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_time_to_feast
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		relative_position_id = son_looking
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = son_free_pickings
+			focus = son_always_hungry
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_war
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		relative_position_id = son_looking
+		x = -3
+		y = 3
+		prerequisite = {
+			focus = son_time_to_feast
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_famine
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		relative_position_id = son_looking
+		x = -1
+		y = 3
+		prerequisite = {
+			focus = son_time_to_feast
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_conquest
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		relative_position_id = son_looking
+		x = 1
+		y = 3
+		prerequisite = {
+			focus = son_time_to_feast
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_death
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		relative_position_id = son_looking
+		x = 3
+		y = 3
+		prerequisite = {
+			focus = son_time_to_feast
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_niceties
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		relative_position_id = son_looking
+		x = -1
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_HILMAR
+		}
+		prerequisite = {
+			focus = son_war
+			focus = son_famine
+		}
+		prerequisite = {
+			focus = son_war
+			focus = son_death
+		}
+		prerequisite = {
+			focus = son_war
+			focus = son_conquest
+		}
+		mutually_exclusive = {
+			focus = son_brutality
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_brutality
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		relative_position_id = son_looking
+		x = 1
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_IRONCOMPANY
+		}
+		prerequisite = {
+			focus = son_death
+			focus = son_war
+		}
+		prerequisite = {
+			focus = son_death
+			focus = son_famine
+		}
+		prerequisite = {
+			focus = son_death
+			focus = son_conquest
+		}
+		mutually_exclusive = {
+			focus = son_niceties
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_encircled_by_food
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		relative_position_id = son_looking
+		x = 0
+		y = 5
+		prerequisite = {
+			focus = son_niceties
+			focus = son_brutality
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+}

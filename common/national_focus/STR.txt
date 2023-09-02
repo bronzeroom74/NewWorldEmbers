@@ -1,0 +1,515 @@
+focus_tree = {
+	id = STR_nf
+	country = {
+		factor= 0
+		modifier = {
+			add = 50
+			tag = STR
+		}
+	}
+
+	#Starting Focuses
+	focus = {
+		id = STR_humble_roots
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 7
+		x = 15
+		y = 1
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_kings_economic_rival
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 7
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = STR_humble_roots
+		}
+		relative_position_id = STR_humble_roots
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_taking_center_stage
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 7
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = STR_kings_economic_rival
+		}
+		relative_position_id = STR_kings_economic_rival
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_seccision_crisis
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 7
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = STR_taking_center_stage
+		}
+		relative_position_id = STR_taking_center_stage
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_meet_with_quartermaster
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -3
+		y = 1
+		prerequisite = {
+			focus = STR_seccision_crisis
+		}
+		relative_position_id = STR_seccision_crisis
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_secure_river_trade
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = STR_meet_with_quartermaster
+		}
+		relative_position_id = STR_meet_with_quartermaster
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_ask_for_volunteers
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = STR_meet_with_quartermaster
+		}
+		relative_position_id = STR_meet_with_quartermaster
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_river_trade_bankroll
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = STR_meet_with_quartermaster
+		}
+		relative_position_id = STR_meet_with_quartermaster
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_meet_with_duke
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = STR_seccision_crisis
+		}
+		relative_position_id = STR_seccision_crisis
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_impose_citizen_rationing
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = STR_meet_with_duke
+		}
+		relative_position_id = STR_meet_with_duke
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_construct_republic_police_service
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = STR_meet_with_duke
+		}
+		relative_position_id = STR_meet_with_duke
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_imperial_challenge
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = STR_meet_with_duke
+		}
+		relative_position_id = STR_meet_with_duke
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_march_der_hohe_sitz
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = STR_seccision_crisis
+		}
+		relative_position_id = STR_seccision_crisis
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_rheinwache_successful
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		mutually_exclusive = { focus = STR_rheinwache_failed }
+		prerequisite = {
+			focus = STR_march_der_hohe_sitz
+		}
+		relative_position_id = STR_march_der_hohe_sitz
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_rheinwache_failed
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		mutually_exclusive = { focus = STR_rheinwache_successful }
+		prerequisite = {
+			focus = STR_march_der_hohe_sitz
+		}
+		relative_position_id = STR_march_der_hohe_sitz
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_crisis_of_legitmacy
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 7
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = STR_rheinwache_failed
+			focus = STR_rheinwache_successful
+		}
+		prerequisite = {
+			focus = STR_imperial_challenge
+		}
+		prerequisite = {
+			focus = STR_river_trade_bankroll
+		}
+		relative_position_id = STR_march_der_hohe_sitz
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_the_limping_confederation
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 7
+		x = -5
+		y = 1
+		prerequisite = {
+			focus = STR_crisis_of_legitmacy
+		}
+		relative_position_id = STR_crisis_of_legitmacy
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_trying_to_solve_recession
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = STR_the_limping_confederation
+		}
+		relative_position_id = STR_the_limping_confederation
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_impose_heavy_taxation
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = STR_trying_to_solve_recession
+		}
+		mutually_exclusive = { focus = STR_embrace_free_market }
+		relative_position_id = STR_trying_to_solve_recession
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_embrace_free_market
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = STR_trying_to_solve_recession
+		}
+		mutually_exclusive = { focus = STR_impose_heavy_taxation }
+		relative_position_id = STR_trying_to_solve_recession
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_reconstruction_authority
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = STR_impose_heavy_taxation
+			focus = STR_embrace_free_market
+		}
+		mutually_exclusive = { focus = STR_impose_heavy_taxation }
+		relative_position_id = STR_trying_to_solve_recession
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_rheinwache_trial
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = STR_the_limping_confederation
+		}
+		relative_position_id = STR_the_limping_confederation
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_mercy_for_the_soldiers
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = STR_rheinwache_trial
+		}
+		mutually_exclusive = { focus = STR_punish_soldiers_too }
+		relative_position_id = STR_rheinwache_trial
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_punish_soldiers_too
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = STR_rheinwache_trial
+		}
+		mutually_exclusive = { focus = STR_mercy_for_the_soldiers }
+		relative_position_id = STR_rheinwache_trial
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_fill_the_jails
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = STR_punish_soldiers_too
+			focus = STR_mercy_for_the_soldiers
+		}
+		mutually_exclusive = { focus = STR_mercy_for_the_soldiers }
+		relative_position_id = STR_rheinwache_trial
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_the_broken_confederation
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 7
+		x = 7
+		y = 1
+		prerequisite = {
+			focus = STR_crisis_of_legitmacy
+		}
+		relative_position_id = STR_crisis_of_legitmacy
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_declare_marital_law
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = STR_the_broken_confederation
+		}
+		relative_position_id = STR_the_broken_confederation
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_suspend_freedom_of_press
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = STR_declare_marital_law
+		}
+		relative_position_id = STR_declare_marital_law
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_suspend_right_to_arms
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = STR_declare_marital_law
+		}
+		relative_position_id = STR_declare_marital_law
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_suspend_elections
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = STR_suspend_freedom_of_press
+		}
+		prerequisite = {
+			focus = STR_suspend_right_to_arms
+		}
+		relative_position_id = STR_declare_marital_law
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_seize_private_factories
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = STR_the_broken_confederation
+		}
+		relative_position_id = STR_the_broken_confederation
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_print_more_money
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = STR_seize_private_factories
+		}
+		relative_position_id = STR_seize_private_factories
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_shut_down_free_travel
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = STR_print_more_money
+		}
+		relative_position_id = STR_print_more_money
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_empower_republic_police
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = STR_the_broken_confederation
+		}
+		relative_position_id = STR_the_broken_confederation
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_local_department_governance
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = STR_empower_republic_police
+		}
+		relative_position_id = STR_empower_republic_police
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_army_of_policemen
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = STR_local_department_governance
+		}
+		relative_position_id = STR_local_department_governance
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = STR_rhine_police_state
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = STR_suspend_elections
+		}
+		prerequisite = {
+			focus = STR_army_of_policemen
+		}
+		prerequisite = {
+			focus = STR_shut_down_free_travel
+		}
+		relative_position_id = STR_suspend_elections
+		completion_reward = {
+		}
+	}
+}

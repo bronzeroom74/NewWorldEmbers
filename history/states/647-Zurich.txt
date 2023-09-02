@@ -1,0 +1,23 @@
+
+state = {
+	id = 647
+	name = "STATE_647"
+	provinces = {
+		7132 13716 13725 20098
+	}
+	history = {
+		owner = FCA
+		add_core_of = FCA
+		buildings = {
+			infrastructure = 4
+		}
+
+		victory_points = {
+			20098 20 #Zürich
+		}
+	}
+	manpower = 65200
+	state_category = large_city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

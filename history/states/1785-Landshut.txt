@@ -1,0 +1,36 @@
+
+state = {
+	id = 1785
+	name = "STATE_1785"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 2
+		hypertech = 0
+		salvage = 2
+		electronics = 4
+	}
+	history = {
+		owner = SON
+		add_core_of = SON
+		add_claim_by = FRI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			8013 5
+		}
+
+	}
+
+	provinces = {
+		2843 3007 3841 7552 8013 13100 13172 13213 13276 13374
+	}
+	manpower = 18985
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

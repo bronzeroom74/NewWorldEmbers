@@ -1,0 +1,43 @@
+state_calculate_coring_cost_trigger = {
+	hidden_trigger = {
+		set_temp_variable = { state_coring_cost_temp = 0 }
+		# Population
+		set_temp_variable = { state_coring_cost_pop_temp = state_population_k }
+		divide_temp_variable = { state_coring_cost_pop_temp = 10 }
+		round_temp_variable = state_coring_cost_pop_temp
+		add_to_temp_variable = { state_coring_cost_temp = state_coring_cost_pop_temp }
+		# Building Slots
+		set_temp_variable = { state_coring_cost_buildings_temp = modifier@local_building_slots }
+		set_temp_variable = { temp = modifier@local_building_slots_factor }
+		add_to_temp_variable = { temp = 1 }
+		multiply_temp_variable = { state_coring_cost_buildings_temp = temp }
+		round_temp_variable = state_coring_cost_buildings_temp
+		add_to_temp_variable = { state_coring_cost_temp = state_coring_cost_buildings_temp }
+		# Resources
+		set_temp_variable = { state_coring_cost_resources_temp = resource@energetics }
+		add_to_temp_variable = { state_coring_cost_resources_temp = resource@refined_metals }
+		add_to_temp_variable = { state_coring_cost_resources_temp = resource@polymers }
+		add_to_temp_variable = { state_coring_cost_resources_temp = resource@hypertech }
+		add_to_temp_variable = { state_coring_cost_resources_temp = resource@salvage }
+		add_to_temp_variable = { state_coring_cost_resources_temp = resource@electronics }
+		divide_temp_variable = { state_coring_cost_resources_temp = 10 }
+		round_temp_variable = state_coring_cost_resources_temp
+		add_to_temp_variable = { state_coring_cost_temp = state_coring_cost_resources_temp }
+		# Final Base Cost
+		round_temp_variable = state_coring_cost_pop_temp
+		# Apply Modifiers
+		set_temp_variable = { state_coring_cost_temp_temp = state_coring_cost_temp }
+		set_temp_variable = { state_coring_cost_modifier_temp = modifier@core_creation_cost }
+		add_to_temp_variable = { state_coring_cost_modifier_temp = OWNER.modifier@core_creation_cost }
+		set_temp_variable = { state_coring_cost_modifier_temp_temp = state_coring_cost_modifier_temp }
+		add_to_temp_variable = { state_coring_cost_modifier_temp = 1 }
+		multiply_temp_variable = { state_coring_cost_temp = state_coring_cost_modifier_temp }
+		# Final Cost
+		round_temp_variable = state_coring_cost_pop_temp
+		clamp_temp_variable = {
+			var = state_coring_cost_temp
+			min = 10
+			max = 100
+		}
+	}
+}

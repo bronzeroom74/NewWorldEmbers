@@ -1,0 +1,27 @@
+state = {
+	id = 1866
+	name = "STATE_1866"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			20975 10 #Khenchela
+			}
+			
+			victory_points = {
+			8877 5 #Oum el Bouaghi
+			}
+	}
+	
+	provinces = {
+		553 2366 2850 6143 8877 15579 15630 20975 
+	}
+	manpower = 21581
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

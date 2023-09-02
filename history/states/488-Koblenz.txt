@@ -1,0 +1,35 @@
+
+state = {
+	id = 488
+	name = "STATE_488"
+	resources = {
+		energetics = 0
+		refined_metals = 2
+		polymers = 2
+		hypertech = 0
+		salvage = 3
+		electronics = 0
+	}
+	provinces = {
+		3647 7340 12582 12621 20733 20739
+	}
+	history = {
+		owner = RRC
+		add_core_of = RRC
+		victory_points = {
+			20739 10 #Koblenz
+		}
+		victory_points = {
+			12582 2 #Andernach
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+	}
+	manpower = 35002
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

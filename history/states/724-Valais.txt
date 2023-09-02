@@ -1,0 +1,22 @@
+
+state = {
+	id = 724
+	name = "STATE_724"
+	history = {
+		owner = LOC
+		add_core_of = LOC
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			20096 2 #Sion
+		}
+	}
+	provinces = {
+		3936 14170 20096
+	}
+	manpower = 9339
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

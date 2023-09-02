@@ -1,0 +1,24 @@
+state = {
+	id = 1879
+	name = "STATE_1879"
+					
+	history = {
+	
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			21093 10 #Misratah
+			}
+	}
+	
+	provinces = {
+		162 8051 21062 21074 21083 21093 
+	}
+	manpower = 7515
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

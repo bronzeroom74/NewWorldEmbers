@@ -1,0 +1,28 @@
+
+state = {
+	id = 773
+	name = "STATE_773"
+	provinces = {
+		330 2478 3911 4483 6891 9518 9592 14505 19845 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			19845 5 #Valence
+		}
+		victory_points = {
+			9592 2 #Romans-sur-Isère
+		}
+		victory_points = {
+			9518 2 #Montélimar
+		}
+	}
+	manpower = 26730
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

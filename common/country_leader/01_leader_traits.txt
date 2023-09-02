@@ -1,0 +1,168 @@
+leader_traits = {
+
+	#SON Sons
+	SON_blitzkrieg = {
+		random = no
+		ai_focus_aggressive_factor = 0.5
+		justify_war_goal_time = -0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	SON_underdog = {
+		random = no
+		stability_factor = 0.05
+		war_support_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	SON_born_of_war = {
+		random = no
+		ai_focus_aggressive_factor = 0.5
+		offensive_war_stability_factor = 0.30
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	##ONE Tsardom
+	ONE_chosen_tsar = {
+		random = no
+		political_power_factor = 0.15
+		stability_factor = 0.05
+		war_support_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	##ROM Holy See
+	ROM_grandmaster_trait = {
+		random = no
+		war_support_factor = 0.1
+		required_garrison_factor = -0.25
+		special_forces_cap = 0.03
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	##COR Corsican Papacy
+	COR_commander_trait = {
+		random = no
+		army_core_defence_factor = 0.1
+		conscription = 0.03
+		offensive_war_stability_factor = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	##BYN Byzantion
+	BYN_supremeleader_trait = {
+		random = no
+		stability_factor = 0.15
+		war_support_factor = -0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	##FRI Baieronia
+	FRI_herrdesfreistaats_trait = {
+		random = no
+		stability_factor = 0.05
+		targeted_modifier = {
+			tag = SON
+			attack_bonus_against = 0.02
+			defense_bonus_against = 0.03
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	##COL The Corelands
+	COL_anarchy_trait = {
+		random = no
+		stability_factor = -0.35
+		army_core_defence_factor = 0.15
+		army_core_attack_factor = 0.15
+		justify_war_goal_time = 1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	##JAK Jakob's Robber Barons
+	JAK_robberbaron_trait = {
+		random = no
+		stability_factor = -0.05
+		cavalry_attack_factor = 0.07
+		cavalry_defence_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	##OWG The Overgrowth
+	OWG_overgrowth_trait = {
+		random = no
+		weekly_manpower = 10
+		army_core_defence_factor = 0.2
+		army_core_attack_factor = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	OWG_wilderness_trait = {
+		random = no
+		enemy_justify_war_goal_time = 2.5
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	NAZ_dictator_trait = {
+		random = no
+		political_power_gain = 0.15
+		required_garrison_factor = -0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	isolationist_trait = {
+		random = no
+		stability_factor = 0.05
+		enemy_justify_war_goal_time = 0.5
+		justify_war_goal_time = 1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	HEL_commandant_trait = {
+		random = no
+		stability_factor = 0.05
+		conscription = 0.005
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	LOC_revolutionary_trait = {
+		random = no
+		resistance_growth_on_our_occupied_states = 0.1
+		army_core_defence_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

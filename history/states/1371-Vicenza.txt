@@ -1,0 +1,25 @@
+
+state = {
+	id = 1371
+	name = "STATE_1371"
+
+	history = {
+		owner = UWF
+		add_core_of = UWF
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			14251 10
+		}
+
+	}
+
+	provinces = {
+		5402 6702 14242 14251 14279 
+	}
+	manpower = 55940
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

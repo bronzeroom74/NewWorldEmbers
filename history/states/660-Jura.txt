@@ -1,0 +1,22 @@
+
+state = {
+	id = 660
+	name = "STATE_660"
+	history = {
+		owner = LOC
+		add_core_of = LOC
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			20102 5 #Biel
+		}
+	}
+	provinces = {
+		13782 20102 20114
+	}
+	manpower = 5603
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

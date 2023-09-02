@@ -1,0 +1,25 @@
+
+state = {
+	id = 1160
+	name = "STATE_1160"
+			
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			20912 10 #Tetouan
+			}
+	}
+	
+	provinces = {
+		5095 8599 15589 20912 
+	}
+	manpower = 22842
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

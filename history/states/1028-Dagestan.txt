@@ -1,0 +1,25 @@
+
+state = {
+	id = 1028
+	name = "STATE_1028"
+	history = {
+		victory_points = { 608 20 }
+		victory_points = { 14725 10 }
+		victory_points = { 7446 5 }
+		victory_points = { 4011 2 }
+		victory_points = { 3843 2 }
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			608 = { naval_base = 1 }
+		}
+	}
+	provinces = {
+		608 3843 4011 5671 7446 14677 14698 14725 14756 14787 16216 16450 18237 18250 18615 
+	}
+	manpower = 91644
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

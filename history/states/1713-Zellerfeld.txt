@@ -1,0 +1,23 @@
+
+state = {
+	id = 1713
+	name = "STATE_1713"
+
+	history = {
+		owner = KYB
+		add_core_of = KYB
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces = {
+		3119 3192 11996 12040 20665 20671 
+	}
+	manpower = 17540
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

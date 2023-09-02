@@ -1,0 +1,20 @@
+state = {
+	id = 747
+	name = "STATE_747"
+	provinces = {
+		8147 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			8147 20 #Lyon
+		}
+	}
+	manpower = 46306
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

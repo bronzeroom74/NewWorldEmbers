@@ -1,0 +1,27 @@
+
+state = {
+	id = 2331
+	name = "STATE_2331"
+	provinces = {
+		658 5099 5357 8539 11943 11969
+	}
+
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			5357 10 #Nijmegen
+		}
+		victory_points = {
+			5099 2 #Tiel
+		}
+	}
+
+	manpower = 35340
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

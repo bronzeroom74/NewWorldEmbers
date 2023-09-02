@@ -1,0 +1,25 @@
+
+state = {
+	id = 880
+	name = "STATE_880"
+
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			14921 40 #Zaragoza
+		}
+
+	}
+
+	provinces = {
+		2855 2945 3024 7736 9670 14855 14888 14921 
+	}
+	manpower = 38731
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

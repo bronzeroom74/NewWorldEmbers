@@ -1,0 +1,20 @@
+
+state = {
+	id = 2126
+	name = "STATE_2126"
+	provinces = {
+		380 641 1417 2254 2835 3012 5923 6966 9520 9575 14303 14346 14362 14445
+	}
+	history = {
+		victory_points = { 6966 5 }
+		owner = ATO
+		add_core_of = ATO
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower = 35395
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 1832
+	name = "STATE_1832"
+		
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+			1937 = { naval_base = 1 }
+		}
+		victory_points = {
+			1937 20 #Agadir
+		}
+	}
+	
+	provinces = {
+		1937 15781 
+	}
+	manpower = 10114
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

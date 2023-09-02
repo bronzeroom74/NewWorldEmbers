@@ -1,0 +1,21 @@
+state = {
+	id = 2557
+	name = "STATE_2557"
+
+	history = {
+		owner = LAT
+		add_core_of = LAT
+		buildings = {
+			infrastructure = 3
+		}
+		#victory_points = { 2001 1 }
+
+	}
+	provinces = {
+		2001 14876 19034 
+	}
+	manpower = 5717
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

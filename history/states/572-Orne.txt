@@ -1,0 +1,22 @@
+
+state = {
+	id = 572
+	name = "STATE_572"
+	history = {
+		owner = UIS
+		add_core_of = UIS
+		victory_points = {
+			13294 2 #Alençon
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		5588 6319 7890 8009 8201 9001 13199 13294 13311 13336 20501 
+	}
+	manpower = 26930
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 1855
+	name = "STATE_1855"
+		
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+			15673 = { naval_base = 2 }
+		}
+		victory_points = {
+			15673 40 #Rabat
+			}
+	}
+	
+	provinces = {
+		15673 
+	}
+	manpower = 16484
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

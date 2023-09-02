@@ -1,0 +1,18 @@
+characters = {
+	LOC_schreiner = {
+		name = LOC_schreiner_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LOC/portrait_schreiner.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_adaptationists
+			traits = {
+				LOC_revolutionary_trait
+			}
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

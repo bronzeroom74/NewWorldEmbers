@@ -1,0 +1,29 @@
+state = {
+	id = 1726
+	name = "STATE_1726"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 0
+		hypertech = 1
+		salvage = 0
+		electronics = 0
+	}
+	provinces = {
+		7241 9031 11558 11621 11719 20676 20653
+	}
+	history = {
+		owner = SHB
+		add_core_of = SHB
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			11719 10 #Wolfsburg
+		}
+	}
+	manpower = 7133
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+}

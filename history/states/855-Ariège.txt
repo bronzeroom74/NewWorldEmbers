@@ -1,0 +1,20 @@
+state = {
+	id = 855
+	name = "STATE_855"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			8397 2 #Pamiers
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1217 6233 6859 8397 8650 14793 
+	}
+	manpower = 15510
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

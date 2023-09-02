@@ -1,0 +1,24 @@
+
+state = {
+	id = 530
+	name = "STATE_530"
+
+	history = {
+		owner = STR
+		add_core_of = STR
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			20763 2 #Wertheim am Main
+		}
+	}
+
+	provinces = {
+		6584 7996 12946 20763 20764
+	}
+	manpower = 14095
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

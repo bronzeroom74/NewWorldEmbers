@@ -1,0 +1,22 @@
+
+state = {
+	id = 626
+	name = "STATE_626"
+	history = {
+		owner = CLD
+		add_core_of = CLD
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			13755 10 #Dijon
+		}
+	}
+	provinces = {
+		35 1730 2987 3399 3453 4610 7447 7478 7768 13611 13755 13756 13811 13822 
+	}
+	manpower = 31768
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

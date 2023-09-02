@@ -1,0 +1,22 @@
+
+state = {
+	id = 1422
+	name = "STATE_1422"
+	history = {
+		owner = COR
+		add_core_of = COR
+		victory_points = {
+			20495 2 #Bastia
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		566 6968 7721 14875 20495
+	}
+	manpower = 17934
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

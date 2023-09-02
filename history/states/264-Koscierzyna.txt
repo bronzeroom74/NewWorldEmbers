@@ -1,0 +1,28 @@
+
+state = {
+	id = 264
+	name = "STATE_264"
+	provinces = {
+		4280 4622 8911 9394 10981 10993 11005 11050 11093 11131 11132 19922 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			19922 5 #Tczew
+		}
+		victory_points = {
+			10993 2 #Kościerzyna
+		}
+		victory_points = {
+			11131 2 #Czersk
+		}
+  	}
+	manpower = 21424
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

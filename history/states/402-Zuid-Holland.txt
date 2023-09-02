@@ -1,0 +1,31 @@
+
+state = {
+	id = 402
+	name = "STATE_402"
+
+	history = {
+		owner = NET
+		add_core_of = NET
+		buildings = {
+			infrastructure = 4
+			1809 = { naval_base = 10 }
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			11886 40 #Rotterdam
+		}
+		victory_points = {
+			1809 20 #Den Haag
+		}
+
+	}
+
+	provinces = {
+		1809 11833 11834 11886
+	}
+	manpower = 165280
+	buildings_max_level_factor = 1.000
+	state_category = metropolis
+	local_supplies = 0.000
+}

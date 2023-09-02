@@ -1,0 +1,175 @@
+ideologies = {
+	ascension = {
+		types = {
+			classic_ascensionists = {
+			}
+			ambitious_democracy = {
+			}
+
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_ASCENSION_1"
+			"FACTION_NAME_ASCENSION_2"
+			"FACTION_NAME_ASCENSION_3"
+			"FACTION_NAME_ASCENSION_4"
+			"FACTION_NAME_ASCENSION_5"
+			"FACTION_NAME_ASCENSION_6"
+		}
+		color = { 62 15 84 }
+		rules = {
+			can_join_factions = no
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+		war_impact_on_world_tension = 0.05
+		faction_impact_on_world_tension = -0.1
+		modifiers = {
+		}
+		can_host_government_in_exile = yes
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5			#plus 50% trade opinion
+		}
+		ai_fascist = yes		# uses the fascist AI behaviour
+		can_be_boosted = no
+	}
+	absolution = {
+		types = {
+			classic_absolutionists = {
+
+			}
+			prewar_democracy = {
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_ABSOLUTION_1"
+			"FACTION_NAME_ABSOLUTION_2"
+			"FACTION_NAME_ABSOLUTION_3"
+			"FACTION_NAME_ABSOLUTION_4"
+			"FACTION_NAME_ABSOLUTION_5"
+		}
+		color = { 81 81 81 }
+		war_impact_on_world_tension = 0.075
+		faction_impact_on_world_tension = 0.05
+		rules = {
+			can_join_factions = no
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+		}
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5			#plus 50% trade opinion
+		}
+		can_be_boosted = no
+		ai_fascist = yes		# uses the fascist AI behaviour
+	}
+	adaptation = {
+		types = {
+			classic_adaptationists = {
+
+			}
+			wasteland_community = {
+			}
+			peoples_monarchy = {
+
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_ADAPTATION_1"
+			"FACTION_NAME_ADAPTATION_2"
+			"FACTION_NAME_ADAPTATION_3"
+			"FACTION_NAME_ADAPTATION_4"
+			"FACTION_NAME_ADAPTATION_5"
+		}
+		color = { 48 64 153s }
+		war_impact_on_world_tension = 0.075
+		faction_impact_on_world_tension = 0.025
+		rules = {
+			can_join_factions = no
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+		}
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5			#plus 50% trade opinion
+		}
+		can_be_boosted = no
+		ai_fascist = yes		# uses the fascist AI behaviour
+	}
+	aggression = {
+		types = {
+			classic_aggressionists = {
+
+			}
+			warlordship = {
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AGGRESSION_1"
+			"FACTION_NAME_AGGRESSION_2"
+			"FACTION_NAME_AGGRESSION_3"
+			"FACTION_NAME_AGGRESSION_4"
+			"FACTION_NAME_AGGRESSION_5"
+		}
+		color = { 112 38 38 }
+		war_impact_on_world_tension = 0.01
+		faction_impact_on_world_tension = 0.05
+		rules = {
+			can_join_factions = no
+			can_force_government = no
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+		}
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5			#plus 50% trade opinion
+		}
+		can_be_boosted = no
+		ai_fascist = yes
+	}
+	apocalypse = {
+		types = {
+			classic_apocalyptists = {
+
+			}
+			purists = {
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_APOCALYPSE_1"
+			"FACTION_NAME_APOCALYPSE_2"
+			"FACTION_NAME_APOCALYPSE_3"
+			"FACTION_NAME_APOCALYPSE_4"
+			"FACTION_NAME_APOCALYPSE_5"
+		}
+		color = { 25 25 25 }
+		war_impact_on_world_tension = 0.01
+		faction_impact_on_world_tension = 0.05
+		rules = {
+			can_join_factions = no
+			can_force_government = no
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+		}
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5			#plus 50% trade opinion
+		}
+		can_be_boosted = no
+		ai_fascist = yes
+	}
+}

@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		fca_papal_obligation = {
+			picture = FCA_papal_obligations
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				conscription_factor = -0.15
+				special_forces_cap = 0.07
+				consumer_goods_factor = -0.05
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+state = {
+	id = 1783
+	name = "STATE_1783"
+	history = {
+		owner = FRI
+		add_core_of = FRI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			5497 2 #Amberg
+		}
+	}
+	provinces = {
+		4841 5497 12916 12919 12970 13036
+	}
+	manpower = 13952
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

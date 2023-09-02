@@ -1,0 +1,23 @@
+
+state = {
+	id = 920
+	name = "STATE_920"
+	history = {
+		owner = LAT
+		add_core_of = LAT
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 14958 2 }
+		victory_points = {
+			8177 3
+		}
+	}
+	provinces = {
+		8177 14929 14958 20046 
+	}
+	manpower = 31335
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

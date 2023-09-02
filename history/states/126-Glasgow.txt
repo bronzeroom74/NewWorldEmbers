@@ -1,0 +1,24 @@
+
+state = {
+	id = 126
+	name = "STATE_126"
+	provinces = {
+		19393 19394 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 4
+		}
+	
+		victory_points = {
+			19394 40
+		}
+	}
+	manpower = 82180
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+	#split Lanark and Glasgow 50/50, may adjust later
+}

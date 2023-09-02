@@ -1,0 +1,35 @@
+
+state = {
+	id = 1130
+	name = "STATE_1130"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+	
+		victory_points = {
+			20978 20 #Batna
+			}
+			
+		victory_points = {
+			7849 10 #Biskra
+			}
+		
+		
+		victory_points = {
+			3714 2 #Barika
+			}
+			
+		}
+		
+	provinces = {
+		176 3305 3714 4179 4401 7849 7995 9126 20952 20978 21647 
+	}
+	manpower = 22460
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,13 @@
+﻿l_english:
+ MESSINA_STRAIT:0 "Messina Strait"
+ OTRANTO_STRAIT:0 "Strait of Otranto"
+ VENETIAN_BRIDGE:0 "Ponte della Laguna"
+ SKAGERRAK_STRAIT:0 "Skagerrak"
+ GREAT_BELT_STRAIT:0 "Storebælt"
+ LITTLE_BELT_STRAIT:0 "Lillebælt"
+ ORESUND_STRAIT:0 "Øresund"
+ BONIFACIO_STRAIT:0 "Strait of Bonifacio"
+ KERCH_STRAIT:0 "Strait of Kerch"
+ AMERICA_BORDER:0 "The Fantastic America Border that can be disabled by setting the country_flag america_blocked_tt"
+ disable_bridge_venice_tt:0 "§RThis bridge has been demolished, and must be repaired before it can once again be traversed.§!"
+ america_blocked_tt:0 "§RCrossings between America and Europe has been disabled.§!"

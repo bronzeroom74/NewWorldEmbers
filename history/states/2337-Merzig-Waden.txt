@@ -1,0 +1,18 @@
+state = {
+	id = 2337
+	name = "STATE_2337"
+	history = {
+		owner = SLD
+		add_core_of = SLD
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		8803 12910
+	}
+	manpower = 14702
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

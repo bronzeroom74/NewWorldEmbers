@@ -1,0 +1,22 @@
+
+state = {
+	id = 1260
+	name = "STATE_1260"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			18560 10 #Al Diwaniyah
+		}	
+	}
+	provinces = {
+		370 6622 7123 15754 15769 18560 18887 19112 
+	}
+	manpower = 23238
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

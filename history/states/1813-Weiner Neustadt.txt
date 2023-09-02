@@ -1,0 +1,21 @@
+state = {
+	id = 1813
+	name = "STATE_1813"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13613 2 #Wiener Neustadt
+		}
+	}
+	provinces = {
+		2714 5329 5332 13558 13613 
+	}
+	manpower = 17250
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

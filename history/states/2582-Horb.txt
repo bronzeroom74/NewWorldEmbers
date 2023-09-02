@@ -1,0 +1,18 @@
+state = {
+	id = 2582
+	name = "STATE_2582"
+	provinces = {
+		13133 13364 20747 9541 
+	}
+	history = {
+		owner = RHW
+		add_core_of = RHW
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower = 5049
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

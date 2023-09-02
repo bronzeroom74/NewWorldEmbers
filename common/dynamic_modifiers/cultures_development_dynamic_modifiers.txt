@@ -1,0 +1,17 @@
+coring_autonomy_modifier = {
+	icon = GFX_autonomy_modifier_icon
+
+	local_building_slots_factor = state_autonomy_modifier_var
+	local_manpower = state_autonomy_modifier_var
+	state_resources_factor = state_autonomy_modifier_var
+}
+
+state_development_modifier = {
+	icon = GFX_state_development_modifier_icon
+
+	local_building_slots = state_development_modifier_var_slots
+	local_manpower = state_development_modifier_var_manpower
+	state_resources_factor = state_development_modifier_var_resources
+	army_core_attack_factor = state_development_modifier_var_attack
+	army_core_defence_factor = state_development_modifier_var_defense
+}

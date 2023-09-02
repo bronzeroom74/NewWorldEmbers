@@ -1,0 +1,35 @@
+
+state = {
+	id = 1740
+	name = "STATE_1740"
+	provinces = {
+		4263 6808 12401 12538 12539 20721
+	}
+	resources = {
+		energetics = 6
+		refined_metals = 0
+		polymers = 4
+		hypertech = 0
+		salvage = 0
+		electronics = 0
+	}
+	history = {
+		owner = FUL
+		add_core_of = FUL
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			12538 5 #Fulda
+		}
+		victory_points = {
+			12401 2 #Bad Hersfeld
+		}
+	}
+	manpower = 17499
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

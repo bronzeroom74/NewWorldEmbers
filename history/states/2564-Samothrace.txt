@@ -1,0 +1,20 @@
+state = {
+	id = 2564
+	name = "STATE_2564"
+	provinces = {
+		20287 
+	}
+	history = {
+		owner = BLU
+		add_core_of = BLU
+		buildings = {
+			infrastructure = 2
+			20287 = { naval_base = 1 }
+		}
+
+	}
+	manpower = 1837
+	state_category = tiny_island
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

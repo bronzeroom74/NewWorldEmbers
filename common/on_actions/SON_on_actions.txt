@@ -1,0 +1,20 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SON = { 
+				country_event = { 
+					id = sof.1
+					days = 10
+				}
+				country_event = {
+					id = sof.2
+					days = 30
+				}
+				country_event = {
+					id = sof.3
+					days = 50
+				}
+			}
+		}
+	}
+}

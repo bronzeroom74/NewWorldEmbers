@@ -1,0 +1,21 @@
+state = {
+	id = 1636
+	name = "STATE_1636"
+		history = {
+		owner = VEG
+		add_core_of = VEG
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			20563 2 #Swinemünde
+		}
+	}
+	provinces = {
+		19660 20563
+	}
+	manpower = 3915
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+}

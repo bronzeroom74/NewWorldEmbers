@@ -1,0 +1,32 @@
+state = {
+	id = 1709
+	name = "STATE_1709"
+	provinces = {
+		3214 7356 10956 10967 20651 
+	}
+	resources = {
+		energetics = 0
+		refined_metals = 5
+		polymers = 5
+		hypertech = 0
+		salvage = 0
+		electronics = 0
+	}
+	history = {
+		owner = DVK
+		add_core_of = DVK
+		buildings = {
+			infrastructure = 3
+			3214 = { naval_base = 1 }
+			arms_factory = 1
+			industrial_complex = 0
+		}
+		victory_points = {
+			3214 2 #Heide
+		}
+	}
+	manpower = 9730
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

@@ -1,0 +1,32 @@
+state = {
+	id = 1625
+	name = "STATE_1625"
+	resources = {
+		energetics = 3
+		refined_metals = 0
+		polymers = 0
+		hypertech = 0
+		salvage = 2
+		electronics = 3
+	}
+	provinces = {
+		2057 4382 5072 6762 10950 11004 20549 20560
+	}
+	history = {
+		owner = VEG
+		add_core_of = VEG
+		victory_points = {
+			6762 10 #Köslin
+		}
+		buildings = {
+			infrastructure = 3
+			6762 = { naval_base = 1 }
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	manpower = 15562
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

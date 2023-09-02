@@ -1,0 +1,34 @@
+state = {
+	id = 1749
+	name = "STATE_1749"
+	resources = {
+		energetics = 20
+		refined_metals = 0
+		polymers = 0
+		hypertech = 6
+		salvage = 0
+		electronics = 23
+	}
+	provinces = {
+		5650 12020 20738
+	}
+	history = {
+		owner = COE
+		add_core_of = COE
+		victory_points = {
+			5650 40 #Essen
+		}
+		victory_points = {
+			20738 30 #Duisburg
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 2
+		}
+	}
+	manpower = 149202
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+}

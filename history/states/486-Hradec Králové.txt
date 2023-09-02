@@ -1,0 +1,32 @@
+
+state = {
+	id = 486
+	name = "STATE_486"
+	resources = {
+		energetics = 3
+		refined_metals = 0
+		polymers = 0
+		hypertech = 0
+		salvage = 2
+		electronics = 4
+	}
+	provinces = {
+		3829 8664 12551 12584 12647 12727 12738 
+	}
+	history={
+		owner = LRC
+		add_core_of = LRC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			12647 5 #Hradec Kralove
+		}
+	}
+	manpower = 38820
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

@@ -1,0 +1,22 @@
+
+state = {
+	id = 691
+	name = "STATE_691"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			14039 2 #Mâcon
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		1087 6299 14039 
+	}
+	manpower = 16559
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

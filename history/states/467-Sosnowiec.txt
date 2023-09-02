@@ -1,0 +1,25 @@
+
+state = {
+	id = 467
+	name = "STATE_467"
+	provinces = {
+		6498 8570 12323 12395 12558 12568 12622 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			12622 20 #Sosnowiec
+		}
+		victory_points = {
+			12568 5 #Myszków
+		}
+  	}
+	manpower = 35340
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

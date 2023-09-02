@@ -1,0 +1,23 @@
+
+state = {
+	id = 866
+	name = "STATE_866"
+	provinces = {
+		1754 8443 8850 14903 20506
+	}
+	history = {
+		owner = COR
+		add_core_of = COR
+		buildings = {
+			infrastructure = 4
+			8443 = { naval_base = 3 }
+		}
+		victory_points = {
+			8443 15 #Ajaccio
+		}
+	}
+	manpower = 14355
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

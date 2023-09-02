@@ -1,0 +1,18 @@
+state = {
+	id = 1984
+	name = "STATE_1984"
+	history = {
+		owner = RRC
+		add_core_of = RRC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		21726 
+	}
+	manpower = 1 #10
+	state_category = wasteland #enclave
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

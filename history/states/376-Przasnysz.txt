@@ -1,0 +1,25 @@
+
+state = {
+	id = 376
+	name = "STATE_376"
+	provinces = {
+		2692 7207 9350 11390 11465 11542 11547 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			11547 2 #Ciechanów
+		}
+		victory_points = {
+			9350 2 #Mława
+		}
+		buildings = {
+			infrastructure = 3
+		}
+  	}
+	manpower = 21350
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

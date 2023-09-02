@@ -1,0 +1,26 @@
+
+state = {
+	id = 876
+	name = "STATE_876"
+
+	history = {
+		owner = CRO
+		add_core_of = CRO
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			20009 80 
+		}
+
+	}
+
+	provinces = {
+		20009 
+	}
+	manpower = 55094
+	buildings_max_level_factor = 1.000
+	state_category = metropolis
+	local_supplies = 0.000
+}

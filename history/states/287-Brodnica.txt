@@ -1,0 +1,22 @@
+
+state = {
+	id = 287
+	name = "STATE_287"
+	provinces = {
+		2958 4274 5984 7733 11243 11314 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			2958 2 #Brodnica
+		}
+		buildings = {
+			infrastructure = 3
+		}
+  	}
+	manpower = 24770
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

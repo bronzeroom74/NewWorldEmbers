@@ -1,0 +1,34 @@
+
+state = {
+	id = 2569
+	name = "STATE_2569"
+
+	history = {
+		owner = FIS
+		add_core_of = FIS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 0
+			11183 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			11183 2
+		}
+		victory_points = {
+			11075 5 #Cuxhaven
+		}
+	}
+
+	provinces = {
+		6176 11075 11102 11111 11158 11183 20693
+	}
+	manpower = 5614
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

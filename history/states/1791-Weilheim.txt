@@ -1,0 +1,24 @@
+state = {
+	id = 1791
+	name = "STATE_1791"
+	history = {
+		owner = SON
+		add_core_of = SON
+		add_claim_by = FRI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			1224 2 #Garmisch-Partenkirchen
+		}
+	}
+	provinces = {
+		1224 3759 4774 5811 6190 13571 13667 20772 20773
+	}
+	manpower = 15817
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

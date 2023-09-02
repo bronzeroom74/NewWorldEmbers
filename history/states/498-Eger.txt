@@ -1,0 +1,23 @@
+
+state = {
+	id = 498
+	name = "STATE_498"
+	history = {
+		owner = CHU
+		add_core_of = CHU
+		add_core_of = KWH
+		victory_points = {
+			4097 2 #Eger
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		2731 3308 4097 12630 12688 12755
+	}
+	manpower = 35584
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

@@ -1,0 +1,29 @@
+characters = {
+	SOR_domowina = {
+		name = SOR_domowina
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOR/SOR_domowina.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	SOR_pawl_cizik = {
+		name = SOR_pawl_cizik
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOR/SOR_pawl.dds"
+			}
+		}
+		country_leader = {
+			ideology = wasteland_community
+			expire = "1965.1.1.1"
+			traits={ sor_father_guild }
+			id = -1
+		}
+	}
+}

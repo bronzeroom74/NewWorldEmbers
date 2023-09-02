@@ -1,0 +1,36 @@
+
+state = {
+	id = 574
+	name = "STATE_574"
+	resources = {
+		energetics = 0
+		refined_metals = 8
+		polymers = 3
+		hypertech = 0
+		salvage = 8
+		electronics = 0
+	}
+	provinces = {
+		109 1652 3029 3116 4670 5091 5306 5867 8677 13193 13218 13248 13333 13370 20078 20079 
+	}
+	history={
+		owner = THI
+		add_core_of = THI
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	
+		victory_points = {
+			13248 5
+		}
+		victory_points = {
+			3029 2
+		}
+	}
+	manpower = 44362
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

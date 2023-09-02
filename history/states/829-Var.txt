@@ -1,0 +1,24 @@
+state = {
+	id = 829
+	name = "STATE_829"
+	provinces = {
+		1712 1759 3761 5801 14680 14684 14727 14737 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			14737 = { naval_base = 10 }
+		}
+		victory_points = {
+			14737 10 #Toulon
+		}
+		victory_points = {
+			1712 5 #Fréjus
+		}
+	}
+	manpower = 39870
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

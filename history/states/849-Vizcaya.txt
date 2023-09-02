@@ -1,0 +1,23 @@
+
+state = {
+	id = 849
+	name = "STATE_849"
+	provinces = {
+		750 4675 19755 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			750 = { naval_base = 1 }
+		}
+		victory_points = {
+			750 20 #Bilbao
+		}
+	}
+	manpower = 51920
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+}

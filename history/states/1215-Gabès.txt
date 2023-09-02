@@ -1,0 +1,31 @@
+
+state = {
+	id = 1215
+	name = "STATE_1215"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+			21022 = { naval_base = 1 }
+		}
+	
+	
+		victory_points = {
+			21022 5 #Gabes
+			}
+			
+		victory_points = {
+			7745 2 #El Hamma
+			}
+	}
+	
+	provinces = {
+		1038 7745 15697 21019 21022 21642 
+	}
+	manpower = 9778
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

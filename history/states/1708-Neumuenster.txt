@@ -1,0 +1,21 @@
+state = {
+	id = 1708
+	name = "STATE_1708"
+	provinces = {
+		8430 10963 10968 11003 20648
+	}
+	history = {
+		owner = STD
+		add_core_of = STD
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			8430 5 #Neumünster
+		}
+	}
+	manpower = 14802
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

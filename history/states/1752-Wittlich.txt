@@ -1,0 +1,18 @@
+state = {
+	id = 1752
+	name = "STATE_1752"
+	history = {
+		owner = RRC
+		add_core_of = RRC
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		5419 8906 20732 20744
+	}
+	manpower = 8379
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

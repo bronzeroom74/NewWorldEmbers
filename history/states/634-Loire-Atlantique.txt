@@ -1,0 +1,33 @@
+
+state = {
+	id = 634
+	name = "STATE_634"
+
+	history = {
+		owner = BRI
+		add_core_of = BRI
+		buildings = {
+			infrastructure = 4
+			6799 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			19814 20 
+		}
+		victory_points = {
+			6799 5 
+		}
+
+	}
+
+	provinces = {
+		3334 4412 6799 8535 9463 13662 13730 13747 13793 19814 
+	}
+	manpower = 65940
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

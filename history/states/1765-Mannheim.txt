@@ -1,0 +1,33 @@
+
+state = {
+	id = 1765
+	name = "STATE_1765"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 4
+		hypertech = 0
+		salvage = 6
+		electronics = 0
+	}
+	history = {
+		owner = STR
+		add_core_of = STR
+		victory_points = {
+			20767 20 #Mannheim und Heidelberg
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+		}
+	}
+
+	provinces = {
+		3496 4709 6381 12968 20724 20767
+	}
+	manpower = 61035
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

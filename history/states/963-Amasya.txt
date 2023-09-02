@@ -1,0 +1,21 @@
+
+state = {
+	id = 963
+	name = "STATE_963"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 21535 5 }
+		victory_points = { 21539 2 }
+	}
+	provinces = {
+		4081 5012 7157 15038 15067 21535 21539 21626 21627 
+	}
+	manpower = 7346
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

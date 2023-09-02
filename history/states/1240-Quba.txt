@@ -1,0 +1,25 @@
+
+state = {
+	id = 1240
+	name = "STATE_1240"
+					
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			21106 5 #Derna
+			}
+	}
+	
+	provinces = {
+		408 2694 3739 6038 6269 21070 21088 21094 21106 
+	}
+	manpower = 2613
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 1755
+	name = "STATE_1755"
+	provinces = {
+		21732
+	}
+	history = {
+		owner = OHM
+		add_core_of = OHM
+		#buildings = {
+		#	infrastructure = 3
+		#}
+	}
+	manpower = 1 #5082
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = wasteland #pastoral
+}

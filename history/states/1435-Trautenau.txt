@@ -1,0 +1,23 @@
+state={
+	id=1435
+	name="STATE_1435"
+	history={
+		owner = LRC
+		add_core_of = LRC
+        victory_points = {
+            9313 2 #Trautenau
+        }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		7796 9313 12510 12535 
+	}
+	manpower = 21906
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

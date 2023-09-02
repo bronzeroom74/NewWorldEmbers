@@ -1,0 +1,21 @@
+
+state = {
+	id = 443
+	name = "STATE_443"
+	provinces = {
+		1543 5746 6162 6521 7102 12574 12602 
+	}
+	history = {
+		victory_points = { 7102 2 }
+		victory_points = { 1543 1 }
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower = 20327
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

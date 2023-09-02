@@ -1,0 +1,21 @@
+state={
+	id=1669
+	name="STATE_1669"
+	history={
+		owner = THB
+		add_core_of = THB
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			12313 2 #Ohlau
+		}
+	}
+	provinces = {
+		12313 20599 
+	}
+	manpower = 12065
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

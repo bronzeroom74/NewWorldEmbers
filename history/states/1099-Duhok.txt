@@ -1,0 +1,25 @@
+
+state = {
+	id = 1099
+	name = "STATE_1099"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4704 10 #Duhok
+		}	
+		victory_points = {
+			2321 2 #Zakho
+		}	
+	}
+	provinces = {
+		2321 4704 8388 8832 15464 15471 15472 15492 19240 
+	}
+	manpower = 23265
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

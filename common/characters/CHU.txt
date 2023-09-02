@@ -1,0 +1,41 @@
+characters = {
+	CHU_melcher = {
+		name = CHU_melcher_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHU/portrait_melcher.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_adaptationists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+	CHU_kephrael = {
+		name = CHU_kephrael_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHU/portrait_kephrael.dds"
+			}
+			army = {
+				large = "gfx/leaders/CHU/portrait_kephrael.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_apocalyptists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

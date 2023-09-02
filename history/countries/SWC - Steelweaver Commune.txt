@@ -1,0 +1,29 @@
+﻿capital = 431
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = ascension
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 75
+	aggression = 10
+	absolution = 10
+	adaptation = 5
+	apocalypse = 0
+}
+
+add_ideas = {
+	SWC_hammer_sickle_gun_idea
+	SWC_heavy_industry_above_all_idea
+	PCO_friends_across_river_idea
+}
+
+recruit_character = SWC_fackeltrage_richter
+

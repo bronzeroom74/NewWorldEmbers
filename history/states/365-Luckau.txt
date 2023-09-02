@@ -1,0 +1,24 @@
+
+state = {
+	id = 365
+	name = "STATE_365"
+
+	history = {
+		owner = BER
+		add_core_of = BER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 0
+		}
+
+	}
+
+	provinces = {
+		11869 11976 20580
+	}
+	manpower = 15866
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

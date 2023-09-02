@@ -1,0 +1,31 @@
+state = {
+	id = 1667
+	name = "STATE_1667"
+	provinces = {
+		1037 1562 5425 9461 9555 12071 12132 20606
+	}
+	resources = {
+		energetics = 5
+		refined_metals = 5
+		polymers = 0
+		hypertech = 0
+		salvage = 0
+		electronics = 0
+	}
+	history = {
+		owner = BER
+		add_core_of = BER
+		victory_points = {
+			5425 10 #Grünberg in Schlesien
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 2
+		}
+	}
+	manpower = 17963
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

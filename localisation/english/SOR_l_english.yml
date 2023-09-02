@@ -1,0 +1,52 @@
+﻿l_english:
+###Nations Names
+ SOR_ascension:0 "Merchant Guild of New Lusatia"
+ SOR_ascension_DEF:0 "Merchant Guild of New Lusatia"
+ SOR_ascension_ADJ:0 "Merchant Guild of New Lusatia"
+ SOR_aggression:0 "Merchant Guild of New Lusatia"
+ SOR_aggression_DEF:0 "Merchant Guild of New Lusatia"
+ SOR_aggression_ADJ:0 "Merchant Guild of New Lusatia"
+ SOR_absolution:0 "Merchant Guild of New Lusatia"
+ SOR_absolution_DEF:0 "Merchant Guild of New Lusatia"
+ SOR_absolution_ADJ:0 "Merchant Guild of New Lusatia"
+ SOR_adaptation:0 "Merchant Guild of New Lusatia"
+ SOR_adaptation_DEF:0 "Merchant Guild of New Lusatia"
+ SOR_adaptation_ADJ:0 "Merchant Guild of New Lusatia"
+ SOR_apocalypse:0 "Merchant Guild of New Lusatia"
+ SOR_apocalypse_DEF:0 "Merchant Guild of New Lusatia"
+ SOR_apocalypse_ADJ:0 "Merchant Guild of New Lusatia"
+ SOR:0 "Merchant Guild of New Lusatia"
+ SOR_DEF:0 "Merchant Guild of New Lusatia"
+ SOR_ADJ:0 "Merchant Guild of New Lusatia"
+
+###Tooltips
+SOR_army_restrictions_tt:1 "§RCannot increase conscription law or declare wars.\nCannot train units, disband units, or edit unit templates.§!"
+
+###Ideas
+ sor_beacon_of_hope:0 "Guns, Hope and Giant Bugs"
+ sor_beacon_of_hope_desc:0 ""
+ sor_economic_titan:0 "Oh, Beauitful Lusatia"
+ sor_economic_titan_desc:0 ""
+ sor_oh_liberty:0 "Sons of Liberty"
+ sor_oh_liberty_desc:0 ""
+ sor_merchant_army:0 "Army of Thugs, Prisoners and Idiots"
+ sor_merchant_army_desc:0 ""
+
+ ###Characters
+ SOR_domowina:0 "Domowina"
+ SOR_pawl_cizik:0 "Pawl Čižik"
+
+ ###Party
+ SOR_ascension_party:0 "Serbski Sejm"
+ SOR_ascension_party_long:0 "Lusatian Alliance"
+ SOR_absolution_party:0 "Domowina"
+ SOR_absolution_party_long:0 "League of Lusatian Sorbs"
+ SOR_adaptation_party:0 "Wikowanje"
+ SOR_adaptation_party_long:0 "Merchant Guilds of Budyšin"
+ SOR_aggression_party:0 "Jednotka "
+ SOR_aggression_party_long:0 "Children of the Golden Tree"
+ SOR_apocalypse_party:0 "Pŕezpołnica"
+ SOR_apocalypse_party_long:0 "The Accursed"
+
+ ###Traits
+ sor_father_guild:0 "Father of New Lusatia"

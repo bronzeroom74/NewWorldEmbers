@@ -1,0 +1,31 @@
+
+state = {
+	id = 1789
+	name = "STATE_1789"
+
+	history = {
+		owner = SON
+		add_core_of = SON
+		add_claim_by = FRI
+		victory_points = {
+			20792 10
+		}
+		victory_points = {
+			3178 2
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+		}
+
+	}
+
+	provinces = {
+		3178 4022 4865 13275 13308 13332 13424 20791
+	}
+	manpower = 22626
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

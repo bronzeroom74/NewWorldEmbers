@@ -1,0 +1,22 @@
+
+state = {
+	id = 612
+	name = "STATE_612"
+	provinces = {
+		1446 4844 7061 12160 12247 12340 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			12160 2 #Wieluń
+		}
+		buildings = {
+			infrastructure = 3
+		}
+  	}
+	manpower = 21430
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

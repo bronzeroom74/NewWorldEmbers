@@ -1,0 +1,21 @@
+state = {
+	id = 333
+	name = "STATE_333"
+	provinces = {
+		4488 8080 11381 11460 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			4488 1
+		}
+	}
+	manpower = 5259
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

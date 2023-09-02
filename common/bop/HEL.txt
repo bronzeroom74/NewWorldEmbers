@@ -1,0 +1,39 @@
+
+HEL_balance = {
+	initial_value = 0.25
+	left_side = HEL_left_side
+	right_side = HEL_right_side
+#	decision_category = GER_mefo_bills_category
+	range = {
+		id = HEL_mid_range
+		min = -0.1
+		max = 0.1
+		modifier = {
+			war_support_weekly = 0.5
+		}
+	}
+	side = {
+		id = HEL_left_side
+		icon = GFX_bop_HEL_scientist
+		range = {
+			id = HEL_left_side_range
+			min = -1
+			max = -0.1
+			modifier = {
+				war_support_weekly = 0.1
+			}
+		}
+	}
+	side = {
+		id = HEL_right_side
+		icon = GFX_bop_HEL_militarist
+		range = {
+			id = HEL_right_side_range
+			min = 0.1
+			max = 1
+			modifier = {
+				war_support_weekly = 0.9
+			}
+		}
+	}
+}

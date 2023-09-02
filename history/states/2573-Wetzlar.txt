@@ -1,0 +1,30 @@
+
+state = {
+	id = 2573
+	name = "STATE_2573"
+	resources = {
+		energetics = 0
+		refined_metals = 3
+		polymers = 0
+		hypertech = 0
+		salvage = 3
+		electronics = 0
+	}
+	history = {
+		owner = STR
+		add_core_of = STR
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces = {
+		2874 5520 12414
+	}
+	manpower = 2972
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

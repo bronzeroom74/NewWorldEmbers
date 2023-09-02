@@ -1,0 +1,23 @@
+
+state = {
+	id = 1935
+	name = "STATE_1935"
+	history = {
+		owner = BYN
+		add_core_of = BYN
+		buildings = {
+			infrastructure = 2
+			15261 = { naval_base = 1 }
+		}
+		victory_points = { 1003 5 }
+		victory_points = { 15261 2 }
+		
+	}
+	provinces = {
+		1003 7770 15261 15266 15270 15276 21416 
+	}
+	manpower = 12550
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

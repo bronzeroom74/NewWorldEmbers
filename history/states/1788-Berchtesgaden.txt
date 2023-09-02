@@ -1,0 +1,32 @@
+state = {
+	id = 1788
+	name = "STATE_1788"
+	resources = {
+		energetics = 0
+		refined_metals = 4
+		polymers = 4
+		hypertech = 0
+		salvage = 3
+		electronics = 0
+	}
+	history = {
+		owner = SON
+		add_core_of = SON
+		add_claim_by = FRI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 0
+		}
+		victory_points = {
+			20790 2 #Waldkraiburg und Mühldorf
+		}
+	}
+	provinces = {
+		994 5916 13475 13586 13620 20790 20793 20794 20806
+	}
+	manpower = 22004
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

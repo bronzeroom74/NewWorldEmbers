@@ -1,0 +1,22 @@
+
+state = {
+	id = 1202
+	name = "STATE_1202"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			18565 5 #Samarra
+		}	
+	}
+	provinces = {
+		211 18565 18810 18812 19202 
+	}
+	manpower = 3896
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

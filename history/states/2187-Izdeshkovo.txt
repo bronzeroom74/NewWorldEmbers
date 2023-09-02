@@ -1,0 +1,19 @@
+
+state = {
+	id = 2187
+	name = "STATE_2187"
+	provinces = {
+		3139 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower = 7300
+	state_category = enclave
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,25 @@
+
+state = {
+	id = 581
+	name = "STATE_581"
+	history = {
+		owner = SON
+		add_core_of = SON
+		add_claim_by = FRI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			13598 2 #Ravensburg
+		}
+	}
+	provinces = {
+		7180 13485 13545 13598 13619 13666 18690
+	}
+	manpower = 18043
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

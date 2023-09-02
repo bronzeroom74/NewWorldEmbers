@@ -1,0 +1,29 @@
+
+state = {
+	id = 1666
+	name = "STATE_1666"
+
+	history = {
+		owner = BER
+		add_core_of = BER
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			20607 5
+		}
+		victory_points = {
+			6045 5
+		}
+
+	}
+
+	provinces = {
+		6045 12005 12055 12086 12123 20607
+	}
+	manpower = 10178
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

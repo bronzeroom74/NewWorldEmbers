@@ -1,0 +1,27 @@
+state = {
+	id = 1887
+	name = "STATE_1887"
+					
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			21117 10 #Girga
+			}
+			
+		victory_points = {
+			21124 5 #Sohag
+			}
+	}
+	
+	provinces = {
+		21117 21120 21121 21122 21123 21124 
+	}
+	manpower = 77895
+	state_category = large_city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

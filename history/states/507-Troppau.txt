@@ -1,0 +1,24 @@
+
+state = {
+	id = 507
+	name = "STATE_507"
+	provinces = {
+		8770 8951 12762 12779 12800 12825 12904 
+	}
+	history={
+		owner = MPR
+		add_core_of = MPR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			12762 5 #Troppau
+		}
+	}
+	manpower = 26900
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

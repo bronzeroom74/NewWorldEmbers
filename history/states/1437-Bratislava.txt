@@ -1,0 +1,38 @@
+
+state = {
+	id = 1437
+	name = "STATE_1437"
+	resources = {
+		energetics = 3
+		refined_metals = 0
+		polymers = 3
+		hypertech = 0
+		salvage = 0
+		electronics = 0
+	}
+	history={
+		owner = CDA
+		add_core_of = CDA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			20070 20 
+		}
+		victory_points = {
+			13354 5 
+		}
+
+	}
+
+	provinces = {
+		1014 6411 13354 20070 20074 
+	}
+	manpower = 38012
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

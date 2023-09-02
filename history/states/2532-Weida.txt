@@ -1,0 +1,25 @@
+
+state = {
+	id = 2532
+	name = "STATE_2532"
+
+	history = {
+		owner = CHU
+		add_core_of = CHU
+		buildings = {
+			infrastructure = 3
+
+		}
+			victory_points = {
+		   	 12378 10
+	   		}
+	}
+
+	provinces = {
+		12378 12428 18536
+	}
+	manpower = 1500
+	buildings_max_level_factor = 1.000
+	state_category = enclave
+	local_supplies = 0.000
+}

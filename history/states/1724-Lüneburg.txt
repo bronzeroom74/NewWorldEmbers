@@ -1,0 +1,35 @@
+
+state = {
+	id = 1724
+	name = "STATE_1724"
+	provinces = {
+		632 7156 8357 11295 11343 11398 11430 20641 20681
+	}
+	resources = {
+		energetics = 0
+		refined_metals = 4
+		polymers = 6
+		hypertech = 0
+		salvage = 6
+		electronics = 0
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			11343 5 #Lüneburg
+		}
+		victory_points = {
+			11430 2 #Uelzen
+		}
+	}
+	manpower = 14136
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

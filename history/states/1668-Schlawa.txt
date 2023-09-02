@@ -1,0 +1,30 @@
+state = {
+	id = 1668
+	name = "STATE_1668"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 4
+		hypertech = 0
+		salvage = 2
+		electronics = 0
+	}
+	history = {
+		owner = BER
+		add_core_of = BER
+		add_core_of = FRE
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces = {
+		332 11877 20584
+	}
+	manpower = 5337
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

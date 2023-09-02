@@ -1,0 +1,25 @@
+
+state = {
+	id = 1111
+	name = "STATE_1111"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+			21004 = { naval_base = 2 }
+		}
+		victory_points = {
+			21004 5 #Philippeville
+			}
+	}
+	
+	provinces = {
+		1342 15499 20999 21004 
+	}
+	manpower = 19571
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

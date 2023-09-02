@@ -1,0 +1,23 @@
+
+state = {
+	id = 666
+	name = "STATE_666"
+
+	history = {
+		owner = BAT
+		add_core_of = BAT
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces = {
+		4525 6609 6747 9032 13786 13794 13802
+	}
+	manpower = 6866
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,24 @@
+
+state = {
+	id = 1194
+	name = "STATE_1194"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			20945 5 #Saida
+			}
+	}
+	
+	provinces = {
+		676 5457 20939 20945 
+	}
+	manpower = 6953
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

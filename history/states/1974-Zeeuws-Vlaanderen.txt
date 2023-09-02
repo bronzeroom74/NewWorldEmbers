@@ -1,0 +1,19 @@
+
+state = {
+	id = 1974
+	name = "STATE_1974"
+	history = {
+		owner = HOK
+		add_core_of = HOK
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		7103 19854 
+	}
+	manpower = 8251
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

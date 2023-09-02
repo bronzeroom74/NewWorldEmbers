@@ -1,0 +1,6 @@
+opinion_modifiers = {
+
+	doesntspeakgerman = { value = -30 }
+	doesntspeakfrench = { value = -30 }
+	doesntspeakenglish = { value = -30 }
+}

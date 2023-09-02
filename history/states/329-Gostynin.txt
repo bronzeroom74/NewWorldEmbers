@@ -1,0 +1,22 @@
+
+state = {
+	id = 329
+	name = "STATE_329"
+	provinces = {
+		1216 2155 6672 11736 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			1216 2 #Kutno
+		}
+		buildings = {
+			infrastructure = 3
+		}
+  	}
+	manpower = 18960
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

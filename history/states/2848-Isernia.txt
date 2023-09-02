@@ -1,0 +1,24 @@
+state = {
+	id = 2848
+	name = "STATE_2848"
+
+	history = {
+		owner = LAT
+		add_core_of = LAT
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			5885 2 
+		}
+
+	}
+	provinces = {
+		5885 20050 
+	}
+	manpower = 11730
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

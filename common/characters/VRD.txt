@@ -1,0 +1,16 @@
+characters = {
+	VRD_no_mans_land = {
+		name = VRD_no_mans_land_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VRD/portrait_no_mans_land.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_apocalyptists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

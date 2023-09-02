@@ -1,0 +1,25 @@
+
+state = {
+	id = 985
+	name = "STATE_985"
+	provinces = {
+		4278 4510 15145 15166 19732 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			15145 10 #Coimbra
+		}
+		victory_points = {
+			4278 2 #Figueira da Foz
+		}
+	}
+	manpower = 39975
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

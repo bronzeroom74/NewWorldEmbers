@@ -1,0 +1,20 @@
+state = {
+	id = 731
+	name = "STATE_731"
+	provinces = {
+		835 1903 3047 4317 6454 6831 7203 8933 14121 14169 14234 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			3047 10 #Clermont-Ferrand
+		}
+	}
+	manpower = 48610
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

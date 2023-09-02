@@ -1,0 +1,34 @@
+
+state = {
+	id = 363
+	name = "STATE_363"
+	resources = {
+		energetics = 0
+		refined_metals = 2
+		polymers = 0
+		hypertech = 0
+		salvage = 2
+		electronics = 0
+	}
+	history = {
+		owner = RED
+		add_core_of = RED
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			11764 5
+		}
+
+	}
+
+	provinces = {
+		6210 8069 11762 11819
+	}
+	manpower = 35210
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

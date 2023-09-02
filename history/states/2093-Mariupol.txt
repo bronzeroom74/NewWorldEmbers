@@ -1,0 +1,21 @@
+
+state = {
+	id = 2093
+	name = "STATE_2093"
+	provinces = {
+		305 307 8833 13742 13845 13874
+	}
+	history = {
+		victory_points = { 13845 20 }
+		owner = ATO
+		add_core_of = ATO
+		buildings = {
+			infrastructure = 3
+			13845 = { naval_base = 4 }
+		}
+	}
+	manpower = 51042
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

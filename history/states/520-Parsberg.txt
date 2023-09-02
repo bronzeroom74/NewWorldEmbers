@@ -1,0 +1,30 @@
+
+state = {
+	id = 520
+	name = "STATE_520"
+	resources = {
+		energetics = 0
+		refined_metals = 2
+		polymers = 0
+		hypertech = 1
+		salvage = 3
+		electronics = 0
+	}
+	history = {
+		owner = FRI
+		add_core_of = FRI
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			12969 2 #Neumarkt in der Oberpfalz
+		}
+	}
+	provinces = {
+		2203 12969 13025 13048 13135 20798
+	}
+	manpower = 8773
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

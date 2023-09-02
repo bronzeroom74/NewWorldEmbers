@@ -1,0 +1,24 @@
+
+state = {
+	id = 1627
+	name = "STATE_1627"
+
+	history = {
+		owner = VEG
+		add_core_of = VEG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 2
+		}
+
+	}
+
+	provinces = {
+		1518 3427 6502 11354 11366 11545 20555
+	}
+	manpower = 9583
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

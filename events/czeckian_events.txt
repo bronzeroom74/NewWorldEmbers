@@ -1,0 +1,197 @@
+add_namespace = czechia
+
+
+country_event = {
+    id = czechia.1
+    title = czechia.1.t
+    desc = czechia.1.d
+    picture = GFX_event_picture
+
+    hidden = yes
+    fire_only_once = no
+	trigger = {
+        tag = BLP
+        BLP = { exists = yes }
+        NOT = {
+            OR = {
+                has_idea = BLP_frenzy_recovery_idea
+                has_idea = BLP_frenzy_active_idea
+            }
+        }
+    }
+    option = {
+        name = czechia.1.a
+        IF = {
+            limit = {
+                has_country_flag = BLP_last_frenzy_recovery_flag
+            }
+            clr_country_flag = BLP_last_frenzy_recovery_flag
+            set_country_flag = BLP_last_frenzy_active_flag
+            add_timed_idea = {
+                idea = BLP_frenzy_active_idea
+                days = 200
+            }
+        }
+        ELSE_IF = {
+            limit = {
+                has_country_flag = BLP_last_frenzy_active_flag
+            }
+            clr_country_flag = BLP_last_frenzy_active_flag
+            set_country_flag = BLP_last_frenzy_recovery_flag
+            add_timed_idea = {
+                idea = BLP_frenzy_recovery_idea
+                days = 200
+            }
+        }
+    }
+}
+
+country_event = {
+    id = czechia.2
+    title = czechia.2.t
+    desc = czechia.2.d
+    picture = GFX_event_picture
+
+    fire_only_once = yes
+	is_triggered_only = yes
+    option = {
+        name = czechia.2.a
+        ai_will_do = {  base = 10 }
+        hidden_effect = { MPR = { country_event = czechia.3 } }
+    }
+    option = {
+        name = czechia.2.b
+        ai_will_do = {  base = 0 }
+        hidden_effect = { MPR = { country_event = czechia.4 } }
+    }
+    option = {
+        name = czechia.2.c
+        ai_will_do = {  base = 100 }
+        hidden_effect = { MPR = { country_event = czechia.5 } }
+    }
+}
+
+country_event = {
+    id = czechia.3
+    title = czechia.3.t
+    desc = czechia.3.d
+    picture = GFX_event_picture
+
+    fire_only_once = yes
+	is_triggered_only = yes
+    option = {
+        name = czechia.3.a
+        ai_will_do = {  base = 30 }
+        BLP = { transfer_state = 532 }
+    }
+    option = {
+        name = czechia.3.b
+        ai_will_do = {  base = 90 }
+        BLP = {
+            create_wargoal = {
+                type = annex_everything
+                target = MPR
+            }
+        }
+    }
+}
+
+country_event = {
+    id = czechia.4
+    title = czechia.4.t
+    desc = czechia.4.d
+    picture = GFX_event_picture
+
+    fire_only_once = yes
+	is_triggered_only = yes
+    option = {
+        name = czechia.4.a
+        ai_will_do = {  base = 50 }
+        BLP = { transfer_state = 532 }
+        LRC = { transfer_state = 504 }
+    }
+    option = {
+        name = czechia.4.b
+        ai_will_do = {  base = 50 }
+        BLP = {
+            create_wargoal = {
+                type = annex_everything
+                target = MPR
+            }
+        }
+        LRC = {
+            create_wargoal = {
+                type = annex_everything
+                target = MPR
+            }
+        }
+    }
+}
+
+country_event = {
+    id = czechia.5
+    title = czechia.5.t
+    desc = czechia.5.d
+    picture = GFX_event_picture
+
+    fire_only_once = yes
+	is_triggered_only = yes
+    option = {
+        name = czechia.5.a
+        ai_will_do = {  base = 50 }
+        BLP = { transfer_state = 532 }
+        LRC = { transfer_state = 504 }
+        THB = { transfer_state = 1428 }
+        hidden_effect = {
+            news_event = czechia.6
+            SGG = { news_event = czechia.6 }
+            CDA = { news_event = czechia.6 }
+            THI = { news_event = czechia.6 }
+            BLP = { news_event = czechia.6 }
+            THB = { news_event = czechia.6 }
+            LRC = { news_event = czechia.6 }
+            ALE = { news_event = czechia.6 }
+            SSL = { news_event = czechia.6 }
+            BER = { news_event = czechia.6 }
+            CHU = { news_event = czechia.6 }
+        }
+    }
+    option = {
+        name = czechia.5.b
+        ai_will_do = {  base = 0 }
+        BLP = {
+            create_wargoal = {
+                type = annex_everything
+                target = MPR
+            }
+        }
+        LRC = {
+            create_wargoal = {
+                type = annex_everything
+                target = MPR
+            }
+        }
+        THB = {
+            create_wargoal = {
+                type = annex_everything
+                target = MPR
+            }
+        }
+    }
+}
+
+news_event = {
+    id = czechia.6
+    title = czechia.6.t
+    desc = czechia.6.d
+    picture = GFX_event_picture
+
+    fire_only_once = no
+	is_triggered_only = yes
+    
+    option = {
+        name = czechia.6.a
+        ai_will_do = {  base = 50 }
+        
+    }
+}

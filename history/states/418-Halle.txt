@@ -1,0 +1,32 @@
+
+state = {
+	id = 418
+	name = "STATE_418"
+	provinces = {
+		12021 12042 12053 12085 20615
+	}
+	resources = {
+		energetics = 0
+		refined_metals = 3
+		polymers = 3
+		hypertech = 0
+		salvage = 2
+		electronics = 0
+	}
+	history = {
+		owner = HAL
+		add_core_of = HAL
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			20615 20
+		}
+	}
+	manpower = 43147
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

@@ -1,0 +1,34 @@
+
+state = {
+	id = 1656
+	name = "STATE_1656"
+	resources = {
+		energetics = 5
+		refined_metals = 0
+		polymers = 3
+		hypertech = 0
+		salvage = 0
+		electronics = 0
+	}
+	history={
+		owner = THB
+		add_core_of = THB
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			5259 2 
+		}
+
+	}
+
+	provinces = {
+		3617 5259 20603 
+	}
+	manpower = 16141
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,22 @@
+
+state = {
+	id = 2233
+	name = "STATE_2233"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			19138 10 #Amarah
+		}	
+	}
+	provinces = {
+		964 18654 18670 18777 19131 19138 19145 
+	}
+	manpower = 10014
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

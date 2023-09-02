@@ -1,0 +1,32 @@
+
+state = {
+	id = 1704
+	name = "STATE_1704"
+
+	history = {
+		owner = STD
+		add_core_of = STD
+		buildings = {
+			infrastructure = 3
+			4322 = {
+				naval_base = 2
+
+			}
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			4322 20
+		}
+
+	}
+
+	provinces = {
+		4322 11031 20646
+	}
+	manpower = 20025
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

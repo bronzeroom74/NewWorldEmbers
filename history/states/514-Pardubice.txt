@@ -1,0 +1,24 @@
+
+state={
+	id=514
+	name="STATE_514"
+	history={
+		owner = LRC
+		add_core_of = LRC
+        victory_points = {
+            20071 5 #Pardubice
+        }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		4779 6191 8970 12701 12817 20071 
+	}
+	manpower = 37060
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

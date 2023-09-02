@@ -1,0 +1,18 @@
+state = {
+	id = 1459
+	name = "STATE_1459"
+	history = {
+		owner = FCA
+		add_core_of = FCA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		13930 20106
+	}
+	manpower = 2400
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

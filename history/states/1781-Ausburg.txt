@@ -1,0 +1,25 @@
+
+state = {
+	id = 1781
+	name = "STATE_1781"
+	provinces = {
+		7024 8597 8730 9163 13352 13384 13448 13512 20769 20802
+	}
+	history = {
+		owner = SON
+		add_core_of = SON
+		add_claim_by = FRI
+		victory_points = {
+			13352 20 #Augsburg
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+	}
+	manpower = 46237
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

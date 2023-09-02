@@ -1,0 +1,16 @@
+characters = {
+	ONE_Otri = {
+		name = ONE_Otri
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ONE/Portrait_ONE_Otri.dds"
+			}
+		}
+		country_leader = {
+			ideology = peoples_monarchy
+			traits = { }
+			expire = "2400.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,34 @@
+
+state = {
+	id = 1334
+	name = "STATE_1334"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			21110 5 #Idfu
+			}
+			
+		victory_points = {
+			21109 2 #Kawm Umbu
+			}
+		
+		
+		victory_points = {
+			21108 10 #Aswan
+			}
+			
+		}
+		
+	provinces = {
+		2270 3430 8559 21108 21109 21110 
+	}
+	manpower = 22986
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

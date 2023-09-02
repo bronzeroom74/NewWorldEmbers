@@ -1,0 +1,27 @@
+
+state = {
+	id = 495
+	name = "STATE_495"
+	history = {
+		owner = FRI
+		add_core_of = FRI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			20774 5 #Bayreuth
+		}
+		victory_points = {
+			12687 2 #Kulmbach
+		}
+	}
+	provinces = {
+		3283 3398 5117 9157 12687 20774
+	}
+	manpower = 15769
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

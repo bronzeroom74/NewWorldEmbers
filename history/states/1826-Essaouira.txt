@@ -1,0 +1,24 @@
+state = {
+	id = 1826
+	name = "STATE_1826"
+		
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			20878 2 #Essaouira
+			}
+	}
+	
+	provinces = {
+		525 5917 20876 20878 
+	}
+	manpower = 11336
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

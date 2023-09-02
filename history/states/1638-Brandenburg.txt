@@ -1,0 +1,35 @@
+
+state = {
+	id = 1638
+	name = "STATE_1638"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 0
+		hypertech = 0
+		salvage = 13
+		electronics = 8
+	}
+	history = {
+		owner = BER
+		add_core_of = BER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			11685 5
+		}
+
+	}
+
+	provinces = {
+		5314 6556 11525 11588 11638 11639 11685 11766 11830 11853 11868 11895 20585
+	}
+	manpower = 26605
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

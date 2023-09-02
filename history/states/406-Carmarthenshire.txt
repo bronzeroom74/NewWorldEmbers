@@ -1,0 +1,17 @@
+state = {
+	id = 406
+	name = "STATE_406"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		798 6289 8150 9365 11858 11905 11962
+	}
+	manpower = 17270
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

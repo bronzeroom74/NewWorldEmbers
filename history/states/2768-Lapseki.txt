@@ -1,0 +1,21 @@
+
+state = {
+	id = 2768
+	name = "STATE_2768"
+	provinces = {
+		5754 21438 21439 21556 
+	}
+	history = {
+		owner = BYN
+		add_core_of = BYN
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower = 8403
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

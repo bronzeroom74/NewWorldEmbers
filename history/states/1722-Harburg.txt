@@ -1,0 +1,36 @@
+
+state = {
+	id = 1722
+	name = "STATE_1722"
+	resources = {
+		energetics = 4
+		refined_metals = 4
+		polymers = 0
+		hypertech = 0
+		salvage = 0
+		electronics = 0
+	}
+	history = {
+		owner = FIS
+		add_core_of = FIS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			11438 2
+		}
+		victory_points = {
+			20680 10
+		}
+	}
+
+	provinces = {
+		2719 7138 9128 11360 11383 11438 20680
+	}
+	manpower = 9750
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

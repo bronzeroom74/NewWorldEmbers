@@ -1,0 +1,34 @@
+
+state = {
+	id = 1735
+	name = "STATE_1735"
+	resources = {
+		energetics = 0
+		refined_metals = 8
+		polymers = 0
+		hypertech = 0
+		salvage = 3
+		electronics = 0
+	}
+	history = {
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		owner = STR
+		add_core_of = STR
+		victory_points = {
+			8700 10 #Siegen
+		}
+
+	}
+
+	provinces = {
+		7174 8700 12250 12286 20709
+	}
+	manpower = 24011
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

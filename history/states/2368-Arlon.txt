@@ -1,0 +1,23 @@
+state = {
+	id = 2368
+	name = "STATE_2368"
+	history = {
+		owner = LUX
+		add_core_of = LUX
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 0
+		}
+		victory_points = {
+			12901 2 #Arlon
+		}
+	}
+	provinces = {
+		12901
+	}
+	manpower = 1562
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

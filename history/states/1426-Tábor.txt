@@ -1,0 +1,34 @@
+state = {
+	id = 1426
+	name = "STATE_1426"
+	resources = {
+		energetics = 0
+		refined_metals = 12
+		polymers = 2
+		hypertech = 0
+		salvage = 9
+		electronics = 0
+	}
+	history = {
+		owner = ALE
+		add_core_of = ALE
+		victory_points = {
+			12816 2 #Příbram
+		}
+		victory_points = {
+			12929 2 #Tábor
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		2743 3823 6689 12816 12846 12924 12929 12963 12971 20057 20064
+	}
+	manpower = 38035
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

@@ -1,0 +1,30 @@
+
+state = {
+	id = 1718
+	name = "STATE_1718"
+	provinces = {
+		7367 8302 11420 11532 20690
+	}
+	resources = {
+		energetics = 3
+		refined_metals = 0
+		polymers = 0
+		hypertech = 0
+		salvage = 0
+		electronics = 3
+	}
+	history = {
+		owner = NOM
+		add_core_of = NOM
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			7367 2 #Cloppenburg
+		}
+	}
+	manpower = 11866
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

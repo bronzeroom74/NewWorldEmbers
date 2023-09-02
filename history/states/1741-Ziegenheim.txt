@@ -1,0 +1,26 @@
+state = {
+	id = 1741
+	name = "STATE_1741"
+	provinces = {
+		7506 8551 12370 20723
+	}
+	resources = {
+		energetics = 0
+		refined_metals = 5
+		polymers = 0
+		hypertech = 0
+		salvage = 0
+		electronics = 3
+	}
+	history = {
+		owner = FUL
+		add_core_of = FUL
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower = 9660
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

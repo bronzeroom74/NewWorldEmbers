@@ -1,0 +1,26 @@
+
+state = {
+	id = 789
+	name = "STATE_789"
+
+	history = {
+		owner = VER
+		add_core_of = VER
+		victory_points = {
+			5521 2
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces = {
+		5521 6187 9387 13245 13285
+	}
+	manpower = 28740
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

@@ -1,0 +1,36 @@
+
+state = {
+	id = 1695
+	name = "STATE_1695"
+	resources = {
+		energetics = 12
+		refined_metals = 0
+		polymers = 0
+		hypertech = 4
+		salvage = 0
+		electronics = 5
+	}
+	history = {
+		owner = KYB
+		add_core_of = KYB
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			7025 2
+		}
+	   		victory_points = {
+				11982 2 #Quedlinburg
+			}
+	}
+
+	provinces = {
+		801 7025 7757 11920 11982 20629 20652 20670
+	}
+	manpower = 26937
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

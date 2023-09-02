@@ -1,0 +1,22 @@
+
+state = {
+	id = 1795
+	name = "STATE_1795"
+	provinces = {
+		13572 13599 20799 20816 20852 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			13572 10 #Salzburg
+		}
+	}
+	manpower = 15169
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

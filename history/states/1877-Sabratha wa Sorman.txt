@@ -1,0 +1,24 @@
+state = {
+	id = 1877
+	name = "STATE_1877"
+					
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			15720 5 #El Gemil
+			}
+	}
+	
+	provinces = {
+		15720 21090 21100 
+	}
+	manpower = 1200
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

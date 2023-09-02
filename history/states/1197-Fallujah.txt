@@ -1,0 +1,22 @@
+
+state = {
+	id = 1197
+	name = "STATE_1197"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			18735 5 #Al-Fallujah
+		}	
+	}
+	provinces = {
+		1070 15696 18714 18735 19201 
+	}
+	manpower = 10626
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

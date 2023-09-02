@@ -1,0 +1,24 @@
+state = {
+	id = 1865
+	name = "STATE_1865"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			2477 10 #Constantine
+			}
+	}
+	
+	provinces = {
+		2477 4715 6811 8525 15547 20957 20986 
+	}
+	manpower = 20955
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

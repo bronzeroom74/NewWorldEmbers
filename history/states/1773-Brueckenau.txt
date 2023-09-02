@@ -1,0 +1,31 @@
+state = {
+	id = 1773
+	name = "STATE_1773"
+	resources = {
+		energetics = 0
+		refined_metals = 3
+		polymers = 0
+		hypertech = 0
+		salvage = 3
+		electronics = 0
+	}
+	history = {
+		owner = FUL
+		add_core_of = FUL
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			9164 2 #Bad Kissingen
+		}
+	}
+	provinces = {
+		4514 9164 9408 12598 20776
+	}
+	manpower = 11940
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

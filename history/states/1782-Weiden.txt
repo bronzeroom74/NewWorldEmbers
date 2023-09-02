@@ -1,0 +1,31 @@
+state = {
+	id = 1782
+	name = "STATE_1782"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 4
+		hypertech = 0
+		salvage = 3
+		electronics = 6
+	}
+	history = {
+		owner = FRI
+		add_core_of = FRI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			2528 2 #Weiden
+		}
+	}
+	provinces = {
+		2528 3078 3685 12761 12815 12858 20780
+	}
+	manpower = 14468
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

@@ -1,0 +1,24 @@
+
+state = {
+	id = 524
+	name = "STATE_524"
+	provinces = {
+		6957 9577 13035 13073 20742
+	}
+	history = {
+		owner = SLD
+		add_core_of = SLD
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			13073 2 #Pirmasens
+		}
+	}
+	manpower = 20990
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

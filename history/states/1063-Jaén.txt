@@ -1,0 +1,31 @@
+
+state = {
+	id = 1063
+	name = "STATE_1063"
+	provinces = {
+		400 1254 2770 3812 5477 8106 15364 15408 19773 19774 19775 19794 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			19775 5 #Jaén
+		}
+		victory_points = {
+			19773 10 #Linares
+		}
+		victory_points = {
+			19794 2 #Andújar
+		}
+		victory_points = {
+			19774 5 #Campiña
+		}
+	}
+	manpower = 71040
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+}

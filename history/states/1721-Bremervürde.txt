@@ -1,0 +1,18 @@
+state = {
+	id = 1721
+	name = "STATE_1721"
+	provinces = {
+		282 5914 7434 11294 11319 11353
+	}
+	history = {
+		owner = FIS
+		add_core_of = FIS
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower = 8698
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

@@ -1,0 +1,108 @@
+add_namespace = churchOnine
+
+
+country_event = {
+    id = churchOnine.1
+    title = churchOnine.1.t
+    desc = churchOnine.1.d
+    picture = GFX_event_picture
+
+    fire_only_once = yes
+	is_triggered_only = yes
+    option = {
+        name = churchOnine.1.a
+        capital_scope = {
+            add_manpower = 30000
+        }
+        hidden_effect = {
+            country_event = {
+                id = churchOnine.2
+                days = 10
+            }
+        }
+    }
+    option = {
+        name = churchOnine.1.b
+        438 = {
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+            }
+            add_extra_state_shared_building_slots = 2
+        }
+        hidden_effect = {
+            country_event = {
+                id = churchOnine.2
+                days = 10
+            }
+        }
+    }
+}
+
+country_event = {
+    id = churchOnine.2
+    title = churchOnine.2.t
+    desc = churchOnine.2.d
+    picture = GFX_event_picture
+
+    fire_only_once = yes
+	is_triggered_only = yes
+    option = {
+        name = churchOnine.2.a
+        build_railway = {
+            path = {12159 8233 4904 12262 1609 20062}
+            level = 3
+        }
+        1673 = {
+            add_building_construction = {
+                type = infrastructure
+                level = 1
+            }
+        }
+        1672 = {
+            add_building_construction = {
+                type = infrastructure
+                level = 1
+            }
+        }
+        hidden_effect = {
+            country_event = {
+                id = churchOnine.3
+                days = 10
+            }
+        }
+    }
+    option = {
+        name = churchOnine.2.b
+        capital_scope = {
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+            }
+        }
+        hidden_effect = {
+            country_event = {
+                id = churchOnine.3
+                days = 10
+            }
+        }
+    }
+}
+
+country_event = {
+    id = churchOnine.3
+    title = churchOnine.3.t
+    desc = churchOnine.3.d
+    picture = GFX_event_picture
+
+    fire_only_once = yes
+	is_triggered_only = yes
+    option = {
+        name = churchOnine.3.a
+        add_stability = 0.08
+    }
+    option = {
+        name = churchOnine.3.b
+        army_experience = 20
+    }
+}

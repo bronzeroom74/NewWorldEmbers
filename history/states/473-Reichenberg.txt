@@ -1,0 +1,33 @@
+
+state = {
+	id = 473
+	name = "STATE_473"
+	resources = {
+		energetics = 0
+		refined_metals = 7
+		polymers = 0
+		hypertech = 0
+		salvage = 6
+		electronics = 0
+	}
+	history = {
+		controller = SOR
+		add_claim_by = SOR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			4177 5
+		}
+	}
+
+	provinces = {
+		1790 2217 3747 4177 6766 7629 12327 12393 12474 12496 20063
+	}
+	manpower = 7439
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

@@ -1,0 +1,23 @@
+
+state = {
+	id = 2534
+	name = "STATE_2534"
+
+	history = {
+		owner = NAZ
+		add_core_of = NAZ
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces = {
+		8112 18531 18748 18846
+	}
+	manpower = 3500
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

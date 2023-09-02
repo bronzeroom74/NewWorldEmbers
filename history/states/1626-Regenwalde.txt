@@ -1,0 +1,28 @@
+state = {
+	id = 1626
+	name = "STATE_1626"
+	resources = {
+		energetics = 0
+		refined_metals = 2
+		polymers = 0
+		hypertech = 0
+		salvage = 2
+		electronics = 0
+	}
+	history = {
+		owner = VEG
+		add_core_of = VEG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		4095 11058 11098 11130 11180 20548 20562
+	}
+	manpower = 9544
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

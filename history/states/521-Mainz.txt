@@ -1,0 +1,35 @@
+
+state = {
+	id = 521
+	name = "STATE_521"
+	resources = {
+		energetics = 0
+		refined_metals = 5
+		polymers = 0
+		hypertech = 0
+		salvage = 5
+		electronics = 0
+	}
+	provinces = {
+		2682 7510 12876 20713 20729
+	}
+	history = {
+		owner = RUK
+		add_core_of = RUK
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			20729 10 #Mainz
+		}
+		victory_points = {
+			12876 5 #Worms
+		}
+	}
+	manpower = 45183
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

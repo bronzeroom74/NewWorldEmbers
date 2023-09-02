@@ -1,0 +1,25 @@
+
+state = {
+	id = 542
+	name = "STATE_542"
+	provinces = {
+		3940 6885 13208 13314 13376 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			3940 2 #Nadwórna
+		}
+  	}
+	manpower = 14070
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,23 @@
+
+state = {
+	id = 962
+	name = "STATE_962"
+	provinces = {
+		1470 6159 15035 15115 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			1470 = { naval_base = 1 }
+		}
+		victory_points = {
+			1470 5 #Aveiro
+		}
+	}
+	manpower = 40580
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

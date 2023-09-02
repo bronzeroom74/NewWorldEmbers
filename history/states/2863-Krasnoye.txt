@@ -1,0 +1,23 @@
+
+state = {
+	id = 2863
+	name = "STATE_2863"
+
+	history = {
+		owner = ATO
+		add_core_of = ATO
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces = {
+		918 13982
+	}
+	manpower = 2448
+	buildings_max_level_factor = 1.000
+	state_category = enclave
+	local_supplies = 0.000
+}

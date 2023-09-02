@@ -1,0 +1,40 @@
+
+state = {
+	id = 1120
+	name = "STATE_1120"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+			21001 = { naval_base = 4 }
+		}
+		victory_points = {
+			21001 80 #Algiers
+			}
+			
+		victory_points = {
+			21002 20 #Boumerdas
+			}
+		
+		
+		victory_points = {
+			3163 10 #Bab Ezzouar
+			}
+			
+		victory_points = {
+			20996 5 #Blida
+			}
+			
+			
+		}
+		
+	provinces = {
+		3163 9506 15503 15530 20996 21001 21002 21038 
+	}
+	manpower = 94700
+	state_category = large_city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

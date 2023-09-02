@@ -1,0 +1,32 @@
+state = {
+	id = 1631
+	name = "STATE_1631"
+	resources = {
+		energetics = 13
+		refined_metals = 0
+		polymers = 0
+		hypertech = 0
+		salvage = 3
+		electronics = 12
+	}
+	provinces = {
+		11208 11257 20547
+	}
+	history = {
+		owner = VEG
+		add_core_of = VEG
+		victory_points = {
+			11257 20 #Stettin
+		}
+		buildings = {
+			infrastructure = 3
+			11208 = { naval_base = 4 }
+			arms_factory = 2
+			industrial_complex = 2
+		}
+	}
+	manpower = 28056
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

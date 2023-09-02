@@ -1,0 +1,26 @@
+state = {
+	id = 1425
+	name = "STATE_1425"
+	history = {
+		owner = SSL
+		add_core_of = SSL
+		victory_points = {
+			8387 2 #Klatovy
+		}
+		victory_points = {
+			5848 2 #Písek
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		3264 4117 4885 5848 8387 12882 13074
+	}
+	manpower = 35370
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

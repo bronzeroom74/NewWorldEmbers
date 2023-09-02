@@ -1,0 +1,23 @@
+
+state = {
+	id = 602
+	name = "STATE_602"
+	history = {
+		owner = WAF
+		add_core_of = WAF
+		add_claim_by = SON
+		victory_points = {
+			2168 2 #Albstadt
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		2168 13441 13430 
+	}
+	manpower = 7316
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+}

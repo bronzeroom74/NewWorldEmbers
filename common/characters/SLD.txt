@@ -1,0 +1,16 @@
+characters = {
+	SLD_duke_otto_schulz = {
+		name = SLD_duke_otto_schulz_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SLD/portrait_duke_otto_schulz.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_ascensionists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

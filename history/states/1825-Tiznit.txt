@@ -1,0 +1,25 @@
+
+state = {
+	id = 1825
+	name = "STATE_1825"
+		
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			7397 2 #Tiznit
+			}
+	}
+	
+	provinces = {
+		7397 9557 20868 
+	}
+	manpower = 7562
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

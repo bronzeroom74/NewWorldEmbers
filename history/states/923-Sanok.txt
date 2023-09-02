@@ -1,0 +1,22 @@
+
+state = {
+	id = 923
+	name = "STATE_923"
+	provinces = {
+		9292 12960 13033 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			12960 2 #Sanok
+		}
+		buildings = {
+			infrastructure = 2
+		}
+  	}
+	manpower = 22577
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

@@ -1,0 +1,25 @@
+
+state = {
+	id = 658
+	name = "STATE_658"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			19841 10 #Besançon
+		}
+		victory_points = {
+			5794 2 #Pontarlier
+		}
+	}
+	provinces = {
+		1235 5794 13702 13737 13749 13804 13925 19841 
+	}
+	manpower = 25298
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1884
+	name = "STATE_1884"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+	}
+	provinces = {
+		122
+	}
+	manpower = 2709
+	state_category = wasteland
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

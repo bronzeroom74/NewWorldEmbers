@@ -1,0 +1,19 @@
+
+state = {
+	id = 2086
+	name = "STATE_2086"
+	provinces = {
+		1507 4523 8184 14023
+	}
+	history = {
+		owner = ATO
+		add_core_of = ATO
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower = 13200
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

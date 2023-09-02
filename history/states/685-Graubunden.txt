@@ -1,0 +1,22 @@
+
+state = {
+	id = 685
+	name = "STATE_685"
+	history = {
+		owner = FCA
+		add_core_of = FCA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			6704 2 #Chur
+		}
+	}
+	provinces = {
+		910 2119 4479 6668 6704 13861 13966 14017
+	}
+	manpower = 7082
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

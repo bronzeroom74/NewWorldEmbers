@@ -1,0 +1,34 @@
+
+state = {
+	id = 570
+	name = "STATE_570"
+	resources = {
+		energetics = 0
+		refined_metals = 6
+		polymers = 2
+		hypertech = 0
+		salvage = 4
+		electronics = 3
+	}
+	history = {
+		owner = VRD
+		add_core_of = VRD
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			19847 10 
+		}
+
+	}
+
+	provinces = {
+		9356 17274 19846 19847 
+	}
+	manpower = 34560
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

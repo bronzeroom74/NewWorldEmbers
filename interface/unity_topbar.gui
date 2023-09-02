@@ -1,0 +1,33 @@
+guiTypes = {
+	containerWindowType = {
+		name = "country_unity_window"
+		position = { x = 970 y = 5 }
+		size = { width = 62 height = 30 }
+
+		background = {
+			name = "unity_bg"
+			spriteType = "GFX_mini_tooltip"
+		}
+
+		iconType = {
+			name = "unity_icon_value"
+			spriteType = "GFX_unity_icon"
+			position = { x = 5 y = 5 }
+			pdx_tooltip = "COUNTRY_UNITY_TT"
+			pdx_tooltip_delayed = "COUNTRY_UNITY_DESC"
+		}
+
+		instantTextBoxType = {
+			name = "unity_value"
+			position = { x= 25 y = 5 }
+			font = "hoi_18mbs"
+			text = "COUNTRY_UNITY_TOP_TEXT"
+			format = left
+			maxWidth = 30
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "COUNTRY_UNITY_TT"
+			pdx_tooltip_delayed = "COUNTRY_UNITY_DESC"
+		}
+	}
+}

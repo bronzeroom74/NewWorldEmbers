@@ -1,0 +1,25 @@
+
+state = {
+	id = 46
+	name = "STATE_46"
+	provinces = {
+		1756 3114 7205 12341 12348 12424 12512 12588 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			12424 5 #Zamość
+		}
+		victory_points = {
+			12588 2 #Biłgoraj
+		}
+  	}
+	manpower = 51820
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

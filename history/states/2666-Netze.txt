@@ -1,0 +1,30 @@
+
+state = {
+	id = 2666
+	name = "STATE_2666"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 3
+		hypertech = 0
+		salvage = 3
+		electronics = 0
+	}
+	history = {
+		owner = VEG
+		add_core_of = VEG
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces = {
+		3190 4806 8583 11425 11481 11560 20554
+	}
+	manpower = 2286
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

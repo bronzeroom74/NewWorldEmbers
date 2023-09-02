@@ -1,0 +1,22 @@
+
+state = {
+	id = 332
+	name = "STATE_332"
+	provinces = {
+		2180 2240 4395 7826 8140 11508 11730 20677
+	}
+	history = {
+		owner = SHB
+		add_core_of = SHB
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = { 20677 5 }
+	}
+	manpower = 14933
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

@@ -1,0 +1,21 @@
+
+state = {
+	id = 1417
+	name = "STATE_1417"
+	history = {
+		owner = SIC
+		add_core_of = SIC
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15438 5 }
+		victory_points = { 15461 5 }
+	}
+	provinces = {
+		7087 15438 15461 20033
+	}
+	manpower = 25670
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

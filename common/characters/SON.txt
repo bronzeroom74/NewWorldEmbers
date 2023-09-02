@@ -1,0 +1,72 @@
+characters = {
+	SON_frundsberg = {
+		name = SON_frundsberg_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SON/Portrait_SON_frundsberg.dds"
+			}
+		}
+		country_leader = {
+			desc = SON_frundsberg_desc
+			ideology = warlordship
+			traits = { SON_born_of_war }
+			expire = "2400.1.1.1"
+			id = -1
+		}
+	}
+	SON_hilmar = {
+		name = SON_hilmar_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SON/Portrait_SON_hilmar.dds"
+			}
+			army = {
+				large = "gfx/leaders/SON/Portrait_SON_hilmar.dds"
+			}
+		}
+		country_leader = {
+			desc = SON_hilmar_desc
+			ideology = wasteland_community
+			traits = { SON_underdog }
+			expire = "2400.1.1.1"
+			id = -1
+		}
+		corps_commander = {
+			traits = { army_infantry_3 }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	
+	SON_eisenherz = {
+		name = SON_eisenherz_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SON/Portrait_SON_eisenherz.dds"
+			}
+			army = {
+				large = "gfx/leaders/SON/Portrait_SON_eisenherz.dds"
+			}
+		}
+		country_leader = {
+			desc = SON_eisenherz_desc
+			ideology = warlordship
+			traits = { SON_blitzkrieg }
+			expire = "2400.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = { army_infantry_3 }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+}

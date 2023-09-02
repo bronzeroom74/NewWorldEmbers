@@ -1,0 +1,408 @@
+shared_focus = { 
+	id = CHU_the_preservers
+	icon = GFX_goal_generic_foe_skull
+	x = 12
+	y = 0
+	cost = 30
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 300
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_the_preservers"
+
+		country_event = {
+			id = churchOnine.1
+		}
+	}
+} 
+
+shared_focus = { 
+	id = CHU_prepare_for_the_storm
+	icon = GFX_goal_generic_foe_skull
+	x = -2
+	y = 1
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = {
+		focus = CHU_the_preservers
+	}
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_prepare_for_the_storm"
+
+	}
+} 
+
+shared_focus = { 
+	id = CHU_adventist_woes
+	icon = GFX_goal_generic_foe_skull
+	x = 0
+	y = 1
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = {
+		focus = CHU_the_preservers
+	}
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_adventist_woes"
+
+	}
+} 
+
+shared_focus = { 
+	id = CHU_approach_baieronia
+	icon = GFX_goal_generic_foe_skull
+	x = 2
+	y = 1
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = {
+		focus = CHU_the_preservers
+	}
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_approach_baieronia"
+
+	}
+} 
+
+shared_focus = { 
+	id = CHU_in_search_for_food
+	icon = GFX_goal_generic_foe_skull
+	x = -3
+	y = 2
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = {
+		focus = CHU_prepare_for_the_storm
+	}
+	available = {
+		NOT = {
+			has_idea = groceries_o_plenty
+		}
+	}
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_in_search_for_food"
+
+	}
+}
+
+shared_focus = { 
+	id = CHU_a_deal_with_constantine
+	icon = GFX_goal_generic_foe_skull
+	x = -1
+	y = 2
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = {
+		focus = CHU_adventist_woes
+	}
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_a_deal_with_constantine"
+
+	}
+} 
+
+shared_focus = { 
+	id = CHU_root_out_hunters
+	icon = GFX_goal_generic_foe_skull
+	x = 1
+	y = 2
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = {
+		focus = CHU_adventist_woes
+	}
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_root_out_hunters"
+
+	}
+}
+
+shared_focus = { 
+	id = CHU_mutual_assistance
+	icon = GFX_goal_generic_foe_skull
+	x = 3
+	y = 2
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = {
+		focus = CHU_approach_baieronia
+	}
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_mutual_assistance"
+
+	}
+} 
+
+shared_focus = { 
+	id = CHU_press_homesteads
+	icon = GFX_goal_generic_foe_skull
+	x = -4
+	y = 3
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = {
+		focus = CHU_in_search_for_food
+	}
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_press_homesteads"
+
+	}
+} 
+
+shared_focus = { 
+	id = CHU_fish_from_coalition
+	icon = GFX_goal_generic_foe_skull
+	x = -2
+	y = 3
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = {
+		focus = CHU_in_search_for_food
+	}
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_fish_from_coalition"
+
+	}
+} 
+
+shared_focus = { 
+	id = CHU_one_church
+	icon = GFX_goal_generic_foe_skull
+	x = 0
+	y = 3
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = { focus = CHU_a_deal_with_constantine }
+	prerequisite = { focus = CHU_root_out_hunters }
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_one_church"
+
+	}
+} 
+
+shared_focus = { 
+	id = CHU_in_service_of_god
+	icon = GFX_goal_generic_foe_skull
+	x = 2
+	y = 3
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = { focus = CHU_mutual_assistance }
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_in_service_of_god"
+
+	}
+} 
+
+shared_focus = { 
+	id = CHU_arms_of_ancestors
+	icon = GFX_goal_generic_foe_skull
+	x = 4
+	y = 3
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = { focus = CHU_mutual_assistance }
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_arms_of_ancestors"
+
+	}
+} 
+
+shared_focus = { 
+	id = CHU_industrial_farming
+	icon = GFX_goal_generic_foe_skull
+	x = -3
+	y = 4
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = { focus = CHU_press_homesteads }
+	prerequisite = { focus = CHU_fish_from_coalition }
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_industrial_farming"
+
+	}
+} 
+
+shared_focus = { 
+	id = CHU_continue_the_restoration
+	icon = GFX_goal_generic_foe_skull
+	x = 0
+	y = 4
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = { focus = CHU_one_church }
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_continue_the_restoration"
+
+	}
+} 
+
+shared_focus = { 
+	id = CHU_foundries_of_chemnitz
+	icon = GFX_goal_generic_foe_skull
+	x = 3
+	y = 4
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = { focus = CHU_in_service_of_god }
+	prerequisite = { focus = CHU_arms_of_ancestors }
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_foundries_of_chemnitz"
+
+	}
+} 
+
+shared_focus = { 
+	id = CHU_faith_restored
+	icon = GFX_goal_generic_foe_skull
+	x = 0
+	y = 5
+	cost = 30
+	relative_position_id = CHU_the_preservers
+	prerequisite = { focus = CHU_industrial_farming }
+	prerequisite = { focus = CHU_continue_the_restoration }
+	prerequisite = { focus = CHU_foundries_of_chemnitz }
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 30
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_faith_restored"
+
+	}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+################
+### Kephrael ###
+################
+
+
+shared_focus = { 
+	id = CHU_the_chosen_one
+	icon = GFX_goal_generic_foe_skull
+	x = 8
+	y = 0
+	cost = 30
+
+	available_if_capitulated = yes 
+	ai_will_do = { 
+		factor = 300
+	} 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHU_the_chosen_one"
+
+		#country_event = {
+		#	id = churchOnine.1
+		#}
+	}
+} 

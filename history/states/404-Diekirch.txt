@@ -1,0 +1,19 @@
+
+state = {
+	id = 404
+	name = "STATE_404"
+	history = {
+		owner = LUX
+		add_core_of = LUX
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		2715 4482 12699 
+	}
+	manpower = 5820
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+}

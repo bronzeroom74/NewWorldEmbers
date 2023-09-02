@@ -1,0 +1,18 @@
+spriteTypes = {
+
+	##### GENERIC TREE
+	spriteType = {
+		name = "GFX_our_economy"
+		texturefile = "gfx/interface/focus_icons/our_economy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trade_focus"
+		texturefile = "gfx/interface/focus_icons/trade_focus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_turning_back_the_clock"
+		texturefile = "gfx/interface/focus_icons/turningbacktheclock.dds"
+	}
+}

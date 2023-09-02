@@ -1,0 +1,26 @@
+
+state = {
+	id = 1112
+	name = "STATE_1112"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+			15477 = { naval_base = 1 }
+		}
+	
+		victory_points = {
+			15477 10 #Annaba
+			}
+	}
+	
+	provinces = {
+		6090 6096 8693 15477 20997 
+	}
+	manpower = 20600
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

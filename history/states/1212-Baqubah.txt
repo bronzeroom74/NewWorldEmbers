@@ -1,0 +1,22 @@
+
+state = {
+	id = 1212
+	name = "STATE_1212"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			9636 5 #Baqubah
+		}	
+	}
+	provinces = {
+		511 5534 5712 9636 18841 18858 
+	}
+	manpower = 21419
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

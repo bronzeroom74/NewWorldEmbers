@@ -1,0 +1,30 @@
+
+state = {
+	id = 455
+	name = "STATE_455"
+	provinces = {
+		2026 8883 9080 9081 12244 12249 12311 19898 
+	}
+	history = {
+		owner = HOK
+		add_core_of = HOK
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			12249 20 #Ghent
+		}
+		victory_points = {
+			9081 5 #Sint-Niklaas
+		}
+		victory_points = {
+			12311 5 #Aalst
+		}
+	}
+	manpower = 117750
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+}

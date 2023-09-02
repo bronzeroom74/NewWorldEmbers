@@ -1,0 +1,19 @@
+
+state = {
+	id = 734
+	name = "STATE_734"
+	history = {
+		owner = CLD
+		add_core_of = CLD
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		8975 13395 13562 20486 20504 
+	}
+	manpower = 8482
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

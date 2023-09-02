@@ -1,0 +1,26 @@
+
+state = {
+	id = 877
+	name = "STATE_877"
+
+	history = {
+		owner = ONE
+		add_core_of = ONE
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			20371 10 
+		}
+
+	}
+
+	provinces = {
+		2208 3640 5563 7228 8328 8938 14840 14882 20371 20384 
+	}
+	manpower = 29106
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

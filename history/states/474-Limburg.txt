@@ -1,0 +1,24 @@
+
+state = {
+	id = 474
+	name = "STATE_474"
+
+	history = {
+		owner = STR
+		add_core_of = STR
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			12543 2
+		}
+	}
+
+	provinces = {
+		12543 12611
+	}
+	manpower = 10700
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

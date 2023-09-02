@@ -1,0 +1,36 @@
+
+state = {
+	id = 316
+	name = "STATE_316"
+	provinces = {
+		240 1050 11232 11253 11293 20656 20661
+	}
+	resources = {
+		energetics = 0
+		refined_metals = 10
+		polymers = 0
+		hypertech = 0
+		salvage = 13
+		electronics = 0
+	}
+	history = {
+		owner = NOM
+		add_core_of = NOM
+		buildings = {
+			infrastructure = 3
+			1050 = { naval_base = 1 }
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			1050 5 #Emden
+		}
+		victory_points = {
+			240 2 #Aurich
+		}
+	}
+	manpower = 19204
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

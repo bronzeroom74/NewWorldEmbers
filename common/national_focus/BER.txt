@@ -1,0 +1,27 @@
+#Alduinmoment
+focus_tree =
+	id = ber_nf
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BER
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 10 y = 0 }
+
+	focus = {
+		id = ber_noidea
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		x = 12
+		y = 0
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+}

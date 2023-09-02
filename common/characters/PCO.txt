@@ -1,0 +1,16 @@
+characters = {
+	PCO_marschall_dietrich = {
+		name = PCO_marschall_dietrich_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PCO/PCO_marschall_dietrich.dds"
+			}
+		}
+		country_leader = {
+			ideology = ambitious_democracy
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

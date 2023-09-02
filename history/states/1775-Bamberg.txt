@@ -1,0 +1,23 @@
+state = {
+	id = 1775
+	name = "STATE_1775"
+	history = {
+		owner = FRI
+		add_core_of = FRI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			1721 5 #Bamberg
+		}
+	}
+	provinces = {
+		1721 3768 4592 7688 12792 12863 20805
+	}
+	manpower = 17454
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

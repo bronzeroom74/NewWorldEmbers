@@ -1,0 +1,23 @@
+
+state = {
+	id = 1715
+	name = "STATE_1715"
+
+	history = {
+		owner = JAK
+		add_core_of = JAK
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces = {
+		276 11764 20655 20662
+	}
+	manpower = 5205
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

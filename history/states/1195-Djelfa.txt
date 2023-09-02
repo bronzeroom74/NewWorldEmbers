@@ -1,0 +1,24 @@
+
+state = {
+	id = 1195
+	name = "STATE_1195"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			20969 5 #Djelfa
+			}
+	}
+	
+	provinces = {
+		1491 1950 2082 2554 3323 4921 7648 15643 15699 20967 20969 21649 
+	}
+	manpower = 14556
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

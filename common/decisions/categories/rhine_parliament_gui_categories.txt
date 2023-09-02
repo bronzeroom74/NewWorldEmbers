@@ -1,0 +1,14 @@
+rhine_parliament_gui_categories = {
+	icon = usa_congress
+
+	# picture = 
+
+	allowed = { 
+		has_country_flag = is_rhine_nation
+	}
+
+	priority = 1000
+
+	scripted_gui = rhine_parliament_gui
+	visible_when_empty = yes
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 1739
+	name = "STATE_1739"
+	provinces = {
+		7566 12293 12319 20722
+	}
+	history = {
+		owner = FUL
+		add_core_of = FUL
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			7566 2 #Eschwege
+		}
+	}
+	manpower = 12570
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

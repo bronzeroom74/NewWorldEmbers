@@ -1,0 +1,32 @@
+
+state = {
+	id = 529
+	name = "STATE_529"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 7
+		hypertech = 0
+		salvage = 3
+		electronics = 0
+	}
+	history = {
+		owner = ALE
+		add_core_of = ALE
+		victory_points = {
+			8199 2 #Mladá Boleslav
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		4265 5210 8199 12565 12566 12613 20060
+	}
+	manpower = 40520
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

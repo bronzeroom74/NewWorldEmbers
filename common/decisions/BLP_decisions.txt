@@ -1,0 +1,25 @@
+BLP_bloody_expansion_cat = {
+	demand_olomouc = {
+		icon = GFX_decision_stable_door
+		cost = 50
+		ai_will_do = {
+			base = 0
+		}
+		visible = {
+			MPR = { exists = yes }
+		}
+		available = {
+			has_political_power > 49
+			date > 2267.1.1
+			has_idea = BLP_frenzy_recovery_idea
+		}
+		fire_only_once = yes
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision demand_olomouc"
+			country_event = czechia.2
+		}
+	}
+	
+	
+	
+}

@@ -1,0 +1,22 @@
+
+state = {
+	id = 604
+	name = "STATE_604"
+	history = {
+		owner = HOR
+		add_core_of = HOR
+		victory_points = {
+			9560 2 #Auxerre
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		1126 1341 2190 9560 13629 19835 
+	}
+	manpower = 14943
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

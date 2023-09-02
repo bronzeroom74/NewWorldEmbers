@@ -1,0 +1,24 @@
+
+state = {
+	id = 910
+	name = "STATE_910"
+	provinces = {
+		4231 8483 20338 
+	}
+	history = {
+		owner = BLU
+		add_core_of = BLU
+		buildings = {
+			infrastructure = 2
+			20338 = { naval_base = 1 }
+		}
+	
+		victory_points = {
+			20338 5
+		}
+	}
+	manpower = 6354
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

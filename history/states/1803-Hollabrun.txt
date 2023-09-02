@@ -1,0 +1,23 @@
+state={
+	id=1803
+	name="STATE_1803"
+	history={
+		owner = BLP
+		add_core_of = BLP
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			7710 2 #Krems an der Donau
+		}
+	}
+	provinces = {
+		3223 7710 13358 13365 
+	}
+	manpower = 16408
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

@@ -1,0 +1,31 @@
+
+state = {
+	id = 1628
+	name = "STATE_1628"
+	resources = {
+		energetics = 0
+		refined_metals = 7
+		polymers = 0
+		hypertech = 0
+		salvage = 5
+		electronics = 0
+	}
+	history = {
+		owner = VEG
+		add_core_of = VEG
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			3207 2 #Neustettin
+		}
+	}
+
+	provinces = {
+		3207 3919 6144 8253 11077 11194 11265 18556 20546
+	}
+	manpower = 12717
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,20 @@
+
+state = {
+	id = 2695
+	name = "STATE_2695"
+	provinces = {
+		2573 4075 5609 14376 14411 16666
+	}
+	history = {
+		victory_points = { 16666 5 }
+		owner = ATO
+		add_core_of = ATO
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower = 13024
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

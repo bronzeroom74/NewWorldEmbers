@@ -1,0 +1,15 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_FOCUS_FILTER_FRUNDSBERG"
+		textureFile = "gfx/interface/focusview/filter/Frundsberg/Frundsberg.dds"
+	}
+	spriteType = {
+		name = "GFX_FOCUS_FILTER_IRONCOMPANY"
+		textureFile = "gfx/interface/focusview/filter/Frundsberg/IronCompany.dds"
+	}
+	spriteType = {
+		name = "GFX_FOCUS_FILTER_HILMAR"
+		textureFile = "gfx/interface/focusview/filter/Frundsberg/Hilmar.dds"
+	}
+	
+}

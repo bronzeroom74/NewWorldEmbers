@@ -1,0 +1,35 @@
+
+state = {
+	id = 1757
+	name = "STATE_1757"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 4
+		hypertech = 0
+		salvage = 6
+		electronics = 2
+	}
+	provinces = {
+		4408 5086 12985 20743
+	}
+	history = {
+		owner = SLD
+		add_core_of = SLD
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			20743 10 #Ludwigshafen
+		}
+		victory_points = {
+			5086 5 #Neustadt
+		}
+	}
+	manpower = 30895
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

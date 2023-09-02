@@ -1,0 +1,25 @@
+
+state = {
+	id = 1245
+	name = "STATE_1245"
+					
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			4456 5 #El Agelat
+			}
+	}
+	
+	provinces = {
+		4110 4456 21089 
+	}
+	manpower = 4655
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,25 @@
+
+state = {
+	id = 1780
+	name = "STATE_1780"
+	history = {
+		owner = SON
+		add_core_of = SON
+		add_claim_by = FRI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			5572 2 #Neuburg an der Donau
+		}
+	}
+	provinces = {
+		4946 5572 8394 13186 13286 20800 20801 20803
+	}
+	manpower = 16367
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

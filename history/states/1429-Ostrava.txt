@@ -1,0 +1,32 @@
+
+state = {
+	id = 1429
+	name = "STATE_1429"
+	resources = {
+		energetics = 7
+		refined_metals = 0
+		polymers = 0
+		hypertech = 0
+		salvage = 5
+		electronics = 3
+	}
+	provinces = {
+		7264 7998 12810 12877 12925 12980 
+	}
+	history={
+		owner = MPR
+		add_core_of = MPR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			12810 20 #Ostrava
+		}
+	}
+	manpower = 44675
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

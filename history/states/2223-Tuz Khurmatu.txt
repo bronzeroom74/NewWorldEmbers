@@ -1,0 +1,22 @@
+
+state = {
+	id = 2223
+	name = "STATE_2223"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			18553 2 #Tuz Khurmatu
+		}	
+	}
+	provinces = {
+		15632 18553 18686 18804 
+	}
+	manpower = 3153
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

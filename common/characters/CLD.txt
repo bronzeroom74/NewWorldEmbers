@@ -1,0 +1,16 @@
+characters = {
+	CLD_knight_protector_laurent = {
+		name = CLD_knight_protector_laurent_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CLD/portrait_CLD_knight_protector_laurent.dds"
+			}
+		}
+		country_leader = {
+			ideology = warlordship
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

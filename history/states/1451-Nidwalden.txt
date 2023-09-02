@@ -1,0 +1,18 @@
+state = {
+	id = 1451
+	name = "STATE_1451"
+	history = {
+		owner = HEL
+		add_core_of = HEL
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		5053 20117 
+	}
+	manpower = 1565
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

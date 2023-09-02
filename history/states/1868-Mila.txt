@@ -1,0 +1,24 @@
+state = {
+	id = 1868
+	name = "STATE_1868"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			15538 5 #El Eulma
+			}
+	}
+	
+	provinces = {
+		15517 15538 
+	}
+	manpower = 18252
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

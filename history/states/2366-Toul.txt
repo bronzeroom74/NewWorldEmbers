@@ -1,0 +1,19 @@
+
+state = {
+	id = 2366
+	name = "STATE_2366"
+	history = {
+		owner = VRD
+		add_core_of = VRD
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		4740 6011 7175 19851 
+	}
+	manpower = 10245
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

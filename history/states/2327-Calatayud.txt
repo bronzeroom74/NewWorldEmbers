@@ -1,0 +1,24 @@
+state = {
+	id = 2327
+	name = "STATE_2327"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			1704 2 #Calatayud
+		}
+		victory_points = {
+			14894 2 #Tudela
+		}
+	}
+	provinces = {
+		1704 2399 2936 6369 14894 14948 14955 14983 19801 
+	}
+	manpower = 16599
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

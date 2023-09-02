@@ -1,0 +1,26 @@
+
+state = {
+	id = 1549
+	name = "STATE_1549"
+
+	history = {
+		owner = BLU
+		add_core_of = BLU
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			4131 5 
+		}
+
+	}
+
+	provinces = {
+		4131 7731 20340 
+	}
+	manpower = 12710
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

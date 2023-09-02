@@ -1,0 +1,25 @@
+﻿capital = 1746
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = ascension
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 75
+	aggression = 10
+	absolution = 10
+	adaptation = 5
+	apocalypse = 0
+}
+
+recruit_character = STR_chancellor_leon_beck
+
+parliament_gui_initial = yes
+set_country_flag = is_rhine_nation

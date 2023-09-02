@@ -1,0 +1,22 @@
+
+state = {
+	id = 678
+	name = "STATE_678"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			2934 2 #Chalon-sur-Saône
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		1899 2934 3303 6863 7544 13875 
+	}
+	manpower = 28913
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

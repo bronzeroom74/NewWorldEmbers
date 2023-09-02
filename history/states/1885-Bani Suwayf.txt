@@ -1,0 +1,25 @@
+
+state = {
+	id = 1885
+	name = "STATE_1885"
+					
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			2235 5 #Bani Suwayf
+			}
+	}
+	
+	provinces = {
+		2235 2336 21141 
+	}
+	manpower = 48823
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

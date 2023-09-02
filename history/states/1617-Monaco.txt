@@ -1,0 +1,18 @@
+state = {
+	id = 1617
+	name = "STATE_1617"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			20532 2 #Monaco
+		}
+	}
+	provinces = {
+		15541
+	}
+	manpower = 2250
+	state_category = enclave
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

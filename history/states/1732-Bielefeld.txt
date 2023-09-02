@@ -1,0 +1,31 @@
+state = {
+	id = 1732
+	name = "STATE_1732"
+	provinces = {
+		3701 11876 11932 20697
+	}
+	resources = {
+		energetics = 8
+		refined_metals = 0
+		polymers = 0
+		hypertech = 3
+		salvage = 0
+		electronics = 10
+	}
+	history = {
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		owner = RED
+		add_core_of = RED
+		victory_points = {
+			20697 20
+		}
+	}
+	manpower = 32824
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

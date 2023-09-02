@@ -1,0 +1,26 @@
+
+state = {
+	id = 1101
+	name = "STATE_1101"
+
+	history = {
+		owner = TUN
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 2
+			21046 = { naval_base = 6 }
+		}
+
+		victory_points = {
+			21046 5 #Bizerte
+			}
+	}
+
+	provinces = {
+		15470 21044 21045 21046
+	}
+	manpower = 15306
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

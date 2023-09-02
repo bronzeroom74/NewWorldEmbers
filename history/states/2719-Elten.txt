@@ -1,0 +1,19 @@
+
+state = {
+	id = 2719
+	name = "STATE_2719"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		1596
+	}
+	manpower = 5300
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

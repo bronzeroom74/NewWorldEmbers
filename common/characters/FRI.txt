@@ -1,0 +1,18 @@
+characters = {
+	FRI_specht = {
+		name = FRI_specht_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRI/portrait_specht.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			traits = {
+				FRI_herrdesfreistaats_trait
+			}
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,22 @@
+
+state = {
+	id = 2220
+	name = "STATE_2220"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			124 2 #Halabja
+		}	
+	}
+	provinces = {
+		124 2490 15591 15836 
+	}
+	manpower = 1961
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

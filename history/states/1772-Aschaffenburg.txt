@@ -1,0 +1,33 @@
+
+state = {
+	id = 1772
+	name = "STATE_1772"
+	resources = {
+		energetics = 0
+		refined_metals = 4
+		polymers = 3
+		hypertech = 0
+		salvage = 0
+		electronics = 0
+	}
+	history = {
+		owner = STR
+		add_core_of = STR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			12710 5 #Aschaffenburg
+		}
+	}
+
+	provinces = {
+		5131 7211 7238 8989 12710 20726 20765
+	}
+	manpower = 23654
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

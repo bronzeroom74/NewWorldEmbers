@@ -1,0 +1,18 @@
+state = {
+	id = 1870
+	name = "STATE_1870"
+	history = {
+		owner = TUN
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		15505 21042
+	}
+	manpower = 9488
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

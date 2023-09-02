@@ -1,0 +1,26 @@
+
+state = {
+	id = 1096
+	name = "STATE_1096"
+	provinces = {
+		2034 4739 19737 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			19737 = { naval_base = 2 }
+		}
+		victory_points = {
+			19737 2 #Faro
+		}
+		victory_points = {
+			2034 2 #Portimão
+		}
+	}
+	manpower = 30920
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

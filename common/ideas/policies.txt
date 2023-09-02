@@ -1,0 +1,494 @@
+ideas = {
+	science_base_policy = {
+		conservative_primitism = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = -0.4
+				land_doctrine_cost_factor = +0.4
+				air_doctrine_cost_factor = +0.4
+				naval_doctrine_cost_factor = +0.4
+				political_power_gain = 0.2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = conservative_primitism }
+			cost = 0
+			removal_cost = -1
+		}
+		backwater_knowledge = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = -0.2
+				land_doctrine_cost_factor = +0.2
+				air_doctrine_cost_factor = +0.2
+				naval_doctrine_cost_factor = +0.2
+				political_power_gain = 0.1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = backwater_knowledge }
+			cost = 0
+			removal_cost = -1
+		}
+		wasteland_science = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = 0.02
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			default = yes
+			available = { has_idea = wasteland_science }
+			cost = 0
+			removal_cost = -1
+		}
+		sophisticated_education = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = 0.05
+				land_doctrine_cost_factor = -0.05
+				air_doctrine_cost_factor = -0.05
+				naval_doctrine_cost_factor = -0.05
+				political_power_gain = -0.1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = sophisticated_education }
+			cost = 0
+			removal_cost = -1
+		}
+		prewar_enlightenment = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = 0.15
+				land_doctrine_cost_factor = -0.15
+				air_doctrine_cost_factor = -0.15
+				naval_doctrine_cost_factor = -0.15
+				political_power_gain = -0.2
+				consumer_goods_factor = 0.05
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = prewar_enlightenment }
+			cost = 0
+			removal_cost = -1
+		}
+	}
+	prosperity_policy = {
+		shithole = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = -0.4
+				land_doctrine_cost_factor = +0.4
+				air_doctrine_cost_factor = +0.4
+				naval_doctrine_cost_factor = +0.4
+				political_power_gain = 0.2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = shithole }
+			cost = 0
+			removal_cost = -1
+		}
+		unstable_endeavour = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = -0.2
+				land_doctrine_cost_factor = +0.2
+				air_doctrine_cost_factor = +0.2
+				naval_doctrine_cost_factor = +0.2
+				political_power_gain = 0.1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = unstable_endeavour }
+			cost = 0
+			removal_cost = -1
+		}
+		wasteland_operation = {
+			ledger = civilian
+			modifier = {
+
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			default = yes
+			available = { has_idea = wasteland_operation }
+			cost = 0
+			removal_cost = -1
+		}
+		booming_enterprise = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = 0.05
+				land_doctrine_cost_factor = -0.05
+				air_doctrine_cost_factor = -0.05
+				naval_doctrine_cost_factor = -0.05
+				political_power_gain = -0.1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = booming_enterprise }
+			cost = 0
+			removal_cost = -1
+		}
+		riches_beyond_belief = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = 0.1
+				land_doctrine_cost_factor = -0.1
+				air_doctrine_cost_factor = -0.1
+				naval_doctrine_cost_factor = -0.1
+				political_power_gain = -0.1
+				consumer_goods_factor = 0.02
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = riches_beyond_belief }
+			cost = 0
+			removal_cost = -1
+		}
+	}
+	outsider_views_policy = {
+		aggressive_reclusion = {
+			ledger = civilian
+			modifier = {
+				stability_weekly = 0.001
+				defensive_war_stability_factor = 0.4
+				stability_factor = 0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				non_core_manpower = -1
+				#Add No Coring
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = {
+				OR = {
+					has_idea = aggressive_reclusion
+					has_idea = isolationism
+					has_idea = wasteland_travellers
+				}
+			}
+			#cost = 150
+			removal_cost = -1
+		}
+		isolationism = {
+			ledger = civilian
+			modifier = {
+				stability_factor = 0.05
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				non_core_manpower = -0.03
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = {
+				OR = {
+					has_idea = aggressive_reclusion
+					has_idea = isolationism
+					has_idea = wasteland_travellers
+				}
+			}
+			#cost = 150
+			removal_cost = -1
+		}
+		wasteland_travellers = {
+			ledger = civilian
+			modifier = {
+				non_core_manpower = 0.02
+				monthly_population = 0.04
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			default = yes
+			available = { has_idea = wasteland_travellers }
+			#cost = 150
+			removal_cost = -1
+		}
+		open_borders = {
+			ledger = civilian
+			modifier = {
+				non_core_manpower = 0.05
+				army_core_attack_factor = -0.01
+				army_core_defence_factor = -0.02
+				monthly_population = 0.2
+				stability_factor = -0.05
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = {
+				OR = {
+					has_idea = open_borders
+					has_idea = melting_pot
+					has_idea = wasteland_travellers
+				}
+			}
+			#cost = 150
+			removal_cost = -1
+		}
+		melting_pot = {
+			ledger = civilian
+			modifier = {
+				non_core_manpower = 0.1
+				army_core_attack_factor = -0.03
+				army_core_defence_factor = -0.05
+				monthly_population = 0.4
+				stability_factor = -0.05
+				stability_weekly = -0.002
+				weekly_manpower = 50
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = {
+				OR = {
+					has_idea = open_borders
+					has_idea = melting_pot
+					has_idea = wasteland_travellers
+				}
+			}
+			#cost = 150
+			removal_cost = -1
+		}
+	}
+	society_type_policy = {
+		raider_gang = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = -0.4
+				land_doctrine_cost_factor = +0.4
+				air_doctrine_cost_factor = +0.4
+				naval_doctrine_cost_factor = +0.4
+				political_power_gain = 0.2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = raider_gang }
+			cost = 0
+			removal_cost = -1
+		}
+		military_junta = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = -0.2
+				land_doctrine_cost_factor = +0.2
+				air_doctrine_cost_factor = +0.2
+				naval_doctrine_cost_factor = +0.2
+				political_power_gain = 0.1
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = military_junta }
+			cost = 0
+			removal_cost = -1
+		}
+		tribal_confederation = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = -0.4
+				land_doctrine_cost_factor = +0.2
+				air_doctrine_cost_factor = +0.2
+				naval_doctrine_cost_factor = +0.2
+				political_power_gain = 0.2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = tribal_confederation }
+			cost = 0
+			removal_cost = -1
+		}
+		technocracy = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = 0.4
+				land_doctrine_cost_factor = +0.2
+				air_doctrine_cost_factor = +0.2
+				naval_doctrine_cost_factor = +0.2
+				political_power_gain = -0.2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = technocracy }
+			cost = 0
+			removal_cost = -1
+		}
+		democratorship = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = 0.4
+				land_doctrine_cost_factor = +0.2
+				air_doctrine_cost_factor = +0.2
+				naval_doctrine_cost_factor = +0.2
+				political_power_gain = -0.2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = democratorship }
+			cost = 0
+			removal_cost = -1
+		}
+		autocracy = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = 0.4
+				land_doctrine_cost_factor = +0.2
+				air_doctrine_cost_factor = +0.2
+				naval_doctrine_cost_factor = +0.2
+				political_power_gain = -0.2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = autocracy }
+			cost = 0
+			removal_cost = -1
+		}
+	}
+	culture_policy = {
+		culture_placeholder = {
+			ledger = civilian
+			modifier = {
+				research_speed_factor = -0.4
+				land_doctrine_cost_factor = +0.4
+				air_doctrine_cost_factor = +0.4
+				naval_doctrine_cost_factor = +0.4
+				political_power_gain = 0.2
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	sustenance_policy = {
+		rampant_starvation = {
+			ledger = civilian
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_factor = -0.1
+				stability_weekly = -0.005
+				war_support_weekly = -0.005
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = rampant_starvation }
+			cost = 0
+			removal_cost = -1
+		}
+		food_for_the_few = {
+			ledger = civilian
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = -0.05
+				stability_weekly = -0.001
+				war_support_weekly = -0.001
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = food_for_the_few }
+			cost = 0
+			removal_cost = -1
+		}
+		food_shortages = {
+			ledger = civilian
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = -0.05
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = food_shortages }
+			cost = 0
+			removal_cost = -1
+		}
+		wasteland_struggle = {
+			ledger = civilian
+			modifier = {
+				consumer_goods_factor = 0.02
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = wasteland_struggle }
+			cost = 0
+			removal_cost = -1
+			default = yes
+		}
+		a_nation_fed = {
+			ledger = civilian
+			modifier = {
+				stability_factor = 0.05
+				army_core_attack_factor = 0.01
+				army_core_defence_factor = 0.03
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = a_nation_fed }
+			cost = 0
+			removal_cost = -1
+		}
+		groceries_o_plenty = {
+			ledger = civilian
+			modifier = {
+				stability_factor = 0.05
+				army_core_attack_factor = 0.025
+				army_core_defence_factor = 0.05
+				stability_weekly = 0.001
+				war_support_weekly = 0.001
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = groceries_o_plenty }
+			cost = 0
+			removal_cost = -1
+		}
+	}
+}

@@ -1,0 +1,28 @@
+
+state = {
+	id = 1163
+	name = "STATE_1163"
+
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			11775 2 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			19924 10 #Pińsk
+		}
+  	}
+
+	provinces = {
+		3852 6835 7821 11775 17354 18174 19924 19944 19946 19948 
+	}
+	manpower = 17574
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

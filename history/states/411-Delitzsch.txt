@@ -1,0 +1,24 @@
+
+state = {
+	id = 411
+	name = "STATE_411"
+
+	history = {
+		owner = HAL
+		add_core_of = HAL
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 0
+		}
+
+	}
+
+	provinces = {
+		2992 6373 12079 12101 20620
+	}
+	manpower = 23871
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

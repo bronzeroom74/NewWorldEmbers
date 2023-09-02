@@ -1,0 +1,24 @@
+
+state = {
+	id = 373
+	name = "STATE_373"
+	provinces = {
+		1243 7000 8232 11817 20682 20685
+	}
+	history = {
+		owner = RED
+		add_core_of = RED
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			20682 10 #Osnabrück
+		}
+	}
+	manpower = 23771
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

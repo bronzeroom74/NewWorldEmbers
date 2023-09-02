@@ -1,0 +1,18 @@
+characters = {
+	KYB_collective = {
+		name = KYB_collective_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KYB/portrait_collective.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_ascensionists
+			traits = {
+				isolationist_trait
+			}
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

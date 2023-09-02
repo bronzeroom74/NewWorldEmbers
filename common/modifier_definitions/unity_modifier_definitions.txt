@@ -1,0 +1,31 @@
+max_country_unity = {
+	color_type = good
+	value_type = number
+	precision = 0
+	postfix = none
+	category = country
+}
+
+max_country_unity_factor = {
+	color_type = good
+	value_type = percentage
+	precision = 1
+	postfix = none
+	category = country
+}
+
+daily_country_unity_gain = {
+	color_type = good
+	value_type = number
+	precision = 2
+	postfix = daily
+	category = country
+}
+
+daily_country_unity_gain_factor = {
+	color_type = good
+	value_type = percentage
+	precision = 1
+	postfix = none
+	category = country
+}

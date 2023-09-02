@@ -1,0 +1,23 @@
+state = {
+	id = 1242
+	name = "STATE_1242"
+					
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			2653 5 #Sabrata
+			}
+	}
+	
+	provinces = {
+		2653 15722 
+	}
+	manpower = 7251
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+}

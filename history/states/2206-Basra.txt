@@ -1,0 +1,31 @@
+
+state = {
+	id = 2206
+	name = "STATE_2206"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			19155 = { naval_base = 1 }
+		}
+		victory_points = {
+			18632 40 #Basrah
+		}	
+		victory_points = {
+			19155 5 #Umm Qasr
+		}
+		victory_points = {
+			8753 5 #Al Faw
+		}
+	}
+		
+	provinces = {
+		7253 8753 18632 18724 19146 19149 19150 19155 19208 
+	}
+	manpower = 39537
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

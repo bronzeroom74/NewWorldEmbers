@@ -1,0 +1,32 @@
+
+state = {
+	id = 1714
+	name = "STATE_1714"
+	provinces = {
+		3282 3903 5373 12033 20669 20672 21683
+	}
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 3
+		hypertech = 0
+		salvage = 0
+		electronics = 3
+	}
+	history = {
+		owner = KAS
+		add_core_of = KAS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			12033 10
+		}
+	}
+	manpower = 20228
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

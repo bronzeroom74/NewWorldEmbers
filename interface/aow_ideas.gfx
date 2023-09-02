@@ -1,0 +1,82 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_starfall"
+		texturefile = "gfx/interface/ideas/starfall.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_COE_puppet_master"
+		texturefile = "gfx/interface/ideas/COE_puppet_master.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SWC_hammer_sickle_gun"
+		texturefile = "gfx/interface/ideas/SWC_hammer_sickle_gun.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SWC_heavy_industry_above_all"
+		texturefile = "gfx/interface/ideas/SWC_heavy_industry_above_all.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MPC_ruhr_coal_mines"
+		texturefile = "gfx/interface/ideas/MPC_ruhr_coal_mines.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PCO_friends_across_river"
+		texturefile = "gfx/interface/ideas/PCO_friends_across_river.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PCO_militant_remnants"
+		texturefile = "gfx/interface/ideas/PCO_militant_remnants.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_COE_promethian_flame"
+		texturefile = "gfx/interface/ideas/COE_promethian_flame.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SON_holdback"
+		texturefile = "gfx/interface/ideas/SON_holdback.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SON_ammo"
+		texturefile = "gfx/interface/ideas/SON_ammo.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SON_collaboration"
+		texturefile = "gfx/interface/ideas/SON_collaboration.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SON_thunderstruck"
+		texturefile = "gfx/interface/ideas/SON_thunderstruck.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ark_haul"
+		texturefile = "gfx/interface/ideas/ark_haul.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ark_life"
+		texturefile = "gfx/interface/ideas/ark_life.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FCA_papal_obligations"
+		texturefile = "gfx/interface/ideas/fca_papal_obligation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_COR_swiss_guard"
+		texturefile = "gfx/interface/ideas/cor_swiss_guard.dds"
+	}
+}

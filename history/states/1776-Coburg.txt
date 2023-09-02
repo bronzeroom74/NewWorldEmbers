@@ -1,0 +1,24 @@
+
+state = {
+	id = 1776
+	name = "STATE_1776"
+	history = {
+		owner = FRI
+		add_core_of = FRI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			18962 2 #Coburg
+		}
+	}
+	provinces = {
+		12660 18962
+	}
+	manpower = 19098
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

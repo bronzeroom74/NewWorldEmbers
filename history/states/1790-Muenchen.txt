@@ -1,0 +1,35 @@
+state = {
+	id = 1790
+	name = "STATE_1790"
+	resources = {
+		energetics = 7
+		refined_metals = 0
+		polymers = 4
+		hypertech = 2
+		salvage = 0
+		electronics = 9
+	}
+	provinces = {
+		3476 9258 9383 13357 13420 13455 13461 13474 20770 20771
+	}
+	history = {
+		owner = SON
+		add_core_of = SON
+		add_claim_by = FRI
+		victory_points = {
+			9258 80 #München
+		}
+		victory_points = {
+			13461 2 #Olching
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+		}
+	}
+	manpower = 107144
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+}

@@ -1,0 +1,31 @@
+﻿capital = 1670
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = adaptation
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 10
+	aggression = 10
+	absolution = 25
+	adaptation = 55
+	apocalypse = 0
+}
+
+recruit_character = SOR_pawl_cizik
+
+add_ideas = {
+sor_beacon_of_hope
+sor_economic_titan
+sor_oh_liberty
+sor_merchant_army
+}
+
+country_lock_all_division_template = yes

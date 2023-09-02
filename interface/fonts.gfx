@@ -1,0 +1,31 @@
+
+bitmapfonts = {
+	### NORMAL
+
+	#Small debug font
+
+	bitmapfont = {
+		name = "ashes_font"
+		path = "gfx/fonts/ashes_font"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "ashes_font_20"
+		path = "gfx/fonts/ashes_font_20"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "ashes_font_18"
+		path = "gfx/fonts/ashes_font_18"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "ashes_font_14"
+		path = "gfx/fonts/ashes_font_14"
+		color = 0xffffffff
+	}
+	
+}

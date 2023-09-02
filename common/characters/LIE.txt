@@ -1,0 +1,18 @@
+characters = {
+	LIE_kunze = {
+		name = LIE_kunze_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LIE/portrait_kunze.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			traits = {
+
+			}
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

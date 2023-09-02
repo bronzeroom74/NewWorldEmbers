@@ -1,0 +1,27 @@
+
+state = {
+	id = 1142
+	name = "STATE_1142"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+			21033 = { naval_base = 1 }
+		}
+	
+	
+		victory_points = {
+			21033 5 #Sousse
+			}
+	}
+	
+	provinces = {
+		1644 15562 21033 21034 
+	}
+	manpower = 14792
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,35 @@
+
+state = {
+	id = 425
+	name = "STATE_425"
+	resources = {
+		energetics = 0
+		refined_metals = 5
+		polymers = 0
+		hypertech = 0
+		salvage = 7
+		electronics = 0
+	}
+	provinces = {
+		1067 5693 8402 9562 12347 
+	}
+	history={
+		owner = THB
+		add_core_of = THB
+		victory_points = {
+			8402 10 #Waldenburg
+		}
+		victory_points = {
+			5693 5 #Schweidnitz
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	manpower = 39593
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

@@ -1,0 +1,27 @@
+
+state = {
+	id = 1779
+	name = "STATE_1779"
+
+	history = {
+		owner = SON
+		add_core_of = SON
+		add_claim_by = FRI
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			13130 1
+		}
+
+	}
+
+	provinces = {
+		6243 8039 9390 13121 13130 13177 20792
+	}
+	manpower = 10807
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

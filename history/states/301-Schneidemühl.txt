@@ -1,0 +1,22 @@
+
+state = {
+	id = 301
+	name = "STATE_301"
+	history = {
+		owner = VEG
+		add_core_of = VEG
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			748 5 #Schneidemühl
+		}
+	}
+	provinces = {
+		748 3349 11344 11399
+	}
+	manpower = 5334
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

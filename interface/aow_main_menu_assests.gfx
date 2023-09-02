@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_MainMenuBG"
+		textureFile = "gfx/interface/tiles/main/MainMenuBG.dds"
+	}
+	spriteType = {
+		name = "GFX_MainMenuBG2"
+		textureFile = "gfx/interface/tiles/main/MainMenuBG2.dds"
+	}
+	spriteType = {
+		name = "GFX_MainMenuBG3"
+		textureFile = "gfx/interface/tiles/main/MainMenuBG.dds"
+	}
+}

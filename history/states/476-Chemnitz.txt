@@ -1,0 +1,27 @@
+
+state = {
+	id = 476
+	name = "STATE_476"
+	provinces = {
+		12379 12402 12423 12435 12472 12517
+	}
+	history = {
+		owner = CHU
+		add_core_of = CHU
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			12379 20 #Chemnitz
+		}
+		victory_points = {
+			12517 2 #Annaberg-Buchholz
+		}
+	}
+	manpower = 102758
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 1918
+	name = "STATE_1918"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1720 21324 
+	}
+	manpower = 8600
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,24 @@
+
+state = {
+	id = 3
+	name = "STATE_3"
+
+	history = {
+		owner = BER
+		add_core_of = BER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+		}
+
+	}
+
+	provinces = {
+		11654 11711 20589
+	}
+	manpower = 110098
+	buildings_max_level_factor = 1.000
+	state_category = metropolis
+	local_supplies = 0.000
+}

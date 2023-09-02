@@ -1,0 +1,25 @@
+state = {
+	id = 1976
+	name = "STATE_1976"
+		
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+			347 = { naval_base = 1 }
+		}
+		victory_points = {
+			347 2 #Sidi Ifni
+			}
+	}
+	
+	provinces = {
+		347 
+	}
+	manpower = 1664
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

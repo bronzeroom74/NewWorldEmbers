@@ -1,0 +1,33 @@
+
+state = {
+	id = 589
+	name = "STATE_589"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 0
+		hypertech = 1
+		salvage = 0
+		electronics = 0
+	}
+	history = {
+		owner = RHW
+		add_core_of = RHW
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			13297 5 #Offenburg
+		}
+	}
+
+	provinces = {
+		1629 8071 9047 9285 13297 13401 13460 13472
+	}
+	manpower = 30619
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

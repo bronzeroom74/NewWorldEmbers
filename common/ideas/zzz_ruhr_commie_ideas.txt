@@ -1,0 +1,129 @@
+ideas = {
+	country = {
+		COE_puppet_master_idea = {
+			picture = COE_puppet_master
+			allowed = {
+				tag = COE
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.12
+				stability_factor = 0.10
+				conscription_factor = 0.15
+				production_lack_of_resource_penalty_factor = 0.20
+			}
+		}
+
+		SWC_hammer_sickle_gun_idea = {
+
+			picture = SWC_hammer_sickle_gun
+
+			allowed = {
+				tag = SWC
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = -0.15
+				conscription = 0.02
+				war_support_factor = 0.10
+			}
+		}
+
+		SWC_heavy_industry_above_all_idea = {
+
+			picture = SWC_heavy_industry_above_all
+
+			allowed = {
+				tag = SWC
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.25
+				stability_factor = -0.10
+				monthly_population = -0.15
+				production_speed_arms_factory_factor = 0.30
+				production_speed_industrial_complex_factor = 0.15
+			}
+		}
+
+		MPC_ruhr_coal_mines_idea = {
+
+			picture = MPC_ruhr_coal_mines
+
+			allowed = {
+				tag = SWC
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_core_defence_factor = 0.10
+				local_resources = 0.20
+				production_speed_infrastructure_factor = -0.20
+				production_speed_rail_way_factor = -0.20
+			}
+		}
+
+		PCO_friends_across_river_idea = {
+
+			picture = PCO_friends_across_river
+
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.04
+				production_factory_max_efficiency_factor = 0.05
+				conscription_factor = -0.05
+			}
+		}
+
+		PCO_militant_remnants_idea = {
+
+			picture = PCO_militant_remnants
+
+			allowed = {
+				tag = SWC
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = 0.10
+				conscription_factor = 0.15
+				trade_opinion_factor = -0.50
+			}
+		}
+
+		COE_promethian_unity_idea = {
+
+			picture = COE_promethian_flame
+
+			allowed = {
+				tag = COE
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.02
+				war_support_factor = 0.10
+				stability_factor = 0.10
+				local_resources = 0.10
+				production_speed_buildings_factor = 0.15
+			}
+		}
+
+
+	}
+}

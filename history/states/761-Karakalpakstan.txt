@@ -1,0 +1,19 @@
+
+state = {
+	id = 761
+	name = "STATE_761"
+	provinces = {
+		87 984 1637 1796 1814 2041 2749 2939 2995 3106 3202 3905 3971 4174 4494 4834 5101 5228 5232 5695 5949 6351 6372 6847 7277 7361 7534 7825 8582 9149 9202 9358 9513 14365 14406 14438 14477 14516 14551 14552 14588 14701 14716 14780 14782 14825 14927 18737 19142 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower = 12441
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

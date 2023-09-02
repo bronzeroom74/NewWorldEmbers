@@ -1,0 +1,23 @@
+
+state = {
+	id = 2005
+	name = "STATE_2005"
+
+	history = {
+		owner = BLU
+		add_core_of = BLU
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces = {
+		1094 15895 16499 
+	}
+	manpower = 1149
+	buildings_max_level_factor = 1.000
+	state_category = enclave
+	local_supplies = 0.000
+}

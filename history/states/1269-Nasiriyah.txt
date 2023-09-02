@@ -1,0 +1,25 @@
+
+state = {
+	id = 1269
+	name = "STATE_1269"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			18736 10 #Nasiriyah
+		}	
+		victory_points = {
+			19127 2 #Al-Shatrah
+		}	
+	}
+	provinces = {
+		4025 8670 18736 19120 19124 19126 19127 19130 19132 19133 
+	}
+	manpower = 27070
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

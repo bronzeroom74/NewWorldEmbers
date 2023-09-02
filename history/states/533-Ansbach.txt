@@ -1,0 +1,24 @@
+
+state = {
+	id = 533
+	name = "STATE_533"
+	history = {
+		owner = FRI
+		add_core_of = FRI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 0
+		}
+		victory_points = {
+			422 2 #Ansbach
+		}
+	}
+	provinces = {
+		422 2708 8411 12903 12939 13054 13080 20786
+	}
+	manpower = 20597
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

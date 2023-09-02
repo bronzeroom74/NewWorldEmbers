@@ -1,0 +1,27 @@
+
+state = {
+	id = 927
+	name = "STATE_927"
+
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			19760 10 #Tarragona
+		}
+		victory_points = {
+			7586 10 #Reus
+		}
+	}
+
+	provinces = {
+		4009 7586 9035 19760 
+	}
+	manpower = 24423
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

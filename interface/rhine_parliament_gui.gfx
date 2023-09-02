@@ -1,0 +1,47 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_parliament_party_icon"
+		texturefile = "gfx/interface/scripted_gui/rhine_parliament/parliament_parties.dds"
+		noOfFrames = 4 # number of parties you have in the gfx file
+	}
+	spriteType = {
+		name = "GFX_parliament_empty_button"
+		texturefile = "gfx/interface/scripted_gui/rhine_parliament/parliament_empty_button.dds"
+	}
+	spriteType = {
+		name = "GFX_parliament_computer_screen"
+		texturefile = "gfx/interface/scripted_gui/rhine_parliament/parliament_computer_screen.dds"
+	}
+	spriteType = {
+		name = "GFX_parliament_ui"
+		texturefile = "gfx/interface/scripted_gui/rhine_parliament/parliament_ui.dds"
+	}
+	spriteType = {
+		name = "GFX_parliament_wache_symbol"
+		texturefile = "gfx/interface/scripted_gui/rhine_parliament/parliament_wache_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_parliament_river_symbol"
+		texturefile = "gfx/interface/scripted_gui/rhine_parliament/parliament_river_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_parliament_duke_symbol"
+		texturefile = "gfx/interface/scripted_gui/rhine_parliament/parliament_duke_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_parliament_republic_symbol"
+		texturefile = "gfx/interface/scripted_gui/rhine_parliament/parliament_republic_symbol.dds"
+	}
+	spriteType = {
+		name = "GFX_parliament_small"
+		texturefile = "gfx/interface/scripted_gui/rhine_parliament/parliament_small.dds"
+	}
+	spriteType = {
+		name = "GFX_parliament_overlay_big"
+		texturefile = "gfx/interface/scripted_gui/rhine_parliament/parliament_overlay_big.dds"
+	}
+	spriteType = {
+		name = "GFX_parliament_overlay_logos"
+		texturefile = "gfx/interface/scripted_gui/rhine_parliament/parliament_overlay_logos.dds"
+	}
+}

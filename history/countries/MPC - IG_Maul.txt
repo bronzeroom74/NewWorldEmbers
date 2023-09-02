@@ -1,0 +1,28 @@
+﻿capital = 391
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = ascension
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 60
+	aggression = 10
+	absolution = 15
+	adaptation = 5
+	apocalypse = 10
+}
+
+add_ideas = {
+	#MPC_ruhr_coal_mines_idea
+	PCO_friends_across_river_idea
+}
+
+recruit_character = MPC_vorarbeiter_roth
+

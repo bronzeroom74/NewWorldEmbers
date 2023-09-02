@@ -1,0 +1,27 @@
+
+state = {
+	id = 1784
+	name = "STATE_1784"
+
+	history = {
+		owner = FRI
+		add_core_of = FRI
+		victory_points = {
+			13100 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces = {
+		508 7912 9605 13049 20781 20782
+	}
+	manpower = 23979
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

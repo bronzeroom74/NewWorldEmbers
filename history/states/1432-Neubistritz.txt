@@ -1,0 +1,22 @@
+
+state={
+	id=1432
+	name="STATE_1432"
+	history={
+		owner = BLP
+		add_core_of = BLP
+        victory_points = {
+            20058 2 #Jindřichův Hradec
+        }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		7372 20058 20059 
+	}
+	manpower = 4622
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+}

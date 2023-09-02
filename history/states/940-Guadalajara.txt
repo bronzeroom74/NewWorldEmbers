@@ -1,0 +1,22 @@
+
+state = {
+	id = 940
+	name = "STATE_940"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			5767 5 #Guadalajara
+		}
+	}
+	provinces = {
+		528 2373 2888 4308 5488 5767 5963 15032 15065 19786 
+	}
+	manpower = 20500
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

@@ -1,0 +1,30 @@
+
+state = {
+	id = 1762
+	name = "STATE_1762"
+
+	history = {
+		owner = RHW
+		add_core_of = RHW
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			5270 5
+		}
+		victory_points = {
+					20101 5 #Schaffhausen
+	   		}
+	}
+
+	provinces = {
+		2655 5270 13647 20101 20750
+	}
+	manpower = 19119
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

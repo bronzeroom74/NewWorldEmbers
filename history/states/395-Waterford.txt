@@ -1,0 +1,22 @@
+state = {
+	id = 395
+	name = "STATE_395"
+	provinces = {
+		7284 7746 11815 11874 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			7746 = { naval_base = 1 }
+		}
+	
+		victory_points = {
+			7746 2
+		}
+	}
+	manpower = 5191
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

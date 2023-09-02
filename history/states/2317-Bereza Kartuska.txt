@@ -1,0 +1,25 @@
+
+state = {
+	id = 2317
+	name = "STATE_2317"
+	provinces = {
+		5239 6082 7649 8864 11526 11655 11688 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			11526 2 #Iwacewicze
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+  	}
+	manpower = 4200
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

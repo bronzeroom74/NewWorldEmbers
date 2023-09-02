@@ -1,0 +1,24 @@
+
+state = {
+	id = 532
+	name = "STATE_532"
+	provinces = {
+		4807 4952 6325 12930 12941 20066 20068 
+	}
+	history={
+		owner = MPR
+		add_core_of = MPR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			20066 10
+		}
+	}
+	manpower = 49305
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

@@ -1,0 +1,19 @@
+
+state = {
+	id = 37
+	name = "STATE_37"
+	history = {
+		owner = VER
+		add_core_of = VER
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		3954 8310 13417
+	}
+	manpower = 40930
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

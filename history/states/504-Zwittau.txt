@@ -1,0 +1,24 @@
+
+state={
+	id=504
+	name="STATE_504"
+	history={
+		owner = MPR
+		add_core_of = MPR
+        victory_points = {
+            6771 2 #Zwittau
+        }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 0
+		}
+	}
+	provinces = {
+		120 4066 6771 7473 12786 12837 
+	}
+	manpower = 18015
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

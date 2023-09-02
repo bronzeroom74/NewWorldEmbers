@@ -1,0 +1,22 @@
+
+state = {
+	id = 442
+	name = "STATE_442"
+	history = {
+		owner = PLF
+		add_core_of = PLF
+		victory_points = {
+			3866 2 #Laon
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		3866 12870 12894
+	}
+	manpower = 8119
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

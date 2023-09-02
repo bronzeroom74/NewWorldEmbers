@@ -1,0 +1,145 @@
+scripted_gui = {
+	state_view_development_and_autonomy_window = {
+		context_type = selected_state_context
+
+		window_name = "state_view_development_and_autonomy_window"
+		parent_window_token = selected_state_view
+
+		visible = {
+			is_core_of = owner
+			is_controlled_by = owner
+			NOT = { has_state_flag = recently_cored }
+		}
+
+		effects = {
+			development_button_click = {
+				set_temp_variable = { development_amount = 1 }
+				add_state_development_effect = yes
+			}
+		}
+
+		triggers = {
+			autonomy_progressbar_visible = {
+				check_variable = { state_autonomy > 0 }
+			}
+			development_button_visible = {
+				is_owned_by = ROOT
+			}
+			development_button_click_enabled = {
+				set_temp_variable = { development_amount = 5 }
+				has_less_state_development_trigger = yes
+			}
+		}
+
+		properties = {
+			autonomy_progressbar = {
+				frame = state_autonomy
+			}
+		}
+	}
+
+	state_view_culture_and_original_owner_window = {
+		context_type = selected_state_context
+
+		window_name = "state_view_culture_and_original_owner_window"
+		parent_window_token = selected_state_view
+
+		visible = {
+			ROOT = { is_ai = no }
+			OR = {
+				has_variable = state_culture
+				has_variable = original_owner
+			}
+		}
+
+		effects = {
+			flag_click = {
+				var:original_owner = {
+					if = {
+						limit = {
+							exists = yes
+						}
+						capital_scope = {
+							ROOT = { goto_state = PREV }
+						}
+					}
+				}
+			}
+		}
+
+		triggers = {
+			original_owner_title_visible = {
+				has_variable = original_owner
+			}
+			flag_visible = {
+				has_variable = original_owner
+			}
+			flag_frame_visible = {
+				has_variable = original_owner
+			}
+		}
+
+		properties = {
+			flag = {
+				image = "[?original_owner.GetFlag]"
+			}
+		}
+	}
+
+	state_view_coring_and_integration_window = {
+		context_type = selected_state_context
+
+		window_name = "state_view_coring_and_integration_window"
+		parent_window_token = selected_state_view
+
+		visible = {
+			is_owned_by = ROOT
+		}
+
+		effects = {
+			add_core_button_click = {
+				if = {
+					limit = {
+						state_calculate_coring_cost_trigger = yes
+					}
+					ROOT = {
+						set_temp_variable = { unity_amount = state_coring_cost_temp }
+						multiply_temp_variable = { unity_amount = -1 }
+						add_country_unity = yes
+					}
+				}
+				set_state_flag = { flag = recently_cored value = 1 days = 1 }
+				add_core_of = ROOT
+				set_temp_variable = { autonomy_amount = 50 }
+				set_state_autonomy_effect = yes
+			}
+			lower_autonomy_button_click = {
+				set_temp_variable = { autonomy_amount = -10 }
+				add_state_autonomy_effect = yes
+			}
+		}
+
+		triggers = {
+			add_core_button_visible = {
+				NOT = { is_core_of = ROOT }
+			}
+			add_core_button_click_enabled = {
+				is_fully_controlled_by = ROOT
+				state_calculate_coring_cost_trigger = yes
+				ROOT = {
+					set_temp_variable = { unity_amount = state_coring_cost_temp }
+					has_at_least_country_unity = yes
+				}
+			}
+			lower_autonomy_button_visible = {
+				is_core_of = ROOT
+				NOT = { has_state_flag = recently_cored }
+			}
+			lower_autonomy_button_click_enabled = {
+				is_fully_controlled_by = ROOT
+				set_temp_variable = { autonomy_amount = 1 }
+				has_at_least_state_autonomy_trigger = yes
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+
+state = {
+	id = 415
+	name = "STATE_415"
+
+	history = {
+		owner = BER
+		add_core_of = BER
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			8095 2 #Bunzlau
+		}
+	}
+
+	provinces = {
+		8095 12195
+	}
+	manpower = 20552
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

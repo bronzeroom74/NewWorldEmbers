@@ -1,0 +1,42 @@
+add_namespace = nf_vrd
+
+country_event = {
+	id = nf_vrd.1
+	title = nf_vrd.1.t
+	desc = nf_vrd.1.d
+	picture = GFX_event_picture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+
+	option = {
+		name = nf_vrd.1.a
+	}
+}
+country_event = {
+	id = nf_vrd.2
+	title = nf_vrd.2.t
+	desc = nf_vrd.2.d
+	picture = GFX_event_picture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = nf_vrd.2.a
+	}
+}
+country_event = {
+	id = nf_vrd.3
+	title = nf_vrd.3.t
+	desc = nf_vrd.3.d
+	picture = GFX_event_picture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = nf_vrd.3.a
+	}
+}

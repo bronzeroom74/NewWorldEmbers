@@ -1,0 +1,24 @@
+
+state = {
+	id = 1707
+	name = "STATE_1707"
+	provinces = {
+		1335 20689
+	}
+	history = {
+		owner = FIS
+		add_core_of = FIS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			20689 40 #Bremen
+		}
+	}
+	manpower = 44506
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

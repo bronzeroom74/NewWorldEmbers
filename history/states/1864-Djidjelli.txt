@@ -1,0 +1,24 @@
+
+state = {
+	id = 1864
+	name = "STATE_1864"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			21003 5 #Jijel
+			}
+	}
+	
+	provinces = {
+		6500 20998 21003 21009 
+	}
+	manpower = 14333
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

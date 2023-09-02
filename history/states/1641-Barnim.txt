@@ -1,0 +1,24 @@
+
+state = {
+	id = 1641
+	name = "STATE_1641"
+	history = {
+		owner = BER
+		add_core_of = BER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			1190 2 #Eberswalde
+		}
+	}
+	provinces = {
+		1190 5668 6358 8971 9579 11447 11579 20571 20593 20595
+	}
+	manpower = 36077
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

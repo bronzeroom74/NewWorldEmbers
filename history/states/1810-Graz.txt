@@ -1,0 +1,21 @@
+state = {
+	id = 1810
+	name = "STATE_1810"
+	provinces = {
+		2759 3032 5308 9057 20832 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			3032 20 #Graz
+		}
+	}
+	manpower = 32049
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

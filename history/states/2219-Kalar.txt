@@ -1,0 +1,22 @@
+
+state = {
+	id = 2219
+	name = "STATE_2219"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4332 2 #Chamchamal
+		}	
+	}
+	provinces = {
+		3079 4332 4470 15605 18533 
+	}
+	manpower = 15330
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,21 @@
+
+state = {
+	id = 1050
+	name = "STATE_1050"
+	history = {
+		owner = BYN
+		add_core_of = BYN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 21399 10 }
+		
+	}
+	provinces = {
+		2557 15308 15329 21399 21409 21412 
+	}
+	manpower = 19073
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

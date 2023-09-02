@@ -1,0 +1,22 @@
+
+state = {
+	id = 838
+	name = "STATE_838"
+	provinces = {
+		5346 7624 8733 14711 14721 20526 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14711 5 #Tarbes
+		}
+	}
+	manpower = 18860
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

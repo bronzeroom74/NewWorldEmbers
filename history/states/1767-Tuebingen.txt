@@ -1,0 +1,37 @@
+
+state = {
+	id = 1767
+	name = "STATE_1767"
+	resources = {
+		energetics = 3
+		refined_metals = 0
+		polymers = 5
+		hypertech = 0
+		salvage = 3
+		electronics = 0
+	}
+	history = {
+		owner = WAF
+		add_core_of = WAF
+		add_claim_by = SON
+		victory_points = {
+			13303 10 #Reutlingen
+		}
+		victory_points = {
+			20748 5 #Tübingen
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+	}
+
+	provinces = {
+		13303 13313 20748 20760
+	}
+	manpower = 25755
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

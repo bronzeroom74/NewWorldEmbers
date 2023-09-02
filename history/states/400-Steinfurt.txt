@@ -1,0 +1,31 @@
+
+state = {
+	id = 400
+	name = "STATE_400"
+	resources = {
+		energetics = 0
+		refined_metals = 5
+		polymers = 0
+		hypertech = 1
+		salvage = 7
+		electronics = 2
+	}
+	provinces = {
+		7246 11745 11783 11835 11843 20701
+	}
+	history = {
+		owner = NET
+		add_core_of = NET
+		add_core_of = MPC
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			11745 5 #Rheine
+		}
+	}
+	manpower = 19718
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

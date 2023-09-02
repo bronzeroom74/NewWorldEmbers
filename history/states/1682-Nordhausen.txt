@@ -1,0 +1,33 @@
+
+state = {
+	id = 1682
+	name = "STATE_1682"
+	resources = {
+		energetics = 0
+		refined_metals = 4
+		polymers = 3
+		hypertech = 0
+		salvage = 7
+		electronics = 0
+	}
+	history = {
+		owner = KYB
+		add_core_of = KYB
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			12078 2 #Nordhausen
+		}
+	}
+
+	provinces = {
+		6997 12078
+	}
+	manpower = 15539
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

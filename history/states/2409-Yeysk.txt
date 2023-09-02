@@ -1,0 +1,19 @@
+
+state = {
+	id = 2409
+	name = "STATE_2409"
+	provinces = {
+		7254 9668 13879
+	}
+	history = {
+		owner = ATO
+		add_core_of = ATO
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower = 5267
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

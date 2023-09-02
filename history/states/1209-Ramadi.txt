@@ -1,0 +1,24 @@
+
+state = {
+	id = 1209
+	name = "STATE_1209"
+
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			18605 10 #Ramadi
+		}	
+	}
+
+	provinces = {
+		4609 5181 15700 18567 18594 18605 18640 19204 19205 19242 
+	}
+	manpower = 13424
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

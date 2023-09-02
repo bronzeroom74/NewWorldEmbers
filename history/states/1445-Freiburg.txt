@@ -1,0 +1,21 @@
+state = {
+	id = 1445
+	name = "STATE_1445"
+	history = {
+		owner = LOC
+		add_core_of = LOC
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13893 2 #Fribourg
+		}
+	}
+	provinces = {
+		6344 13893
+	}
+	manpower = 5121
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

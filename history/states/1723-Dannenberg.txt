@@ -1,0 +1,19 @@
+
+state = {
+	id = 1723
+	name = "STATE_1723"
+	provinces = {
+		8321 11489 20675
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower = 4053
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+}

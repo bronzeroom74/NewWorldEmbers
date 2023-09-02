@@ -1,0 +1,35 @@
+
+state = {
+	id = 528
+	name = "STATE_528"
+	resources = {
+		energetics = 5
+		refined_metals = 0
+		polymers = 7
+		hypertech = 0
+		salvage = 0
+		electronics = 3
+	}
+	provinces = {
+		2205 3539 5170 7351 12979 13081 13137 
+	}
+	history={
+		owner = SGG
+		add_core_of = SGG
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			7351 5 #Zlín
+		}
+		victory_points = {
+			3539 2 #Hodonín
+		}
+	}
+	manpower = 51010
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+}

@@ -1,0 +1,34 @@
+
+state = {
+	id = 2003
+	name = "STATE_2003"
+
+	history = {
+		owner = ATH
+		add_core_of = ATH
+		buildings = {
+			infrastructure = 3
+			20252 = {
+				naval_base = 9
+
+			}
+			20308 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			20252 40 
+		}
+
+	}
+
+	provinces = {
+		3130 3316 9535 20252 20260 20308 20309 
+	}
+	manpower = 151502
+	buildings_max_level_factor = 1.000
+	state_category = metropolis
+	local_supplies = 0.000
+}

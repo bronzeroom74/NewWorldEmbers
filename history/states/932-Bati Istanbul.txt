@@ -1,0 +1,30 @@
+
+state = {
+	id = 932
+	name = "STATE_932"
+
+	history = {
+		owner = BYN
+		add_core_of = BYN
+		buildings = {
+			infrastructure = 3
+			15010 = {
+				naval_base = 8
+
+			}
+
+		}
+		victory_points = {
+			15010 80 
+		}
+
+	}
+
+	provinces = {
+		15010 21464 
+	}
+	manpower = 175664
+	buildings_max_level_factor = 1.000
+	state_category = megalopolis
+	local_supplies = 0.000
+}

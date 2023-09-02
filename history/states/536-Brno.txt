@@ -1,0 +1,32 @@
+
+state = {
+	id = 536
+	name = "STATE_536"
+	resources = {
+		energetics = 12
+		refined_metals = 0
+		polymers = 0
+		hypertech = 0
+		salvage = 4
+		electronics = 8
+	}
+	provinces = {
+		713 5512 5679 6708 8980 12940 12978 12995 13040 13061 13062 
+	}
+	history={
+		owner = BLP
+		add_core_of = BLP
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			13040 20 #Brno
+		}
+	}
+	manpower = 75140
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+}

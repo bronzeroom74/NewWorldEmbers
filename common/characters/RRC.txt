@@ -1,0 +1,16 @@
+characters = {
+	RRC_quartermaster_kruger = {
+		name = RRC_quartermaster_kruger_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RRC/portrait_quartermaster_kruger.dds"
+			}
+		}
+		country_leader = {
+			ideology = wasteland_community
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

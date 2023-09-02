@@ -1,0 +1,23 @@
+
+state = {
+	id = 281
+	name = "STATE_281"
+		history = {
+		owner = OHM
+		add_core_of = OHM
+		buildings = {
+			infrastructure = 3
+			10941 = { naval_base = 1 }
+		}
+		victory_points = {
+			10941 5 #Stralsund
+		}
+	}
+	provinces = {
+		3771 4935 10941 10957 10992 10997 11032 20557 20558
+	}
+	manpower = 14195
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

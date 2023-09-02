@@ -1,0 +1,25 @@
+
+state = {
+	id = 582
+	name = "STATE_582"
+	provinces = {
+		4309 8341 13396 13435 13496 20827 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			13396 20 #Linz
+		}
+		victory_points = {
+			4309 2 #Steyr
+		}
+	}
+	manpower = 33498
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

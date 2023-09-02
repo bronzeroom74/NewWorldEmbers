@@ -1,0 +1,25 @@
+
+state = {
+	id = 1647
+	name = "STATE_1647"
+
+	history = {
+		owner = BER
+		add_core_of = FRE
+		add_core_of = BER
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			20578 2 #Schwiebus
+		}
+	}
+
+	provinces = {
+		3525 6757 11799 20578
+	}
+	manpower = 5915
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

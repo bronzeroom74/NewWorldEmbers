@@ -1,0 +1,21 @@
+
+state = {
+	id = 483
+	name = "STATE_483"
+	provinces = {
+		6627 7610 12694 20714 20715
+	}
+	history = {
+		owner = STR
+		add_core_of = STR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	manpower = 21253
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

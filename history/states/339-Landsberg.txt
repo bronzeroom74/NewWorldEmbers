@@ -1,0 +1,35 @@
+
+state = {
+	id = 339
+	name = "STATE_339"
+	resources = {
+		energetics = 0
+		refined_metals = 4
+		polymers = 4
+		hypertech = 0
+		salvage = 0
+		electronics = 5
+	}
+	history = {
+		owner = VEG
+		add_core_of = VEG
+		victory_points = {
+			20551 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces = {
+		3839 7438 11448 11513 11580 11581 20550 20551 20587
+	}
+	manpower = 24361
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

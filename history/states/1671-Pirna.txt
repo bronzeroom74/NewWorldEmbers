@@ -1,0 +1,27 @@
+
+state = {
+	id = 1671
+	name = "STATE_1671"
+
+	history = {
+		owner = SOR
+		add_core_of = SOR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 0
+		}
+		victory_points = {
+			20611 2
+		}
+
+	}
+
+	provinces = {
+		12356 20611
+	}
+	manpower = 765
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

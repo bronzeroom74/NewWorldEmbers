@@ -1,0 +1,24 @@
+
+state = {
+	id = 1291
+	name = "STATE_1291"
+					
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			15783 10 #Zagazig
+			}
+	}
+	
+	provinces = {
+		3159 7613 8348 15783 15790 21164 21200 21201 
+	}
+	manpower = 111025
+	state_category = metropolis
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

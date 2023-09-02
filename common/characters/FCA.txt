@@ -1,0 +1,18 @@
+characters = {
+	FCA_federation = {
+		name = FCA_federation_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FCA/portrait_new_federal_building.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_ascensionists
+			traits = {
+				isolationist_trait
+			}
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

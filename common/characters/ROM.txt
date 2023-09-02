@@ -1,0 +1,18 @@
+characters = {
+	ROM_cassano = {
+		name = ROM_cassano_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ROM/portrait_cassano.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			traits = {
+				ROM_grandmaster_trait
+			}
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

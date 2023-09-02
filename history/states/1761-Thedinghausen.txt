@@ -1,0 +1,21 @@
+
+state = {
+	id = 1761
+	name = "STATE_1761"
+
+	history = {
+		owner = RHW
+		add_core_of = RHW
+		#buildings = {
+		#	infrastructure = 4
+		#}
+	}
+
+	provinces = {
+		21728 
+	}
+	manpower = 1 #1172
+	buildings_max_level_factor = 1.000
+	state_category = wasteland #pastoral
+	local_supplies = 0.000
+}

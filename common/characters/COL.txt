@@ -1,0 +1,18 @@
+characters = {
+	COL_nobody = {
+		name = COL_nobody_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COL/portrait_nobody.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_adaptationists
+			traits = {
+				COL_anarchy_trait
+			}
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,33 @@
+
+state = {
+	id = 810
+	name = "STATE_810"
+
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 4
+			14643 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			14643 20 
+		}
+		victory_points = {
+			20532 2 #Monaco
+		}
+
+	}
+
+	provinces = {
+		3059 14582 14643 16400 17972 20532 20533 
+	}
+	manpower = 38857
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

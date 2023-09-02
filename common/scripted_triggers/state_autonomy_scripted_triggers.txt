@@ -1,0 +1,39 @@
+# usage:
+## set_temp_variable = { autonomy_amount = 5 }
+## has_at_least_state_autonomy_trigger = yes
+has_at_least_state_autonomy_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = HAS_AT_LEAST_STATE_AUTONOMY_TRIGGER_TT
+		NOT = { check_variable = { state_autonomy < autonomy_amount } }
+	}
+}
+
+# usage:
+## set_temp_variable = { autonomy_amount = 5 }
+## has_less_state_autonomy_trigger = yes
+has_less_state_autonomy_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = HAS_LESS_STATE_AUTONOMY_TRIGGER_TT
+		check_variable = { state_autonomy < autonomy_amount }
+	}
+}
+
+# usage:
+## set_temp_variable = { development_amount = 1 }
+## has_at_least_state_development_trigger = yes
+has_at_least_state_development_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = HAS_AT_LEAST_STATE_DEVELOPMENT_TRIGGER_TT
+		NOT = { check_variable = { state_development < development_amount } }
+	}
+}
+
+# usage:
+## set_temp_variable = { development_amount = 5 }
+## has_less_state_development_trigger = yes
+has_less_state_development_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = HAS_LESS_STATE_DEVELOPMENT_TRIGGER_TT
+		check_variable = { state_development < development_amount }
+	}
+}

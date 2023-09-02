@@ -1,0 +1,32 @@
+
+state = {
+	id = 492
+	name = "STATE_492"
+	resources = {
+		energetics = 0
+		refined_metals = 8
+		polymers = 0
+		hypertech = 0
+		salvage = 6
+		electronics = 0
+	}
+	provinces = {
+		5936 9595 12717 12730 12772 12791 12862 12892
+	}
+	history = {
+		owner = FRI
+		add_core_of = FRI
+		victory_points = {
+			12730 10
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0 
+			industrial_complex = 1
+		}
+	}
+	manpower = 27119
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

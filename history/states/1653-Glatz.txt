@@ -1,0 +1,32 @@
+state={
+	id=1653
+	name="STATE_1653"
+	resources = {
+		energetics = 0
+		refined_metals = 6
+		polymers = 3
+		hypertech = 0
+		salvage = 3
+		electronics = 0
+	}
+	history={
+		owner = LRC
+		add_core_of = LRC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_claim_by = CZE
+		victory_points = {
+			12599 2 #Glatz
+		}
+	}
+	provinces = {
+		12529 12599 12614 12666 
+	}
+	manpower = 17880
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

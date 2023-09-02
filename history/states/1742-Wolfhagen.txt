@@ -1,0 +1,18 @@
+state = {
+	id = 1742
+	name = "STATE_1742"
+	provinces = {
+		1367 12092 12131 20720
+	}
+	history = {
+		owner = KAS
+		add_core_of = KAS
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower = 10490
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

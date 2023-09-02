@@ -1,0 +1,29 @@
+
+state = {
+	id = 905
+	name = "STATE_905"
+
+	history = {
+		owner = ONE
+		add_core_of = ONE
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			20197 5 
+		}
+		victory_points = {
+			14968 2 
+		}
+
+	}
+
+	provinces = {
+		14907 20197 20378 
+	}
+	manpower = 13397
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

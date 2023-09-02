@@ -1,0 +1,18 @@
+state = {
+	id = 2667
+	name = "STATE_2667"
+	provinces = {
+		21729
+	}
+	history = {
+		owner = JAK
+		add_core_of = JAK
+		#buildings = {
+		#	infrastructure = 3
+		#}
+	}
+	manpower = 1 #2927
+	state_category = wasteland #pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

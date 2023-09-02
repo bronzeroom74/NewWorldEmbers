@@ -1,0 +1,23 @@
+
+state = {
+	id = 2530
+	name = "STATE_2530"
+
+	history = {
+		owner = CHU
+		add_core_of = CHU
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces = {
+		3724 8680
+	}
+	manpower = 5500
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

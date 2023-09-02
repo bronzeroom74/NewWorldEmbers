@@ -1,0 +1,32 @@
+
+state = {
+	id = 322
+	name = "STATE_322"
+	provinces = {
+		1716 8727 11324 11372 11405 11463
+	}
+	resources = {
+		energetics = 4
+		refined_metals = 0
+		polymers = 0
+		hypertech = 0
+		salvage = 0
+		electronics = 6
+	}
+	history = {
+		owner = NOM
+		add_core_of = NOM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			11372 10 #Oldenburg
+		}
+	}
+	manpower = 22622
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

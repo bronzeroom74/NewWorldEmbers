@@ -1,0 +1,36 @@
+
+state = {
+	id = 1285
+	name = "STATE_1285"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			21160 = { naval_base = 2 }
+			21192 = { naval_base = 2 }
+		}
+		victory_points = {
+			21169 20 #Ismailia
+			}
+			
+		victory_points = {
+			21160 10 #Suez
+			}
+		
+		
+		victory_points = {
+			21192 20 #Port Said
+			}
+			
+		}
+		
+	provinces = {
+		459 19209 21160 21161 21162 21165 21169 21173 21182 21183 21192 
+	}
+	manpower = 42000
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

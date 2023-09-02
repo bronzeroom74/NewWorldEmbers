@@ -1,0 +1,22 @@
+
+state = {
+	id = 654
+	name = "STATE_654"
+	history = {
+		owner = LIE
+		add_core_of = LIE
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4426 1 #Dornbirn
+		}
+	}
+	provinces = {
+		467 4426 13717 13789 13828
+	}
+	manpower = 15483
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

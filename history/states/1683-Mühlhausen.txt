@@ -1,0 +1,26 @@
+state = {
+	id = 1683
+	name = "STATE_1683"
+	resources = {
+		energetics = 0
+		refined_metals = 4
+		polymers = 0
+		hypertech = 0
+		salvage = 5
+		electronics = 0
+	}
+	provinces = {
+		12142 12215
+	}
+	history = {
+		owner = FOT
+		add_core_of = FOT
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower = 13183
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

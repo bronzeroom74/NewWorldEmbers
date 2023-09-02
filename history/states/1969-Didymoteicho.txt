@@ -1,0 +1,23 @@
+
+state = {
+	id = 1969
+	name = "STATE_1969"
+
+	history = {
+		owner = BLU
+		add_core_of = BLU
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces = {
+		2680 3417 
+	}
+	manpower = 1732
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

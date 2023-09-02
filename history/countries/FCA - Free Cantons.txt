@@ -1,0 +1,24 @@
+﻿capital = 647
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = ascension
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 10
+	aggression = 10
+	absolution = 75
+	adaptation = 5
+	apocalypse = 0
+}
+
+add_ideas = fca_papal_obligation
+
+recruit_character = FCA_federation

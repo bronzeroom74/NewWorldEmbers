@@ -1,0 +1,36 @@
+
+state = {
+	id = 346
+	name = "STATE_346"
+	resources = {
+		energetics = 4
+		refined_metals = 0
+		polymers = 3
+		hypertech = 0
+		salvage = 0
+		electronics = 4
+	}
+	provinces = {
+		6495 7990 11417 11472 11499 11505 11539 11551 20695
+	}
+	history = {
+		owner = NET
+		add_core_of = NET
+		add_core_of = UFS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			11551 5 #Emmen
+		}
+		victory_points = {
+			11472 5 #Assen
+		}
+	}
+	manpower = 23600
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

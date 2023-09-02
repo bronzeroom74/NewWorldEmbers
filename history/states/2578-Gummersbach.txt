@@ -1,0 +1,21 @@
+state = {
+	id = 2578
+	name = "STATE_2578"
+	provinces = {
+		8947 12422
+	}
+	history = {
+		owner = STR
+		add_core_of = STR
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			8947 2 #Gummersbach
+		}
+	}
+	manpower = 5950
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,26 @@
+
+state = {
+	id = 1452
+	name = "STATE_1452"
+
+	history = {
+		owner = LOC
+		add_core_of = LOC
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			19840 10
+		}
+
+	}
+
+	provinces = {
+		19838 19840
+	}
+	manpower = 17568
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

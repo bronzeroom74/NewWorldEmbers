@@ -1,0 +1,21 @@
+
+state={
+	id=610
+	name="STATE_610"
+	history={
+		owner = CDA
+		add_core_of = CDA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		13487 13548 13564 13579 13608 
+	}
+	manpower = 29393
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

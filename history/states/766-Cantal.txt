@@ -1,0 +1,20 @@
+state = {
+	id = 766
+	name = "STATE_766"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			9609 2 #Aurillac
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		174 2229 7342 8068 9609 14416 14454 
+	}
+	manpower = 19090
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

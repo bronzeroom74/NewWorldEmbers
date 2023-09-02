@@ -1,0 +1,26 @@
+
+state = {
+	id = 620
+	name = "STATE_620"
+
+	history = {
+		owner = BAT
+		add_core_of = BAT
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			13693 5
+		}
+
+	}
+
+	provinces = {
+		1219 7386 8273 13663 13677 13712 13723 13731
+	}
+	manpower = 24090
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

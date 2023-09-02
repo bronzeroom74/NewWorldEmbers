@@ -1,0 +1,21 @@
+state = {
+	id = 1466
+	name = "STATE_1466"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14073 2
+		}
+	}
+	provinces = {
+		14072 14073 14091 14116 14131 
+	}
+	manpower = 28511
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

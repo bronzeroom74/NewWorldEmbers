@@ -1,0 +1,23 @@
+state = {
+	id = 1665
+	name = "STATE_1665"
+	provinces = {
+		6475 8274 8620 12228 12269 12339
+	}
+	history = {
+		owner = BER
+		add_core_of = BER
+		victory_points = {
+			8274 10 #Liegnitz
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	manpower = 24842
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

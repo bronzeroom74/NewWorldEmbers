@@ -1,0 +1,19 @@
+
+state = {
+	id = 1657
+	name = "STATE_1657"
+	history = {
+		owner = CHU
+		add_core_of = CHU
+		#buildings = {
+		#	infrastructure = 3
+		#}
+	}
+	provinces = {
+		21736
+	}
+	manpower = 1 #8048
+	buildings_max_level_factor = 1.000
+	state_category = wasteland #rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,26 @@
+
+state = {
+	id = 534
+	name = "STATE_534"
+	history = {
+		owner = NRM
+		add_core_of = NRM
+		buildings = {
+			infrastructure = 4
+			12923 = { naval_base = 3 }
+		}
+		victory_points = {
+			12923 2 #Cherbourg-Octeville
+		}
+		victory_points = {
+			7592 2 #Saint-Lô
+		}
+	}
+	provinces = {
+		299 4734 6611 7592 9430 12923 13151 13166 13244 20500 
+	}
+	manpower = 43850
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

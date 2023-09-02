@@ -1,0 +1,29 @@
+state = {
+	id = 1827
+	name = "STATE_1827"
+			
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+			2333 = { naval_base = 1 }
+		}
+		victory_points = {
+			2333 10 #Safi
+			}
+			
+		victory_points = {
+			15746 2 #Youssoufia
+			}
+	}
+	
+	provinces = {
+		1775 2333 3804 15746 15749 
+	}
+	manpower = 21840
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,27 @@
+
+state = {
+	id = 399
+	name = "STATE_399"
+	provinces = {
+		4840 6955 11821 11842 11866 19894 
+	}
+	history = {
+		owner = NET
+		add_core_of = NET
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			11821 20 #Utrecht
+		}
+		victory_points = {
+			11866 5 #Nieuwegein
+		}
+	}
+	manpower = 44850
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

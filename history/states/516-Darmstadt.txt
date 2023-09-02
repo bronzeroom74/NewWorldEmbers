@@ -1,0 +1,26 @@
+
+state = {
+	id = 516
+	name = "STATE_516"
+
+	history = {
+		owner = STR
+		add_core_of = STR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			12799 10 #Darmstadt
+		}
+	}
+
+	provinces = {
+		3861 9467 12742 12799 20727
+	}
+	manpower = 50362
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

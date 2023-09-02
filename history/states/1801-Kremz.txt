@@ -1,0 +1,28 @@
+state={
+	id=1801
+	name="STATE_1801"
+	resources = {
+		energetics = 0
+		refined_metals = 3
+		polymers = 2
+		hypertech = 0
+		salvage = 6
+		electronics = 0
+	}
+	history={
+		owner = BLP
+		add_core_of = BLP
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1867 3932 5716 6995 8781 13232 13238 
+	}
+	manpower = 16233
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

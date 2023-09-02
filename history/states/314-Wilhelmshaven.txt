@@ -1,0 +1,25 @@
+
+state = {
+	id = 314
+	name = "STATE_314"
+	provinces = {
+		9366 11224 11299 20687 20688 20696
+	}
+	history = {
+		owner = NOM
+		add_core_of = NOM
+		buildings = {
+			infrastructure = 4
+			20688 = { naval_base = 8 }
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			20688 5 #Wilhelmshaven
+		}
+	}
+	manpower = 21102
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

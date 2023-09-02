@@ -1,0 +1,32 @@
+
+state = {
+	id = 335
+	name = "STATE_335"
+
+	history = {
+		owner = BER
+		add_core_of = BER
+		add_core_of = FRE
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			11924 5
+		}
+		victory_points = {
+			8903 2
+		}
+
+	}
+
+	provinces = {
+		1092 6025 8362 8903 9498 9585 11822 11878 11879 11924 11966 12023
+	}
+	manpower = 24590
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

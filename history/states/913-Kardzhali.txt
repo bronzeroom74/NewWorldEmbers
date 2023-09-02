@@ -1,0 +1,22 @@
+
+state = {
+	id = 913
+	name = "STATE_913"
+	history = {
+		owner = ONE
+		add_core_of = ONE
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			20362 5 
+		}
+	}
+	provinces = {
+		20362 20374 20375 
+	}
+	manpower = 9016
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

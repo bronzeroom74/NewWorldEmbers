@@ -1,0 +1,22 @@
+
+state = {
+	id = 1329
+	name = "STATE_1329"
+	provinces = {
+		9162 10756 19928 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			19928 2 #Wisaginia
+		}
+		buildings = {
+			infrastructure = 2
+		}
+  	}
+	manpower = 5526
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+}

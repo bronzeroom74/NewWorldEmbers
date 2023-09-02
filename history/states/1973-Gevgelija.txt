@@ -1,0 +1,26 @@
+
+state = {
+	id = 1973
+	name = "STATE_1973"
+
+	history = {
+		owner = BLU
+		add_core_of = BLU
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			1945 2 
+		}
+
+	}
+
+	provinces = {
+		6105 
+	}
+	manpower = 1568
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

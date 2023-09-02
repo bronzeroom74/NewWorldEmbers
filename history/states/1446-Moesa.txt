@@ -1,0 +1,19 @@
+
+state = {
+	id = 1446
+	name = "STATE_1446"
+	history = {
+		owner = FCA
+		add_core_of = FCA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		14063
+	}
+	manpower = 5445
+	state_category = enclave
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,25 @@
+
+state = {
+	id = 451
+	name = "STATE_451"
+	history = {
+		owner = HOK
+		add_core_of = HOK
+		buildings = {
+			infrastructure = 4
+			19870 = { naval_base = 1 }
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			19870 2 #Middelburg
+		}
+	}
+	provinces = {
+		4251 19870 19871 
+	}
+	manpower = 16848
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

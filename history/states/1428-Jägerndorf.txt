@@ -1,0 +1,19 @@
+
+state={
+	id=1428
+	name="STATE_1428"
+	history={
+		owner = MPR
+		add_core_of = MPR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		2167 12600 12624 
+	}
+	manpower = 13160
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

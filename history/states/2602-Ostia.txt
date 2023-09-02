@@ -1,0 +1,18 @@
+state = {
+	id = 2602
+	name = "STATE_2602"
+	history = {
+		owner = COL
+		add_core_of = COL
+		#buildings = {
+		#	infrastructure = 4
+		#}
+	}
+	provinces = {
+		21731
+	}
+	manpower = 1 #20865
+	state_category = wasteland #large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,22 @@
+
+state = {
+	id = 448
+	name = "STATE_448"
+	history = {
+		owner = RAT
+		add_core_of = RAT
+		victory_points = {
+			12664 2 #Abbeville
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		2973 4933 5208 9556 12664 12760 12790 19884 
+	}
+	manpower = 21037
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

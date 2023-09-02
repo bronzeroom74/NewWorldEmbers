@@ -1,0 +1,27 @@
+﻿capital = 1778
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = absolution
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+add_opinion_modifier = {
+	target = SON
+	modifier = WAF_threatening_our_existance
+}
+
+set_popularities = {
+	ascension = 10
+	aggression = 10
+	absolution = 75
+	adaptation = 5
+	apocalypse = 0
+}
+
+recruit_character = FRI_specht

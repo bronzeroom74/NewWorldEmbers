@@ -1,0 +1,19 @@
+
+state = {
+	id = 2012
+	name = "STATE_2012"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		2895 6309 
+	}
+	manpower = 400
+	state_category = wasteland
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

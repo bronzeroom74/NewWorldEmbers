@@ -1,0 +1,22 @@
+state = {
+	id = 2332
+	name = "STATE_2332"
+	provinces = {
+		6838 11951 19872 19873 19895 21689
+	}
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+			infrastructure = 4
+			11951 = { naval_base = 2 }
+		}
+		victory_points = {
+			11951 10 #Dordrecht
+		}
+	}
+	manpower = 41320
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

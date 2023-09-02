@@ -1,0 +1,29 @@
+﻿capital = 1745
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = ascension
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 75
+	aggression = 10
+	absolution = 10
+	adaptation = 5
+	apocalypse = 0
+}
+
+recruit_character = RUK_rhine_senate
+
+create_faction = "Rheinbund"
+
+RUK = {add_to_faction = RHW}
+RUK = {add_to_faction = RRC}
+RUK = {add_to_faction = SLD}
+RUK = {add_to_faction = STR}

@@ -1,0 +1,206 @@
+# usage:
+## set_temp_variable = { autonomy_amount = 50 }
+## set_state_autonomy_effect = yes
+set_state_autonomy_effect = {
+	custom_effect_tooltip = SET_STATE_AUTONOMY_EFFECT_TT
+	hidden_effect = {
+		set_variable = { state_autonomy = autonomy_amount }
+		clamp_variable = {
+			var = state_autonomy
+			min = 0
+			max = 100
+		}
+		update_state_autonomy_modifier_effect = yes
+	}
+}
+
+# usage:
+## set_temp_variable = { autonomy_amount = 50 }
+## add_state_autonomy_effect = yes
+add_state_autonomy_effect = {
+	custom_effect_tooltip = ADD_STATE_AUTONOMY_EFFECT_TT
+	hidden_effect = {
+		add_to_variable = { state_autonomy = autonomy_amount }
+		clamp_variable = {
+			var = state_autonomy
+			min = 0
+			max = 100
+		}
+		update_state_autonomy_modifier_effect = yes
+	}
+}
+
+# usage:
+## update_state_autonomy_modifier_effect = yes
+update_state_autonomy_modifier_effect = {
+	hidden_effect = {
+		set_variable = { state_autonomy_modifier_var = state_autonomy }
+		multiply_variable = { state_autonomy_modifier_var = -0.01 }
+		if = {
+			limit = {
+				has_dynamic_modifier = { modifier = coring_autonomy_modifier }
+			}
+			force_update_dynamic_modifier = yes
+			if = {
+				limit = {
+					check_variable = { state_autonomy = 0 }
+				}
+				clear_variable = state_autonomy
+				clear_variable = state_autonomy_modifier_var
+				remove_dynamic_modifier = { modifier = coring_autonomy_modifier }
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { state_autonomy > 0 }
+			}
+			add_dynamic_modifier = { modifier = coring_autonomy_modifier }
+		}
+	}
+}
+
+# usage:
+## set_temp_variable = { development_amount = 1 }
+## set_state_development_effect = yes
+set_state_development_effect = {
+	custom_effect_tooltip = SET_STATE_DEVELOPMENT_EFFECT_TT
+	hidden_effect = {
+		set_variable = { state_development = development_amount }
+		clamp_variable = {
+			var = state_development
+			min = 0
+			max = 5
+		}
+		update_state_development_modifier_effect = yes
+	}
+}
+
+# usage:
+## set_temp_variable = { development_amount = 1 }
+## add_state_development_effect = yes
+add_state_development_effect = {
+	custom_effect_tooltip = ADD_STATE_DEVELOPMENT_EFFECT_TT
+	hidden_effect = {
+		add_to_variable = { state_development = development_amount }
+		clamp_variable = {
+			var = state_development
+			min = 0
+			max = 5
+		}
+		update_state_development_modifier_effect = yes
+	}
+}
+
+# usage:
+## update_state_development_modifier_effect = yes
+update_state_development_modifier_effect = {
+	hidden_effect = {
+		set_variable = { state_development_modifier_var_slots = state_development }
+		set_variable = { state_development_modifier_var_manpower = state_development }
+		multiply_variable = { state_development_modifier_var_manpower = 0.05 }
+		set_variable = { state_development_modifier_var_resources = state_development }
+		multiply_variable = { state_development_modifier_var_resources = 0.1 }
+		set_variable = { state_development_modifier_var_attack = state_development }
+		multiply_variable = { state_development_modifier_var_attack = 0.01 }
+		set_variable = { state_development_modifier_var_defense = state_development }
+		multiply_variable = { state_development_modifier_var_defense = 0.02 }
+		if = {
+			limit = {
+				has_dynamic_modifier = { modifier = state_development_modifier }
+			}
+			force_update_dynamic_modifier = yes
+			if = {
+				limit = {
+					check_variable = { state_development = 0 }
+				}
+				clear_variable = state_development
+				clear_variable = state_development_modifier_var_slots
+				clear_variable = state_development_modifier_var_manpower
+				clear_variable = state_development_modifier_var_resources
+				clear_variable = state_development_modifier_var_attack
+				clear_variable = state_development_modifier_var_defense
+				remove_dynamic_modifier = { modifier = state_development_modifier }
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { state_development > 0 }
+			}
+			add_dynamic_modifier = { modifier = state_development_modifier }
+		}
+	}
+}
+
+add_food_level = {
+	custom_effect_tooltip = add_food_level_tt
+	hidden_effect = {
+		add_to_variable = { pol_sustenance_var = 1 }
+		if = {
+			limit = {
+				check_variable = { pol_sustenance_var > 2 } check_variable = { pol_sustenance_var < -3 }
+			}
+			add_political_power = 0
+		}
+		else_if = {
+			limit = { check_variable = { pol_sustenance_var = 2 } }
+			add_ideas = groceries_o_plenty
+		}
+		else_if = {
+			limit = { check_variable = { pol_sustenance_var = 1 } }
+			add_ideas = a_nation_fed
+		}
+		else_if = {
+			limit = { check_variable = { pol_sustenance_var = 0 } }
+			add_ideas = wasteland_struggle
+		}
+		else_if = {
+			limit = { check_variable = { pol_sustenance_var = -1 } }
+			add_ideas = food_shortages
+		}
+		else_if = {
+			limit = { check_variable = { pol_sustenance_var = -2 } }
+			add_ideas = food_for_the_few
+		}
+		else_if = {
+			limit = { check_variable = { pol_sustenance_var = -3 } }
+			add_ideas = rampant_starvation
+		}
+	}
+}
+
+remove_food_level = {
+	custom_effect_tooltip = remove_food_level_tt
+	hidden_effect = {
+		subtract_from_variable = { pol_sustenance_var = 1 }
+		if = {
+			limit = {
+				check_variable = { pol_sustenance_var > 2 } check_variable = { pol_sustenance_var < -3 }
+			}
+			add_political_power = 0
+		}
+		else_if = {
+			limit = { check_variable = { pol_sustenance_var = 2 } }
+			add_ideas = groceries_o_plenty
+		}
+		else_if = {
+			limit = { check_variable = { pol_sustenance_var = 1 } }
+			add_ideas = a_nation_fed
+		}
+		else_if = {
+			limit = { check_variable = { pol_sustenance_var = 0 } }
+			add_ideas = wasteland_struggle
+		}
+		else_if = {
+			limit = { check_variable = { pol_sustenance_var = -1 } }
+			add_ideas = food_shortages
+		}
+		else_if = {
+			limit = { check_variable = { pol_sustenance_var = -2 } }
+			add_ideas = food_for_the_few
+		}
+		else_if = {
+			limit = { check_variable = { pol_sustenance_var = -3 } }
+			add_ideas = rampant_starvation
+		}
+	}
+}

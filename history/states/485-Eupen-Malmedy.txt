@@ -1,0 +1,22 @@
+
+state = {
+	id = 485
+	name = "STATE_485"
+
+	history = {
+		owner = WAL
+		add_core_of = WAL
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces = {
+		7144 16442 19904 
+	}
+	manpower = 7000
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

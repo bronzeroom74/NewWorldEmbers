@@ -1,0 +1,28 @@
+﻿capital = 1750
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = ascension
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 92
+	aggression = 5
+	absolution = 3
+	adaptation = 0
+	apocalypse = 0
+}
+
+add_ideas = {
+	#PCO_militant_remnants_idea
+	PCO_friends_across_river_idea
+}
+
+recruit_character = PCO_marschall_dietrich
+

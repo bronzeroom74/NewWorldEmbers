@@ -1,0 +1,24 @@
+state = {
+	id = 1920
+	name = "STATE_1920"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			15680 = { naval_base = 3 }
+			infrastructure = 2
+		}
+		victory_points = {
+			15680 40 #Beirut
+		}
+	}
+	
+	provinces = {
+		15680 
+	}
+	manpower = 39158
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

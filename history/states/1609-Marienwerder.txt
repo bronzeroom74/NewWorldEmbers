@@ -1,0 +1,28 @@
+
+state = {
+	id = 1609
+	name = "STATE_1609"
+
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			11210 2 #Deutsch Eylau
+		}
+		victory_points = {
+			11171 2 #Marienwerder
+		}
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces = {
+		11122 11138 11171 11210 20477 
+	}
+	manpower = 5407
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

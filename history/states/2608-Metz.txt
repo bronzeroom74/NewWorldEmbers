@@ -1,0 +1,28 @@
+
+state = {
+	id = 2608
+	name = "STATE_2608"
+
+	history = {
+		owner = VRD
+		add_core_of = VRD
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			13059 10 
+		}
+
+	}
+
+	provinces = {
+		3333 12984 13059 13205 16096 16295 
+	}
+	manpower = 41772
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

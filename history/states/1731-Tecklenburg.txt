@@ -1,0 +1,18 @@
+state = {
+	id = 1731
+	name = "STATE_1731"
+	provinces = {
+		4109 7503 11675 20699
+	}
+	history = {
+		buildings = {
+			infrastructure = 4
+		}
+		owner = RED
+		add_core_of = RED
+	}
+	manpower = 7979
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

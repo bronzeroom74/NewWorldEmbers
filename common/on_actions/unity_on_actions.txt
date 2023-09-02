@@ -1,0 +1,18 @@
+on_actions = {
+#	on_startup = {
+#		effect = {
+#		}
+#	}
+
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					calculate_daily_country_unity = yes
+				}
+				set_temp_variable = { unity_amount = unity_gain_temp }
+				add_country_unity = yes
+			}
+		}
+	}
+}

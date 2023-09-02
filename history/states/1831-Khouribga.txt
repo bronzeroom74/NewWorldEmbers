@@ -1,0 +1,25 @@
+
+state = {
+	id = 1831
+	name = "STATE_1831"
+			
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			15717 5 #Khouribga
+			}
+	}
+	
+	provinces = {
+		7567 7905 15717 20930 
+	}
+	manpower = 12558
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

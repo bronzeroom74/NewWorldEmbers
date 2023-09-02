@@ -1,0 +1,45 @@
+﻿l_english:
+
+BLP_bloody_barons_idea:0 "Bloody Barons"
+BLP_bloody_barons_idea_desc:0 "From their stronghold in Brno, the Bloody Barons of Czechia extort a toll of blood and service from the local wastelanders. Blood for their cravings and strange experiments, work for their ego and to support their army."
+
+SGG_bloody_hand_idea:0 "Legions of the Bloody Hand"
+SGG_bloody_hand_idea_desc:0 "Serving under the most deranged of the Bloody Barons, the Sanguinary guard has wholly dedicated themselves to be the claw that rips out the enemies heart.\nThe Bloodbags will resist, or we will bathe in their insides, one way or the other, we will have their blood!"
+
+BLP_frenzy_recovery_idea:0 "Recovering from §RBloodfrenzy§!"
+BLP_frenzy_recovery_idea_desc:0 "The Frenzy has subsided, and the Barons are thinking clearly again."
+
+BLP_frenzy_active_idea:0 "Active §RBloodfrenzy§!"
+BLP_frenzy_active_idea_desc:0 "The Bloody Barons have once again worked themselves up into a frenzy, calling on their servants to provide more blood, consequences be damned!"
+
+czechia.2.t:0 "The Moravian Proposal"
+czechia.2.d:0 "Olomouc is ours by right of blood and conquest, or at least so the Barons claim.\nThe 'Emergency Government' that has recently put itself in charge of Moravia does however complicate our acquisition of this new harvesting-ground. With the Baron's heads quite clear after the most recent frenzy, they have decided to approach the issue of the emerging Moravian State with an unusually diplomatic stance.\nIf we can cripple this new state by forcing concessions from them before they can gain traction, their territories will serve as fertile grounds for conquest even in a few years down the line.\nHowever, strong as we may be, Moravia does have a formidable defense force, and might not stand down if it is only ourselves that are threatening them.\n\nThe Legio Respublika Czeckia desires Zwittau, and would likely support our attempt to crush another 'rival government' in its infancy.\nIf we want to be fully secure in winning this without needing to fight, we could additionally invite the Thousand Banners to the partition, promising them Jägerndorf."
+czechia.2.a:0 "Just send our Demand"
+czechia.2.b:0 "Invite the Legio to the table"
+czechia.2.c:0 "Invite the Legio and the Banners"
+
+czechia.3.t:0 "Demands from down South"
+czechia.3.d:0 "The Bloodpact has demanded Olomouc, and is threatening war if we do not hand over the territory. There is a good chance that we can take on the Bloodpact while they don't have allies, especially if they aren't in a frenzy at the moment."
+czechia.3.a:0 "We have no choice but to accept"
+czechia.3.b:0 "We will resist!"
+
+czechia.4.t:0 "Demands from our neighbours"
+czechia.4.d:0 "The Bloodpact has demanded Olomouc, and is threatening war if we do not hand over the territory. Additionally, they seem to have allied with the Legio Respublika Czeckia, who are thirsting for Zwittau. There is a slim chance that we can take on the Bloodpact and the Legio but they most certainly have us outnumbered and outgunned. Still, can we give up our integral land so easily?"
+czechia.4.a:0 "We have no choice but to accept"
+czechia.4.b:0 "We will resist!"
+
+czechia.5.t:0 "The Ultimatum"
+czechia.5.d:0 "Shocking news has reached Ostrave today\n\nA Coalition of the Bloodpact, Legio Respublika Czeckia as well as the Thousand Banners has formed with the goal of curtailing our government.\nThey are demanding we hand over Olomouc, Zwittau and Jägerndorf, which together make up about a third of our territory.\nWhile this would be a crippling blow to our country, we don't really see a way around this, as it seems impossible to beat the entire coalition in a war all by ourselves. Moravia might be a failed state so soon after it's creation..."
+czechia.5.a:0 "We have no choice but to accept"
+czechia.5.b:0 "We will resist!"
+
+czechia.6.t:0 "The Partition of Moravia"
+czechia.6.d:0 "News has reached us this morning, that in a rare showcase of diplomacy, a coalition of Czech nations, namely the Thousand Banners, Legio Respublika Czeckia as well as the Bloodpact have accomplished the partial partition of Moravia.\n\nThe Moravian Protectorate had only recently arisen, uniting multiple nearby tribes and settlements under what was claimed to be the legitimate remnants of the Czechoslovakian government. With the loss of a good third of their territory, as well as heavy industrial and military restrictions, it seems Moravia is doomed to be a footnote in the history of Europe once more.\n\nThe three nations of the coalition have already assured others that this was a one-time affair, and no further partitions are planned as of yet."
+czechia.6.a:0 "Another dream dies"
+
+
+
+BLP_bloody_expansion_cat:0 "§RSanguine Acquisitions§!"
+demand_olomouc:0 "Divy up Moravia"
+
+

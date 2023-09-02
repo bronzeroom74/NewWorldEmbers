@@ -1,0 +1,34 @@
+state = {
+	id = 1710
+	name = "STATE_1710"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 0
+		hypertech = 1
+		salvage = 3
+		electronics = 7
+	}
+	provinces = {
+		716 6201 7932 9110 10927 10938 20649 21678
+	}
+	history = {
+		owner = DVK
+		add_core_of = DVK
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			9110 5 #Flensburg
+		}
+		victory_points = {
+			10927 2 #Schleswig
+		}
+	}
+	manpower = 22724
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

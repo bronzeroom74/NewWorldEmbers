@@ -1,0 +1,20 @@
+
+state = {
+	id = 1902
+	name = "STATE_1902"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = { 21229 20 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		21229 
+	}
+	manpower = 5158
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

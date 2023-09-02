@@ -1,0 +1,45 @@
+﻿capital = 661
+
+oob = ""
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = absolution
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 75
+	aggression = 10
+	absolution = 10
+	adaptation = 5
+	apocalypse = 0
+}
+
+add_ideas = ark_ark_riches
+add_ideas = ark_ark_life
+add_ideas = aggressive_reclusion
+add_ideas = market_lockdown
+add_ideas = a_nation_fed
+add_ideas = prewar_enlightenment
+add_offsite_building = { type = arms_factory level = 3 }
+add_offsite_building = { type = industrial_complex level = 2 }
+
+set_power_balance = {
+
+	id = HEL_balance
+
+	left_side = HEL_left_side
+
+	right_side = HEL_right_side
+
+	set_value = 0.1
+
+}
+
+recruit_character = HEL_huber

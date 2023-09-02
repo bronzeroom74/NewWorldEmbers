@@ -1,0 +1,28 @@
+
+state = {
+	id = 1284
+	name = "STATE_1284"
+					
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			5075 10 #Damanhur
+			}
+			
+		victory_points = {
+			21186 5 #Idku
+			}
+	}
+	
+	provinces = {
+		1995 2723 5075 7172 21159 21166 21168 21186 21190 
+	}
+	manpower = 96063
+	state_category = large_city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,50 @@
+focus_tree = {
+	id = LOR_nf
+	country = {
+		factor= 0
+		modifier = {
+			add = 50
+			tag = LOR
+		}
+	}
+
+	#Starting Focuses
+	focus = {
+		id = LOR_rise_of_kingdom
+		icon =
+		cost = 7
+		x = 15
+		y = 1
+		completion_reward = {
+			country_event = { id = nf_lor.1 }
+		}
+	}
+	focus = {
+		id = LOR_the_backstabbers
+		icon = 
+		cost = 7
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = LOR_rise_of_kingdom
+		}
+		relative_position_id = LOR_rise_of_kingdom
+		completion_reward = {
+			country_event = { id = nf_lor.2 }
+		}
+	}
+	focus = {
+		id = LOR_our_exile
+		icon = 
+		cost = 7
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = LOR_the_backstabbers
+		}
+		relative_position_id = LOR_the_backstabbers
+		completion_reward = {
+			country_event = { id = nf_lor.3 }
+		}
+	}
+}

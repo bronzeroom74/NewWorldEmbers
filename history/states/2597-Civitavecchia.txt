@@ -1,0 +1,20 @@
+state = {
+	id = 2597
+	name = "STATE_2597"
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		victory_points = { 14895 5 }
+		buildings = {
+			infrastructure = 4
+			14895 = { naval_base = 5 }
+		}
+	}
+	provinces = {
+		14893 14895
+	}
+	manpower = 20505
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,56 @@
+﻿l_english:
+
+COE_puppet_master_idea:0 "Red Heart of the Ruhr"
+COE_puppet_master_idea_desc:0 "Once Essen was the industrial heart of germany, its myriad chimneys spewing the glorious smoke of industrialization, its brave workers venturing into the depths of Coal mines and working the enourmous foundries.\nToday, we are working on reviving this heart, funneling resources from our allies into restoring the cities many factories and mines.\nAdditionally, in an effort to integrate the militaries of our disparate forces, we have begun training joined battalions with both our own soldiers, and those of our comrades.\n\n§RCan you hear the distant churning?\nThats the sound of progress Son!\nCan you see the great Gears turning?\nWe stand together, all for one!\nCan you feel the Fires burning?\nIn the hearts of everyone?\nI can feel our strength returning,\nFor the Revolution has begun!§!\n§YChant of Prometheism§!"
+SWC_hammer_sickle_gun_idea:0 "Hammer, Sickle, Gun"
+SWC_hammer_sickle_gun_idea_desc:0 "As our comrades at home weave the strands of steel in the forges and factories, so must our brave Red Soldiers weave a masterwork of blood and death.\nPrometheism can only survive when we are at all times an guard for the reactionaries and monsters that roam the lands, both the be exterminated with equal zeal!"
+SWC_heavy_industry_above_all_idea:0 "Heavy Industry above all"
+SWC_heavy_industry_above_all_idea_desc:0 "Steel, Glass and Cement.\nThose are the materials our future will be build with!\nIt is imperative that we produce as many as possible, for ourselves and our Comrades everywhere. Even if it might mean we have to make our valiant workers do extra shifts and cut down on other spending, we must produce to bring the §RRed Flame of Prometheus§! to all Mankind!"
+MPC_ruhr_coal_mines_idea:0 "Mining-Cities"
+MPC_ruhr_coal_mines_idea_desc:0 "In the old Tunnels that snake throughout the earth in much of the Ruhr-area we have made our home. Legends tell of the twin gods of Kurp and Aurubis that once created our kind, though as all higher powers do, they abandoned us.\nThe Humans above recently brought a new light to our kind\n§RThe Red Flame of Prometheus§!.\nToday, we work tirelessly to supply our surface-comrades with the materials to fuel the coming liberation of the workers.\nThe §RRed Flame§! burns as above, so below!"
+PCO_friends_across_river_idea:0 "Our friends along the River"
+PCO_friends_across_river_idea_desc:0 "For the Promethian cause, we are funneling resources towards Essen, to restore the city to splendor, so that it may act as the Beacon that projects the liberating light of the §RRed Flame§! across all of europe."
+PCO_militant_remnants_idea:0 "Legacy of Red Hill"
+PCO_militant_remnants_idea_desc:0 "Unlike our comrades, we do not hail from these lands. Once, we fought against the Kingdom of Lorraine to strike free our people of their feudalist yoke...\n§RWe failed§!\nOn Red Hill we were trapped and slaughtered, more than 70% of our cause perishing. The rest fled westwards, but rejected by the Coalition, we found kindred souls in the industrial belt to the north.\nIn exchange for adopting Prometheism and swearing loyalty our people were granted land on the westbank of the Rhine.\nStill, we prepare for the inevitable day when the feudal swines once more try to snuff out our flame, so that this time, we will be the ones doing the slaughtering."
+
+COE_promethian_unity_idea:0 "Promethian Unity"
+COE_promethian_unity_idea_desc:0 "§RThe Eternal Flame of Progress shall never be extinguished!§!\nRejoice, workers of the World, for as Prometheus once brought fire to man, so too shall we bring liberty to you!"
+
+Essen_faction_name:0 "Ruhr Red Army"
+
+VLC_commie:0 "Promethean Compact"
+VLC_commie_DEF:0 "the Promethean Compact"
+VLC_commie_ADJ:0 "Promethean"
+
+UFS_commie:0 "Frisian Peoples Republic"
+UFS_commie_DEF:0 "the Frisian Peoples Republic"
+UFS_commie_ADJ:0 "Frisian"
+
+NET_commie:0 "Amsterdam Cooperative"
+NET_commie_DEF:0 "the Amsterdam Cooperative"
+NET_commie_ADJ:0 "Amsterdam"
+
+NOM_commie:0 "Redflame Legion"
+NOM_commie_DEF:0 "the Redflame Legion"
+NOM_commie_ADJ:0 "Redflame"
+
+COE_united_army_cosm:0 "Promethean Emergency Command"
+COE_united_army_cosm_DEF:0 "the Promethean Emergency Government"
+COE_united_army_cosm_ADJ:0 "Promethean"
+
+COE_gdr_cosm:0 "Promethean Worker's Republic"
+COE_gdr_cosm_DEF:0 "the Promethean Worker's Republic"
+COE_gdr_cosm_ADJ:0 "Promethean"
+
+
+rra.1.t:0 "The Brighter Flame"
+rra.1.d:0 "At last, the Mutant warlords of the Nether lay slain, their armies   have either scattered or bent the knee before our superior forces.\nIt has taken untold amounts of courage, discipline and sheer zeal for our valiant soldiers to stem the mutant hordes, but against all odds, we have proved victorious.\n\nNow, it is our duty to reach out a hand to the kneeling mutants and offer to uplift them in the light of the §RRed Flame of Prometheus§!.\nAfter all, have we not already made comrades of fanatics, mole-people and even frenchmen? What difference does it make how many limbs you have, what colour your skin is, or if you are even vaguely human?\nAll who are able to comprehend the Promethean teachings and carry the Red Flame in their hearts should be welcomed as comrades and be allowed to join in the glorious revolution.\n\nOpen the alcohol supply and double the rations this next week, for our Red Light shines upon tens of thousands of new Comrades\n§RUnto progress\nUnto Unity\nUnto Revolution!"
+rra.1.a:0 "Together towards Prometheism"
+
+rra.2.t:0 "The Darkest hour"
+rra.2.d:0 "The Day of reckoning is upon us!\n\nAlready the soldiers of the Coalition are marching across our lands, our brave but outnumbered soldiers offering desperate resistance.\nThe tyrants of the Rhine seek only one thing, To destroy everything we have built, to cast each and every one of us in chains and to snuff out the flame of Prometheism.\n\nWe can never allow this to happen!\n\nEvery man woman and child, be they human, moleman or Mutant, german french or any other nationality, must now take up arms be it at the front or in the factories.\nIt is the solemn duty of every Promethean, of every Comrade, to defend our glorious revolution till their dying breath!\n\nAlready, the High Command of the Ruhr Red Army has declared an unprecedented state of emergency, dissolving the member-countries and uniting every asset we have under a joined military command.\nLet us smash the tyrants and their soldiers together. Let their blood water our fields, let their slaves be freed, and let their bones become the foundation upon which we'll build a new and freer world!"
+rra.2.a:0 "Together, we will prevail!"
+
+rra.3.t:0 "Red Dawn"
+rra.3.d:0 "Once more, the Tyrants have fallen before our brave comrades.\nOnce more, Prometheism has proved victorious!\n\nOur soldiers and police have begun the task of rounding up the collaborators of the tyrants that once ruled the Coalition, and summarily executing them in the market squares of every city.\nRed Banners wave over every Harbour that borders our great river and the Chant of Prometheism can be heard far and wide.\nWhile skeptical, the regular citizens, our new and future comrades, have met us with cautious acceptance.\nOf course, this acceptance will be helped as we redistribute the wealth and lands of the executed merchants and tyrants to the proletariat. All who accept Prometheism shall be rewarded, and while we are well aware that many will only adopt our ideology for an economic advantage, we are confident that in time they will come to be true believers.\n\nWith this great war concluded, the Emergency Command has dissolved itself and a new civilian government has been reinstated, staffed with representatives from all over this new Promethean Republic.\n\nWhile we are now undoubtedly one of the greatest powers in Europe, we will still have to be forever vigilant, for concerning reports tell of other great powers rising from the former Capitals of Paris and Berlin. With us in the middle, it seems inevitable that a new, even greater war is on the horizon.\nBut for now, we shall celebrate this victory!"
+rra.3.a:0 "Three hurras for Liberty!"

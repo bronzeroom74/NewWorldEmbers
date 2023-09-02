@@ -1,0 +1,24 @@
+state = {
+	id = 551
+	name = "STATE_551"
+	provinces = {
+		70 2067 4942 5771 7950 8605 8815 12983 12991 13052 13087 13123 13158 13159 
+	}
+	history = {
+		owner = NRM
+		add_core_of = NRM
+		buildings = {
+			infrastructure = 4
+			2067 = { naval_base = 2 }
+		}
+		victory_points = {
+			2067 10 #Caen
+		}
+		victory_points = {
+			13052 2 #Lisieux
+		}
+	}
+	manpower = 40490
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

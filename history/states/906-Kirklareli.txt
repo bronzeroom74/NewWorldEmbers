@@ -1,0 +1,29 @@
+
+state = {
+	id = 906
+	name = "STATE_906"
+
+	history = {
+		owner = BYN
+		add_core_of = BYN
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			14973 6 
+		}
+		victory_points = {
+			8085 2 
+		}
+
+	}
+
+	provinces = {
+		206 3311 8042 8085 8824 14939 14973 21552 
+	}
+	manpower = 7098
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

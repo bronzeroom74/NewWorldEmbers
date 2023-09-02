@@ -1,0 +1,19 @@
+
+state = {
+	id = 2022
+	name = "STATE_2022"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		6478 20854 
+	}
+	manpower = 2473
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

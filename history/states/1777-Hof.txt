@@ -1,0 +1,32 @@
+
+state = {
+	id = 1777
+	name = "STATE_1777"
+	resources = {
+		energetics = 0
+		refined_metals = 3
+		polymers = 2
+		hypertech = 0
+		salvage = 4
+		electronics = 0
+	}
+	history = {
+		owner = FRI
+		add_core_of = FRI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			4753 2 #Hof
+		}
+	}
+	provinces = {
+		4753 12639 12665 12732 20775
+	}
+	manpower = 21192
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

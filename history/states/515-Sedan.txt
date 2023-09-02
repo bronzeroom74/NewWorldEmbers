@@ -1,0 +1,22 @@
+
+state = {
+	id = 515
+	name = "STATE_515"
+	history = {
+		owner = WAL
+		add_core_of = WAL
+		victory_points = {
+			19864 2 #Sedan
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		12754 19864 21691
+	}
+	manpower = 2886
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+}

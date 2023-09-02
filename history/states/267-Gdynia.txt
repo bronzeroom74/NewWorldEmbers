@@ -1,0 +1,23 @@
+
+state = {
+	id = 267
+	name = "STATE_267"
+	provinces = {
+		90 6271 6866 7803 10854 10920 10946 20545 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			10920 = { naval_base = 6 }
+		}
+		victory_points = {
+			10920 20 #Gdynia
+		}
+  	}
+	manpower = 17099
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

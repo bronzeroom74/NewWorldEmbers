@@ -1,0 +1,22 @@
+
+state = {
+	id = 420
+	name = "STATE_420"
+	provinces = {
+		5755 6917 8657 12088 12145 12162 12237 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			6917 2 #Sarny
+		}
+		buildings = {
+			infrastructure = 3
+		}
+  	}
+	manpower = 6660
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

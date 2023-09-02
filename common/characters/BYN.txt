@@ -1,0 +1,18 @@
+characters = {
+	BYN_minos = {
+		name = BYN_minos_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BYN/portrait_minos.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_adaptationists
+			traits = {
+				BYN_supremeleader_trait
+			}
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,35 @@
+
+state = {
+	id = 469
+	name = "STATE_469"
+	resources = {
+		energetics = 12
+		refined_metals = 0
+		polymers = 0
+		hypertech = 4
+		salvage = 0
+		electronics = 7
+	}
+	history = {
+		owner = RRC
+		add_core_of = RRC
+		victory_points = {
+			12434 20 #Bonn
+		}
+		victory_points = {
+			12461 2 #Euskirchen
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		12434 12461 20735
+	}
+	manpower = 28378
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

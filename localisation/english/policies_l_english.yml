@@ -1,0 +1,95 @@
+﻿l_english:
+# Category
+  culture_and_development:0 "Culture and Development"
+# Subcategory
+  science_base_policy:0 "Science Base"
+  society_type_policy:0 "Society Type"
+  outsider_views_policy:0 "Outsider Views"
+  prosperity_policy:0 "Prosperity"
+  culture_policy:0 "Culture Group"
+  sustenance_policy:0 "Nourishment"
+
+# Science Base
+  conservative_primitism:0 "Conservative Primitism"
+  conservative_primitism_desc:0 "The ashes of the old world leave us choking in ignorance and fear of what was. Once we controlled the atom, now we call it a blessing to get a fire going. Whilst we aren't savages, the line between total darkness and a glimmer of light grows thinner every year."
+  backwater_knowledge:0 "Backwater Knowledge"
+  backwater_knowledge_desc:0 "From our scrap piles and dying crops, a few scattered pages of text books of the Pre-War give us a glimmer of what we once knew. Our knowledge is simple but it's enough to survive."
+  wasteland_science:0 "Wasteland Science"
+  wasteland_science_desc:0 "Our scribes are beginning to experiment instead of salvage. Makeshift laboratories promise advances in our combined knowledge. This is a new era for what we knew, know, and will come to understand."
+  sophisticated_education:0 "Sophisticated Education"
+  sophisticated_education_desc:0 "Our schools and universities are known the wastes over for being a place for experimentation, knowledge, and record keeping. They will stand as a testament to our dedication to science and the path back to where we once stood."
+  prewar_enlightenment:0 "Prewar Enlightenment"
+  prewar_enlightenment_desc:0 "We are the envy of the wastes. While many continue to live in total ignorance in the dark, we wield the torch of science. We will pave the way onwards and upwards as we pick up the pieces of our forefathers. There is only way to go from here; onwards and upwards."
+
+# Prosperity
+  shithole:0 "Shithole"
+  shithole_desc:0 "The wastes have become us. Is there any difference between what's behind our walls or before it? There is no growth. The only thing going up is the stench of despair in the air."
+  unstable_endeavour:0 "Unstable Endeavour"
+  unstable_endeavour_desc:0 "To grow is to strive, to strive is to risk, and to risk something out here takes effort and an unshakable confidence. Whatever we go from here, it will be better than what we have left behind."
+  wasteland_operation:0 "Wasteland Operation"
+  wasteland_operation_desc:0 "It all starts with a single spark, an explosion of creation to generate the economic machine that will gather respect from our neighboring powers. It starts with a single factory; soon we will have many."
+  booming_enterprise:0 "Booming Enterprise"
+  booming_enterprise_desc:0 "Poverty is all but a myth now. Even the weakest can find a job and earn a living. Our goods, barter, and wealth are the talk of the land and is a testament to our work ethic and people."
+  riches_beyond_belief:0 "Riches Beyond Belief"
+  riches_beyond_belief_desc:0 "What is a want? Anything you want, we have it! Luxury abounds here! If only our Prewar ancestors could see us now, we know they'd be envious of the paradise we have built here!"
+
+# Outsider Views
+  aggressive_reclusion:0 "Aggressive Reclusion"
+  aggressive_reclusion_desc:0 "We've learned our lessons. Those that aren't us don't belong with us. They must be repelled at all costs. We can only protect ourselves if those not like us stay where they belong."
+  isolationism:0 "Isolationism"
+  isolationism_desc:0 "The other nations around us are kept busy with the turmoil of their neighbors. We don't have time for such petty matters. We will not interfere in the matters of the outside world; our burdens are heavy enough."
+  wasteland_travellers:0 "Wasteland Travellers"
+  wasteland_travellers_desc:0 "Travelers come from near and far to see our nation. They bring knowledge, wealth, and barter. They are an asset as long as they visit but only a select will be given the privilege of staying."
+  open_borders:0 "Open Borders"
+  open_borders_desc:0 "Why should we neglect those around us? Those that are ostracized and driven from their homes will find a place here. The masses of the Wastes, their diversity will be our strength."
+  melting_pot:0 "Melting Pot"
+  melting_pot_desc:0 "All are welcome here, regardless of background and origin. Human, mutant, it matters not. Together, we are strong. Together, we are proud. Together, we stand as citizens of this nation!"
+
+# Society Type
+  raider_gang:0 "Raider Gang"
+  military_junta:0 "Military Junta"
+  tribal_confederation:0 "Tribal Confederation"
+  technocracy:0 "Technocracy"
+  democratorship:0 "Democratorship"
+  autocracy:0 "Autocracy"
+
+# Mobilisation Laws
+  mobilization_laws:0 "Conscription Approach"
+  disorganised_militia:0 "Disorganised Militia"
+  loose_warband:0 "Loose Warband"
+  dedicated_defenders:0 "Dedicated Defenders"
+  organised_force:0 "Organised Force"
+  grand_army:0 "Grand Army"
+  tapping_the_reserves:0 "Tapping The Reserves"
+  last_ditch_effort:0 "Last Ditch Effort"
+
+# Nourishment
+  rampant_starvation:0 "Rampant Starvation"
+  food_for_the_few:0 "Food For The Few"
+  food_shortages:0 "Bare Sustenance"
+  wasteland_struggle:0 "Wasteland Struggle"
+  a_nation_fed:0 "A Nation Fed"
+  groceries_o_plenty:0 "Groceries O' Plenty"
+# Food Level Tooltips
+  add_food_level_tt:0 "This will §Gincrease§! our §Wstandard of nourishment§! by §Y1§! tier.\n"
+  remove_food_level_tt:0 "This will §Rdecrease§! our §Wstandard of nourishment§! by §Y1§! tier.\n"
+
+# Trade Law
+  trade_laws:0 "Outside Trading Approach"
+  full_privatisation:0 "Full Privatisation"
+  free_market:0 "Free Market"
+  social_market:0 "Social Market"
+  weary_trades:0 "Weary Trades"
+  closed_economy2:0 "Closed Economy"
+  full_protectionism:0 "Enforced Protectionism"
+  market_lockdown:0 "Market Lockdown"
+
+# Eco-Interventionism Laws
+  economy:0 "Eco-Interventionism Approach"
+  local_industries:0 "Local Industries"
+  decentralised_industry:0 "Decentralised Industry"
+  trader_economy:0 "Trader Economy"
+  partial_centralisation:0 "Partial Centralisation"
+  full_centralisation:0 "Full Centralisation"
+  military_primacy:0 "Military Primacy"
+  war_time_effort:0 "Total War Effort"

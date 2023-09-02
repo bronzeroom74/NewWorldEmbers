@@ -1,0 +1,21 @@
+state = {
+	id = 1941
+	name = "STATE_1941"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+			21377 = { naval_base = 1 }
+		}
+		victory_points = { 21377 2 }
+		
+	}
+	provinces = {
+		7118 21377 21386 
+	}
+	manpower = 3865
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

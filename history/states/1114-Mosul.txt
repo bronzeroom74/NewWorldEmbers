@@ -1,0 +1,24 @@
+
+state = {
+	id = 1114
+	name = "STATE_1114"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4684 40 #Mosul
+		}
+	}
+	
+	provinces = {
+		4684 8149 15504 15529 18706 19239 19337 
+	}
+	manpower = 43014
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

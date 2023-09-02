@@ -1,0 +1,16 @@
+characters = {
+	STR_chancellor_leon_beck = {
+		name = STR_chancellor_leon_beck_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/STR/portrait_chancellor_leon_beck.dds"
+			}
+		}
+		country_leader = {
+			ideology = ambitious_democracy
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

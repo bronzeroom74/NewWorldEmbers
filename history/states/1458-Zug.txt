@@ -1,0 +1,21 @@
+state = {
+	id = 1458
+	name = "STATE_1458"
+	history = {
+		owner = FCA
+		add_core_of = FCA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13819 2 #Zug
+		}
+	}
+	provinces = {
+		13819
+	}
+	manpower = 3545
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

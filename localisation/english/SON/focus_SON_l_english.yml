@@ -1,0 +1,129 @@
+﻿l_english:
+#####SON OF FRUNDSBERG#####
+
+
+FOCUS_FILTER_FRUNDSBERG:0 "The Frundsberg Focus"
+FOCUS_FILTER_IRONCOMPANY:0 "Iron Company Focus"
+FOCUS_FILTER_HILMAR:0 "Hilmar's Brigade Focus"
+
+
+son_heldback:0 "The Holdback"
+son_heldback_desc:0 "Our disgraceful stalemate with the Rhine Confederation."
+
+son_shock:0 "Shellshock"
+son_shock_desc:0 "Reeling from the Holdback."
+
+son_denial:0 "Wall of Denial"
+son_denial_desc:0 "Denying the Holdback."
+
+son_anger:0 "Exploding Anger"
+son_anger_desc:0 "Anger at the Holdback."
+
+son_bargaining:0 "Bargaining with Rage"
+son_bargaining_desc:0 "Bargaining about the Holdback."
+
+son_depression:0 "Weight of Depression"
+son_depression_desc:0 "Depression from the Holdback."
+
+son_acceptance:0 "Accepting the Stalemate"
+son_acceptance_desc:0 "Starting to accept the Holdback."
+
+son_hope:0 "Hoping for the Next War"
+son_hope_desc:0 "The Holdback shouldn't stop us."
+
+son_rememberance:0 "Forever Remember"
+son_rememberance_desc:0 "The memories of the Holdback will always be the fire behind our backs. Never Forget, Never Again."
+
+son_forward_and_forget:0 "Forward and Forget"
+son_forward_and_forget_desc:0 "The Holdback didn't matter as much as we'd like to think. Forget and move Forward."
+
+####War Internal####
+son_hands_frundsberg:0 "In the Hands of Frundsberg"
+son_hands_frundsberg_desc:0 "My Mercenaries. Fractured. In my hands, two rivals."
+
+son_thrice_struck:0 "The Man who Struck Thrice"
+son_thrice_struck_desc:0 "Eisenherz, leader of the Iron Company, the man who struck thrice. His experience and tactics has always made him a great commander."
+
+son_people_person:0 "The People's Voice"
+son_people_person_desc:0 "Hilmar, leader of his own Brigade, and the people's voice. His unrelenting nature and potential to rally the troops have proved leadership skills."
+
+son_lightning:0 "Thunder and Lightning"
+son_lightning_desc:0 "Eisenherz's Loyalty has always been to his old company. Maybe I should take action against this."
+
+son_loyalty:0 "Self-Serving Loyalty"
+son_loyalty_desc:0 "Hilmar's Loyalty has always seemed to be more self-serving then most of these idiots. Maybe I should keep an eye on him."
+
+son_force:0 "A Man of Force"
+son_force_desc:0 "I am the binding thread. These idiots would be long dead and forgotten if I hadn't taken the reigns."
+
+son_fierce:0 "Fierce Fighter"
+son_fierce_desc:0 "Hilmar might not have the experience or tactics of Eisenherz, but he gets the job done."
+
+son_fright:0 "Very, Very Frightening"
+son_fright_desc:0 "Eisenherz may not have the popularity or relentlessness of Hilmar, but his tactics work in the end."
+
+son_furious:0 "Conjunction of the Furious"
+son_furious_desc:0 "The Conjuntion of the Furious. What people like to call it whenever Eisenherz, Hilmar, and I meet."
+
+####Landsknecht Devours####
+son_growing_hunger:0 "Growing Hunger"
+son_growing_hunger_desc:0 "The Landsknecht before me had absorbed quite a few other mercenary and raider groups before I took over; and it seems that after the Holdback, we may need to renew some forces and moral."
+
+son_old_companies:0 "The Old Companies"
+son_old_companies_desc:0 "I'll look towards the older companies, see if I can rouse any veterans."
+
+son_great_company:0 "The Great Company"
+son_great_company_desc:0 "Ah the Great Company, time to wake old Hawkwood from his retirement."
+
+son_iron_company:0 "The Iron Company"
+son_iron_company_desc:0 "While already a good majority of our elites, getting some more to fall back on would never hurt."
+
+son_aint_broke:0 "If It Aint Broke..."
+son_aint_broke_desc:0 "...Don't fix it. The old tactics worked well for the most part? Why should we deviate from them."
+
+son_sore_losers:0 "Sore Losers"
+son_sore_losers_desc:0 "While I'm not faulting them, the more experienced among us usually take losses the hardest."
+
+son_experience:0 "The Experienced"
+son_experience_desc:0 "Maybe with more experienced troops about, they can help us improve as a whole?"
+
+son_same_song:0 "Same Song..."
+son_same_song_desc:0 "Eisenherz is ranting to his troops again. It's starting to annoy me."
+
+son_new_companies:0 "New Companies"
+son_new_companies_dsec:0 "I'll look towards some newer companies, see if there's any new blood around."
+
+son_maneaters:0 "The Maneaters"
+son_maneaters_desc:0 "A ruthless and blood thirsty band is rampaging on our southern border. I want them."
+
+son_hilmars_brigade:0 "Hilmar's Brigade"
+son_hilmars_brigade_desc:0 "While already a major part of our group, a little bit of expansion could never hurt them."
+
+son_road_warriors:0 "Road Warriors"
+son_road_warriors_desc:0 "The Road Warriors are an up and coming band of mercs in our territory. It might be a good idea to eat them as well."
+
+son_fixing_it:0 "We're Fixing It"
+son_fixing_it_desc:0 "The fresh faces want to add new tactics to our playbook. It's time for some deviation."
+
+son_new_blood:0 "New Blood"
+son_new_blood_desc:0 "The newer among us aren't learning as well as they should be. Time to whip them into shape."
+
+son_numbers:0 "The Numbers"
+son_numbers_desc:0 "With much greater numbers in the field, our control and strength should improve massively."
+
+son_different_dance:0 "...Different Dance"
+son_different_dance_desc:0 "Hilmar is preaching to the people again. It's bugging me."
+
+son_iron_and_blood:0 "Iron and Blood"
+son_iron_and_blood_desc:0 "Blades. Bullets. Blood. Flesh. All add to our strength."
+	
+####Neighbours####
+son_looking:0 "Taking a Look"
+son_looking_desc:0 "Placeholder"
+
+son_free_pickings:0 "Free Pickings"
+son_free_pickings_desc:0 "Placeholder"
+
+son_always_hungry:0 "Unending Hunger"
+son_always_hungry_desc:0 "Placeholder"
+

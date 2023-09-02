@@ -1,0 +1,28 @@
+
+state = {
+	id = 393
+	name = "STATE_393"
+
+	history = {
+		owner = SHB
+		add_core_of = SHB
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			20673 10
+		}
+
+	}
+
+	provinces = {
+		3499 5559 9029 11787 11848 20666 20667 20673 20674
+	}
+	manpower = 24656
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

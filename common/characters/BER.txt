@@ -1,0 +1,59 @@
+characters = {
+	BER_council = {
+		name = BER_council_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/generic/Council1.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+	BER_gruber = {
+		name = BER_gruber_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BER/portrait_gruber.dds"
+			}
+			army = {
+				large = "gfx/leaders/BER/portrait_gruber.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_ascensionists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	BER_steiner = {
+		name = BER_steiner_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BER/portrait_steiner.dds"
+			}
+			army = {
+				large = "gfx/leaders/BER/portrait_steiner.dds"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

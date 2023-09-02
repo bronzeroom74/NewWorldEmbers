@@ -1,0 +1,24 @@
+state = {
+	id = 1895
+	name = "STATE_1895"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			21189 = { naval_base = 8 }
+			infrastructure = 3
+		}
+		victory_points = {
+			21189 40 #Alexandria
+		}
+	}
+	
+	provinces = {
+		8995 21181 21189 21207 
+	}
+	manpower = 79495
+	state_category = large_city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

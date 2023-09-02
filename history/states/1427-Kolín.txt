@@ -1,0 +1,23 @@
+state = {
+	id = 1427
+	name = "STATE_1427"
+	history = {
+		owner = ALE
+		add_core_of = ALE
+		victory_points = {
+			4103 2 #Kolín
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	provinces = {
+		1064 2546 3517 4103 7582 8036 8667 9347 12682 12785
+	}
+	manpower = 50875
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+}

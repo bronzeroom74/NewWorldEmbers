@@ -1,0 +1,23 @@
+state = {
+	id = 808
+	name = "STATE_808"
+	provinces = {
+		14576 14577 14611 14615 14645 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			14611 5 #Avignon
+		}
+		victory_points = {
+			14576 2 #Orange
+		}
+	}
+	manpower = 24550
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+}

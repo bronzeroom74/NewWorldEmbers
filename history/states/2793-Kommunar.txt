@@ -1,0 +1,20 @@
+
+state = {
+	id = 2793
+	name = "STATE_2793"
+	provinces = {
+		2679 17042 18548 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			2679 2 
+		}
+
+	}
+	manpower = 3051
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

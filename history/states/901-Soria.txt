@@ -1,0 +1,22 @@
+
+state = {
+	id = 901
+	name = "STATE_901"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			2372 2 #Soria
+		}
+	}
+	provinces = {
+		2372 3449 9438 14920 14944 14964 19802 
+	}
+	manpower = 15810
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

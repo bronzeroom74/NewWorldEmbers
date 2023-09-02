@@ -1,0 +1,40 @@
+
+state = {
+	id = 431
+	name = "STATE_431"
+	resources = {
+		energetics = 7
+		refined_metals = 0
+		polymers = 0
+		hypertech = 0
+		salvage = 0
+		electronics = 8
+	}
+	history = {
+		owner = SWC
+		add_core_of = SWC
+		victory_points = {
+			20737 40
+		}
+		victory_points = {
+			12193 20
+		}
+		victory_points = {
+			12234 10
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+
+	}
+
+	provinces = {
+		2781 8376 12141 12193 12234 12285 20737
+	}
+	manpower = 152512
+	buildings_max_level_factor = 1.000
+	state_category = metropolis
+	local_supplies = 0.000
+}

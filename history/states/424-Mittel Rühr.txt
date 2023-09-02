@@ -1,0 +1,29 @@
+
+state = {
+	id = 424
+	name = "STATE_424"
+
+	history = {
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		owner = COE
+		add_core_of = COE
+		victory_points = {
+			8574 10 #Recklinghausen und Marl
+		}
+		victory_points = {
+			12083 40 #Bochum und Gelsenkirchen
+		}
+	}
+
+	provinces = {
+		8574 12083
+	}
+	manpower = 77949
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

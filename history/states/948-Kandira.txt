@@ -1,0 +1,19 @@
+
+state = {
+	id = 948
+	name = "STATE_948"
+	history = {
+		owner = BYN
+		add_core_of = BYN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		3429 6880 
+	}
+	manpower = 11231
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

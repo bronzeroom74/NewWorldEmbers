@@ -1,0 +1,27 @@
+
+state = {
+	id = 441
+	name = "STATE_441"
+	history = {
+		owner = BER
+		add_core_of = BER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 0
+		}
+		victory_points = {
+			12220 5 #Görlitz
+		}
+		victory_points = {
+			7811 2 #Hoyerswerda
+		}
+	}
+	provinces = {
+		3304 6493 7811 9212 12118 12167 12184 12220
+	}
+	manpower = 15077
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

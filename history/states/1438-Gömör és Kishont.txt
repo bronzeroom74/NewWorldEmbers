@@ -1,0 +1,22 @@
+
+state={
+	id=1438
+	name="STATE_1438"
+	history={
+		owner = THI
+		add_core_of = THI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13403 2
+		}
+	}
+	provinces = {
+		879 4526 13366 13403 
+	}
+	manpower = 9500
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_bop_HEL_militarist"
+		texturefile = "gfx/interface/bop/bop_HEL_militarist_side.dds"
+	}
+	spriteType = {
+		name = "GFX_bop_HEL_militarist_improved"
+		texturefile = "gfx/interface/bop/bop_HEL_militarist_improved_side.dds"
+	}
+	spriteType = {
+		name = "GFX_bop_HEL_scientist"
+		texturefile = "gfx/interface/bop/bop_HEL_scientist_side.dds"
+	}
+	spriteType = {
+		name = "GFX_bop_HEL_scientist_improved"
+		texturefile = "gfx/interface/bop/bop_HEL_scientist_improved_side.dds"
+	}
+}

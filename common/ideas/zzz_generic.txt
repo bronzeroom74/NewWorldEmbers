@@ -1,0 +1,7 @@
+ideas = {
+	country = {
+		gen_starfall = {
+			picture = starfall
+		}
+	}
+}

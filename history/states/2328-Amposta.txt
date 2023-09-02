@@ -1,0 +1,21 @@
+state = {
+	id = 2328
+	name = "STATE_2328"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			5490 2 #Amposta
+		}
+	}
+	provinces = {
+		5490 14988 
+	}
+	manpower = 10467
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

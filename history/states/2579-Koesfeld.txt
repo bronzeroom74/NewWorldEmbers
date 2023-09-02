@@ -1,0 +1,18 @@
+state = {
+	id = 2579
+	name = "STATE_2579"
+	provinces = {
+		1053 20712
+	}
+	history = {
+		buildings = {
+			infrastructure = 4
+		}
+		owner = MPC
+		add_core_of = MPC
+	}
+	manpower = 4597
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

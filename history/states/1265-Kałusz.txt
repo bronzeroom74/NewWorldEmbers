@@ -1,0 +1,30 @@
+
+state = {
+	id = 1265
+	name = "STATE_1265"
+
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+	   		19917 5 #Kałusz
+		}
+		victory_points = {
+			2086 2 #Dolina
+		}
+	}
+
+	provinces = {
+		1124 2086 7863 13155 13194 13202 19917 
+	}
+	manpower = 27424
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 587
+	name = "STATE_587"
+	provinces = {
+		655 5017 5484 6728 7625 13267 13293 13351 13400 13416 13459 13481 13542 13557 
+	}
+	history = {
+		owner = BRI
+		add_core_of = BRI
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			13459 20 #Rennes
+		}
+		victory_points = {
+			13267 5 #Saint-Malo
+		}
+		victory_points = {
+			13351 2 #Fougères
+		}
+	}
+	manpower = 56580
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+}

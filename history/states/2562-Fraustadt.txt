@@ -1,0 +1,24 @@
+
+state = {
+	id = 2562
+	name = "STATE_2562"
+
+	history = {
+		owner = BER
+		add_core_of = BER
+		add_core_of = FRE
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces = {
+		2876 4234 9493
+	}
+	manpower = 2874
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,27 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ideology_absolution_group"
+		texturefile = "gfx/interface/ideologies/absolution_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_adaptation_group"
+		texturefile = "gfx/interface/ideologies/adaptation_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_aggression_group"
+		texturefile = "gfx/interface/ideologies/aggression_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_apocalypse_group"
+		texturefile = "gfx/interface/ideologies/apocalypse_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_ascension_group"
+		texturefile = "gfx/interface/ideologies/ascension_group.dds"
+	}
+
+}

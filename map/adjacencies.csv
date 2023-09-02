@@ -1,0 +1,780 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+15350;15368;sea;16316;-1;-1;-1;-1;;Strait of Messina crossing
+16316;16428;;-1;-1;-1;-1;-1;MESSINA_STRAIT;Strait of Messina
+18016;17556;;-1;-1;-1;-1;-1;OTRANTO_STRAIT;Strait of Otranto
+18016;17199;;-1;-1;-1;-1;-1;OTRANTO_STRAIT;Strait of Otranto
+16926;17199;;-1;-1;-1;-1;-1;OTRANTO_STRAIT;Strait of Otranto
+17862;16019;;-1;-1;-1;-1;-1;SKAGERRAK_STRAIT;Skagerrak
+16487;16019;;-1;-1;-1;-1;-1;SKAGERRAK_STRAIT;Skagerrak
+16487;17197;;-1;-1;-1;-1;-1;SKAGERRAK_STRAIT;Skagerrak
+17790;17197;;-1;-1;-1;-1;-1;SKAGERRAK_STRAIT;Skagerrak
+17433;18007;;-1;-1;-1;-1;-1;ORESUND_STRAIT;Oresund - Danish Belts
+17985;16809;;-1;-1;-1;-1;-1;GREAT_BELT_STRAIT;Great Belt - Danish Belts
+16220;17860;;-1;-1;-1;-1;-1;LITTLE_BELT_STRAIT;Little Belt - Danish Belts
+17378;16616;;-1;-1;-1;-1;-1;KIEL_CANAL;Kiel Canal
+17685;17941;;-1;-1;-1;-1;-1;BONIFACIO_STRAIT;Bonifacio Strait
+16772;16440;;-1;-1;-1;-1;-1;KERCH_STRAIT;Kerch Strait
+1754;4722;sea;17685;-1;-1;-1;-1;;Strait of Bonifacio crossing
+14733;19880;sea;17137;-1;-1;-1;-1;;Piombino-Elba
+13624;20008;sea;17829;-1;-1;-1;-1;;Ischia-Naples
+14357;20127;sea;16880;-1;-1;-1;-1;;Istria-Cherso
+20126;20127;sea;16992;-1;-1;-1;-1;;Krk-Cherso
+20126;2438;sea;16992;-1;-1;-1;-1;;Krk-Croatia
+20051;547;sea;16885;-1;-1;-1;-1;VENETIAN_BRIDGE;Venice-Mainland
+8810;19457;sea;18361;-1;-1;-1;-1;;Isle of Wight
+4251;19870;sea;16785;-1;-1;-1;-1;;Zeeland 1
+4251;19871;sea;16785;-1;-1;-1;-1;;Zeeland 2
+4251;19871;sea;16785;-1;-1;-1;-1;;Zeeland 3
+7103;19870;sea;16785;-1;-1;-1;-1;;Zeeland 4
+19854;19870;sea;16785;-1;-1;-1;-1;;Zeeland 5
+19873;19871;sea;16785;-1;-1;-1;-1;;Zeeland 6
+19872;19871;sea;16785;-1;-1;-1;-1;;Zeeland 7
+19870;19871;sea;16785;-1;-1;-1;-1;;Zeeland 8
+19873;19872;sea;16785;-1;-1;-1;-1;;Zeeland 9
+4251;19872;sea;16785;-1;-1;-1;-1;;Zeeland 10
+11951;19872;sea;16785;-1;-1;-1;-1;;South Holland Island 1
+19895;19873;sea;17639;-1;-1;-1;-1;;South Holland Island 2
+19873;19895;sea;17639;-1;-1;-1;-1;;South Holland Island 3
+6618;19872;sea;16785;-1;-1;-1;-1;;South Holland Island 4
+19895;19872;sea;17639;-1;-1;-1;-1;;South Holland Island 5
+19874;8961;sea;17256;-1;-1;-1;-1;;Netherlands islands 0
+19874;19875;sea;17256;-1;-1;-1;-1;;Netherlands islands 1
+19876;19875;sea;17256;-1;-1;-1;-1;;Netherlands islands 2
+19876;19877;sea;16080;-1;-1;-1;-1;;Netherlands islands 3
+6763;19877;sea;17819;-1;-1;-1;-1;;Netherlands islands 4
+6763;19878;sea;17819;-1;-1;-1;-1;;Netherlands islands 5
+19900;19879;sea;17819;-1;-1;-1;-1;;Netherlands islands 6
+8755;19642;sea;17967;-1;-1;-1;-1;;West Jutland Isles 1
+19643;19642;sea;17967;-1;-1;-1;-1;;West Jutland Isles 2
+19643;10671;sea;17967;-1;-1;-1;-1;;West Jutland Isles 3
+10305;19489;sea;17905;-1;-1;-1;-1;;Hjorring Isle
+7574;19621;sea;16889;-1;-1;-1;-1;;Odense Isle 1
+4072;19620;sea;16220;-1;-1;-1;-1;;Odense Isle 2
+8625;10650;sea;16809;-1;-1;-1;-1;;Odense-Sjaelland 1
+7574;9674;sea;16809;-1;-1;-1;-1;;Odense-Sjaelland 2
+10561;19533;sea;17433;-1;-1;-1;-1;;Sjaelland-Scania
+4745;19625;sea;16809;-1;-1;-1;-1;;Sjaelland-Maribo
+19624;19625;sea;16809;-1;-1;-1;-1;;Maribo Isle
+4811;19629;sea;17772;-1;-1;-1;-1;;Kalmar Island
+19450;19463;sea;17957;-1;-1;-1;-1;;Norway Islands 1
+19462;19461;sea;16505;-1;-1;-1;-1;;Norway Islands 2
+1043;19461;sea;16505;-1;-1;-1;-1;;Norway Islands 3
+19458;3231;sea;17290;-1;-1;-1;-1;;Norway Islands 4
+19459;5080;sea;16484;-1;-1;-1;-1;;Norway Islands 5
+19466;9521;sea;16420;-1;-1;-1;-1;;Norway Islands 6
+19465;181;sea;17892;-1;-1;-1;-1;;Norway Islands 7
+2263;19464;sea;16334;-1;-1;-1;-1;;Norway Islands 8
+19469;19439;sea;17515;-1;-1;-1;-1;;Norway Islands 10
+19470;19521;sea;17515;-1;-1;-1;-1;;Norway Islands 11
+19471;19522;sea;18247;-1;-1;-1;-1;;Norway Islands 12
+19472;19473;sea;18247;-1;-1;-1;-1;;Norway Islands 13
+4349;19472;sea;18247;-1;-1;-1;-1;;Norway Islands 14
+6564;19474;sea;18228;-1;-1;-1;-1;;Norway Islands 15
+19477;19476;sea;18228;-1;-1;-1;-1;;Norway Islands 16
+3995;19481;sea;17646;-1;-1;-1;-1;;Norway Islands 17
+19485;481;sea;16183;-1;-1;-1;-1;;Norway Islands 18
+19486;19520;sea;16183;-1;-1;-1;-1;;Norway Islands 19
+19487;19520;sea;16183;-1;-1;-1;-1;;Norway Islands 20
+75;19488;sea;16183;-1;-1;-1;-1;;Norway Islands 21
+75;4674;sea;16183;-1;-1;-1;-1;;Norway Islands 22
+970;19492;sea;16183;-1;-1;-1;-1;;Norway Islands 23
+19498;19499;sea;16241;-1;-1;-1;-1;;Norway Islands 24
+19494;19500;sea;16241;-1;-1;-1;-1;;Norway Islands 25
+19494;19501;sea;16241;-1;-1;-1;-1;;Norway Islands 26
+1883;19505;sea;17806;-1;-1;-1;-1;;Norway Islands 27
+1883;19506;sea;17806;-1;-1;-1;-1;;Norway Islands 28
+6602;19512;sea;17806;-1;-1;-1;-1;;Norway Islands 29
+19508;19513;sea;17806;-1;-1;-1;-1;;Norway Islands 30
+6602;19510;sea;17854;-1;-1;-1;-1;;Norway Islands 31
+6602;19511;sea;17854;-1;-1;-1;-1;;Norway Islands 32
+19467;19468;sea;16334;-1;-1;-1;-1;;Norway Islands 33
+7635;19460;sea;16420;-1;-1;-1;-1;;Norway Islands 34
+7558;19475;sea;16557;-1;-1;-1;-1;;Norway Islands 35
+19479;19480;sea;17646;-1;-1;-1;-1;;Norway Islands 36
+9113;19514;sea;16468;-1;-1;-1;-1;;Norway Islands 37
+19495;19498;sea;16183;-1;-1;-1;-1;;Norway Islands 38
+1560;19502;sea;16241;-1;-1;-1;-1;;Norway Islands 39
+1560;19503;sea;16241;-1;-1;-1;-1;;Norway Islands 40
+19503;19504;sea;16241;-1;-1;-1;-1;;Norway Islands 41
+5084;19653;sea;17255;-1;-1;-1;-1;;Finland Islands 1
+19665;19652;sea;17782;-1;-1;-1;-1;;Finland Islands 2
+19656;19663;sea;16755;-1;-1;-1;-1;;Finland Islands 3
+19656;19655;sea;16810;-1;-1;-1;-1;;Finland Islands 4
+19654;19655;sea;16810;-1;-1;-1;-1;;Finland Islands 5
+9672;19985;sea;17665;-1;-1;-1;-1;;Laane-Saaremaa
+19990;19985;sea;17665;-1;-1;-1;-1;;Saaremaa
+4973;19983;sea;17719;-1;-1;-1;-1;;Laane-Hiiumaa
+19984;19983;sea;17665;-1;-1;-1;-1;;Hiiumaa
+19982;19991;sea;16523;-1;-1;-1;-1;;Hiiumaa-Saaremaa
+18199;19935;sea;16520;-1;-1;-1;-1;;Klaipedos
+3541;19936;sea;17171;-1;-1;-1;-1;;Danzig Bay
+10957;19658;sea;16684;-1;-1;-1;-1;;Stralsund-Rugen
+5363;19647;sea;16046;-1;-1;-1;-1;;Kiel Island
+10830;19645;sea;17502;-1;-1;-1;-1;;Eiderstadt 1
+4894;19646;sea;17502;-1;-1;-1;-1;;Eiderstadt 2
+10830;19644;sea;17502;-1;-1;-1;-1;;Eiderstadt 3
+20128;14458;sea;16992;-1;-1;-1;-1;;Rab-Iablanaz
+20134;2213;sea;16992;-1;-1;-1;-1;;Pag Bridge
+14584;20135;sea;16992;-1;-1;-1;-1;;Ugljan-Zara
+7255;20136;sea;16857;-1;-1;-1;-1;;Morter Bridge
+20137;7536;sea;16857;-1;-1;-1;-1;;Sibenik Islands
+20140;20139;sea;16683;-1;-1;-1;-1;;Brac-Hvar
+20147;20138;sea;16538;-1;-1;-1;-1;;Orebic-Korcula
+20142;20147;sea;16538;-1;-1;-1;-1;;Mljet-Dubrovnik
+20535;20536;sea;17521;-1;-1;-1;-1;;Malta-Gozo
+20249;7957;sea;17342;-1;-1;-1;-1;;Corfu-Sarande
+20249;20280;sea;17342;-1;-1;-1;-1;;Corfu-Igoumenitsa
+20361;20283;sea;17033;-1;-1;-1;-1;;Lefkada-Kefalonia
+20284;20283;sea;17060;-1;-1;-1;-1;;Zakynthos-Kefalonia
+20284;20262;sea;17060;-1;-1;-1;-1;;Zakynthos-Elis
+4235;20282;sea;18466;-1;-1;-1;-1;;Kythira-Laconia
+15036;20286;sea;17572;-1;-1;-1;-1;;Thracian island
+9496;20313;sea;16577;-1;-1;-1;-1;;Thessalian islands 1
+20314;20313;sea;16577;-1;-1;-1;-1;;Thessalian islands 2
+20314;20315;sea;16577;-1;-1;-1;-1;;Thessalian islands 3
+15351;20298;sea;18449;-1;-1;-1;-1;;Euboea-Kyklades
+20299;20298;sea;16799;-1;-1;-1;-1;;Kyklades 1
+20299;20307;sea;16799;-1;-1;-1;-1;;Kyklades 2
+20299;20300;sea;16799;-1;-1;-1;-1;;Kyklades 3
+3130;20306;sea;16888;-1;-1;-1;-1;;Attica-Kyklades
+20305;20306;sea;16888;-1;-1;-1;-1;;Kyklades 4
+20305;20304;sea;16888;-1;-1;-1;-1;;Kyklades 5
+20303;20304;sea;18458;-1;-1;-1;-1;;Kyklades 6
+20300;20301;sea;16799;-1;-1;-1;-1;;Kyklades 7
+20302;20301;sea;18458;-1;-1;-1;-1;;Kyklades 8
+20311;20301;sea;18458;-1;-1;-1;-1;;Kyklades 9
+19804;20538;sea;16233;-1;-1;-1;-1;;Ibiza-Formentera
+14346;641;sea;16302;-1;-1;-1;-1;;Krym
+312;641;sea;16302;-1;-1;-1;-1;;Krym
+3436;15879;sea;16302;-1;-1;-1;-1;;Krym
+14325;4075;sea;16440;-1;-1;-1;-1;;Krym
+10636;7073;sea;17860;-1;-1;-1;-1;;Odense-Vejle
+6240;7789;sea;17860;-1;-1;-1;-1;;Odense-Haderslev
+15010;15013;sea;17867;-1;-1;-1;-1;;Bosphorus crossing
+17001;17867;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus strait
+18036;17398;;-1;-1;-1;-1;-1;DARDANELLES_STRAIT;Dardanelles strait
+18503;17500;;-1;-1;-1;-1;-1;SUEZ_CANAL;Suez canal duh
+18465;17429;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Strait of Gibraltar
+7289;20291;sea;16994;-1;-1;-1;-1;;Canakkale-Lesbos
+20293;7595;sea;17626;-1;-1;-1;-1;;Chios-Izmir
+20295;20296;sea;16439;-1;-1;-1;-1;;Samos 1-Samos 2
+20295;7118;sea;16439;-1;-1;-1;-1;;Samos 1-Mainland
+21356;20297;sea;16887;-1;-1;-1;-1;;Rhodes-Mainland
+20316;20297;sea;17475;-1;-1;-1;-1;;Rhodes-Dodecanese 1
+20317;21364;sea;17049;-1;-1;-1;-1;;Dodecanese2-Mainland
+19405;19408;sea;16263;-1;-1;-1;-1;;Faero 1
+19405;19407;sea;17794;-1;-1;-1;-1;;Faero 2
+19406;19407;sea;17794;-1;-1;-1;-1;;Faero 3
+19403;19404;sea;17501;-1;-1;-1;-1;;Zetland
+10326;19452;sea;16246;-1;-1;-1;-1;;Inverness 1
+10314;10326;sea;16246;-1;-1;-1;-1;;Inverness 2
+10314;19452;sea;16246;-1;-1;-1;-1;;Inverness 3
+4850;10283;sea;17386;-1;-1;-1;-1;;Inverness 4
+4850;19455;sea;18327;-1;-1;-1;-1;;Inverness 5
+3764;19454;sea;18327;-1;-1;-1;-1;;Arcyll 1
+4063;10420;sea;18338;-1;-1;-1;-1;;Arcyll 2
+10645;19399;sea;17891;-1;-1;-1;-1;;Bute 1
+19659;5868;sea;16684;-1;-1;-1;-1;;Greifswald 1
+19659;20559;sea;16684;-1;-1;-1;-1;;Greifswald 2
+19659;768;sea;16684;-1;-1;-1;-1;;Greifswald 3
+19660;11027;sea;17981;-1;-1;-1;-1;;Wolin 1
+19660;20563;sea;17981;-1;-1;-1;-1;;Wolin 2
+14170;8532;impassable;-1;-1;-1;-1;-1;;Valais-Haute Savoie
+20096;4789;impassable;-1;-1;-1;-1;-1;;Valais-Oberland
+14014;4789;impassable;-1;-1;-1;-1;-1;;Wallis-Oberland
+14014;13985;impassable;-1;-1;-1;-1;-1;;Wallis-Oberland
+14041;236;impassable;-1;-1;-1;-1;-1;;Monthey-Haute Savoie
+14009;6344;impassable;-1;-1;-1;-1;-1;;Monthey-Freiburg
+4789;6344;impassable;-1;-1;-1;-1;-1;;Monthey-Oberland
+13957;6344;impassable;-1;-1;-1;-1;-1;;Monthey-Oberland
+9376;13858;impassable;-1;-1;-1;-1;-1;;Luzern-Oberland
+13939;13858;impassable;-1;-1;-1;-1;-1;;Luzern-Oberland
+20118;13858;impassable;-1;-1;-1;-1;-1;;Luzern-Obwalden
+20110;20105;impassable;-1;-1;-1;-1;-1;;Luzern-Schwyz
+6343;4744;impassable;-1;-1;-1;-1;-1;;Glarus-St Gallen
+13835;4744;impassable;-1;-1;-1;-1;-1;;Glarus-St Gallen
+13835;13884;impassable;-1;-1;-1;-1;-1;;St Gallen
+13819;20105;impassable;-1;-1;-1;-1;-1;;Zug-Schwyz
+997;15898;impassable;-1;-1;-1;-1;-1;;Briga
+14582;3619;impassable;-1;-1;-1;-1;-1;;Nice-Alpes de Haute Provence
+20488;3619;impassable;-1;-1;-1;-1;-1;;Alpes de Haute Provence
+17972;15898;impassable;-1;-1;-1;-1;-1;;Nice-Briga
+1407;15898;impassable;-1;-1;-1;-1;-1;;Menton-Briga
+20529;16400;impassable;-1;-1;-1;-1;-1;;Sampeyre-Nice
+20529;14582;impassable;-1;-1;-1;-1;-1;;Sampeyre-Nice
+20488;396;impassable;-1;-1;-1;-1;-1;;Alpes de Haute Provence-Hautes Alpes
+14528;396;impassable;-1;-1;-1;-1;-1;;Alpes de Haute Provence-Hautes Alpes
+2290;20488;impassable;-1;-1;-1;-1;-1;;Sampeyre-Alpes de Haute-Provence
+19861;14407;impassable;-1;-1;-1;-1;-1;;Bardonecchia-Briançon
+21659;14407;impassable;-1;-1;-1;-1;-1;;Bardonecchia-Briançon
+2487;14407;impassable;-1;-1;-1;-1;-1;;Bardonecchia-Torino
+14359;14407;impassable;-1;-1;-1;-1;-1;;Bardonecchia-Locana
+21658;20531;impassable;-1;-1;-1;-1;-1;;Valle Stretta-Hautes-Alpes
+21658;14353;impassable;-1;-1;-1;-1;-1;;Valle Stretta-Modane
+21658;21659;impassable;-1;-1;-1;-1;-1;;Valle Stretta-Montgenevre
+14476;822;impassable;-1;-1;-1;-1;-1;;Hautes Alpes
+14473;822;impassable;-1;-1;-1;-1;-1;;Hautes Alpes-Isere
+14476;14417;impassable;-1;-1;-1;-1;-1;;Hautes Alpes-Isere
+14473;14417;impassable;-1;-1;-1;-1;-1;;Hautes Alpes-Isere
+4884;14417;impassable;-1;-1;-1;-1;-1;;Hautes Alpes-Isere
+20531;14339;impassable;-1;-1;-1;-1;-1;;Savoie-Hautes Alpes
+8784;8643;impassable;-1;-1;-1;-1;-1;;Savoie-Isere
+822;8643;impassable;-1;-1;-1;-1;-1;;Savoie-Isere
+8784;14339;impassable;-1;-1;-1;-1;-1;;Savoie-Isere
+6000;14339;impassable;-1;-1;-1;-1;-1;;Savoie-Isere
+14476;20531;impassable;-1;-1;-1;-1;-1;;Hautes Alpes
+14359;14353;impassable;-1;-1;-1;-1;-1;;Locana-Modane
+21657;14353;impassable;-1;-1;-1;-1;-1;;Moncenisio-Modane
+8124;14381;impassable;-1;-1;-1;-1;-1;;Locana-Modane
+8124;14277;impassable;-1;-1;-1;-1;-1;;Locana-Savoy
+20006;14277;impassable;-1;-1;-1;-1;-1;;Locana-Savoy
+20049;14277;impassable;-1;-1;-1;-1;-1;;Aosta-Savoy
+20049;20006;impassable;-1;-1;-1;-1;-1;;Aosta-Locana
+18364;20006;impassable;-1;-1;-1;-1;-1;;Aosta-Locana
+20049;19862;impassable;-1;-1;-1;-1;-1;;Aosta-Mont Blanc
+14204;19863;impassable;-1;-1;-1;-1;-1;;Aosta-Mont Blanc
+19862;9311;impassable;-1;-1;-1;-1;-1;;Savoie-Mont Blanc
+14277;9311;impassable;-1;-1;-1;-1;-1;;Savoie
+8643;14277;impassable;-1;-1;-1;-1;-1;;Savoie
+8532;9311;impassable;-1;-1;-1;-1;-1;;Haute Savoie-Savoie
+1187;9311;impassable;-1;-1;-1;-1;-1;;Haute Savoie-Savoie
+2451;9311;impassable;-1;-1;-1;-1;-1;;Haute Savoie-Savoie
+2451;5065;impassable;-1;-1;-1;-1;-1;;Haute Savoie-Savoie
+14204;8532;impassable;-1;-1;-1;-1;-1;;Aosta-Haute Savoie
+236;375;impassable;-1;-1;-1;-1;-1;;Haute Savoie
+14204;14170;impassable;-1;-1;-1;-1;-1;;Aosta-Valais
+16144;3936;impassable;-1;-1;-1;-1;-1;;Aosta-Valais
+2381;3936;impassable;-1;-1;-1;-1;-1;;Aosta-Valais
+2381;5109;impassable;-1;-1;-1;-1;-1;;Aosta-Vercelli
+2381;6673;impassable;-1;-1;-1;-1;-1;;Aosta-Vercelli
+5109;3936;impassable;-1;-1;-1;-1;-1;;Vercelli-Valais
+5109;14160;impassable;-1;-1;-1;-1;-1;;Vercelli-Verbania
+14160;3936;impassable;-1;-1;-1;-1;-1;;Verbania-Valais
+14160;1655;impassable;-1;-1;-1;-1;-1;;Verbania-Valais
+20048;20104;impassable;-1;-1;-1;-1;-1;;Verbania-Valais
+20048;14088;impassable;-1;-1;-1;-1;-1;;Verbania-Ticino
+9086;7837;impassable;-1;-1;-1;-1;-1;;Como-Ticino
+14026;20106;impassable;-1;-1;-1;-1;-1;;Uri-Ticino
+14026;6668;impassable;-1;-1;-1;-1;-1;;Graubunden-Ticino
+14026;910;impassable;-1;-1;-1;-1;-1;;Graubunden-Ticino
+14026;14063;impassable;-1;-1;-1;-1;-1;;Moesa-Ticino
+7837;14063;impassable;-1;-1;-1;-1;-1;;Como-Moesa
+3836;14063;impassable;-1;-1;-1;-1;-1;;Sondrio-Moesa
+3836;910;impassable;-1;-1;-1;-1;-1;;Sondrio-Graubunden
+3836;14017;impassable;-1;-1;-1;-1;-1;;Sondrio-Graubunden
+8943;20055;impassable;-1;-1;-1;-1;-1;;Sondrio-Grischun
+14078;20055;impassable;-1;-1;-1;-1;-1;;Sondrio-Grischun
+8943;6257;impassable;-1;-1;-1;-1;-1;;Sondrio-Grischun
+16159;8943;impassable;-1;-1;-1;-1;-1;;Sondrio-Grischun
+16159;20108;impassable;-1;-1;-1;-1;-1;;Sondrio-Grischun
+20108;6257;impassable;-1;-1;-1;-1;-1;;Sondrio-Grischun
+4920;9388;impassable;-1;-1;-1;-1;-1;;Sondrio-Bergamo
+6412;9432;impassable;-1;-1;-1;-1;-1;;Lecco-Bergamo
+8943;14017;impassable;-1;-1;-1;-1;-1;;Grischun-Graubunden
+6668;4744;impassable;-1;-1;-1;-1;-1;;Glarus-Graubunden
+2119;4744;impassable;-1;-1;-1;-1;-1;;Glarus-Graubunden
+2119;13884;impassable;-1;-1;-1;-1;-1;;St Gallen-Graubunden
+13861;13828;impassable;-1;-1;-1;-1;-1;;Vorarlberg-Graubunden
+4479;13828;impassable;-1;-1;-1;-1;-1;;Vorarlberg-Graubunden
+20108;13828;impassable;-1;-1;-1;-1;-1;;Vorarlberg-Grischun
+20108;7218;impassable;-1;-1;-1;-1;-1;;Vorarlberg-Grischun
+13897;7218;impassable;-1;-1;-1;-1;-1;;Vorarlberg-Grischun
+3766;13967;impassable;-1;-1;-1;-1;-1;;Alto Adige-Grischun
+9483;13962;impassable;-1;-1;-1;-1;-1;;Alto Adige-Landeck
+13909;13962;impassable;-1;-1;-1;-1;-1;;Alto Adige-Landeck
+13909;5380;impassable;-1;-1;-1;-1;-1;;Alto Adige-Landeck
+13898;5071;impassable;-1;-1;-1;-1;-1;;Alto Adige-Innsbruk
+13898;1984;impassable;-1;-1;-1;-1;-1;;Alto Adige-Innsbruk
+7529;20811;impassable;-1;-1;-1;-1;-1;;Alto Adige-Innsbruk
+20811;7885;impassable;-1;-1;-1;-1;-1;;Alto Adige-Innsbruk
+20809;7885;impassable;-1;-1;-1;-1;-1;;Alto Adige-Zell am See
+13885;7885;impassable;-1;-1;-1;-1;-1;;Alto Adige-Lienz
+89;2583;impassable;-1;-1;-1;-1;-1;;Alto Adige-Trento
+89;14058;impassable;-1;-1;-1;-1;-1;;Alto Adige-Trento
+13952;5380;impassable;-1;-1;-1;-1;-1;;Alto Adige
+20017;14058;impassable;-1;-1;-1;-1;-1;;Trento-Bolzano
+20018;8091;impassable;-1;-1;-1;-1;-1;;Trento-Bolzano
+18459;2838;impassable;-1;-1;-1;-1;-1;;Trento
+9471;14242;impassable;-1;-1;-1;-1;-1;;Trento-Vicenza
+20018;18619;impassable;-1;-1;-1;-1;-1;;Alto Adige-Bolzano
+20017;89;impassable;-1;-1;-1;-1;-1;;Alto Adige-Bolzano
+13944;20018;impassable;-1;-1;-1;-1;-1;;Alto Adige-Bolzano
+13986;20822;impassable;-1;-1;-1;-1;-1;;Belluno-Lienz
+13986;13953;impassable;-1;-1;-1;-1;-1;;Belluno-Villach
+8898;9279;impassable;-1;-1;-1;-1;-1;;Belluno
+13986;4692;impassable;-1;-1;-1;-1;-1;;Belluno-Pordenone
+9279;4692;impassable;-1;-1;-1;-1;-1;;Belluno-Pordenone
+14079;4692;impassable;-1;-1;-1;-1;-1;;Belluno-Pordenone
+5487;4692;impassable;-1;-1;-1;-1;-1;;Belluno-Pordenone
+5487;17212;impassable;-1;-1;-1;-1;-1;;Belluno-Pordenone
+5487;5701;impassable;-1;-1;-1;-1;-1;;Belluno-Pordenone
+4692;5142;impassable;-1;-1;-1;-1;-1;;Udine-Pordenone
+139;5142;impassable;-1;-1;-1;-1;-1;;Udine-Pordenone
+14144;9474;impassable;-1;-1;-1;-1;-1;;Belluno-Treviso
+8898;18773;impassable;-1;-1;-1;-1;-1;;Belluno-Trento
+8898;8091;impassable;-1;-1;-1;-1;-1;;Belluno-Trento
+6257;2583;impassable;-1;-1;-1;-1;-1;;Sondrio-Trento
+14136;2613;impassable;-1;-1;-1;-1;-1;;Brescia-Trento
+4208;2583;impassable;-1;-1;-1;-1;-1;;Alto Adige-Trento
+4208;6257;impassable;-1;-1;-1;-1;-1;;Alto Adige-Sondrio
+15945;14163;impassable;-1;-1;-1;-1;-1;;Brescia-Trento
+14136;2613;impassable;-1;-1;-1;-1;-1;;Brescia-Trento
+15945;2613;impassable;-1;-1;-1;-1;-1;;Brescia-Trento
+14136;14163;impassable;-1;-1;-1;-1;-1;;Brescia-Trento
+14136;7129;impassable;-1;-1;-1;-1;-1;;Verona-Trento
+18459;20053;impassable;-1;-1;-1;-1;-1;;Belluno-Trento
+19098;18619;impassable;-1;-1;-1;-1;-1;;Ampezzo-Alto Adige
+5142;13953;impassable;-1;-1;-1;-1;-1;;Udine-Villach
+20480;13953;impassable;-1;-1;-1;-1;-1;;Udine-Villach
+20480;8168;impassable;-1;-1;-1;-1;-1;;Udine-Villach
+4659;18916;impassable;-1;-1;-1;-1;-1;;Tarvisio-Tolmino
+14033;18916;impassable;-1;-1;-1;-1;-1;;Gorenjska-Tolmino
+14089;18916;impassable;-1;-1;-1;-1;-1;;Gorenjska-Tolmino
+14089;2174;impassable;-1;-1;-1;-1;-1;;Gorenjska-Tolmino
+8093;14153;impassable;-1;-1;-1;-1;-1;;Gorenjska-Postumia
+14033;14000;impassable;-1;-1;-1;-1;-1;;Gorenjska-Klagenfurt
+14033;14001;impassable;-1;-1;-1;-1;-1;;Gorenjska-Volkermarkt
+14165;14153;impassable;-1;-1;-1;-1;-1;;Postumia-Ljubljana
+17019;1252;impassable;-1;-1;-1;-1;-1;;Postumia-Ljubljana
+17019;7706;impassable;-1;-1;-1;-1;-1;;Postumia-Ljubljana
+17019;17540;impassable;-1;-1;-1;-1;-1;;Postumia-Ljubljana
+14165;14257;impassable;-1;-1;-1;-1;-1;;Postumia-Ljubljana
+2187;14474;impassable;-1;-1;-1;-1;-1;;Genova-Alessandria
+2187;14486;impassable;-1;-1;-1;-1;-1;;Genova-Alessandria
+8937;14466;impassable;-1;-1;-1;-1;-1;;Genova-Alessandria
+14508;14466;impassable;-1;-1;-1;-1;-1;;Genova-Alessandria
+14533;14491;impassable;-1;-1;-1;-1;-1;;Pontremoli-Parma
+3921;14491;impassable;-1;-1;-1;-1;-1;;Pontremoli-Parma
+14605;14549;impassable;-1;-1;-1;-1;-1;;Pistoia-Bologna
+14578;14549;impassable;-1;-1;-1;-1;-1;;Firenze-Bologna
+337;5739;impassable;-1;-1;-1;-1;-1;;Firenze-Bologna
+14637;8498;impassable;-1;-1;-1;-1;-1;;Arezzo-Forlì
+14687;8514;impassable;-1;-1;-1;-1;-1;;Perugia-Pesaro e Urbino
+8888;20038;impassable;-1;-1;-1;-1;-1;;Perugia-Ancona
+8888;6729;impassable;-1;-1;-1;-1;-1;;Perugia-Macerata
+14794;6729;impassable;-1;-1;-1;-1;-1;;Perugia-Macerata
+14869;2001;impassable;-1;-1;-1;-1;-1;;Rieti-Cittaducale
+14869;14876;impassable;-1;-1;-1;-1;-1;;Rieti-Cittaducale
+14869;8603;impassable;-1;-1;-1;-1;-1;;Rieti-Aquila
+3593;7237;impassable;-1;-1;-1;-1;-1;;Aquila-Teramo
+20029;7237;impassable;-1;-1;-1;-1;-1;;Aquila-Teramo
+8603;14910;impassable;-1;-1;-1;-1;-1;;Aquila-Frosinone
+14906;14910;impassable;-1;-1;-1;-1;-1;;Aquila-Frosinone
+14929;8401;impassable;-1;-1;-1;-1;-1;;Aquila-Gaeta
+14929;20050;impassable;-1;-1;-1;-1;-1;;Gaeta-Isernia
+14961;20050;impassable;-1;-1;-1;-1;-1;;Benevento-Isernia
+14961;20031;impassable;-1;-1;-1;-1;-1;;Benevento-Campobasso
+3295;20043;impassable;-1;-1;-1;-1;-1;;Benevento-Foggia
+14945;20043;impassable;-1;-1;-1;-1;-1;;Avellino-Foggia
+9421;20043;impassable;-1;-1;-1;-1;-1;;Avellino-Foggia
+6870;15025;impassable;-1;-1;-1;-1;-1;;Avellino-Foggia
+15046;15025;impassable;-1;-1;-1;-1;-1;;Avellino-Potenza
+15081;15025;impassable;-1;-1;-1;-1;-1;;Avellino-Potenza
+15081;20042;impassable;-1;-1;-1;-1;-1;;Salerno-Potenza
+20040;20042;impassable;-1;-1;-1;-1;-1;;Salerno-Potenza
+15158;3628;impassable;-1;-1;-1;-1;-1;;Cosenza-Potenza
+5987;14728;impassable;-1;-1;-1;-1;-1;;Navarra-Labourd et Basse Navarre
+5987;5772;impassable;-1;-1;-1;-1;-1;;Navarra-Labourd et Basse Navarre
+5772;20523;impassable;-1;-1;-1;-1;-1;;Navarra-Soule
+6986;20523;impassable;-1;-1;-1;-1;-1;;Navarra-Soule
+19827;20523;impassable;-1;-1;-1;-1;-1;;Huesca-Soule
+19827;19828;impassable;-1;-1;-1;-1;-1;;Huesca-Pyrenees Atlantiques
+19827;20522;impassable;-1;-1;-1;-1;-1;;Huesca-Pyrenees Atlantiques
+5346;20522;impassable;-1;-1;-1;-1;-1;;Hautes Pyrenees-Pyrenees Atlantiques
+5346;20525;impassable;-1;-1;-1;-1;-1;;Hautes Pyrenees-Huesca
+5346;6873;impassable;-1;-1;-1;-1;-1;;Hautes Pyrenees-Huesca
+7624;6873;impassable;-1;-1;-1;-1;-1;;Hautes Pyrenees-Huesca
+7624;485;impassable;-1;-1;-1;-1;-1;;Hautes Pyrenees-Huesca
+3170;485;impassable;-1;-1;-1;-1;-1;;Haute Garonne-Huesca
+3170;19806;impassable;-1;-1;-1;-1;-1;;Haute Garonne-Lleida
+6233;19806;impassable;-1;-1;-1;-1;-1;;Ariège-Lleida
+6233;4544;impassable;-1;-1;-1;-1;-1;;Ariège-Lleida
+8650;4544;impassable;-1;-1;-1;-1;-1;;Ariège-Lleida
+8033;4544;impassable;-1;-1;-1;-1;-1;;Andorra-Lleida
+8033;8650;impassable;-1;-1;-1;-1;-1;;Andorra-Ariège
+8033;6859;impassable;-1;-1;-1;-1;-1;;Andorra-Ariège
+8033;14832;impassable;-1;-1;-1;-1;-1;;Andorra-Pyrenees Orientales
+14793;19809;impassable;-1;-1;-1;-1;-1;;Aude-Ariège
+8964;19809;impassable;-1;-1;-1;-1;-1;;Aude-Pyrenees Orientales
+19807;14832;impassable;-1;-1;-1;-1;-1;;Lleida-Pyrenees Orientales
+8964;14873;impassable;-1;-1;-1;-1;-1;;Girona-Pyrenees Orientales
+8964;5400;impassable;-1;-1;-1;-1;-1;;Girona-Pyrenees Orientales
+14838;5400;impassable;-1;-1;-1;-1;-1;;Girona-Pyrenees Orientales
+14838;14865;impassable;-1;-1;-1;-1;-1;;Girona-Pyrenees Orientales
+3396;6400;impassable;-1;-1;-1;-1;-1;;Lugo-Asturias
+14740;6400;impassable;-1;-1;-1;-1;-1;;Lugo-Asturias
+14740;14720;impassable;-1;-1;-1;-1;-1;;Lugo-Asturias
+14740;20521;impassable;-1;-1;-1;-1;-1;;Lugo-Asturias
+6442;20521;impassable;-1;-1;-1;-1;-1;;Leon-Asturias
+20520;20521;impassable;-1;-1;-1;-1;-1;;Leon-Asturias
+20520;233;impassable;-1;-1;-1;-1;-1;;Leon-Asturias
+14792;233;impassable;-1;-1;-1;-1;-1;;Leon-Asturias
+14758;233;impassable;-1;-1;-1;-1;-1;;Leon-Asturias
+14752;4862;impassable;-1;-1;-1;-1;-1;;Leon-Asturias
+14763;4862;impassable;-1;-1;-1;-1;-1;;Leon-Asturias
+9645;4862;impassable;-1;-1;-1;-1;-1;;Leon-Asturias
+9645;3642;impassable;-1;-1;-1;-1;-1;;Leon-Cantabria
+4241;3642;impassable;-1;-1;-1;-1;-1;;Leon-Cantabria
+20518;14854;impassable;-1;-1;-1;-1;-1;;Odense-Leon
+20518;14885;impassable;-1;-1;-1;-1;-1;;Odense-Zamora
+14884;14885;impassable;-1;-1;-1;-1;-1;;Odense-Zamora
+14920;14864;impassable;-1;-1;-1;-1;-1;;Soria-Logroño
+14920;3779;impassable;-1;-1;-1;-1;-1;;Soria-Logroño
+14920;14880;impassable;-1;-1;-1;-1;-1;;Soria-Logroño
+2372;14880;impassable;-1;-1;-1;-1;-1;;Soria-Logroño
+2372;3440;impassable;-1;-1;-1;-1;-1;;Soria-Logroño
+2372;4538;impassable;-1;-1;-1;-1;-1;;Soria-Logroño
+14944;4538;impassable;-1;-1;-1;-1;-1;;Soria-Logroño
+14944;2936;impassable;-1;-1;-1;-1;-1;;Soria-Calatayud
+14944;1704;impassable;-1;-1;-1;-1;-1;;Soria-Calatayud
+15132;4308;impassable;-1;-1;-1;-1;-1;;Teruel-Guadalajara
+15132;2726;impassable;-1;-1;-1;-1;-1;;Teruel-Cuenca
+15132;4212;impassable;-1;-1;-1;-1;-1;;Teruel-Cuenca
+4308;2726;impassable;-1;-1;-1;-1;-1;;Guadalajara-Cuenca
+4308;15096;impassable;-1;-1;-1;-1;-1;;Guadalajara-Cuenca
+15132;7798;impassable;-1;-1;-1;-1;-1;;Teruel-Valencia
+2733;7798;impassable;-1;-1;-1;-1;-1;;Teruel-Valencia
+5450;9050;impassable;-1;-1;-1;-1;-1;;Caceres-Avila
+5450;15108;impassable;-1;-1;-1;-1;-1;;Caceres-Avila
+9336;15117;impassable;-1;-1;-1;-1;-1;;Madrid-Avila
+15095;15117;impassable;-1;-1;-1;-1;-1;;Madrid-Avila
+19787;2859;impassable;-1;-1;-1;-1;-1;;Madrid-Segovia
+3160;2859;impassable;-1;-1;-1;-1;-1;;Madrid-Segovia
+14991;2859;impassable;-1;-1;-1;-1;-1;;Madrid-Segovia
+14991;5488;impassable;-1;-1;-1;-1;-1;;Guadalajara-Segovia
+2733;4721;impassable;-1;-1;-1;-1;-1;;Teruel
+2733;1717;impassable;-1;-1;-1;-1;-1;;Teruel
+6894;1860;impassable;-1;-1;-1;-1;-1;;Errachidia
+6894;4647;impassable;-1;-1;-1;-1;-1;;Errachidia
+6894;9424;impassable;-1;-1;-1;-1;-1;;Errachidia
+3897;9424;impassable;-1;-1;-1;-1;-1;;Errachidia
+878;9424;impassable;-1;-1;-1;-1;-1;;Errachidia
+20877;20931;impassable;-1;-1;-1;-1;-1;;Azilal
+20877;5670;impassable;-1;-1;-1;-1;-1;;Azilal
+15763;5670;impassable;-1;-1;-1;-1;-1;;Azilal
+15763;9576;impassable;-1;-1;-1;-1;-1;;Azilal
+1226;9576;impassable;-1;-1;-1;-1;-1;;Azilal
+1226;5530;impassable;-1;-1;-1;-1;-1;;Azilal
+2724;4010;impassable;-1;-1;-1;-1;-1;;Taroudannt
+2724;20873;impassable;-1;-1;-1;-1;-1;;Taroudannt
+5367;20873;impassable;-1;-1;-1;-1;-1;;Taroudannt
+5367;7697;impassable;-1;-1;-1;-1;-1;;Taroudannt
+5367;5387;impassable;-1;-1;-1;-1;-1;;Taroudannt
+15788;5387;impassable;-1;-1;-1;-1;-1;;Taroudannt
+17799;13684;impassable;-1;-1;-1;-1;-1;;Nasaud
+13684;4501;impassable;-1;-1;-1;-1;-1;;Nasaud
+13684;208;impassable;-1;-1;-1;-1;-1;;Nasaud
+8275;17799;impassable;-1;-1;-1;-1;-1;;Nasaud
+13685;17799;impassable;-1;-1;-1;-1;-1;;Nasaud
+13685;13626;impassable;-1;-1;-1;-1;-1;;Nasaud
+13685;8470;impassable;-1;-1;-1;-1;-1;;Nasaud
+13741;8470;impassable;-1;-1;-1;-1;-1;;Nasaud
+13741;20454;impassable;-1;-1;-1;-1;-1;;Nasaud
+3813;20420;impassable;-1;-1;-1;-1;-1;;Odorhei
+3813;1766;impassable;-1;-1;-1;-1;-1;;Odorhei
+14046;1766;impassable;-1;-1;-1;-1;-1;;Odorhei
+14052;1766;impassable;-1;-1;-1;-1;-1;;Odorhei
+14052;9335;impassable;-1;-1;-1;-1;-1;;Odorhei
+14052;5589;impassable;-1;-1;-1;-1;-1;;Odorhei
+14127;8384;impassable;-1;-1;-1;-1;-1;;Ciuc
+5589;8384;impassable;-1;-1;-1;-1;-1;;Ciuc
+9335;8384;impassable;-1;-1;-1;-1;-1;;Ciuc
+13943;8384;impassable;-1;-1;-1;-1;-1;;Ciuc
+13943;18234;impassable;-1;-1;-1;-1;-1;;Ciuc
+13923;18234;impassable;-1;-1;-1;-1;-1;;Ciuc
+13923;20442;impassable;-1;-1;-1;-1;-1;;Ciuc
+13900;20442;impassable;-1;-1;-1;-1;-1;;Ciuc
+13900;13813;impassable;-1;-1;-1;-1;-1;;Ciuc
+2784;13813;impassable;-1;-1;-1;-1;-1;;Ciuc
+4454;2784;impassable;-1;-1;-1;-1;-1;;Ciuc
+1586;2784;impassable;-1;-1;-1;-1;-1;;Ciuc
+1586;13849;impassable;-1;-1;-1;-1;-1;;Ciuc
+20407;13849;impassable;-1;-1;-1;-1;-1;;Ciuc
+20431;18083;impassable;-1;-1;-1;-1;-1;;Brasov
+14216;18083;impassable;-1;-1;-1;-1;-1;;Brasov
+14216;20418;impassable;-1;-1;-1;-1;-1;;Brasov
+14216;6643;impassable;-1;-1;-1;-1;-1;;Brasov
+4428;6643;impassable;-1;-1;-1;-1;-1;;Brasov
+4428;17138;impassable;-1;-1;-1;-1;-1;;Brasov
+4428;5063;impassable;-1;-1;-1;-1;-1;;Brasov
+14221;5063;impassable;-1;-1;-1;-1;-1;;Brasov
+14266;5063;impassable;-1;-1;-1;-1;-1;;Brasov
+14254;14263;impassable;-1;-1;-1;-1;-1;;Fagaras
+14254;5659;impassable;-1;-1;-1;-1;-1;;Fagaras
+14263;5659;impassable;-1;-1;-1;-1;-1;;Fagaras
+14263;9373;impassable;-1;-1;-1;-1;-1;;Fagaras
+14263;20429;impassable;-1;-1;-1;-1;-1;;Fagaras
+8765;20429;impassable;-1;-1;-1;-1;-1;;Fagaras
+8765;14246;impassable;-1;-1;-1;-1;-1;;Fagaras
+14301;14246;impassable;-1;-1;-1;-1;-1;;Fagaras
+14301;2376;impassable;-1;-1;-1;-1;-1;;Sibiu
+17815;2376;impassable;-1;-1;-1;-1;-1;;Sibiu
+17815;3720;impassable;-1;-1;-1;-1;-1;;Sibiu
+7474;3720;impassable;-1;-1;-1;-1;-1;;Sibiu
+16909;7873;impassable;-1;-1;-1;-1;-1;;Hunedoara
+16909;2545;impassable;-1;-1;-1;-1;-1;;Hunedoara
+1193;2545;impassable;-1;-1;-1;-1;-1;;Hunedoara
+1193;14389;impassable;-1;-1;-1;-1;-1;;Hunedoara
+14335;14389;impassable;-1;-1;-1;-1;-1;;Hunedoara
+14335;144;impassable;-1;-1;-1;-1;-1;;Hunedoara
+14287;1193;impassable;-1;-1;-1;-1;-1;;Hunedoara
+14287;20426;impassable;-1;-1;-1;-1;-1;;Hunedoara
+19441;3650;impassable;-1;-1;-1;-1;-1;;Northern Scandes
+19441;19556;impassable;-1;-1;-1;-1;-1;;Northern Scandes
+168;19556;impassable;-1;-1;-1;-1;-1;;Northern Scandes
+9707;19556;impassable;-1;-1;-1;-1;-1;;Northern Scandes
+9707;419;impassable;-1;-1;-1;-1;-1;;Northern Scandes
+8701;419;impassable;-1;-1;-1;-1;-1;;Northern Scandes
+8701;19558;impassable;-1;-1;-1;-1;-1;;Northern Scandes
+1465;19558;impassable;-1;-1;-1;-1;-1;;Northern Scandes
+1465;19557;impassable;-1;-1;-1;-1;-1;;Northern Scandes
+1465;2338;impassable;-1;-1;-1;-1;-1;;Northern Scandes
+229;2338;impassable;-1;-1;-1;-1;-1;;Northern Scandes
+19517;2338;impassable;-1;-1;-1;-1;-1;;Northern Scandes
+1919;9927;impassable;-1;-1;-1;-1;-1;;Southern Scandes
+7790;9927;impassable;-1;-1;-1;-1;-1;;Southern Scandes
+7790;1919;impassable;-1;-1;-1;-1;-1;;Southern Scandes
+19432;1919;impassable;-1;-1;-1;-1;-1;;Southern Scandes
+19432;3275;impassable;-1;-1;-1;-1;-1;;Southern Scandes
+2231;3275;impassable;-1;-1;-1;-1;-1;;Southern Scandes
+2231;392;impassable;-1;-1;-1;-1;-1;;Southern Scandes
+2935;2923;impassable;-1;-1;-1;-1;-1;;Southern Scandes
+3702;9965;impassable;-1;-1;-1;-1;-1;;Southern Scandes
+3702;7147;impassable;-1;-1;-1;-1;-1;;Southern Scandes
+7147;1992;impassable;-1;-1;-1;-1;-1;;Southern Scandes
+9987;1992;impassable;-1;-1;-1;-1;-1;;Southern Scandes
+10009;1992;impassable;-1;-1;-1;-1;-1;;Southern Scandes
+7896;7220;impassable;-1;-1;-1;-1;-1;;Sochi
+7896;8919;impassable;-1;-1;-1;-1;-1;;Sochi
+7896;1788;impassable;-1;-1;-1;-1;-1;;Sochi
+16978;1788;impassable;-1;-1;-1;-1;-1;;Sochi
+16978;5836;impassable;-1;-1;-1;-1;-1;;Sochi
+3020;5089;impassable;-1;-1;-1;-1;-1;;Abkhazia
+14660;5089;impassable;-1;-1;-1;-1;-1;;Abkhazia
+14660;15901;impassable;-1;-1;-1;-1;-1;;Abkhazia
+18379;7640;impassable;-1;-1;-1;-1;-1;;Kodori Valley
+18379;14713;impassable;-1;-1;-1;-1;-1;;Kodori Valley
+18379;14786;impassable;-1;-1;-1;-1;-1;;Kodori Valley
+17962;14786;impassable;-1;-1;-1;-1;-1;;Kodori Valley
+9116;14786;impassable;-1;-1;-1;-1;-1;;Kodori Valley
+3975;14786;impassable;-1;-1;-1;-1;-1;;Kodori Valley
+14713;17962;impassable;-1;-1;-1;-1;-1;;Kodori Valley
+3878;17962;impassable;-1;-1;-1;-1;-1;;Kodori Valley
+16162;2713;impassable;-1;-1;-1;-1;-1;;Svaneti
+7904;2713;impassable;-1;-1;-1;-1;-1;;Svaneti
+7904;14809;impassable;-1;-1;-1;-1;-1;;Svaneti
+7904;18125;impassable;-1;-1;-1;-1;-1;;Svaneti
+7904;17519;impassable;-1;-1;-1;-1;-1;;Svaneti
+17296;17519;impassable;-1;-1;-1;-1;-1;;Svaneti
+17296;8244;impassable;-1;-1;-1;-1;-1;;Svaneti
+14736;8244;impassable;-1;-1;-1;-1;-1;;Svaneti
+3878;8244;impassable;-1;-1;-1;-1;-1;;Svaneti
+3878;8955;impassable;-1;-1;-1;-1;-1;;Svaneti
+1396;8955;impassable;-1;-1;-1;-1;-1;;Svaneti
+14653;8955;impassable;-1;-1;-1;-1;-1;;Svaneti
+5828;2767;impassable;-1;-1;-1;-1;-1;;Ossetia
+5828;18418;impassable;-1;-1;-1;-1;-1;;Ossetia
+5828;16382;impassable;-1;-1;-1;-1;-1;;Ossetia
+16488;16382;impassable;-1;-1;-1;-1;-1;;Ossetia
+7698;16382;impassable;-1;-1;-1;-1;-1;;Ossetia
+7698;18125;impassable;-1;-1;-1;-1;-1;;Ossetia
+7698;3448;impassable;-1;-1;-1;-1;-1;;Ossetia
+6578;18512;impassable;-1;-1;-1;-1;-1;;East Ossetia
+9053;18512;impassable;-1;-1;-1;-1;-1;;East Ossetia
+9053;8023;impassable;-1;-1;-1;-1;-1;;East Ossetia
+16488;8023;impassable;-1;-1;-1;-1;-1;;East Ossetia
+14779;8023;impassable;-1;-1;-1;-1;-1;;East Ossetia
+14775;8023;impassable;-1;-1;-1;-1;-1;;East Ossetia
+14923;18512;impassable;-1;-1;-1;-1;-1;;Akhalgori
+17598;18512;impassable;-1;-1;-1;-1;-1;;Akhalgori
+17598;8023;impassable;-1;-1;-1;-1;-1;;Akhalgori
+6307;3039;impassable;-1;-1;-1;-1;-1;;Argun
+6307;14813;impassable;-1;-1;-1;-1;-1;;Argun
+16892;14813;impassable;-1;-1;-1;-1;-1;;Argun
+16892;14775;impassable;-1;-1;-1;-1;-1;;Argun
+3361;14775;impassable;-1;-1;-1;-1;-1;;Argun
+14803;15998;impassable;-1;-1;-1;-1;-1;;Avar
+14803;5557;impassable;-1;-1;-1;-1;-1;;Avar
+8315;5557;impassable;-1;-1;-1;-1;-1;;Avar
+9215;14852;impassable;-1;-1;-1;-1;-1;;North Kakheti
+9215;3039;impassable;-1;-1;-1;-1;-1;;North Kakheti
+16649;3039;impassable;-1;-1;-1;-1;-1;;North Kakheti
+14831;3039;impassable;-1;-1;-1;-1;-1;;North Kakheti
+16649;14831;impassable;-1;-1;-1;-1;-1;;North Kakheti
+8986;14831;impassable;-1;-1;-1;-1;-1;;North Kakheti
+8986;14867;impassable;-1;-1;-1;-1;-1;;North Kakheti
+923;14867;impassable;-1;-1;-1;-1;-1;;North Kakheti
+16804;9215;impassable;-1;-1;-1;-1;-1;;Kakheti
+16804;5267;impassable;-1;-1;-1;-1;-1;;Kakheti
+14952;5267;impassable;-1;-1;-1;-1;-1;;Kakheti
+16744;3551;impassable;-1;-1;-1;-1;-1;;Kakheti
+16744;4696;impassable;-1;-1;-1;-1;-1;;Kakheti
+14844;14845;impassable;-1;-1;-1;-1;-1;;Kaytagsky
+14844;19080;impassable;-1;-1;-1;-1;-1;;Kaytagsky
+5334;19080;impassable;-1;-1;-1;-1;-1;;Kaytagsky
+19035;8284;impassable;-1;-1;-1;-1;-1;;Derbent
+19035;18791;impassable;-1;-1;-1;-1;-1;;Derbent
+19035;8494;impassable;-1;-1;-1;-1;-1;;Derbent
+14908;14913;impassable;-1;-1;-1;-1;-1;;Akhty
+14908;14933;impassable;-1;-1;-1;-1;-1;;Akhty
+14908;17654;impassable;-1;-1;-1;-1;-1;;Akhty
+6438;17654;impassable;-1;-1;-1;-1;-1;;Akhty
+6438;18901;impassable;-1;-1;-1;-1;-1;;Akhty
+14982;18901;impassable;-1;-1;-1;-1;-1;;Akhty
+14982;15033;impassable;-1;-1;-1;-1;-1;;Akhty
+14982;17990;impassable;-1;-1;-1;-1;-1;;Akhty
+14982;14999;impassable;-1;-1;-1;-1;-1;;Akhty
+6438;8284;impassable;-1;-1;-1;-1;-1;;Akhty
+6438;18791;impassable;-1;-1;-1;-1;-1;;Akhty
+6438;18863;impassable;-1;-1;-1;-1;-1;;Akhty
+15075;14999;impassable;-1;-1;-1;-1;-1;;Dagliq-Sirvan
+15075;15022;impassable;-1;-1;-1;-1;-1;;Dagliq-Sirvan
+4896;15022;impassable;-1;-1;-1;-1;-1;;Dagliq-Sirvan
+4896;16236;impassable;-1;-1;-1;-1;-1;;Dagliq-Sirvan
+19284;16236;impassable;-1;-1;-1;-1;-1;;Dagliq-Sirvan
+15099;5753;impassable;-1;-1;-1;-1;-1;;Dagliq-Sirvan
+15099;5102;impassable;-1;-1;-1;-1;-1;;Dagliq-Sirvan
+15099;15170;impassable;-1;-1;-1;-1;-1;;Dagliq-Sirvan
+1582;16138;impassable;-1;-1;-1;-1;-1;;Artvin
+14971;16138;impassable;-1;-1;-1;-1;-1;;Artvin
+5466;16138;impassable;-1;-1;-1;-1;-1;;Artvin
+5466;3089;impassable;-1;-1;-1;-1;-1;;Artvin
+5466;18211;impassable;-1;-1;-1;-1;-1;;Artvin
+1063;18211;impassable;-1;-1;-1;-1;-1;;Artvin
+6619;18211;impassable;-1;-1;-1;-1;-1;;Artvin
+6619;4607;impassable;-1;-1;-1;-1;-1;;Artvin
+3089;7952;impassable;-1;-1;-1;-1;-1;;Adjara
+3089;17868;impassable;-1;-1;-1;-1;-1;;Adjara
+3089;6876;impassable;-1;-1;-1;-1;-1;;Adjara
+5219;6876;impassable;-1;-1;-1;-1;-1;;Imereti
+5219;16151;impassable;-1;-1;-1;-1;-1;;Imereti
+223;8923;impassable;-1;-1;-1;-1;-1;;Kvemo Kartli
+223;1078;impassable;-1;-1;-1;-1;-1;;Kvemo Kartli
+17202;1078;impassable;-1;-1;-1;-1;-1;;Kvemo Kartli
+14918;1078;impassable;-1;-1;-1;-1;-1;;Kvemo Kartli
+18059;1078;impassable;-1;-1;-1;-1;-1;;Kvemo Kartli
+2917;21534;impassable;-1;-1;-1;-1;-1;;Kars
+2917;4359;impassable;-1;-1;-1;-1;-1;;Kars
+5335;4359;impassable;-1;-1;-1;-1;-1;;Kars
+5335;15107;impassable;-1;-1;-1;-1;-1;;Kars
+21542;17613;impassable;-1;-1;-1;-1;-1;;Kars
+21542;4658;impassable;-1;-1;-1;-1;-1;;Kars
+15044;4658;impassable;-1;-1;-1;-1;-1;;Kars
+15092;19173;impassable;-1;-1;-1;-1;-1;;Shirak
+15092;15069;impassable;-1;-1;-1;-1;-1;;Shirak
+6332;15069;impassable;-1;-1;-1;-1;-1;;Shirak
+6332;16460;impassable;-1;-1;-1;-1;-1;;Shirak
+18569;6332;impassable;-1;-1;-1;-1;-1;;Gegharkunk
+18569;15154;impassable;-1;-1;-1;-1;-1;;Gegharkunk
+18569;18187;impassable;-1;-1;-1;-1;-1;;Gegharkunk
+18569;3227;impassable;-1;-1;-1;-1;-1;;Gegharkunk
+15951;16343;impassable;-1;-1;-1;-1;-1;;Syunik
+15951;1379;impassable;-1;-1;-1;-1;-1;;Syunik
+7001;1379;impassable;-1;-1;-1;-1;-1;;Syunik
+7001;19224;impassable;-1;-1;-1;-1;-1;;Syunik
+15278;19224;impassable;-1;-1;-1;-1;-1;;Syunik
+1379;15963;impassable;-1;-1;-1;-1;-1;;Syunik
+1379;15206;impassable;-1;-1;-1;-1;-1;;Syunik
+15288;6772;impassable;-1;-1;-1;-1;-1;;Syunik
+15288;19221;impassable;-1;-1;-1;-1;-1;;Syunik
+15144;15963;impassable;-1;-1;-1;-1;-1;;Kalbacer
+15144;1771;impassable;-1;-1;-1;-1;-1;;Kalbacer
+15144;6963;impassable;-1;-1;-1;-1;-1;;Kalbacer
+15144;18488;impassable;-1;-1;-1;-1;-1;;Kalbacer
+19170;18488;impassable;-1;-1;-1;-1;-1;;Kalbacer
+19167;18488;impassable;-1;-1;-1;-1;-1;;Kalbacer
+6963;1771;impassable;-1;-1;-1;-1;-1;;Kalbacer
+1719;1771;impassable;-1;-1;-1;-1;-1;;Kalbacer
+1719;16010;impassable;-1;-1;-1;-1;-1;;Kalbacer
+14997;9406;impassable;-1;-1;-1;-1;-1;;Lori
+14997;18682;impassable;-1;-1;-1;-1;-1;;Lori
+15040;18682;impassable;-1;-1;-1;-1;-1;;Lori
+15019;3744;impassable;-1;-1;-1;-1;-1;;Qazax
+15019;18163;impassable;-1;-1;-1;-1;-1;;Qazax
+15062;18163;impassable;-1;-1;-1;-1;-1;;Qazax
+15062;991;impassable;-1;-1;-1;-1;-1;;Qazax
+15045;991;impassable;-1;-1;-1;-1;-1;;Qazax
+7218;13828;impassable;-1;-1;-1;-1;-1;;Voralberg
+7218;467;impassable;-1;-1;-1;-1;-1;;Voralberg
+5613;467;impassable;-1;-1;-1;-1;-1;;Voralberg
+5613;13717;impassable;-1;-1;-1;-1;-1;;Voralberg
+6291;13717;impassable;-1;-1;-1;-1;-1;;Voralberg
+5071;13909;impassable;-1;-1;-1;-1;-1;;Landeck
+5071;20866;impassable;-1;-1;-1;-1;-1;;Landeck
+2432;20812;impassable;-1;-1;-1;-1;-1;;Landeck
+2432;13774;impassable;-1;-1;-1;-1;-1;;Landeck
+13638;13774;impassable;-1;-1;-1;-1;-1;;Landeck
+13607;13774;impassable;-1;-1;-1;-1;-1;;Landeck
+20814;13667;impassable;-1;-1;-1;-1;-1;;Innsbruck
+1832;13667;impassable;-1;-1;-1;-1;-1;;Innsbruck
+1832;5811;impassable;-1;-1;-1;-1;-1;;Innsbruck
+1832;20772;impassable;-1;-1;-1;-1;-1;;Innsbruck
+1832;20795;impassable;-1;-1;-1;-1;-1;;Innsbruck
+20811;20809;impassable;-1;-1;-1;-1;-1;;Innsbruck
+20811;9121;impassable;-1;-1;-1;-1;-1;;Innsbruck
+20809;9121;impassable;-1;-1;-1;-1;-1;;Zell Am See
+20809;5566;impassable;-1;-1;-1;-1;-1;;Zell Am See
+3909;5566;impassable;-1;-1;-1;-1;-1;;Zell Am See
+3909;13706;impassable;-1;-1;-1;-1;-1;;Zell Am See
+20793;20799;impassable;-1;-1;-1;-1;-1;;Salzburg
+20793;13599;impassable;-1;-1;-1;-1;-1;;Salzburg
+20793;20852;impassable;-1;-1;-1;-1;-1;;Salzburg
+20793;20823;impassable;-1;-1;-1;-1;-1;;Salzburg
+20793;13750;impassable;-1;-1;-1;-1;-1;;Salzburg
+20793;3577;impassable;-1;-1;-1;-1;-1;;Salzburg
+13620;3577;impassable;-1;-1;-1;-1;-1;;Salzburg
+13620;13706;impassable;-1;-1;-1;-1;-1;;Salzburg
+13620;13668;impassable;-1;-1;-1;-1;-1;;Salzburg
+20794;13668;impassable;-1;-1;-1;-1;-1;;Salzburg
+9204;13668;impassable;-1;-1;-1;-1;-1;;Salzburg
+20809;13885;impassable;-1;-1;-1;-1;-1;;Lienz
+20809;1610;impassable;-1;-1;-1;-1;-1;;Lienz
+3909;1610;impassable;-1;-1;-1;-1;-1;;Lienz
+3909;5448;impassable;-1;-1;-1;-1;-1;;Lienz
+20824;5448;impassable;-1;-1;-1;-1;-1;;Lienz
+1610;5448;impassable;-1;-1;-1;-1;-1;;Lienz
+5302;5448;impassable;-1;-1;-1;-1;-1;;Lienz
+4407;5448;impassable;-1;-1;-1;-1;-1;;Lienz
+20817;13783;impassable;-1;-1;-1;-1;-1;;Steyz
+20817;8214;impassable;-1;-1;-1;-1;-1;;Steyz
+20817;13639;impassable;-1;-1;-1;-1;-1;;Steyz
+13568;13639;impassable;-1;-1;-1;-1;-1;;Steyz
+13612;13639;impassable;-1;-1;-1;-1;-1;;Steyz
+13612;20842;impassable;-1;-1;-1;-1;-1;;Steyz
+13612;13655;impassable;-1;-1;-1;-1;-1;;Steyz
+13783;20815;impassable;-1;-1;-1;-1;-1;;Liezen
+13783;7366;impassable;-1;-1;-1;-1;-1;;Liezen
+20820;7366;impassable;-1;-1;-1;-1;-1;;Liezen
+20820;20821;impassable;-1;-1;-1;-1;-1;;Liezen
+9124;20821;impassable;-1;-1;-1;-1;-1;;Liezen
+9124;8639;impassable;-1;-1;-1;-1;-1;;Liezen
+20815;13866;impassable;-1;-1;-1;-1;-1;;Villach
+20815;13916;impassable;-1;-1;-1;-1;-1;;Villach
+3700;13916;impassable;-1;-1;-1;-1;-1;;Villach
+3700;20837;impassable;-1;-1;-1;-1;-1;;Villach
+3700;13894;impassable;-1;-1;-1;-1;-1;;Villach
+13862;13894;impassable;-1;-1;-1;-1;-1;;Villach
+20837;13916;impassable;-1;-1;-1;-1;-1;;Villach
+13994;14000;impassable;-1;-1;-1;-1;-1;;Villach
+664;20838;impassable;-1;-1;-1;-1;-1;;Klagenfurt
+664;9494;impassable;-1;-1;-1;-1;-1;;Klagenfurt
+664;20832;impassable;-1;-1;-1;-1;-1;;Klagenfurt
+664;5678;impassable;-1;-1;-1;-1;-1;;Klagenfurt
+9494;20832;impassable;-1;-1;-1;-1;-1;;Klagenfurt
+9494;2759;impassable;-1;-1;-1;-1;-1;;Klagenfurt
+5332;6978;impassable;-1;-1;-1;-1;-1;;Sankt Polten
+2714;6978;impassable;-1;-1;-1;-1;-1;;Sankt Polten
+6978;13573;impassable;-1;-1;-1;-1;-1;;Sankt Polten
+13648;13573;impassable;-1;-1;-1;-1;-1;;Sankt Polten
+18266;2223;sea;17027;-1;-1;-1;-1;;Clarence Strait
+19160;19165;sea;18500;-1;-1;-1;-1;;Al-Sabiyyah Channel
+7148;19383;sea;18108;-1;-1;-1;-1;;Northumberland Strait
+19641;19651;sea;16479;-1;-1;-1;-1;;Fårö Strait
+3033;19386;sea;16391;-1;-1;-1;-1;;Northampton
+5728;19869;sea;17542;-1;-1;-1;-1;;Test
+20260;20309;sea;18452;-1;-1;-1;-1;;Test
+9588;20308;sea;18452;-1;-1;-1;-1;;Test
+1747;20294;sea;17139;-1;-1;-1;-1;;Test
+20661;19879;sea;16134;-1;-1;-1;-1;;Test
+16537;17405;;-1;-1;-1;-1;-1;AMERICA_BORDER;America Border
+-1;-1;;-1;-1;-1;-1;-1;-1

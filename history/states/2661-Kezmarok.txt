@@ -1,0 +1,19 @@
+state = {
+	id = 2661
+	name = "STATE_2661"
+	provinces = {
+		8364 13004 13055 13071 
+	}
+	history={
+		owner = THI
+		add_core_of = THI
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	manpower = 3549
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

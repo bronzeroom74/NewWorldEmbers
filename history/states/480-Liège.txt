@@ -1,0 +1,27 @@
+
+state = {
+	id = 480
+	name = "STATE_480"
+
+	history = {
+		owner = WAL
+		add_core_of = WAL
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			19891 10 #Liège
+		}
+		victory_points = {
+			12494 2 #Andenne
+		}
+	}
+
+	provinces = {
+		3006 12494 19891 
+	}
+	manpower = 73500
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

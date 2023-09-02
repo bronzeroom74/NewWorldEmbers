@@ -1,0 +1,27 @@
+
+state = {
+	id = 1934
+	name = "STATE_1934"
+
+	history = {
+		owner = BYN
+		add_core_of = BYN
+		buildings = {
+			infrastructure = 2
+
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces = {
+		15043 17600 21437 21445
+	}
+	manpower = 2342
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

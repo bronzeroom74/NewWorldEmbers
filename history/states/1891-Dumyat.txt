@@ -1,0 +1,24 @@
+state = {
+	id = 1891
+	name = "STATE_1891"
+					
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			21203 = { naval_base = 1 }
+		}
+		victory_points = {
+			21203 2 #Damietta
+		}
+	}
+	
+	provinces = {
+		6598 21203 
+	}
+	manpower = 23086
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

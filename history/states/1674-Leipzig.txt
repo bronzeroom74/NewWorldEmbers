@@ -1,0 +1,31 @@
+state = {
+	id = 1674
+	name = "STATE_1674"
+	resources = {
+		energetics = 4
+		refined_metals = 0
+		polymers = 2
+		hypertech = 2
+		salvage = 0
+		electronics = 7
+	}
+	provinces = {
+		7350 12143 12153 12208 12227 20608
+	}
+	history = {
+		owner = CHU
+		add_core_of = CHU
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			20608 40
+		}
+	}
+	manpower = 106579
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+}

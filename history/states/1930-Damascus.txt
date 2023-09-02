@@ -1,0 +1,24 @@
+state = {
+	id = 1930
+	name = "STATE_1930"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			15692 40 #Damascus
+			}
+	}
+	
+	provinces = {
+		15692 
+	}
+	manpower = 28743
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

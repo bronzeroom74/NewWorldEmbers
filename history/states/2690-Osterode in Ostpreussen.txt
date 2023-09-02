@@ -1,0 +1,23 @@
+
+state = {
+	id = 2690
+	name = "STATE_2690"
+
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 11161 2 }
+		victory_points = { 11248 2 }
+	}
+
+	provinces = {
+		281 899 2684 8528 11113 11161 11168 11190 11226 11248 
+	}
+	manpower = 10129
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

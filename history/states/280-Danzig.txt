@@ -1,0 +1,27 @@
+
+state = {
+	id = 280
+	name = "STATE_280"
+
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 4
+			10923 = { naval_base = 4 }
+		}
+
+		victory_points = {
+			10923 20 #Danzig
+		}
+
+	}
+
+	provinces = {
+		4378 10923 17161 
+	}
+	manpower = 41029
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

@@ -1,0 +1,32 @@
+﻿capital = 1749
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = ascension
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 80
+	aggression = 12
+	absolution = 3
+	adaptation = 5
+	apocalypse = 0
+}
+
+puppet = MPC
+puppet = SWC
+puppet = PCO
+create_faction = Essen_faction_name
+
+add_ideas = {
+	COE_puppet_master_idea
+}
+
+recruit_character = COE_kanzler_konig
+

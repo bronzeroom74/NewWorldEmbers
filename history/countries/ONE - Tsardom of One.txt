@@ -1,0 +1,23 @@
+capital = 878
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+recruit_character = ONE_Otri
+
+set_politics = {
+	ruling_party = adaptation
+	last_election = "2265.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 0
+	aggression = 0
+	absolution = 0
+	adaptation = 100
+	apocalypse = 0
+}

@@ -1,0 +1,18 @@
+characters = {
+	JAK_jakob = {
+		name = JAK_jakob_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAK/portrait_jakob.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_aggressionists
+			traits = {
+				JAK_robberbaron_trait
+			}
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

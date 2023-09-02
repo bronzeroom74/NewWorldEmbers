@@ -1,0 +1,22 @@
+
+state = {
+	id = 954
+	name = "STATE_954"
+	provinces = {
+		359 8195 15089 19739 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			19739 2 #Guarda
+		}
+	}
+	manpower = 28090
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

@@ -1,0 +1,20 @@
+idea_categories = {
+	# ledger can be define for idea > idea slot > idea category
+	# first one overrides the others
+	# multiple ledgers can be defined, in that case will show on all
+	# possible values : army, air, navy, military (shows on all military ledgers), civilian, all (shows up everywhere), hidden (does not show up)
+
+
+	culture_and_development = {
+		slot = science_base_policy
+		slot = society_type_policy
+		slot = outsider_views_policy
+		slot = prosperity_policy
+		slot = culture_policy
+		slot = sustenance_policy
+
+		ledger = civilian
+
+		cost = 150
+		removal_cost = -1
+	}

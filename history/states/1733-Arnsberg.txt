@@ -1,0 +1,23 @@
+state = {
+	id = 1733
+	name = "STATE_1733"
+	provinces = {
+		5615 8133 9136 12084 12201 20710
+	}
+	history = {
+		owner = RED
+		add_core_of = RED
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			12201 5 #Arnsberg
+		}
+	}
+	manpower = 22105
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

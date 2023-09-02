@@ -1,0 +1,24 @@
+state = {
+	id = 1768
+	name = "STATE_1768"
+	provinces = {
+		3588 3603 13231 13261 13321 20759
+	}
+	history = {
+		owner = WAF
+		add_core_of = WAF
+		add_claim_by = SON
+		victory_points = {
+			3588 10 #Ulm
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	manpower = 24069
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

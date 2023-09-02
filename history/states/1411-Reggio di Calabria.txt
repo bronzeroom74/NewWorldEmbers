@@ -1,0 +1,19 @@
+state = {
+	id = 1411
+	name = "STATE_1411"
+	history = {
+		owner = LAT
+		add_core_of = LAT
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 15368 15 }
+	}
+	provinces = {
+		7761 15338 15368 15382 
+	}
+	manpower = 57830
+	state_category = large_city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

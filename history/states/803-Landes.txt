@@ -1,0 +1,22 @@
+
+state = {
+	id = 803
+	name = "STATE_803"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			20492 5 #La Teste-de-Buch
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		1986 3725 4621 5881 5915 14589 14603 20491 20492 
+	}
+	manpower = 21369
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

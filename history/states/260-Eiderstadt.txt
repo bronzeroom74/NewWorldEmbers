@@ -1,0 +1,24 @@
+
+state = {
+	id = 260
+	name = "STATE_260"
+	provinces = {
+		4894 10810 10830 10903 19644 19645 19646 20650 
+	}
+	history = {
+		owner = DVK
+		add_core_of = DVK
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			10903 2 #Husum
+		}
+	}
+	manpower = 10433
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

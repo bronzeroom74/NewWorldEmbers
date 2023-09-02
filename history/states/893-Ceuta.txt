@@ -1,0 +1,26 @@
+
+state = {
+	id = 893
+	name = "STATE_893"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+			19768 = { naval_base = 1 }
+		}
+	
+		victory_points = {
+			19768 5 #Ceuta
+			}
+	}
+	
+	provinces = {
+		19768 
+	}
+	manpower = 5500
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

@@ -1,0 +1,530 @@
+focus_tree = {
+	id = COE_nf
+	country = {
+		factor= 0
+		modifier = {
+			add = 50
+			tag = COE
+		}
+	}
+
+	#Starting Focuses
+	focus = {
+		id = COE_the_dirt
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 7
+		x = 15
+		y = 1
+		completion_reward = {
+			country_event = { id = nf_coe.1 }
+		}
+	}
+	focus = {
+		id = COE_the_blood
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 7
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = COE_the_dirt
+		}
+		relative_position_id = COE_the_dirt
+		completion_reward = {
+			country_event = { id = nf_coe.2 }
+		}
+	}
+	focus = {
+		id = COE_the_steel
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 7
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = COE_the_blood
+		}
+		relative_position_id = COE_the_blood
+		completion_reward = {
+			country_event = { id = nf_coe.3 }
+		}
+	}
+	focus = {
+		id = COE_the_ruhr_red_army
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -3
+		y = 2
+		prerequisite = {
+			focus = COE_the_steel
+		}
+		relative_position_id = COE_the_steel
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_conscript_phrygians
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = COE_the_ruhr_red_army
+		}
+		relative_position_id = COE_the_ruhr_red_army
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_conscript_maul
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = COE_the_ruhr_red_army
+		}
+		relative_position_id = COE_the_ruhr_red_army
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_army_for_revolution
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = COE_conscript_maul
+			focus = COE_conscript_phrygians
+		}
+		relative_position_id = COE_the_ruhr_red_army
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_the_schism
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = COE_the_steel
+		}
+		relative_position_id = COE_the_steel
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_koing_list
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = COE_the_schism
+		}
+		relative_position_id = COE_the_schism
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_a_secret_police
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = COE_the_schism
+		}
+		relative_position_id = COE_the_schism
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_the_hungry_war_machine
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 3
+		y = 2
+		prerequisite = {
+			focus = COE_the_steel
+		}
+		relative_position_id = COE_the_steel
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_bring_in_rationing
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = COE_the_hungry_war_machine
+		}
+		relative_position_id = COE_the_hungry_war_machine
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_leather_soup
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = COE_the_hungry_war_machine
+		}
+		relative_position_id = COE_the_hungry_war_machine
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_war_communism
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = COE_bring_in_rationing
+			focus = COE_leather_soup
+		}
+		relative_position_id = COE_the_hungry_war_machine
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_our_german_right
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = COE_a_secret_police
+			focus = COE_koing_list
+		}
+		relative_position_id = COE_the_schism
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_removing_the_rot
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = COE_our_german_right
+		}
+		relative_position_id = COE_our_german_right
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_the_northern_march
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -3
+		y = 1
+		prerequisite = {
+			focus = COE_removing_the_rot
+		}
+		relative_position_id = COE_removing_the_rot
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_government_controlled_schools
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = COE_the_northern_march
+		}
+		relative_position_id = COE_the_northern_march
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_seizing_the_means_of_production
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = COE_the_northern_march
+		}
+		relative_position_id = COE_the_northern_march
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_marsh_farmland
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = COE_the_northern_march
+		}
+		relative_position_id = COE_the_northern_march
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_the_easterm_march
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = COE_removing_the_rot
+		}
+		relative_position_id = COE_removing_the_rot
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_send_in_our_torch_bearers
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = COE_the_easterm_march
+		}
+		relative_position_id = COE_the_easterm_march
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_fish_for_the_people
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = COE_the_easterm_march
+		}
+		relative_position_id = COE_the_easterm_march
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_construc_new_gulags
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = COE_the_easterm_march
+		}
+		relative_position_id = COE_the_easterm_march
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_end_the_southern_pigs
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = COE_removing_the_rot
+		}
+		relative_position_id = COE_removing_the_rot
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_nationalize_the_trade_company
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = COE_end_the_southern_pigs
+		}
+		relative_position_id = COE_end_the_southern_pigs
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_our_own_traders
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = COE_nationalize_the_trade_company
+		}
+		relative_position_id = COE_nationalize_the_trade_company
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_enforce_border_guard
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = COE_our_own_traders
+		}
+		relative_position_id = COE_our_own_traders
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_self_reliance
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = COE_enforce_border_guard
+		}
+		relative_position_id = COE_enforce_border_guard
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_brick_wall_for_southern_soldiers
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = COE_end_the_southern_pigs
+		}
+		relative_position_id = COE_end_the_southern_pigs
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_liquidate_military_stockpiles
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = COE_brick_wall_for_southern_soldiers
+		}
+		relative_position_id = COE_brick_wall_for_southern_soldiers
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_pow_battalions
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = COE_liquidate_military_stockpiles
+		}
+		relative_position_id = COE_liquidate_military_stockpiles
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_the_rhine_red_army
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = COE_pow_battalions
+		}
+		relative_position_id = COE_pow_battalions
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_the_peoples_trial
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = COE_end_the_southern_pigs
+		}
+		relative_position_id = COE_end_the_southern_pigs
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_no_quarter_for_imperalists
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = COE_the_peoples_trial
+		}
+		relative_position_id = COE_the_peoples_trial
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_absorb_the_bureaucrats
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = COE_the_peoples_trial
+		}
+		relative_position_id = COE_the_peoples_trial
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_imperial_grain_stocks
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = COE_no_quarter_for_imperalists
+		}
+		relative_position_id = COE_no_quarter_for_imperalists
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_republican_reserve
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = COE_absorb_the_bureaucrats
+		}
+		relative_position_id = COE_absorb_the_bureaucrats
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = COE_declare_west_german_promethist_union
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 30
+		x = 0
+		y = 3
+		prerequisite = {
+			focus = COE_self_reliance
+		}
+		prerequisite = {
+			focus = COE_imperial_grain_stocks
+		}
+		prerequisite = {
+			focus = COE_republican_reserve
+		}
+		prerequisite = {
+			focus = COE_the_rhine_red_army
+		}
+		relative_position_id = COE_the_peoples_trial
+		completion_reward = {
+		}
+	}
+}

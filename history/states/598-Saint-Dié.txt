@@ -1,0 +1,32 @@
+
+state = {
+	id = 598
+	name = "STATE_598"
+	resources = {
+		energetics = 0
+		refined_metals = 2
+		polymers = 5
+		hypertech = 0
+		salvage = 3
+		electronics = 0
+	}
+	history = {
+		owner = LOR
+		add_core_of = LOR
+		victory_points = {
+			16640 2 #Saint-Dié
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		9231 13419 16640 
+	}
+	manpower = 14160
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,30 @@
+
+state = {
+	id = 482
+	name = "STATE_482"
+	provinces = {
+		5375 5887 7971 9341 12447 12471 12522 12533 12557 21690
+	}
+	history = {
+		owner = WAL
+		add_core_of = WAL
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		victory_points = {
+			5375 20 #Charleroi
+		}
+		victory_points = {
+			12533 5 #Mons
+		}
+		victory_points = {
+			9341 5 #Tournai
+		}
+	}
+	manpower = 125000
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+}

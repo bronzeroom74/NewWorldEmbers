@@ -1,0 +1,29 @@
+
+state = {
+	id = 1007
+	name = "STATE_1007"
+	provinces = {
+		1467 1843 3762 4875 5667 6199 6810 7798 15247 15296 19811 19812 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 4
+			15247 = { naval_base = 4 }
+		}
+		victory_points = {
+			6199 5 #Gandia
+		}
+		victory_points = {
+			1843 2 #Requena
+		}
+		victory_points = {
+			15247 40 #Valencia
+		}
+	}
+	manpower = 109240
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+}

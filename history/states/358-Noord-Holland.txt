@@ -1,0 +1,43 @@
+
+state = {
+	id = 358
+	name = "STATE_358"
+	resources = {
+		energetics = 9
+		refined_metals = 0
+		polymers = 2
+		hypertech = 2
+		salvage = 0
+		electronics = 7
+	}
+	provinces = {
+		1045 7314 7784 8961 9217 11662 11729 19874 19901
+	}
+	history = {
+		owner = NET
+		add_core_of = NET
+		buildings = {
+			infrastructure = 4
+			11729 = { naval_base = 6 }
+			8961 = { naval_base = 1 }
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			11729 40 #Amsterdam
+		}
+		victory_points = {
+			8961 5 #Den Helder
+		}
+		victory_points = {
+			7784 5 #Alkmaar
+		}
+		victory_points = {
+			1045 10 #Haarlem
+		}
+	}
+	manpower = 160550
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+}

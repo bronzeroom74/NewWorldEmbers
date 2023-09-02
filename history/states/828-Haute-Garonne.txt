@@ -1,0 +1,22 @@
+
+state = {
+	id = 828
+	name = "STATE_828"
+	provinces = {
+		3072 3085 3170 3372 3834 19829 19830 19856 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			3072 20 #Toulouse
+		}
+	}
+	manpower = 45860
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

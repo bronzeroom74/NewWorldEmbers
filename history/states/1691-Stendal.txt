@@ -1,0 +1,31 @@
+state = {
+	id = 1691
+	name = "STATE_1691"
+	resources = {
+		energetics = 0
+		refined_metals = 3
+		polymers = 0
+		hypertech = 0
+		salvage = 3
+		electronics = 0
+	}
+	provinces = {
+		7655 8484 11533 11541 11622 11710
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			11622 2 #Stendal
+		}
+	}
+	manpower = 13253
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

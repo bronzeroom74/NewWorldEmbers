@@ -1,0 +1,31 @@
+state = {
+	id = 1634
+	resources = {
+		energetics = 0
+		refined_metals = 3
+		polymers = 3
+		hypertech = 0
+		salvage = 0
+		electronics = 0
+	}
+	name = "STATE_1634"
+		history = {
+		owner = OHM
+		add_core_of = OHM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			6227 5 #Greifswald
+		}
+	}
+	provinces = {
+		5868 6227 11044 19659 20559
+	}
+	manpower = 11079
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

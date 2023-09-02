@@ -1,0 +1,25 @@
+
+state = {
+	id = 1144
+	name = "STATE_1144"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+			20958 = { naval_base = 1 }
+		}
+		victory_points = {
+			20958 5 #Mostaganem
+			}
+	}
+	
+	provinces = {
+		1162 2575 2806 9485 15561 15565 20958 20984 
+	}
+	manpower = 33500
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

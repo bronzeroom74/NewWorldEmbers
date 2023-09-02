@@ -1,0 +1,32 @@
+
+state = {
+	id = 506
+	name = "STATE_506"
+	resources = {
+		energetics = 0
+		refined_metals = 8
+		polymers = 3
+		hypertech = 0
+		salvage = 8
+		electronics = 0
+	}
+	history = {
+		owner = SLD
+		add_core_of = SLD
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			7401 2 #Bad Kreuznach
+		}
+	}
+	provinces = {
+		1905 7401 8179 12737 12746 20740
+	}
+	manpower = 21761
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

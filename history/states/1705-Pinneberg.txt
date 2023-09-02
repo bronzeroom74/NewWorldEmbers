@@ -1,0 +1,24 @@
+
+state = {
+	id = 1705
+	name = "STATE_1705"
+	provinces = {
+		2380 5595 6671 6882 10986 11008 11012 11039 11065 11120 11148
+	}
+	history = {
+		owner = STD
+		add_core_of = STD
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			11120 2 #Elmshorn
+		}
+	}
+	manpower = 24553
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}

@@ -1,0 +1,22 @@
+﻿capital = 2044
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = absolution
+	last_election = "2255.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 75
+	aggression = 10
+	absolution = 10
+	adaptation = 5
+	apocalypse = 0
+}
+
+recruit_character = ATO_petrov

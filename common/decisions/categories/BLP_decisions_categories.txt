@@ -1,0 +1,11 @@
+BLP_bloody_expansion_cat = {
+	icon = GFX_decision_category_generic_magic
+
+	visible = {
+		tag = BLP
+	}
+
+	priority = {
+		base = 500
+	}
+}

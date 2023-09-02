@@ -1,0 +1,34 @@
+
+state = {
+	id = 1316
+	name = "STATE_1316"
+					
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			21206 2 #Bani Mazar
+			}
+			
+		victory_points = {
+			21130 5 #Mallawi
+			}
+		
+		
+		victory_points = {
+			21137 10 #Al Minya
+			}
+			
+		}
+		
+	provinces = {
+		1639 21130 21131 21132 21133 21134 21137 21138 21140 21142 21206 
+	}
+	manpower = 85178
+	state_category = large_city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

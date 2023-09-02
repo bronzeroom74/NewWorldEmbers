@@ -1,0 +1,25 @@
+state = {
+	id = 615
+	name = "STATE_615"
+	provinces = {
+		1658 2077 4267 5517 6654 7847 13493 13527 13537 13605 13616 13658 13691 
+	}
+	history = {
+		owner = BRI
+		add_core_of = BRI
+		buildings = {
+			infrastructure = 4
+			13616 = { naval_base = 4 }
+			13658 = { naval_base = 1 }
+		}
+		victory_points = {
+			13616 5 #Lorient
+		}
+		victory_points = {
+			13658 5 #Vannes
+		}
+	}
+	manpower = 54220
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+}

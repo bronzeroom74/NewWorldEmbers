@@ -1,0 +1,22 @@
+
+state = {
+	id = 1703
+	name = "STATE_1703"
+	provinces = {
+		5465 7581 11089 11129 11149 11179 11225
+	}
+	history = {
+		owner = STD
+		add_core_of = STD
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			11089 2 #Bad Oldesloe
+		}
+	}
+	manpower = 13775
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

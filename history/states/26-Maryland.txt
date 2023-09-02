@@ -1,0 +1,28 @@
+
+state = {
+	id = 26
+	name = "STATE_26"
+	provinces = {
+		84 9685 19351 19352 19353 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 4
+			19351 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			19351 40
+		}
+		victory_points = {
+			19352 45
+		}
+	}
+	manpower = 172638
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+}

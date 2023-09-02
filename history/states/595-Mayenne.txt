@@ -1,0 +1,26 @@
+
+state = {
+	id = 595
+	name = "STATE_595"
+
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			2226 5 
+		}
+
+	}
+
+	provinces = {
+		2226 3100 5635 6727 7749 13422 13453 13470 13533 13617 13670 13700 13722 13748 20505 
+	}
+	manpower = 25130
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

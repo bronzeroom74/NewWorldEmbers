@@ -1,0 +1,33 @@
+
+state = {
+	id = 616
+	name = "STATE_616"
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 7
+		hypertech = 0
+		salvage = 3
+		electronics = 4
+	}
+	history = {
+		owner = WAF
+		add_core_of = WAF
+		add_claim_by = SON
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 0
+		}
+		victory_points = {
+			13597 5 #Konstanz
+		}
+	}
+	provinces = {
+		7819 13593 13597 18899 20751 20758
+	}
+	manpower = 14699
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

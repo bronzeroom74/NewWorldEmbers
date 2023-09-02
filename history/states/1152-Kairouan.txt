@@ -1,0 +1,25 @@
+
+state = {
+	id = 1152
+	name = "STATE_1152"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			21031 5 #Kairouan
+			}
+	}
+	
+	provinces = {
+		6821 15570 15588 15609 21031 
+	}
+	manpower = 16556
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

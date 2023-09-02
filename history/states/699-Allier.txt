@@ -1,0 +1,23 @@
+state = {
+	id = 699
+	name = "STATE_699"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			8264 2 #Vichy
+		}
+		victory_points = {
+			14068 2 #Montluçon
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		1448 4951 7049 7410 7459 8264 14054 14068 14101 14129 
+	}
+	manpower = 31348
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

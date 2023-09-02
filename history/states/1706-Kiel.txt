@@ -1,0 +1,43 @@
+
+state = {
+	id = 1706
+	name = "STATE_1706"
+
+	resources = {
+		energetics = 15
+		refined_metals = 8
+		polymers = 0
+		hypertech = 0
+		salvage = 8
+		electronics = 5
+	}
+
+	history = {
+		owner = STD
+		add_core_of = STD
+		buildings = {
+			infrastructure = 3
+			7341 = {
+				naval_base = 8
+
+			}
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			7341 20
+		}
+		victory_points = {
+			19647 1
+		}
+
+	}
+
+	provinces = {
+		5363 7341 9497 10944 10964 10969 10980 19647 20730
+	}
+	manpower = 32844
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

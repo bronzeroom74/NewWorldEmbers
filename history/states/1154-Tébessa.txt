@@ -1,0 +1,24 @@
+
+state = {
+	id = 1154
+	name = "STATE_1154"
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			20974 20 #Tebessa
+			}
+	}
+	
+	provinces = {
+		2307 2944 3610 6605 7556 15600 15652 15671 20970 20972 20974 
+	}
+	manpower = 13912
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

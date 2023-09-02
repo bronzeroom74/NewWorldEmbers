@@ -1,0 +1,51 @@
+ideas = {
+	country = {
+		ark_ark_riches = {
+			picture = ark_haul
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.15
+				production_speed_buildings_factor = -0.3
+				production_lack_of_resource_penalty_factor = -0.25
+			}
+			on_remove = {
+				add_offsite_building = { type = arms_factory level = 3 }
+				add_offsite_building = { type = industrial_complex level = 2 }
+			}
+		}
+		ark_ark_life = {
+			picture = ark_life
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.15
+				stability_factor = 0.05
+			}
+		}
+		COR_swiss_guard = {
+			picture = COR_swiss_guard
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				recruitable_population_factor = -0.15
+				weekly_manpower = 10
+				army_attack_factor = 0.05
+				army_defence_factor = 0.08
+				special_forces_min = 12
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+
+state = {
+	id = 2217
+	name = "STATE_2217"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			18832 5 #Soran
+		}	
+	}
+	provinces = {
+		15468 18825 18832 18835 
+	}
+	manpower = 3792
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

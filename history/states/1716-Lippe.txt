@@ -1,0 +1,19 @@
+
+state = {
+	id = 1716
+	name = "STATE_1716"
+	provinces = {
+		7618 7690 11867 11914
+	}
+	history = {
+		owner = RED
+		add_core_of = RED
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower = 18371
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

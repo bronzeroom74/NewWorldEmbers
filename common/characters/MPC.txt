@@ -1,0 +1,16 @@
+characters = {
+	MPC_vorarbeiter_roth = {
+		name = MPC_vorarbeiter_roth_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MPC/MPC_vorarbeiter_roth.dds"
+			}
+		}
+		country_leader = {
+			ideology = ambitious_democracy
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

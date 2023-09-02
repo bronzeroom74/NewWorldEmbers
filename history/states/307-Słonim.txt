@@ -1,0 +1,32 @@
+
+state = {
+	id = 307
+	name = "STATE_307"
+
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			11238 2 #Nowogródek
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			11384 5 #Słonim
+		}
+
+	}
+
+	provinces = {
+		4037 4200 5558 6316 11169 11211 11238 11384 18201 19943 
+	}
+	manpower = 27600
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

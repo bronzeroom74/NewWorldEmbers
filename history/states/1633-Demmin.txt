@@ -1,0 +1,20 @@
+state = {
+	id = 1633
+	name = "STATE_1633"
+		history = {
+		owner = OHM
+		add_core_of = OHM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 0
+		}
+	}
+	provinces = {
+		768 5622 11112 20556
+	}
+	manpower = 9235
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}

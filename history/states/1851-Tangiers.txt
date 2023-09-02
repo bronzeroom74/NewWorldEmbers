@@ -1,0 +1,26 @@
+state = {
+	id = 1851
+	name = "STATE_1851"
+			
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+			20913 = { naval_base = 4 }
+		}
+	
+		victory_points = {
+			20913 20 #Tangier
+			}
+	}
+	
+	provinces = {
+		20913 
+	}
+	manpower = 8000
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

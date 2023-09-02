@@ -1,0 +1,24 @@
+
+state = {
+	id = 1911
+	name = "STATE_1911"
+			
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			21275 40 #Amman
+			}
+	}
+	
+	provinces = {
+		2910 18525 21269 21272 21275 
+	}
+	manpower = 22260
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

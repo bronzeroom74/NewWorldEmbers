@@ -1,0 +1,26 @@
+
+state = {
+	id = 1643
+	name = "STATE_1643"
+
+	history = {
+		owner = BER
+		add_core_of = BER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 0
+			industrial_complex = 2
+		}
+		victory_points = {
+			8905 5 #Frankfurt an der Oder
+		}
+	}
+
+	provinces = {
+		4306 5265 8905 9515 11720
+	}
+	manpower = 25137
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 1829
+	name = "STATE_1829"
+			
+				
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			20879 20 #Marrakesh
+			}
+	}
+	
+	provinces = {
+		2120 20879 
+	}
+	manpower = 4862
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

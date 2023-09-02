@@ -1,0 +1,26 @@
+
+state = {
+	id = 1729
+	name = "STATE_1729"
+
+	history = {
+		owner = NOM
+		add_core_of = NOM
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			4664 2
+		}
+
+	}
+
+	provinces = {
+		4664 7792 11342
+	}
+	manpower = 8325
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

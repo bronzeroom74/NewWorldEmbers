@@ -1,0 +1,18 @@
+state = {
+	id = 2665
+	name = "STATE_2665"
+	provinces = {
+		8125 20600 
+	}
+	history={
+		owner = THB
+		add_core_of = THB
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower = 4035
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

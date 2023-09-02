@@ -1,0 +1,26 @@
+state = {
+	id = 1751
+	name = "STATE_1751"
+	provinces = {
+		5412 5555 8349 20736
+	}
+	history = {
+		owner = RRC
+		add_core_of = RRC
+		victory_points = {
+			20736 40 #Köln
+		}
+		victory_points = {
+			5555 5 #Kerpen
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	manpower = 95256
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+}

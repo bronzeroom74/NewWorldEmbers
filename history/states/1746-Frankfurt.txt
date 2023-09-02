@@ -1,0 +1,34 @@
+
+state = {
+	id = 1746
+	name = "STATE_1746"
+
+	resources = {
+		energetics = 14
+		refined_metals = 5
+		polymers = 10
+		hypertech = 0
+		salvage = 8
+		electronics = 12
+	}
+
+	history = {
+		owner = STR
+		add_core_of = STR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3
+		}
+		victory_points = {
+			12673 40
+		}
+	}	
+	provinces = {
+		8507 12623 12673 20728
+	}
+	manpower = 69149
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

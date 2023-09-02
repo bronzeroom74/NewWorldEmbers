@@ -1,0 +1,19 @@
+
+state = {
+	id = 2369
+	name = "STATE_2369"
+	history = {
+		owner = WAL
+		add_core_of = WAL
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1744 2586 12581 
+	}
+	manpower = 10634
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

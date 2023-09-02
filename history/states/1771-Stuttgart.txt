@@ -1,0 +1,37 @@
+
+state = {
+	id = 1771
+	name = "STATE_1771"
+	resources = {
+		energetics = 8
+		refined_metals = 0
+		polymers = 0
+		hypertech = 0
+		salvage = 10
+		electronics = 7
+	}
+	history = {
+		owner = RHW
+		add_core_of = RHW
+		victory_points = {
+			1598 40 #Stuttgart
+		}
+		victory_points = {
+			1497 5 #Esslingen
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 2
+		}
+
+	}
+
+	provinces = {
+		1497 1598 13212 13253 20768
+	}
+	manpower = 87846
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

@@ -1,0 +1,295 @@
+add_namespace = rra
+
+####Surprise Vicory Events####
+country_event = {
+    id = rra.1
+    title = rra.1.t
+    desc = rra.1.d
+    picture = GFX_event_picture
+
+    trigger = {
+        tag = COE
+        OR = {
+            any_allied_country = {
+                owns_state = 358
+            }
+            COE = {
+                owns_state = 358
+            }
+        }
+    }
+	fire_only_once = yes
+
+
+    option = {
+        name = rra.1.a
+        release_autonomy = {
+            target = VLC
+            autonomy_state = autonomy_integrated_puppet
+        }
+        every_country = {
+            limit = {
+                is_subject_of = COE
+            }
+            every_owned_state = {
+                limit = {
+                    is_core_of = VLC
+                }
+                VLC = {transfer_state = PREV}
+            }
+        }
+        release_autonomy = {
+            target = UFS
+            autonomy_state = autonomy_integrated_puppet
+        }
+        every_country = {
+            limit = {
+                is_subject_of = COE
+            }
+            every_owned_state = {
+                limit = {
+                    is_core_of = UFS
+                }
+                UFS = {transfer_state = PREV}
+            }
+        }
+        release_autonomy = {
+            target = NOM
+            autonomy_state = autonomy_integrated_puppet
+        }
+        every_country = {
+            limit = {
+                is_subject_of = COE
+            }
+            every_owned_state = {
+                limit = {
+                    is_core_of = NOM
+                }
+                NOM = {transfer_state = PREV}
+            }
+        }
+        release_autonomy = {
+            target = NET
+            autonomy_state = autonomy_integrated_puppet
+        }
+        every_country = {
+            limit = {
+                is_subject_of = COE
+                NOT = {
+                    OR = {
+                        tag = UFS
+                        tag = VLC
+                        tag = NOM
+                    }
+                }
+            }
+            every_owned_state = {
+                limit = {
+                    is_core_of = NET
+                }
+                NET = {transfer_state = PREV}
+            }
+        }
+        IF = {
+            limit = {
+                MPC = { exists = yes }
+            }
+            MPC = { transfer_state = 400 }
+        }
+        VLC = { set_cosmetic_tag = VLC_commie add_ideas = { PCO_friends_across_river_idea }}
+        UFS = { set_cosmetic_tag = UFS_commie add_ideas = { PCO_friends_across_river_idea }}
+        NET = { set_cosmetic_tag = NET_commie add_ideas = { PCO_friends_across_river_idea }}
+        NOM = { set_cosmetic_tag = NOM_commie add_ideas = { PCO_friends_across_river_idea }}
+    }
+}
+
+country_event = {
+    id = rra.2
+    title = rra.2.t
+    desc = rra.2.d
+    picture = GFX_event_picture
+
+    trigger = {
+        tag = COE
+        has_war_with = RUK
+    }
+	fire_only_once = yes
+
+
+    option = {
+        name = rra.2.a
+        IF = {
+            limit = {
+                SWC = {
+                    exists = yes
+                    is_subject_of = root
+                }
+            }
+            annex_country = {
+                target = SWC
+                transfer_troops = yes
+            }
+            every_owned_state = {
+                limit = {
+                    is_core_of = SWC
+                }
+                add_core_of = COE
+            }
+        }
+        IF = {
+            limit = {
+                MPC = {
+                    exists = yes
+                    is_subject_of = root
+                }
+            }
+            annex_country = {
+                target = MPC
+                transfer_troops = yes
+            }
+            every_owned_state = {
+                limit = {
+                    is_core_of = MPC
+                }
+                add_core_of = COE
+            }
+        }
+        IF = {
+            limit = {
+                PCO = {
+                    exists = yes
+                    is_subject_of = root
+                }
+            }
+            annex_country = {
+                target = PCO
+                transfer_troops = yes
+            }
+            every_owned_state = {
+                limit = {
+                    is_core_of = PCO
+                }
+                add_core_of = COE
+            }
+        }
+        IF = {
+            limit = {
+                VLC = {
+                    exists = yes
+                    is_subject_of = root
+                }
+            }
+            annex_country = {
+                target = VLC
+                transfer_troops = yes
+            }
+            every_owned_state = {
+                limit = {
+                    is_core_of = VLC
+                }
+                add_core_of = COE
+            }
+        }
+        IF = {
+            limit = {
+                NET = {
+                    exists = yes
+                    is_subject_of = root
+                }
+            }
+            annex_country = {
+                target = NET
+                transfer_troops = yes
+            }
+            every_owned_state = {
+                limit = {
+                    is_core_of = NET
+                }
+                add_core_of = COE
+            }
+        }
+        IF = {
+            limit = {
+                UFS = {
+                    exists = yes
+                    is_subject_of = root
+                }
+            }
+            annex_country = {
+                target = UFS
+                transfer_troops = yes
+            }
+            every_owned_state = {
+                limit = {
+                    is_core_of = UFS
+                }
+                add_core_of = COE
+            }
+        }
+        IF = {
+            limit = {
+                NOM = {
+                    exists = yes
+                    is_subject_of = root
+                }
+            }
+            annex_country = {
+                target = NOM
+                transfer_troops = yes
+            }
+            every_owned_state = {
+                limit = {
+                    is_core_of = NOM
+                }
+                add_core_of = COE
+            }
+        }
+        IF = {
+            limit = {
+                RED = {
+                    exists = yes
+                    is_subject_of = root
+                }
+            }
+            annex_country = {
+                target = RED
+                transfer_troops = yes
+            }
+            every_owned_state = {
+                limit = {
+                    is_core_of = RED
+                }
+                add_core_of = COE
+            }
+        }
+        add_ideas = COE_promethian_unity_idea
+        set_cosmetic_tag = COE_united_army_cosm
+    }
+}
+
+country_event = {
+    id = rra.3
+    title = rra.3.t
+    desc = rra.3.d
+    picture = GFX_event_picture
+
+    trigger = {
+        tag = COE
+        RUK = {exists = no}
+        COE = { owns_state = 469 }
+        COE = { owns_state = 1746 }
+    }
+	fire_only_once = yes
+
+
+    option = {
+        name = rra.3.a
+        set_cosmetic_tag = COE_gdr_cosm
+        every_owned_state = {
+            limit = {
+                is_core_of = RUK
+            }
+            add_compliance = 20
+        }
+    }
+}

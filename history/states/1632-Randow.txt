@@ -1,0 +1,28 @@
+state = {
+	id = 1632
+	name = "STATE_1632"
+	resources = {
+		energetics = 0
+		refined_metals = 3
+		polymers = 3
+		hypertech = 0
+		salvage = 6
+		electronics = 0
+	}
+	history = {
+		owner = BER
+		add_core_of = BER
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		1668 7472 9291 11269 11339
+	}
+	manpower = 18155
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = town
+}

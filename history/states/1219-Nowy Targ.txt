@@ -1,0 +1,22 @@
+
+state = {
+	id = 1219
+	name = "STATE_1219"
+	provinces = {
+		4368 7894 13018 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		victory_points = {
+			4368 2 #Nowy Targ
+		}
+		buildings = {
+			infrastructure = 2
+		}
+  	}
+	manpower = 15920
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,25 @@
+
+state = {
+	id = 563
+	name = "STATE_563"
+	history = {
+		owner = RAB
+		add_core_of = RAB
+		victory_points = {
+			13114 5 #Meaux
+		}
+		victory_points = {
+			13260 2 #Melun
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		3307 7332 8767 13114 13125 13260
+	}
+	manpower = 40930
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

@@ -1,0 +1,50 @@
+focus_tree = {
+	id = VRD_nf
+	country = {
+		factor= 0
+		modifier = {
+			add = 50
+			tag = VRD
+		}
+	}
+
+	#Starting Focuses
+	focus = {
+		id = VRD_atom_to_trenches
+		icon =
+		cost = 7
+		x = 15
+		y = 1
+		completion_reward = {
+			country_event = { id = nf_vrd.1 }
+		}
+	}
+	focus = {
+		id = VRD_the_battlegroups
+		icon = 
+		cost = 7
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = VRD_atom_to_trenches
+		}
+		relative_position_id = VRD_atom_to_trenches
+		completion_reward = {
+			country_event = { id = nf_vrd.2 }
+		}
+	}
+	focus = {
+		id = VRD_storms_of_lead
+		icon = 
+		cost = 7
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = VRD_the_battlegroups
+		}
+		relative_position_id = VRD_the_battlegroups
+		completion_reward = {
+			country_event = { id = nf_vrd.3 }
+		}
+	}
+}

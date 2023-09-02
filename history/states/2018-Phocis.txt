@@ -1,0 +1,23 @@
+
+state = {
+	id = 2018
+	name = "STATE_2018"
+
+	history = {
+		owner = ATH
+		add_core_of = ATH
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces = {
+		509 4354 15321 20274 20277 
+	}
+	manpower = 3650
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

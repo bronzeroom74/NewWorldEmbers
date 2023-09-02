@@ -1,0 +1,38 @@
+
+state = {
+	id = 1750
+	name = "STATE_1750"
+	resources = {
+		energetics = 7
+		refined_metals = 0
+		polymers = 9
+		hypertech = 0
+		salvage = 0
+		electronics = 4
+	}
+	history = {
+		owner = PCO
+		add_core_of = PCO
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		victory_points = {
+			20734 10 #Neuss
+		}
+		victory_points = {
+			8475 20 #Mönchengladbach
+		}
+		victory_points = {
+			20734 20 #Krefeld
+		}
+	}
+	provinces = {
+		8475 8897 20734
+	}
+	manpower = 72494
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+}

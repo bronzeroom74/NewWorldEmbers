@@ -1,0 +1,25 @@
+
+state = {
+	id = 1079
+	name = "STATE_1079"
+	provinces = {
+		110 1039 1611 1785 4047 4165 7546 15411 19796 
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			7546 40 #Sevilla
+		}
+		victory_points = {
+			1785 2 #Utrera
+		}
+	}
+	manpower = 84990
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+}

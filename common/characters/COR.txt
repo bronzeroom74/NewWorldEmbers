@@ -1,0 +1,18 @@
+characters = {
+	COR_cardevac = {
+		name = COR_cardevac_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COR/portrait_cardevac.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			traits = {
+				COR_commander_trait
+			}
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

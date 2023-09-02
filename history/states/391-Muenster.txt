@@ -1,0 +1,34 @@
+
+state = {
+	id = 391
+	name = "STATE_391"
+	resources = {
+		energetics = 10
+		refined_metals = 0
+		polymers = 3
+		hypertech = 0
+		salvage = 0
+		electronics = 7
+	}
+	history = {
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		owner = MPC
+		add_core_of = MPC
+		victory_points = {
+			11888 20 #Münster
+		}
+
+	}
+
+	provinces = {
+		6357 11888 11931 11974 20700 20704
+	}
+	manpower = 28321
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

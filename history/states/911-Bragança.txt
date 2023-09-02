@@ -1,0 +1,22 @@
+
+state = {
+	id = 911
+	name = "STATE_911"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			20517 2 #Bragança
+		}
+	}
+	provinces = {
+		939 2597 6287 8785 15007 20517 
+	}
+	manpower = 19920
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

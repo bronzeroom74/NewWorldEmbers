@@ -1,0 +1,16 @@
+characters = {
+	SWC_fackeltrage_richter = {
+		name = SWC_fackeltrage_richter_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWC/SWC_fackeltrage_richter.dds"
+			}
+		}
+		country_leader = {
+			ideology = ambitious_democracy
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

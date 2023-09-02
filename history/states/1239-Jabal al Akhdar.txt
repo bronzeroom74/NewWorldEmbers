@@ -1,0 +1,25 @@
+
+state = {
+	id = 1239
+	name = "STATE_1239"
+					
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 2
+		}
+	
+		victory_points = {
+			21105 5 #Al Bayda
+			}
+	}
+	
+	provinces = {
+		737 9422 21086 21091 21102 21103 21105 
+	}
+	manpower = 3250
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

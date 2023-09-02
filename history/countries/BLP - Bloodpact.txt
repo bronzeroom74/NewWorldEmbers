@@ -1,0 +1,35 @@
+﻿capital = 13040
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+add_ideas = {
+	BLP_bloody_barons_idea
+}
+add_timed_idea = {
+	idea = BLP_frenzy_recovery_idea
+	days = 200
+}
+
+set_politics = {
+	ruling_party = absolution
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+
+puppet = SGG
+
+set_popularities = {
+	ascension = 15
+	aggression = 10
+	absolution = 70
+	adaptation = 5
+	apocalypse = 0
+}
+
+
+
+set_country_flag = BLP_last_frenzy_recovery_flag

@@ -1,0 +1,20 @@
+﻿capital = 1681
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = aggression
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ascension = 15
+	aggression = 70
+	absolution = 10
+	adaptation = 5
+	apocalypse = 0
+}

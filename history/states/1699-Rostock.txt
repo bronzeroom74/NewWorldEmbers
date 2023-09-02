@@ -1,0 +1,35 @@
+state = {
+	id = 1699
+	name = "STATE_1699"
+	provinces = {
+		581 1185 5035 7036 11009 11013 11066 20644
+	}
+	resources = {
+		energetics = 4
+		refined_metals = 0
+		polymers = 0
+		hypertech = 0
+		salvage = 8
+		electronics = 0
+	}
+	history = {
+		owner = OHM
+		add_core_of = OHM
+		buildings = {
+			infrastructure = 3
+			5035 = { naval_base = 6 }
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			5035 10 #Rostock
+		}
+		victory_points = {
+			11066 2 #Güstrow
+		}
+	}
+	manpower = 27390
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}

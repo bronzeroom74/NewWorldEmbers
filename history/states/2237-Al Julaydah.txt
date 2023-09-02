@@ -1,0 +1,20 @@
+
+state = {
+	id = 2237
+	name = "STATE_2237"
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+			infrastructure = 1
+		}
+		set_demilitarized_zone = yes
+	}
+	provinces = {
+		548 3471 
+	}
+	manpower = 1000
+	state_category = wasteland
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

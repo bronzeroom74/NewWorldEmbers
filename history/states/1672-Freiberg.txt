@@ -1,0 +1,26 @@
+
+state = {
+	id = 1672
+	name = "STATE_1672"
+
+	history = {
+		owner = CHU
+		add_core_of = CHU
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			6951 2
+		}
+
+	}
+
+	provinces = {
+		535 1609 6951 9343 12338 20614
+	}
+	manpower = 17859
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

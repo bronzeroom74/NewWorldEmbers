@@ -1,0 +1,29 @@
+
+state = {
+	id = 558
+	name = "STATE_558"
+
+	history = {
+		owner = VER
+		add_core_of = VER
+		victory_points = {
+			9580 5
+		}
+		victory_points = {
+			13269 5
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces = {
+		5238 7362 9580 13132 13168 13211 13222 13268 13269 13295
+	}
+	manpower = 42750
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

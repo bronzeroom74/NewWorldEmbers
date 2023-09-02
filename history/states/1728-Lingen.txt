@@ -1,0 +1,29 @@
+state = {
+	id = 1728
+	name = "STATE_1728"
+	provinces = {
+		4980 20683
+	}
+	resources = {
+		energetics = 0
+		refined_metals = 0
+		polymers = 4
+		hypertech = 0
+		salvage = 4
+		electronics = 0
+	}
+	history = {
+		owner = RED
+		add_core_of = RED
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			4980 5 #Lingen
+		}
+	}
+	manpower = 6119
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+}

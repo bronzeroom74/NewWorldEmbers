@@ -1,0 +1,33 @@
+
+state = {
+	id = 567
+	name = "STATE_567"
+	resources = {
+		energetics = 0
+		refined_metals = 6
+		polymers = 3
+		hypertech = 0
+		salvage = 4
+		electronics = 0
+	}
+	history = {
+		owner = SON
+		add_core_of = SON
+		add_claim_by = FRI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			20808 5 #Kempten
+		}
+	}
+	provinces = {
+		2432 5613 13546 13607 13638 20808
+	}
+	manpower = 16396
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}
