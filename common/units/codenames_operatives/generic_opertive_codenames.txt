@@ -3,7 +3,7 @@ GENERIC_ENG_OPERATIVE_CODENAME_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_OPERATIVES
 
 	# for all English speaking countries
-	for_countries = { }
+	for_countries = {}
 
 	type = codename
 
