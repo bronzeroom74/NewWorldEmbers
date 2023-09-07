@@ -3,6 +3,9 @@
 
 technology_categories = {
 	aircraft
+	construction_tech
+	industry
+	infantry_weapons
 }
 
 technology_folders = {
@@ -17,6 +20,9 @@ technology_folders = {
 	}
 	industry_folder = {
 		ledger = civilian
+	}
+	infantry_folder = {
+		ledger = army
 	}
 }
 
