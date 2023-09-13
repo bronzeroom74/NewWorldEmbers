@@ -1,0 +1,17 @@
+characters = {
+	FIS_overseer_alberich = {
+		name = FIS_overseer_alberich_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/fIS/portrait_FIS_overseer_alberich.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_aggressionists
+			traits = {
+			}
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}
