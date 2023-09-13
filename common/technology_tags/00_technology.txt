@@ -6,6 +6,28 @@ technology_categories = {
 	construction_tech
 	industry
 	infantry_weapons
+	artillery
+	armor
+	motorized_equipment
+	electronics
+	land_doctrine
+	air_doctrine
+	naval_doctrine
+	support_tech
+	logistics_tech
+	medical_tech
+	recon_tech
+	maintenance_company_tech
+	heavy_support_tech
+	sniper_tech
+	fire_team_tech
+	engineers_tech
+	signal_company_tech
+	decryption_tech
+	encryption_tech
+	computing_tech
+	radar_tech
+	naval_equipment
 }
 
 technology_folders = {
@@ -23,6 +45,15 @@ technology_folders = {
 	}
 	infantry_folder = {
 		ledger = army
+	}
+	artillery_folder = {
+		ledger = army
+	}
+	support_folder = {
+		ledger = army
+	}
+	electronics_folder = {
+		ledger = civilian
 	}
 }
 
