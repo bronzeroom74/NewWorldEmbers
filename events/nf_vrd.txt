@@ -1,5 +1,4 @@
 add_namespace = nf_vrd
-
 country_event = {
 	id = nf_vrd.1
 	title = nf_vrd.1.t
@@ -38,5 +37,18 @@ country_event = {
 
 	option = {
 		name = nf_vrd.3.a
+	}
+}
+news_event = {
+	id = nf_vrd.4
+	title = nf_vrd.4.t
+	desc = nf_vrd.4.d
+	picture = GFX_event_picture
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_vrd.4.a
+
 	}
 }
