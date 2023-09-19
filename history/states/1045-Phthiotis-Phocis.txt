@@ -6,8 +6,8 @@ state = {
 		1114 5958 15305 20257 20358 20359 
 	}
 	history = {
-		owner = ATH
-		add_core_of = ATH
+		owner = SWI
+		add_core_of = SWI
 		buildings = {
 			infrastructure = 2
 		}
