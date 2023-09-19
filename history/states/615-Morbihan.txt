@@ -5,8 +5,8 @@ state = {
 		1658 2077 4267 5517 6654 7847 13493 13527 13537 13605 13616 13658 13691 
 	}
 	history = {
-		owner = BRI
-		add_core_of = BRI
+		owner = SWI
+		add_core_of = SWI
 		buildings = {
 			infrastructure = 4
 			13616 = { naval_base = 4 }
