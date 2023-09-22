@@ -79,4 +79,19 @@ spriteTypes = {
 		name = "GFX_idea_COR_swiss_guard"
 		texturefile = "gfx/interface/ideas/cor_swiss_guard.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_COL_deal"
+		texturefile = "gfx/interface/ideas/col_deal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHU_rebuild"
+		texturefile = "gfx/interface/ideas/chu_rebuild.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHU_teachings"
+		texturefile = "gfx/interface/ideas/chu_teachings.dds"
+	}
 }
