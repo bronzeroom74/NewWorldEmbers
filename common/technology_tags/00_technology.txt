@@ -1,0 +1,80 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+	## Infantry
+	infantry_equipment
+
+	## Support 
+	support_tech
+	logistics_tech
+	medical_tech
+	recon_tech
+	maintenance_company_tech
+	engineers_tech
+	signal_company_tech
+
+	## Artillery
+	artillery
+
+	## Vehicles
+	motorized_equipment
+	armor
+
+	## Robots
+
+	## Aircraft
+	aircraft
+
+	## Electronics
+	electronics
+	decryption_tech
+	encryption_tech
+	computing_tech
+	radar_tech
+
+	## Industry
+	industry
+	construction_tech
+
+	## Not sorted
+
+	land_doctrine
+	air_doctrine
+	naval_doctrine
+	
+	heavy_support_tech
+	sniper_tech
+	fire_team_tech
+	
+	naval_equipment
+}
+
+technology_folders = {
+	infantry_folder = {
+		ledger = army
+	}
+	support_folder = {
+		ledger = army
+	}
+	artillery_folder = {
+		ledger = army
+	}
+	vehicles_folder = {
+		ledger = army
+	}
+	robots_folder = {
+		ledger = army
+	}
+	aircraft_folder = {
+		ledger = army
+	}
+	electronics_folder = {
+		ledger = civilian
+	}
+	industry_folder = {
+		ledger = civilian
+	}
+}
+
+ 

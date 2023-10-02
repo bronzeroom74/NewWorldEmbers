@@ -1,0 +1,706 @@
+technologies = {
+	advanced_warfare = {
+		path = {
+			leads_to_tech = truck
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = battle_tank_1
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = light_mech_1
+			research_cost_coeff = 1
+		}	
+
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	truck = {
+		enable_equipments = {
+			truck
+		}
+		path = {
+			leads_to_tech = armored_truck
+			research_cost_coeff = 1
+		}	
+
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	armored_truck = {
+		enable_equipments = {
+			armored_truck
+		}
+
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	battle_tank_1 = {
+		enable_equipments = {
+			battle_tank_1
+		}
+		path = {
+			leads_to_tech = battle_tank_2
+			research_cost_coeff = 1
+		}
+
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = -4 y = 2 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	battle_tank_2 = {
+		enable_equipments = {
+			battle_tank_2
+		}
+		path = {
+			leads_to_tech = battle_tank_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = amphibious_tank_1
+			research_cost_coeff = 1
+		}
+
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = -4 y = 4 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	battle_tank_3 = {
+		enable_equipments = {
+			battle_tank_3
+		}
+		path = {
+			leads_to_tech = battle_tank_4
+			research_cost_coeff = 1
+		}	
+
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = -4 y = 6 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	battle_tank_4 = {
+		enable_equipments = {
+			battle_tank_4
+		}
+		path = {
+			leads_to_tech = modern_tank_1
+			research_cost_coeff = 1
+		}	
+
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = -4 y = 8 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	amphibious_tank_1 = {
+		enable_equipments = {
+			amphibious_tank_1
+		}
+		path = {
+			leads_to_tech = amphibious_tank_2
+			research_cost_coeff = 1
+		}	
+
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = -8 y = 6 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	amphibious_tank_2 = {
+		enable_equipments = {
+			amphibious_tank_2
+		}
+
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = -8 y = 8 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	modern_tank_1 = {
+		enable_equipments = {
+			modern_tank_1
+		}
+		path = {
+			leads_to_tech = modern_tank_2
+			research_cost_coeff = 1
+		}	
+
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = -4 y = 10 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	modern_tank_2 = {
+		enable_equipments = {
+			modern_tank_2
+		}
+
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = -4 y = 12 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	light_mech_1 = {
+		enable_equipments = {
+			light_mech_1
+		}
+		path = {
+			leads_to_tech = light_mech_2
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = heavy_mech_1
+			research_cost_coeff = 1
+		}	
+		
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	light_mech_2 = {
+		enable_equipments = {
+			light_mech_2
+		}
+		path = {
+			leads_to_tech = light_mech_3
+			research_cost_coeff = 1
+		}	
+		
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	light_mech_3 = {
+		enable_equipments = {
+			light_mech_3
+		}
+		path = {
+			leads_to_tech = light_mech_4
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = support_mech_1
+			research_cost_coeff = 1
+		}		
+		
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	light_mech_4 = {
+		enable_equipments = {
+			light_mech_4
+		}
+		path = {
+			leads_to_tech = light_mech_5
+			research_cost_coeff = 1
+		}	
+		
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	light_mech_5 = {
+		enable_equipments = {
+			light_mech_5
+		}
+		
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 4 y = 12 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	support_mech_1 = {
+		enable_equipments = {
+			support_mech_1
+		}
+		
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavy_mech_1 = {
+		enable_equipments = {
+			heavy_mech_1
+		}
+		path = {
+			leads_to_tech = heavy_mech_2
+			research_cost_coeff = 1
+		}	
+		
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 8 y = 4 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavy_mech_2 = {
+		enable_equipments = {
+			heavy_mech_2
+		}
+		path = {
+			leads_to_tech = heavy_mech_3
+			research_cost_coeff = 1
+		}	
+		
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+		
+		path = {
+			leads_to_tech = super_heavy_mech_1
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 8 y = 6 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavy_mech_3 = {
+		enable_equipments = {
+			heavy_mech_3
+		}
+		
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 8 y = 8 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	super_heavy_mech_1 = {
+		enable_equipments = {
+			super_heavy_mech_1
+		}
+		path = {
+			leads_to_tech = super_heavy_mech_2
+			research_cost_coeff = 1
+		}	
+		
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 12 y = 8 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	super_heavy_mech_2 = {
+		enable_equipments = {
+			super_heavy_mech_2
+		}
+		
+		modifier = {
+			hidden_modifier = {
+				political_power_gain = 0.1
+			}
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = vehicles_folder
+			position = { x = 12 y = 10 }
+		}
+		
+		categories = {
+			aircraft
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

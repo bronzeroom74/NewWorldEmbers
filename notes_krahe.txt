@@ -1,0 +1,64 @@
+# Changed folders
+descriptor.mod
+interface
+gfx\interface\technologies
+common\ai_equipment
+common\technologies
+common\technology_tags
+common\units
+common\units\equipment
+
+
+# Current Changes
+descriptor.mod
+	Added:
+		replace_path="common/units" for less crashing errors with new tech\removing old tech\equipment
+		replace_path="common/technologies" for actual work with technology
+	Removed
+		All replace_path connected to common/units, whole folder is already replaced
+
+interface\countrytechnologyview.gui
+	Added from original hoi4 folder to the mod
+		countrytechnologyview is responsible for the tech window itself and is edited to add stuff like folder buttons 
+
+interface\countrytechtreeview.gui
+	countrytechtreeview is repsonsible for the stuff inside tech folders: 
+		like tech placement, background art, various text amd graphic
+
+interface\placeholder_tech_icons
+	Is a placeholder that path to placeholder tech icons
+
+gfx\interface\technologies
+	Placeholder tech icons:
+		placeholder_tech_big.dds
+		placeholder_tech_small.dds
+			Said gfxs for placeholder tech icons, soon to be filled with actual icons
+
+common\units
+	Replace_path whole folder, needed to make changes to tech equipment without game crashing
+
+common\units\equipment\plane_airframes
+	Placeholder airlines equipment, good chunk are just copies of the same plane
+
+common\technology_tags
+	Added from original hoi4 folder to the mod
+		Controls technology folders and tech categories
+
+common\technology_tags\00_technology.txt
+	Changed technology_categories, removed most of old stuff, added aircraft, needed for tech in aircraft.txt
+		technology_categories is used to categorize tech to, for example, give research speed buffs 
+		On less important, technology_folders control which tech folder opens first when opening tech tree gui, based on order of tech that are inside
+
+common\technologies
+	The tech in the tech folders
+
+history\countries
+	Removed tech from countries, it crash game
+
+common\units\
+	Units files are now mostly empty to prevent crushing due to lack of needed equipment
+		This files are responsible for battalion fillings, like support companies and infantry
+
+ToDo:
+common\ai_equipment
+	Control what ai actually do with equipment, will need to be heavily edited as we'll get new equipments
