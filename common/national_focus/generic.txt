@@ -113,7 +113,7 @@ focus_tree = {
            add_tech_bonus = {
                bonus = 1
                uses = 1
-               # category = excavation_tech
+               category = industry
            }
        }
    }
@@ -167,9 +167,12 @@ focus_tree = {
        available_if_capitulated = yes
 
 
-       completion_reward = {
-           army_experience = 5
-       }
+        completion_reward = {
+            add_equipment_to_stockpile = {
+                amount = 10
+                type = convoy
+            }
+        }
    }
    focus = {
        id = gen_econsharedknow
@@ -187,9 +190,14 @@ focus_tree = {
        available_if_capitulated = yes
 
 
-       completion_reward = {
-           army_experience = 5
-       }
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 0.5
+                uses = 2
+                category = electronics 
+                category = industry
+            }
+        }
    }
    focus = {
        id = gen_econforeigninvest
@@ -211,7 +219,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+           add_ideas = gen_foreign_investment
        }
    }
    focus = {
@@ -231,8 +239,18 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
-       }
+            capital_scope = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+            swap_ideas = {
+                remove_idea = gen_foreign_investment
+                add_idea = gen_trade_center
+            }
+        }
    }
    focus = {
        id = gen_econautark
@@ -257,7 +275,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+           add_ideas = gen_autarky
        }
    }
    focus = {
@@ -277,7 +295,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+           add_ideas = gen_own_research
        }
    }
    focus = {
@@ -297,7 +315,12 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+            capital_scope = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                }
+            }
        }
    }
    focus = {
@@ -320,7 +343,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+           add_ideas = gen_growing_mining
        }
    }
    focus = {
@@ -340,11 +363,12 @@ focus_tree = {
 
 
        completion_reward = {
-           random_core_state = {
-               add_extra_state_shared_building_slots = 1
-           }
-           random_core_state = {
-               add_extra_state_shared_building_slots = 1
+           capital_scope = {
+               add_extra_state_shared_building_slots = 3
+               add_building_construction = {
+                type = industrial_complex
+                level = 2
+               }
            }
            random_core_state = {
                add_extra_state_shared_building_slots = 1

@@ -3,10 +3,50 @@ ideas = {
 		gen_starfall = {
 			picture = starfall
 		}
+
 		gen_mobi_effort = {
 			picture = starfall
 			modifier = {
 				conscription = 0.01
+			}
+		}
+
+		gen_foreign_investment = {
+			picture = starfall
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.02
+			}
+		}
+
+		gen_trade_center = {
+			picture = starfall
+			modifier = {
+				production_speed_buildings_factor = 0.07
+				research_speed_factor = 0.04
+				trade_opinion_factor = 0.1
+				monthly_population = 0.03
+			}
+		}
+
+		gen_autarky = {
+			picture = starfall
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+		gen_own_research = {
+			picture = starfall
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+
+		gen_growing_mining = {
+			picture = starfall
+			modifier = {
+				local_resources_factor = 0.1
 			}
 		}
 	}

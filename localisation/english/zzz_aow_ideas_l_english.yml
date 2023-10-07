@@ -4,3 +4,8 @@
   ark_ark_life:0 "Life in the ARKs"
   COR_swiss_guard:0 "Pontifical Swiss Guard"
   gen_mobi_effort:0 "Mobilization Effort"
+  gen_foreign_investment:0 "Foreign Investors"
+  gen_trade_center:0 "Local Trade Center"
+  gen_autarky:0 "Autarky"
+  gen_own_research:0 "Our own Reserch Centers"
+  gen_growing_mining:0 "Growing Mining Business"
