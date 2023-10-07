@@ -1,16 +1,17 @@
 ﻿l_english:
+  # Commented out as it causes errors
   # GUIs:
-  COUNTRY_UNITY_TOP_TEXT:0 "[?country_unity|0]"
-  COUNTRY_UNITY_TT: "§YCivic Power§! \n\nCurrent Civic Power: [?country_unity|2+] \n\nDaily Change: [?unity_gain_temp|2+=] \n    - Base Change: §Y+0.40§!\n    - Other Changes: §Y[?daily_unity_flat_tt_temp|2=]§! \n    Modified by: [?daily_unity_modifier_tt_temp|2%=+] \n\nCurrent Max: §Y[?max_unity_temp|0]§! \n    - Base Value: §Y+200§!\n    - Other Changes: §Y[?max_unity_flat_tt_temp|0=]§! \n    Modified by: [?max_unity_modifier_tt_temp|2+=%]"
-  COUNTRY_UNITY_DESC: "§YCivic Power§! is used for various civilian operations and development of states. It can be spent on one time operations or it can be allocated for continous operations. \nGrowth and maximum capacity of §YCivic Power§! can be increased by various Doctrines and National Spirits."
+  #COUNTRY_UNITY_TOP_TEXT:0 "[?country_unity|0]"
+  #COUNTRY_UNITY_TT: "§YCivic Power§! \n\nCurrent Civic Power: [?country_unity|2+] \n\nDaily Change: [?unity_gain_temp|2+=] \n    - Base Change: §Y+0.40§!\n    - Other Changes: §Y[?daily_unity_flat_tt_temp|2=]§! \n    Modified by: [?daily_unity_modifier_tt_temp|2%=+] \n\nCurrent Max: §Y[?max_unity_temp|0]§! \n    - Base Value: §Y+200§!\n    - Other Changes: §Y[?max_unity_flat_tt_temp|0=]§! \n    Modified by: [?max_unity_modifier_tt_temp|2+=%]"
+  #COUNTRY_UNITY_DESC: "§YCivic Power§! is used for various civilian operations and development of states. It can be spent on one time operations or it can be allocated for continous operations. \nGrowth and maximum capacity of §YCivic Power§! can be increased by various Doctrines and National Spirits."
 
-  # Scripted Triggers:
-  HAS_AT_LEAST_COUNTRY_UNITY_TT: "Have at least §Y[?unity_amount|2]§! $COUNTRY_UNITY$"
-  HAS_LESS_COUNTRY_UNITY_TT: "Have less than §Y[?unity_amount|2]§! $COUNTRY_UNITY$"
+  ## Scripted Triggers:
+  #HAS_AT_LEAST_COUNTRY_UNITY_TT: "Have at least §Y[?unity_amount|2]§! $COUNTRY_UNITY$"
+  #HAS_LESS_COUNTRY_UNITY_TT: "Have less than §Y[?unity_amount|2]§! $COUNTRY_UNITY$"
 
-  # Scripted Effects:
-  SET_COUNTRY_UNITY_TT: "$COUNTRY_UNITY$ is set to §Y[?unity_amount|2]§!.\n"
-  ADD_COUNTRY_UNITY_TT: "$COUNTRY_UNITY$ is changed by [?unity_amount|2+=].\n"
+  ## Scripted Effects:
+  #SET_COUNTRY_UNITY_TT: "$COUNTRY_UNITY$ is set to §Y[?unity_amount|2]§!.\n"
+  #ADD_COUNTRY_UNITY_TT: "$COUNTRY_UNITY$ is changed by [?unity_amount|2+=].\n"
 
   # Modifiers:
   max_country_unity: "Max. $COUNTRY_UNITY$"

@@ -106,5 +106,4 @@ bookmarks = {
 			#123 = { rain_light = yes }
 		}
 	}
-	}
 }

@@ -1,5 +1,5 @@
 #Alduinmoment
-focus_tree =
+focus_tree = {
 	id = ber_nf
 	country = {
 		factor = 0

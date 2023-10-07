@@ -88,7 +88,7 @@ ideologies = {
 			"FACTION_NAME_ADAPTATION_4"
 			"FACTION_NAME_ADAPTATION_5"
 		}
-		color = { 48 64 153s }
+		color = { 48 64 153 }
 		war_impact_on_world_tension = 0.075
 		faction_impact_on_world_tension = 0.025
 		rules = {

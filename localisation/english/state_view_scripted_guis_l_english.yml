@@ -1,17 +1,18 @@
 ﻿l_english:
- STATE_VIEW_AUTONOMY_PROGRESS_TEXT: "[?state_autonomy|0%%]"
- STATE_VIEW_AUTONOMY_PROGRESS_TT: "State Autonomy: §Y[?state_autonomy|2%%]§!"
- STATE_VIEW_DEVELOPMENT_TITLE: "Development"
- STATE_VIEW_DEVELOPMENT_VALUE_TEXT: "[?state_development|0]"
- STATE_VIEW_DEVELOPMENT_VALUE_TT: "§Y[This.GetName]§! currently has a development level of §Y[?state_development|0]§!."
- STATE_VIEW_DEVELOPMENT_BUTTON_TT: "§YIncrease Development Level§! \n--------------\n§YRequirements:§! \n[!development_button_click_enabled] \n§YEffects:§! \n[!development_button_click]"
-
- STATE_VIEW_CULTURE_TITLE: "Culture"
- STATE_VIEW_CULTURE_NAME: "Redacted"
- STATE_VIEW_CULTURE_NAME_TT: "The dominant culture in §Y[This.GetName]§! is §YRedacted§!."
- STATE_VIEW_ORIGINAL_OWNER_TITLE: "Original Owner"
- STATE_VIEW_ORIGINAL_OWNER_TT: "The original owner of §Y[This.GetName]§! is §Y[?original_owner.GetNameWithFlag]§!."
-
- STATE_VIEW_ADD_CORE_BUTTON_TT: "§YAdd State Core§! \n--------------\n§YRequirements:§! \n[!add_core_button_click_enabled] \n§YEffects:§! \n[!add_core_button_click]"
- STATE_VIEW_ADD_CORE_BUTTON_TT_DELAYED: "The coring cost is determined by the following: \n§YState Population:§! [?state_coring_cost_pop_temp] \n§YAvailable Building Slots:§! [?state_coring_cost_buildings_temp] \n§YAvailable Resources:§! [?state_coring_cost_resources_temp] \n--------------\n§YFinal Base Cost:§! [?state_coring_cost_temp_temp] \n     Modified by: [?state_coring_cost_modifier_temp_temp|2%-=] \n--------------\n§YFinal Cost:§! [?state_coring_cost_temp] \n\nThe final cost is capped at a maximum of §Y100§!."
- STATE_VIEW_LOWER_AUTONOMY_BUTTON_TT: "§YLower State Autonomy§! \n--------------\n§YRequirements:§! \n[!lower_autonomy_button_click_enabled] \n§YEffects:§! \n[!lower_autonomy_button_click]"
+# commented out as it causes errors
+# STATE_VIEW_AUTONOMY_PROGRESS_TT: "State Autonomy: §Y[?state_autonomy|2%%]§!"
+# STATE_VIEW_DEVELOPMENT_TITLE: "Development"
+# STATE_VIEW_DEVELOPMENT_VALUE_TEXT: "[?state_development|0]"
+# STATE_VIEW_DEVELOPMENT_VALUE_TT: "§Y[This.GetName]§! currently has a development level of §Y[?state_development|0]§!."
+# STATE_VIEW_DEVELOPMENT_BUTTON_TT: "§YIncrease Development Level§! \n--------------\n§YRequirements:§! \n[!development_button_click_enabled] \n§YEffects:§! \n[!development_button_click]"
+# STATE_VIEW_AUTONOMY_PROGRESS_TEXT: "[?state_autonomy|0%%]"
+#
+# STATE_VIEW_CULTURE_TITLE: "Culture"
+# STATE_VIEW_CULTURE_NAME: "Redacted"
+# STATE_VIEW_CULTURE_NAME_TT: "The dominant culture in §Y[This.GetName]§! is §YRedacted§!."
+# STATE_VIEW_ORIGINAL_OWNER_TITLE: "Original Owner"
+# STATE_VIEW_ORIGINAL_OWNER_TT: "The original owner of §Y[This.GetName]§! is §Y[?original_owner.GetNameWithFlag]§!."
+#
+# STATE_VIEW_ADD_CORE_BUTTON_TT: "§YAdd State Core§! \n--------------\n§YRequirements:§! \n[!add_core_button_click_enabled] \n§YEffects:§! \n[!add_core_button_click]"
+# STATE_VIEW_ADD_CORE_BUTTON_TT_DELAYED: "The coring cost is determined by the following: \n§YState Population:§! [?state_coring_cost_pop_temp] \n§YAvailable Building Slots:§! [?state_coring_cost_buildings_temp] \n§YAvailable Resources:§! [?state_coring_cost_resources_temp] \n--------------\n§YFinal Base Cost:§! [?state_coring_cost_temp_temp] \n     Modified by: [?state_coring_cost_modifier_temp_temp|2%-=] \n--------------\n§YFinal Cost:§! [?state_coring_cost_temp] \n\nThe final cost is capped at a maximum of §Y100§!."
+# STATE_VIEW_LOWER_AUTONOMY_BUTTON_TT: "§YLower State Autonomy§! \n--------------\n§YRequirements:§! \n[!lower_autonomy_button_click_enabled] \n§YEffects:§! \n[!lower_autonomy_button_click]"

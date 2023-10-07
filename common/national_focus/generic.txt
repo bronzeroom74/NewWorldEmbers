@@ -113,7 +113,7 @@ focus_tree = {
            add_tech_bonus = {
                bonus = 1
                uses = 1
-               category = excavation_tech
+               # category = excavation_tech
            }
        }
    }
@@ -1816,7 +1816,7 @@ focus_tree = {
            add_tech_bonus = {
                bonus = 1
                uses = 1
-               category = excavation_tech
+               # category = excavation_tech
            }
        }
    }
