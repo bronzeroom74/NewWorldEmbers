@@ -1,1482 +1,3388 @@
 ﻿search_filter_prios = {
-	FOCUS_FILTER_POLITICAL = 1010
+   FOCUS_FILTER_POLITICAL = 1010
 
+   FOCUS_FILTER_RESEARCH = 522
 
+   FOCUS_FILTER_INDUSTRY = 509
 
-
-
-	FOCUS_FILTER_RESEARCH = 522
-
-
-	FOCUS_FILTER_INDUSTRY = 509
-
-	FOCUS_FILTER_SOV_POLITICAL_PARANOIA = 111
-	FOCUS_FILTER_PROPAGANDA = 110
-	FOCUS_FILTER_ARMY_XP = 103
-	FOCUS_FILTER_NAVY_XP = 102
-	FOCUS_FILTER_AIR_XP = 101
+   FOCUS_FILTER_SOV_POLITICAL_PARANOIA = 111
+   FOCUS_FILTER_PROPAGANDA = 110
+   FOCUS_FILTER_ARMY_XP = 103
+   FOCUS_FILTER_NAVY_XP = 102
+   FOCUS_FILTER_AIR_XP = 101
 
 }
 
+
 focus_tree = {
-	id = generic_focus
+   id = generic_focus
 
-	country = {
-		factor = 1
-	}
-	continuous_focus_position = { x = 100 y = 1400 }
-	default = yes
-	reset_on_civilwar = no
 
-	focus = {
-		id = gen_introboy
-		icon = GFX_turning_back_the_clock
-		x = 18
-		y = 0
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+   country = {
+       factor = 1
+   }
+   continuous_focus_position = { x = 100 y = 1400 }
+   default = yes
+   reset_on_civilwar = no
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
+   focus = {
+       id = gen_introboy
+       icon = GFX_turning_back_the_clock
+       x = 18
+       y = 0
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+
 
 #Economy Branch
-	focus = {
-		id = gen_econintro
-		icon = GFX_our_economy
-		x = -14
-		y = 2
-		relative_position_id = gen_introboy
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+   focus = {
+       id = gen_econintro
+       icon = GFX_our_economy
+       x = -14
+       y = 2
+       relative_position_id = gen_introboy
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.4
-				uses = 2
-				category = industry
-			}
-		}
-	}
-	focus = {
-		id = gen_econintrofac
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -1
-		y = 1
-		relative_position_id = gen_econintro
-		prerequisite = {
-			focus = gen_econintro
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			random_core_state = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = gen_econintrores
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_econintro
-		prerequisite = {
-			focus = gen_econintro
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           add_tech_bonus = {
+               bonus = 0.4
+               uses = 2
+               category = industry
+           }
+       }
+   }
+   focus = {
+       id = gen_econintrofac
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_econintro
+       prerequisite = {
+           focus = gen_econintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = excavation_tech
-			}
-		}
-	}
-	focus = {
-		id = gen_econtrade
-		icon = GFX_trade_focus
-		x = -1
-		y = 1
-		relative_position_id = gen_econintrofac
-		prerequisite = {
-			focus = gen_econintrofac
-		}
-		prerequisite = {
-			focus = gen_econintrores
-		}
-		mutually_exclusive = {
-			focus = gen_econautark
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econenvoys
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -2
-		y = 1
-		relative_position_id = gen_econtrade
-		prerequisite = {
-			focus = gen_econtrade
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+               add_building_construction = {
+                   type = industrial_complex
+                   level = 1
+                   instant_build = yes
+               }
+           }
+       }
+   }
+   focus = {
+       id = gen_econintrores
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_econintro
+       prerequisite = {
+           focus = gen_econintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econsharedknow
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_econtrade
-		prerequisite = {
-			focus = gen_econtrade
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econforeigninvest
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_econenvoys
-		prerequisite = {
-			focus = gen_econsharedknow
-		}
-		prerequisite = {
-			focus = gen_econenvoys
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           add_tech_bonus = {
+               bonus = 1
+               uses = 1
+               category = excavation_tech
+           }
+       }
+   }
+   focus = {
+       id = gen_econtrade
+       icon = GFX_trade_focus
+       x = -1
+       y = 1
+       relative_position_id = gen_econintrofac
+       prerequisite = {
+           focus = gen_econintrofac
+       }
+       prerequisite = {
+           focus = gen_econintrores
+       }
+       mutually_exclusive = {
+           focus = gen_econautark
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econtradecenter
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_econforeigninvest
-		prerequisite = {
-			focus = gen_econforeigninvest
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econautark
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_econintrores
-		prerequisite = {
-			focus = gen_econintrores
-		}
-		prerequisite = {
-			focus = gen_econintrofac
-		}
-		mutually_exclusive = {
-			focus = gen_econtrade
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           add_manpower = 1000
+           capital_scope = {
+               add_extra_state_shared_building_slots = 1
+               add_building_construction = {
+                   type = industrial_complex
+                   level = 1
+                   instant_build = yes
+               }
+           }
+       }
+   }
+   focus = {
+       id = gen_econenvoys
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -2
+       y = 1
+       relative_position_id = gen_econtrade
+       prerequisite = {
+           focus = gen_econtrade
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econresearchown
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_econautark
-		prerequisite = {
-			focus = gen_econautark
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econcentraliseddis
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 2
-		y = 1
-		relative_position_id = gen_econautark
-		prerequisite = {
-			focus = gen_econautark
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econsharedknow
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econtrade
+       prerequisite = {
+           focus = gen_econtrade
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econexpandmine
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_econresearchown
-		prerequisite = {
-			focus = gen_econresearchown
-		}
-		prerequisite = {
-			focus = gen_econcentraliseddis
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econbuildslot2
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_econexpandmine
-		prerequisite = {
-			focus = gen_econexpandmine
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econforeigninvest
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_econenvoys
+       prerequisite = {
+           focus = gen_econsharedknow
+       }
+       prerequisite = {
+           focus = gen_econenvoys
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econbuildslot1
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -1
-		y = 2
-		relative_position_id = gen_econintrores
-		prerequisite = {
-			focus = gen_econintrores
-		}
-		prerequisite = {
-			focus = gen_econintrofac
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econcivs1
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -1
-		y = 1
-		relative_position_id = gen_econbuildslot1
-		prerequisite = {
-			focus = gen_econbuildslot1
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econtradecenter
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econforeigninvest
+       prerequisite = {
+           focus = gen_econforeigninvest
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econcivs2
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_econcivs1
-		prerequisite = {
-			focus = gen_econcivs1
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econmils1
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_econbuildslot1
-		prerequisite = {
-			focus = gen_econbuildslot1
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econautark
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_econintrores
+       prerequisite = {
+           focus = gen_econintrores
+       }
+       prerequisite = {
+           focus = gen_econintrofac
+       }
+       mutually_exclusive = {
+           focus = gen_econtrade
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econmils2
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_econmils1
-		prerequisite = {
-			focus = gen_econmils1
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econmobil
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_econcivs2
-		prerequisite = {
-			focus = gen_econmils2
-		}
-		prerequisite = {
-			focus = gen_econcivs2
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econresearchown
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econautark
+       prerequisite = {
+           focus = gen_econautark
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_econresear
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_econmobil
-		prerequisite = {
-			focus = gen_econmobil
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econcentraliseddis
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 2
+       y = 1
+       relative_position_id = gen_econautark
+       prerequisite = {
+           focus = gen_econautark
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econexpandmine
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_econresearchown
+       prerequisite = {
+           focus = gen_econresearchown
+       }
+       prerequisite = {
+           focus = gen_econcentraliseddis
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econbuildslot2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econexpandmine
+       prerequisite = {
+           focus = gen_econexpandmine
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+           }
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+           }
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+           }
+       }
+   }
+   focus = {
+       id = gen_econbuildslot1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 2
+       relative_position_id = gen_econintrores
+       prerequisite = {
+           focus = gen_econintrores
+       }
+       prerequisite = {
+           focus = gen_econintrofac
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           capital_scope = {
+               add_extra_state_shared_building_slots = 2
+           }
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+           }
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+           }
+
+
+       }
+   }
+   focus = {
+       id = gen_econcivs1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_econbuildslot1
+       prerequisite = {
+           focus = gen_econbuildslot1
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+               add_building_construction = {
+                   type = industrial_complex
+                   level = 1
+                   instant_build = yes
+               }
+           }
+       }
+   }
+   focus = {
+       id = gen_econcivs2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econcivs1
+       prerequisite = {
+           focus = gen_econcivs1
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           random_core_state = {
+               add_extra_state_shared_building_slots = 2
+               add_building_construction = {
+                   type = industrial_complex
+                   level = 2
+                   instant_build = yes
+               }
+           }
+       }
+   }
+   focus = {
+       id = gen_econmils1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_econbuildslot1
+       prerequisite = {
+           focus = gen_econbuildslot1
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+               add_building_construction = {
+                   type = arms_factory
+                   level = 1
+                   instant_build = yes
+               }
+           }
+       }
+   }
+   focus = {
+       id = gen_econmils2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econmils1
+       prerequisite = {
+           focus = gen_econmils1
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           random_core_state = {
+               add_extra_state_shared_building_slots = 2
+               add_building_construction = {
+                   type = arms_factory
+                   level = 2
+                   instant_build = yes
+               }
+           }
+       }
+   }
+   focus = {
+       id = gen_econmobil
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_econcivs2
+       prerequisite = {
+           focus = gen_econmils2
+       }
+       prerequisite = {
+           focus = gen_econcivs2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           add_ideas = gen_mobi_effort
+       }
+   }
+   focus = {
+       id = gen_econresear
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econmobil
+       prerequisite = {
+           focus = gen_econmobil
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           add_research_slot = 1
+       }
+   }
+
 
 #Starfall Branch
-	focus = {
-		id = gen_starfall
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -4
-		y = 2
-		relative_position_id = gen_introboy
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+   focus = {
+       id = gen_starfall
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -4
+       y = 2
+       relative_position_id = gen_introboy
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_starfallknowledge
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_starfall
-		prerequisite = {
-			focus = gen_starfall
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_starfallmilitary1
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -2
-		y = 1
-		relative_position_id = gen_starfall
-		prerequisite = {
-			focus = gen_starfall
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallknowledge
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_starfall
+       prerequisite = {
+           focus = gen_starfall
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_starfallmilitary2
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_starfallmilitary1
-		prerequisite = {
-			focus = gen_starfallmilitary1
-		}
-		mutually_exclusive = {
-			focus = gen_starfallcivilian2
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_starfallcivilian1
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 2
-		y = 1
-		relative_position_id = gen_starfall
-		prerequisite = {
-			focus = gen_starfall
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallmilitary1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -2
+       y = 1
+       relative_position_id = gen_starfall
+       prerequisite = {
+           focus = gen_starfall
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_starfallcivilian2
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_starfallcivilian1
-		prerequisite = {
-			focus = gen_starfallcivilian1
-		}
-		mutually_exclusive = {
-			focus = gen_starfallmilitary2
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_starfallinfra
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -1
-		y = 1
-		relative_position_id = gen_starfallmilitary2
-		prerequisite = {
-			focus = gen_starfallmilitary2
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallmilitary2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_starfallmilitary1
+       prerequisite = {
+           focus = gen_starfallmilitary1
+       }
+       mutually_exclusive = {
+           focus = gen_starfallcivilian2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_starfallmilitary3
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_starfallinfra
-		prerequisite = {
-			focus = gen_starfallinfra
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_starfallfix1
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_starfallmilitary2
-		prerequisite = {
-			focus = gen_starfallmilitary2
-			focus = gen_starfallcivilian2
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallcivilian1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 2
+       y = 1
+       relative_position_id = gen_starfall
+       prerequisite = {
+           focus = gen_starfall
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_starfallfixed
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_starfallfix1
-		prerequisite = {
-			focus = gen_starfallfix1
-		}
-		prerequisite = {
-			focus = gen_starfallfix2
-		}
-		prerequisite = {
-			focus = gen_starfallcivilian3
-			focus = gen_starfallinfra
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_starfallfix2
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -1
-		y = 1
-		relative_position_id = gen_starfallcivilian2
-		prerequisite = {
-			focus = gen_starfallmilitary2
-			focus = gen_starfallcivilian2
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallcivilian2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_starfallcivilian1
+       prerequisite = {
+           focus = gen_starfallcivilian1
+       }
+       mutually_exclusive = {
+           focus = gen_starfallmilitary2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_starfallcivilian3
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_starfallcivilian2
-		prerequisite = {
-			focus = gen_starfallcivilian2
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_starfallcivilian4
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_starfallcivilian3
-		prerequisite = {
-			focus = gen_starfallcivilian3
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallinfra
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_starfallmilitary2
+       prerequisite = {
+           focus = gen_starfallmilitary2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallmilitary3
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_starfallinfra
+       prerequisite = {
+           focus = gen_starfallinfra
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallfix1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_starfallmilitary2
+       prerequisite = {
+           focus = gen_starfallmilitary2
+           focus = gen_starfallcivilian2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallfixed
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_starfallfix1
+       prerequisite = {
+           focus = gen_starfallfix1
+       }
+       prerequisite = {
+           focus = gen_starfallfix2
+       }
+       prerequisite = {
+           focus = gen_starfallcivilian3
+           focus = gen_starfallinfra
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallfix2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_starfallcivilian2
+       prerequisite = {
+           focus = gen_starfallmilitary2
+           focus = gen_starfallcivilian2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallcivilian3
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_starfallcivilian2
+       prerequisite = {
+           focus = gen_starfallcivilian2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallcivilian4
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_starfallcivilian3
+       prerequisite = {
+           focus = gen_starfallcivilian3
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+
 
 #War Branch
-	focus = {
-		id = gen_warintro
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 9
-		y = 2
-		relative_position_id = gen_introboy
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+   focus = {
+       id = gen_warintro
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 9
+       y = 2
+       relative_position_id = gen_introboy
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warsky1
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -5
-		y = 1
-		relative_position_id = gen_warintro
-		prerequisite = {
-			focus = gen_warintro
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warplane
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_warsky1
-		prerequisite = {
-			focus = gen_warsky1
-		}
-		mutually_exclusive = {
-			focus = gen_warblimp
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warsky1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -5
+       y = 1
+       relative_position_id = gen_warintro
+       prerequisite = {
+           focus = gen_warintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warblimp
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -2
-		y = 1
-		relative_position_id = gen_warsky1
-		prerequisite = {
-			focus = gen_warsky1
-		}
-		mutually_exclusive = {
-			focus = gen_warplane
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warsky2
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_warblimp
-		prerequisite = {
-			focus = gen_warblimp
-			focus = gen_warplane
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warplane
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_warsky1
+       prerequisite = {
+           focus = gen_warsky1
+       }
+       mutually_exclusive = {
+           focus = gen_warblimp
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_wartac1
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -2
-		y = 1
-		relative_position_id = gen_warintro
-		prerequisite = {
-			focus = gen_warintro
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warmobile
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -1
-		y = 1
-		relative_position_id = gen_wartac1
-		prerequisite = {
-			focus = gen_wartac1
-		}
-		mutually_exclusive = {
-			focus = gen_warmassass
-			focus = gen_wargrand
-			focus = gen_warsuperior
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warblimp
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -2
+       y = 1
+       relative_position_id = gen_warsky1
+       prerequisite = {
+           focus = gen_warsky1
+       }
+       mutually_exclusive = {
+           focus = gen_warplane
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warsuperior
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_wartac1
-		prerequisite = {
-			focus = gen_wartac1
-		}
-		mutually_exclusive = {
-			focus = gen_warmassass
-			focus = gen_wargrand
-			focus = gen_warmobile
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warres1
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_warmobile
-		prerequisite = {
-			focus = gen_warsuperior
-			focus = gen_warmobile
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warsky2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_warblimp
+       prerequisite = {
+           focus = gen_warblimp
+           focus = gen_warplane
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warleadupg1
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_warres1
-		prerequisite = {
-			focus = gen_warres1
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_wartac2
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 2
-		y = 1
-		relative_position_id = gen_warintro
-		prerequisite = {
-			focus = gen_warintro
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_wartac1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -2
+       y = 1
+       relative_position_id = gen_warintro
+       prerequisite = {
+           focus = gen_warintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_wargrand
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -1
-		y = 1
-		relative_position_id = gen_wartac2
-		prerequisite = {
-			focus = gen_wartac2
-		}
-		mutually_exclusive = {
-			focus = gen_warmassass
-			focus = gen_warsuperior
-			focus = gen_warmobile
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warmassass
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_wartac2
-		prerequisite = {
-			focus = gen_wartac2
-		}
-		mutually_exclusive = {
-			focus = gen_wargrand
-			focus = gen_warsuperior
-			focus = gen_warmobile
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warmobile
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_wartac1
+       prerequisite = {
+           focus = gen_wartac1
+       }
+       mutually_exclusive = {
+           focus = gen_warmassass
+           focus = gen_wargrand
+           focus = gen_warsuperior
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warres2
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_wargrand
-		prerequisite = {
-			focus = gen_wargrand
-			focus = gen_warmassass
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warleadupg2
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_warres2
-		prerequisite = {
-			focus = gen_warres2
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warsuperior
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_wartac1
+       prerequisite = {
+           focus = gen_wartac1
+       }
+       mutually_exclusive = {
+           focus = gen_warmassass
+           focus = gen_wargrand
+           focus = gen_warmobile
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warequipment
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 2
-		y = 1
-		relative_position_id = gen_warres1
-		prerequisite = {
-			focus = gen_warres2
-			focus = gen_warres1
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warstreamline
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_warequipment
-		prerequisite = {
-			focus = gen_warequipment
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warres1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_warmobile
+       prerequisite = {
+           focus = gen_warsuperior
+           focus = gen_warmobile
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warsea1
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 5
-		y = 1
-		relative_position_id = gen_warintro
-		prerequisite = {
-			focus = gen_warintro
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warship
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_warsea1
-		prerequisite = {
-			focus = gen_warsea1
-		}
-		mutually_exclusive = {
-			focus = gen_warsub
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warleadupg1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_warres1
+       prerequisite = {
+           focus = gen_warres1
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warsub
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 2
-		y = 1
-		relative_position_id = gen_warsea1
-		prerequisite = {
-			focus = gen_warsea1
-		}
-		mutually_exclusive = {
-			focus = gen_warship
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_warsea2
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_warship
-		prerequisite = {
-			focus = gen_warship
-			focus = gen_warsub
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_wartac2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 2
+       y = 1
+       relative_position_id = gen_warintro
+       prerequisite = {
+           focus = gen_warintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_wargrand
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_wartac2
+       prerequisite = {
+           focus = gen_wartac2
+       }
+       mutually_exclusive = {
+           focus = gen_warmassass
+           focus = gen_warsuperior
+           focus = gen_warmobile
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warmassass
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_wartac2
+       prerequisite = {
+           focus = gen_wartac2
+       }
+       mutually_exclusive = {
+           focus = gen_wargrand
+           focus = gen_warsuperior
+           focus = gen_warmobile
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warres2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_wargrand
+       prerequisite = {
+           focus = gen_wargrand
+           focus = gen_warmassass
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warleadupg2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_warres2
+       prerequisite = {
+           focus = gen_warres2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warequipment
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 2
+       y = 1
+       relative_position_id = gen_warres1
+       prerequisite = {
+           focus = gen_warres2
+           focus = gen_warres1
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warstreamline
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_warequipment
+       prerequisite = {
+           focus = gen_warequipment
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warsea1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 5
+       y = 1
+       relative_position_id = gen_warintro
+       prerequisite = {
+           focus = gen_warintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warship
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_warsea1
+       prerequisite = {
+           focus = gen_warsea1
+       }
+       mutually_exclusive = {
+           focus = gen_warsub
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warsub
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 2
+       y = 1
+       relative_position_id = gen_warsea1
+       prerequisite = {
+           focus = gen_warsea1
+       }
+       mutually_exclusive = {
+           focus = gen_warship
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warsea2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_warship
+       prerequisite = {
+           focus = gen_warship
+           focus = gen_warsub
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
 #Political Branch
-	focus = {
-		id = gen_polintro
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 22
-		y = 2
-		relative_position_id = gen_introboy
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+   focus = {
+       id = gen_polintro
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 22
+       y = 2
+       relative_position_id = gen_introboy
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polsurvival
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -2
-		y = 1
-		relative_position_id = gen_polintro
-		prerequisite = {
-			focus = gen_polintro
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_poladaptation
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -1
-		y = 1
-		relative_position_id = gen_polsurvival
-		prerequisite = {
-			focus = gen_polsurvival
-		}
-		mutually_exclusive = {
-			focus = gen_polascension
-			focus = gen_polaggression
-			focus = gen_polabsolution
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polsurvival
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -2
+       y = 1
+       relative_position_id = gen_polintro
+       prerequisite = {
+           focus = gen_polintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polprepper
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_poladaptation
-		prerequisite = {
-			focus = gen_poladaptation
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polaggression
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_polsurvival
-		prerequisite = {
-			focus = gen_polsurvival
-		}
-		mutually_exclusive = {
-			focus = gen_poladaptation
-			focus = gen_polascension
-			focus = gen_polabsolution
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_poladaptation
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_polsurvival
+       prerequisite = {
+           focus = gen_polsurvival
+       }
+       mutually_exclusive = {
+           focus = gen_polascension
+           focus = gen_polaggression
+           focus = gen_polabsolution
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polwarcouncil
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_polaggression
-		prerequisite = {
-			focus = gen_polaggression
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polreckoned
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -1
-		y = 1
-		relative_position_id = gen_polwarcouncil
-		prerequisite = {
-			focus = gen_polprepper
-			focus = gen_polwarcouncil
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polprepper
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_poladaptation
+       prerequisite = {
+           focus = gen_poladaptation
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_poltrench
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -1
-		y = 1
-		relative_position_id = gen_polreckoned
-		prerequisite = {
-			focus = gen_polprepper
-		}
-		prerequisite = {
-			focus = gen_polreckoned
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polconscripts
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_polreckoned
-		prerequisite = {
-			focus = gen_polwarcouncil
-		}
-		prerequisite = {
-			focus = gen_polreckoned
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polaggression
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_polsurvival
+       prerequisite = {
+           focus = gen_polsurvival
+       }
+       mutually_exclusive = {
+           focus = gen_poladaptation
+           focus = gen_polascension
+           focus = gen_polabsolution
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_pololdandnew
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 2
-		y = 1
-		relative_position_id = gen_polintro
-		prerequisite = {
-			focus = gen_polintro
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polascension
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -1
-		y = 1
-		relative_position_id = gen_pololdandnew
-		prerequisite = {
-			focus = gen_pololdandnew
-		}
-		mutually_exclusive = {
-			focus = gen_poladaptation
-			focus = gen_polaggression
-			focus = gen_polabsolution
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polwarcouncil
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_polaggression
+       prerequisite = {
+           focus = gen_polaggression
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polliteracy
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_polascension
-		prerequisite = {
-			focus = gen_polascension
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polabsolution
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_pololdandnew
-		prerequisite = {
-			focus = gen_pololdandnew
-		}
-		mutually_exclusive = {
-			focus = gen_poladaptation
-			focus = gen_polascension
-			focus = gen_polaggression
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polreckoned
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_polwarcouncil
+       prerequisite = {
+           focus = gen_polprepper
+           focus = gen_polwarcouncil
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polvalues
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_polabsolution
-		prerequisite = {
-			focus = gen_polabsolution
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polleader
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -1
-		y = 1
-		relative_position_id = gen_polvalues
-		prerequisite = {
-			focus = gen_polvalues
-			focus = gen_polliteracy
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_poltrench
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_polreckoned
+       prerequisite = {
+           focus = gen_polprepper
+       }
+       prerequisite = {
+           focus = gen_polreckoned
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polknowledge
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -1
-		y = 1
-		relative_position_id = gen_polleader
-		prerequisite = {
-			focus = gen_polliteracy
-		}
-		prerequisite = {
-			focus = gen_polleader
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polunity
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_polleader
-		prerequisite = {
-			focus = gen_polvalues
-		}
-		prerequisite = {
-			focus = gen_polleader
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polconscripts
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_polreckoned
+       prerequisite = {
+           focus = gen_polwarcouncil
+       }
+       prerequisite = {
+           focus = gen_polreckoned
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polfruitsoflabour
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 1
-		relative_position_id = gen_polconscripts
-		prerequisite = {
-			focus = gen_polconscripts
-			focus = gen_poltrench
-			focus = gen_polknowledge
-			focus = gen_polunity
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       available_if_capitulated = yes
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
-	focus = {
-		id = gen_polourpath
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 0
-		y = 1
-		relative_position_id = gen_polfruitsoflabour
-		prerequisite = {
-			focus = gen_polfruitsoflabour
-		}
-		cost = 45
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_pololdandnew
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 2
+       y = 1
+       relative_position_id = gen_polintro
+       prerequisite = {
+           focus = gen_polintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
 
-		available_if_capitulated = yes
 
-		completion_reward = {
-			army_experience = 5
-		}
-	}
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polascension
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_pololdandnew
+       prerequisite = {
+           focus = gen_pololdandnew
+       }
+       mutually_exclusive = {
+           focus = gen_poladaptation
+           focus = gen_polaggression
+           focus = gen_polabsolution
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polliteracy
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_polascension
+       prerequisite = {
+           focus = gen_polascension
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polabsolution
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_pololdandnew
+       prerequisite = {
+           focus = gen_pololdandnew
+       }
+       mutually_exclusive = {
+           focus = gen_poladaptation
+           focus = gen_polascension
+           focus = gen_polaggression
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polvalues
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_polabsolution
+       prerequisite = {
+           focus = gen_polabsolution
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polleader
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_polvalues
+       prerequisite = {
+           focus = gen_polvalues
+           focus = gen_polliteracy
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polknowledge
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_polleader
+       prerequisite = {
+           focus = gen_polliteracy
+       }
+       prerequisite = {
+           focus = gen_polleader
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polunity
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_polleader
+       prerequisite = {
+           focus = gen_polvalues
+       }
+       prerequisite = {
+           focus = gen_polleader
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polfruitsoflabour
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_polconscripts
+       prerequisite = {
+           focus = gen_polconscripts
+           focus = gen_poltrench
+           focus = gen_polknowledge
+           focus = gen_polunity
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polourpath
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_polfruitsoflabour
+       prerequisite = {
+           focus = gen_polfruitsoflabour
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+}
+
+
+
+
+search_filter_prios = {
+   FOCUS_FILTER_POLITICAL = 1010
+
+
+
+
+
+
+
+
+
+
+   FOCUS_FILTER_RESEARCH = 522
+
+
+
+
+   FOCUS_FILTER_INDUSTRY = 509
+
+
+   FOCUS_FILTER_SOV_POLITICAL_PARANOIA = 111
+   FOCUS_FILTER_PROPAGANDA = 110
+   FOCUS_FILTER_ARMY_XP = 103
+   FOCUS_FILTER_NAVY_XP = 102
+   FOCUS_FILTER_AIR_XP = 101
+
+
+}
+
+
+focus_tree = {
+   id = generic_focus
+
+
+   country = {
+       factor = 1
+   }
+   continuous_focus_position = { x = 100 y = 1400 }
+   default = yes
+   reset_on_civilwar = no
+
+
+   focus = {
+       id = gen_introboy
+       icon = GFX_turning_back_the_clock
+       x = 18
+       y = 0
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+
+
+#Economy Branch
+   focus = {
+       id = gen_econintro
+       icon = GFX_our_economy
+       x = -14
+       y = 2
+       relative_position_id = gen_introboy
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           add_tech_bonus = {
+               bonus = 0.4
+               uses = 2
+               category = industry
+           }
+       }
+   }
+   focus = {
+       id = gen_econintrofac
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_econintro
+       prerequisite = {
+           focus = gen_econintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+               add_building_construction = {
+                   type = industrial_complex
+                   level = 1
+                   instant_build = yes
+               }
+           }
+       }
+   }
+   focus = {
+       id = gen_econintrores
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_econintro
+       prerequisite = {
+           focus = gen_econintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           add_tech_bonus = {
+               bonus = 1
+               uses = 1
+               category = excavation_tech
+           }
+       }
+   }
+   focus = {
+       id = gen_econtrade
+       icon = GFX_trade_focus
+       x = -1
+       y = 1
+       relative_position_id = gen_econintrofac
+       prerequisite = {
+           focus = gen_econintrofac
+       }
+       prerequisite = {
+           focus = gen_econintrores
+       }
+       mutually_exclusive = {
+           focus = gen_econautark
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           add_manpower = 1000
+           capital_scope = {
+               add_extra_state_shared_building_slots = 1
+               add_building_construction = {
+                   type = industrial_complex
+                   level = 1
+                   instant_build = yes
+               }
+           }
+       }
+   }
+   focus = {
+       id = gen_econenvoys
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -2
+       y = 1
+       relative_position_id = gen_econtrade
+       prerequisite = {
+           focus = gen_econtrade
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econsharedknow
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econtrade
+       prerequisite = {
+           focus = gen_econtrade
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econforeigninvest
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_econenvoys
+       prerequisite = {
+           focus = gen_econsharedknow
+       }
+       prerequisite = {
+           focus = gen_econenvoys
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econtradecenter
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econforeigninvest
+       prerequisite = {
+           focus = gen_econforeigninvest
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econautark
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_econintrores
+       prerequisite = {
+           focus = gen_econintrores
+       }
+       prerequisite = {
+           focus = gen_econintrofac
+       }
+       mutually_exclusive = {
+           focus = gen_econtrade
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econresearchown
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econautark
+       prerequisite = {
+           focus = gen_econautark
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econcentraliseddis
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 2
+       y = 1
+       relative_position_id = gen_econautark
+       prerequisite = {
+           focus = gen_econautark
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econexpandmine
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_econresearchown
+       prerequisite = {
+           focus = gen_econresearchown
+       }
+       prerequisite = {
+           focus = gen_econcentraliseddis
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_econbuildslot2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econexpandmine
+       prerequisite = {
+           focus = gen_econexpandmine
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+           }
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+           }
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+           }
+       }
+   }
+   focus = {
+       id = gen_econbuildslot1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 2
+       relative_position_id = gen_econintrores
+       prerequisite = {
+           focus = gen_econintrores
+       }
+       prerequisite = {
+           focus = gen_econintrofac
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           capital_scope = {
+               add_extra_state_shared_building_slots = 2
+           }
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+           }
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+           }
+
+
+       }
+   }
+   focus = {
+       id = gen_econcivs1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_econbuildslot1
+       prerequisite = {
+           focus = gen_econbuildslot1
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+               add_building_construction = {
+                   type = industrial_complex
+                   level = 1
+                   instant_build = yes
+               }
+           }
+       }
+   }
+   focus = {
+       id = gen_econcivs2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econcivs1
+       prerequisite = {
+           focus = gen_econcivs1
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           random_core_state = {
+               add_extra_state_shared_building_slots = 2
+               add_building_construction = {
+                   type = industrial_complex
+                   level = 2
+                   instant_build = yes
+               }
+           }
+       }
+   }
+   focus = {
+       id = gen_econmils1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_econbuildslot1
+       prerequisite = {
+           focus = gen_econbuildslot1
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           random_core_state = {
+               add_extra_state_shared_building_slots = 1
+               add_building_construction = {
+                   type = arms_factory
+                   level = 1
+                   instant_build = yes
+               }
+           }
+       }
+   }
+   focus = {
+       id = gen_econmils2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econmils1
+       prerequisite = {
+           focus = gen_econmils1
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           random_core_state = {
+               add_extra_state_shared_building_slots = 2
+               add_building_construction = {
+                   type = arms_factory
+                   level = 2
+                   instant_build = yes
+               }
+           }
+       }
+   }
+   focus = {
+       id = gen_econmobil
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_econcivs2
+       prerequisite = {
+           focus = gen_econmils2
+       }
+       prerequisite = {
+           focus = gen_econcivs2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           add_ideas = gen_mobi_effort
+       }
+   }
+   focus = {
+       id = gen_econresear
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_econmobil
+       prerequisite = {
+           focus = gen_econmobil
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           add_research_slot = 1
+       }
+   }
+
+
+#Starfall Branch
+   focus = {
+       id = gen_starfall
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -4
+       y = 2
+       relative_position_id = gen_introboy
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallknowledge
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_starfall
+       prerequisite = {
+           focus = gen_starfall
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallmilitary1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -2
+       y = 1
+       relative_position_id = gen_starfall
+       prerequisite = {
+           focus = gen_starfall
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallmilitary2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_starfallmilitary1
+       prerequisite = {
+           focus = gen_starfallmilitary1
+       }
+       mutually_exclusive = {
+           focus = gen_starfallcivilian2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallcivilian1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 2
+       y = 1
+       relative_position_id = gen_starfall
+       prerequisite = {
+           focus = gen_starfall
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallcivilian2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_starfallcivilian1
+       prerequisite = {
+           focus = gen_starfallcivilian1
+       }
+       mutually_exclusive = {
+           focus = gen_starfallmilitary2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallinfra
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_starfallmilitary2
+       prerequisite = {
+           focus = gen_starfallmilitary2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallmilitary3
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_starfallinfra
+       prerequisite = {
+           focus = gen_starfallinfra
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallfix1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_starfallmilitary2
+       prerequisite = {
+           focus = gen_starfallmilitary2
+           focus = gen_starfallcivilian2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallfixed
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_starfallfix1
+       prerequisite = {
+           focus = gen_starfallfix1
+       }
+       prerequisite = {
+           focus = gen_starfallfix2
+       }
+       prerequisite = {
+           focus = gen_starfallcivilian3
+           focus = gen_starfallinfra
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallfix2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_starfallcivilian2
+       prerequisite = {
+           focus = gen_starfallmilitary2
+           focus = gen_starfallcivilian2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallcivilian3
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_starfallcivilian2
+       prerequisite = {
+           focus = gen_starfallcivilian2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_starfallcivilian4
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_starfallcivilian3
+       prerequisite = {
+           focus = gen_starfallcivilian3
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+
+
+#War Branch
+   focus = {
+       id = gen_warintro
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 9
+       y = 2
+       relative_position_id = gen_introboy
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warsky1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -5
+       y = 1
+       relative_position_id = gen_warintro
+       prerequisite = {
+           focus = gen_warintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warplane
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_warsky1
+       prerequisite = {
+           focus = gen_warsky1
+       }
+       mutually_exclusive = {
+           focus = gen_warblimp
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warblimp
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -2
+       y = 1
+       relative_position_id = gen_warsky1
+       prerequisite = {
+           focus = gen_warsky1
+       }
+       mutually_exclusive = {
+           focus = gen_warplane
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warsky2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_warblimp
+       prerequisite = {
+           focus = gen_warblimp
+           focus = gen_warplane
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_wartac1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -2
+       y = 1
+       relative_position_id = gen_warintro
+       prerequisite = {
+           focus = gen_warintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warmobile
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_wartac1
+       prerequisite = {
+           focus = gen_wartac1
+       }
+       mutually_exclusive = {
+           focus = gen_warmassass
+           focus = gen_wargrand
+           focus = gen_warsuperior
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warsuperior
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_wartac1
+       prerequisite = {
+           focus = gen_wartac1
+       }
+       mutually_exclusive = {
+           focus = gen_warmassass
+           focus = gen_wargrand
+           focus = gen_warmobile
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warres1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_warmobile
+       prerequisite = {
+           focus = gen_warsuperior
+           focus = gen_warmobile
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warleadupg1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_warres1
+       prerequisite = {
+           focus = gen_warres1
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_wartac2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 2
+       y = 1
+       relative_position_id = gen_warintro
+       prerequisite = {
+           focus = gen_warintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_wargrand
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_wartac2
+       prerequisite = {
+           focus = gen_wartac2
+       }
+       mutually_exclusive = {
+           focus = gen_warmassass
+           focus = gen_warsuperior
+           focus = gen_warmobile
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warmassass
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_wartac2
+       prerequisite = {
+           focus = gen_wartac2
+       }
+       mutually_exclusive = {
+           focus = gen_wargrand
+           focus = gen_warsuperior
+           focus = gen_warmobile
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warres2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_wargrand
+       prerequisite = {
+           focus = gen_wargrand
+           focus = gen_warmassass
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warleadupg2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_warres2
+       prerequisite = {
+           focus = gen_warres2
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warequipment
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 2
+       y = 1
+       relative_position_id = gen_warres1
+       prerequisite = {
+           focus = gen_warres2
+           focus = gen_warres1
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warstreamline
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_warequipment
+       prerequisite = {
+           focus = gen_warequipment
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warsea1
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 5
+       y = 1
+       relative_position_id = gen_warintro
+       prerequisite = {
+           focus = gen_warintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warship
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_warsea1
+       prerequisite = {
+           focus = gen_warsea1
+       }
+       mutually_exclusive = {
+           focus = gen_warsub
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warsub
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 2
+       y = 1
+       relative_position_id = gen_warsea1
+       prerequisite = {
+           focus = gen_warsea1
+       }
+       mutually_exclusive = {
+           focus = gen_warship
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_warsea2
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_warship
+       prerequisite = {
+           focus = gen_warship
+           focus = gen_warsub
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+#Political Branch
+   focus = {
+       id = gen_polintro
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 22
+       y = 2
+       relative_position_id = gen_introboy
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polsurvival
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -2
+       y = 1
+       relative_position_id = gen_polintro
+       prerequisite = {
+           focus = gen_polintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_poladaptation
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_polsurvival
+       prerequisite = {
+           focus = gen_polsurvival
+       }
+       mutually_exclusive = {
+           focus = gen_polascension
+           focus = gen_polaggression
+           focus = gen_polabsolution
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polprepper
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_poladaptation
+       prerequisite = {
+           focus = gen_poladaptation
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polaggression
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_polsurvival
+       prerequisite = {
+           focus = gen_polsurvival
+       }
+       mutually_exclusive = {
+           focus = gen_poladaptation
+           focus = gen_polascension
+           focus = gen_polabsolution
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polwarcouncil
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_polaggression
+       prerequisite = {
+           focus = gen_polaggression
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polreckoned
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_polwarcouncil
+       prerequisite = {
+           focus = gen_polprepper
+           focus = gen_polwarcouncil
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_poltrench
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_polreckoned
+       prerequisite = {
+           focus = gen_polprepper
+       }
+       prerequisite = {
+           focus = gen_polreckoned
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polconscripts
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_polreckoned
+       prerequisite = {
+           focus = gen_polwarcouncil
+       }
+       prerequisite = {
+           focus = gen_polreckoned
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_pololdandnew
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 2
+       y = 1
+       relative_position_id = gen_polintro
+       prerequisite = {
+           focus = gen_polintro
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polascension
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_pololdandnew
+       prerequisite = {
+           focus = gen_pololdandnew
+       }
+       mutually_exclusive = {
+           focus = gen_poladaptation
+           focus = gen_polaggression
+           focus = gen_polabsolution
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polliteracy
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_polascension
+       prerequisite = {
+           focus = gen_polascension
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polabsolution
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_pololdandnew
+       prerequisite = {
+           focus = gen_pololdandnew
+       }
+       mutually_exclusive = {
+           focus = gen_poladaptation
+           focus = gen_polascension
+           focus = gen_polaggression
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polvalues
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_polabsolution
+       prerequisite = {
+           focus = gen_polabsolution
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polleader
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_polvalues
+       prerequisite = {
+           focus = gen_polvalues
+           focus = gen_polliteracy
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polknowledge
+       icon = GFX_goal_generic_allies_build_infantry
+       x = -1
+       y = 1
+       relative_position_id = gen_polleader
+       prerequisite = {
+           focus = gen_polliteracy
+       }
+       prerequisite = {
+           focus = gen_polleader
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polunity
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_polleader
+       prerequisite = {
+           focus = gen_polvalues
+       }
+       prerequisite = {
+           focus = gen_polleader
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polfruitsoflabour
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 1
+       y = 1
+       relative_position_id = gen_polconscripts
+       prerequisite = {
+           focus = gen_polconscripts
+           focus = gen_poltrench
+           focus = gen_polknowledge
+           focus = gen_polunity
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
+   focus = {
+       id = gen_polourpath
+       icon = GFX_goal_generic_allies_build_infantry
+       x = 0
+       y = 1
+       relative_position_id = gen_polfruitsoflabour
+       prerequisite = {
+           focus = gen_polfruitsoflabour
+       }
+       cost = 45
+       search_filters = {  FOCUS_FILTER_RESEARCH }
+
+
+       available_if_capitulated = yes
+
+
+       completion_reward = {
+           army_experience = 5
+       }
+   }
 }

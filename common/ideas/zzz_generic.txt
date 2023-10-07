@@ -3,5 +3,11 @@ ideas = {
 		gen_starfall = {
 			picture = starfall
 		}
+		gen_mobi_effort = {
+			picture = starfall
+			modifier = {
+				conscription = 0.01
+			}
+		}
 	}
 }
