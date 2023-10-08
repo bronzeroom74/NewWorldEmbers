@@ -103,7 +103,7 @@
   gen_warstreamline:0 "A Streamlined Army"
   gen_warstreamline_desc:0 "Scattered, mismatched units used to work for us, but no longer. We will establish ranks, authority, and the chain of command. Information will flow from the bottom to the top. We will know who is where and why. Ragtag militias will be incorporated or disbanded. This will be a new era for us."
   gen_warsea1:0 "Conquering The Seas"
-  gen_warseal_desc:0 "The ocean was left relatively untouched by the War. We must expand our control into the murky waters of the sea, counter the fleets of other nations, and solidify our role as controller of the oceans!"
+  gen_warsea_desc:0 "The ocean was left relatively untouched by the War. We must expand our control into the murky waters of the sea, counter the fleets of other nations, and solidify our role as controller of the oceans!"
   gen_warship:0 "Grand Battlefleet"
   gen_warship_desc:0 "With steel and wood, fuel and fabric, we will develop a fleet to surpass all others. The ocean shall be nothing less than absolutely ours."
   gen_warsub:0 "Modern Piracy"
