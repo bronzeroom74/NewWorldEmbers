@@ -4,6 +4,8 @@ ideas = {
 			picture = starfall
 		}
 
+		### Econ tree ideas
+
 		gen_mobi_effort = {
 			picture = starfall
 			modifier = {
@@ -47,6 +49,88 @@ ideas = {
 			picture = starfall
 			modifier = {
 				local_resources_factor = 0.1
+			}
+		}
+
+		### Political Ideas
+
+		gen_pol_adaptation = {
+			picture = starfall
+			modifier = {
+				adaptation_drift = 0.02
+			}
+		}
+
+		gen_pol_aggression = {
+			picture = starfall
+			modifier = {
+				aggression_drift = 0.02
+			}
+		}
+
+		gen_pol_ascension = {
+			picture = starfall
+			modifier = {
+				ascension_drift = 0.02
+			}
+		}
+
+		gen_pol_absolution = {
+			picture = starfall
+			modifier = {
+				absolution_drift = 0.02
+			}
+		}
+
+		gen_pol_literacy = {
+			picture = starfall
+			modifier = {
+				research_speed_factor = 0.05
+				stability_factor = 0.03
+			}
+		}
+
+		gen_pol_values = {
+			picture = starfall
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.03
+				political_power_gain = 0.1
+			}
+		}
+
+		gen_pol_war_council = {
+			picture = starfall
+			modifier = {
+				war_support_factor = 0.07
+				production_factory_efficiency_gain_factor = 0.03
+				offence = 0.02
+				defence = 0.02  
+			}
+		}
+
+		gen_pol_prepper = {
+			picture = starfall
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.02
+				local_resources_factor = 0.05
+			}
+		}
+
+		gen_pol_force = {
+			picture = starfall
+			modifier = {
+				war_support_factor = 0.03
+				offence = 0.03
+			}
+		}
+
+		gen_pol_leader = {
+			picture = starfall
+			modifier = {
+				stability_factor = 0.03
+				defence = 0.03
 			}
 		}
 	}

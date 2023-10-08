@@ -1305,9 +1305,9 @@ focus_tree = {
        available_if_capitulated = yes
 
 
-       completion_reward = {
-           army_experience = 5
-       }
+        completion_reward = {
+            add_political_power = 100
+        }
    }
    focus = {
        id = gen_polsurvival
@@ -1325,9 +1325,9 @@ focus_tree = {
        available_if_capitulated = yes
 
 
-       completion_reward = {
-           army_experience = 5
-       }
+        completion_reward = {
+            add_war_support = 0.1
+        }
    }
    focus = {
        id = gen_poladaptation
@@ -1351,7 +1351,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+           add_ideas = gen_pol_adaptation
        }
    }
    focus = {
@@ -1371,7 +1371,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+           add_ideas = gen_pol_prepper
        }
    }
    focus = {
@@ -1396,7 +1396,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+           add_ideas = gen_pol_aggression
        }
    }
    focus = {
@@ -1416,7 +1416,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+           add_ideas = gen_pol_war_council
        }
    }
    focus = {
@@ -1436,9 +1436,9 @@ focus_tree = {
        available_if_capitulated = yes
 
 
-       completion_reward = {
-           army_experience = 5
-       }
+        completion_reward = {
+            add_ideas = gen_pol_force
+        }
    }
    focus = {
        id = gen_poltrench
@@ -1483,7 +1483,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+            add_ideas = gen_pol_force
        }
    }
    focus = {
@@ -1502,9 +1502,9 @@ focus_tree = {
        available_if_capitulated = yes
 
 
-       completion_reward = {
-           army_experience = 5
-       }
+        completion_reward = {
+            add_stability = 0.1
+        }
    }
    focus = {
        id = gen_polascension
@@ -1528,7 +1528,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+           add_ideas = gen_pol_ascension
        }
    }
    focus = {
@@ -1548,7 +1548,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+           add_ideas = gen_pol_literacy
        }
    }
    focus = {
@@ -1573,7 +1573,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+           add_ideas = gen_pol_absolution
        }
    }
    focus = {
@@ -1593,7 +1593,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+           add_ideas = gen_pol_values
        }
    }
    focus = {
@@ -1614,7 +1614,7 @@ focus_tree = {
 
 
        completion_reward = {
-           army_experience = 5
+           add_ideas = gen_pol_leader
        }
    }
    focus = {
