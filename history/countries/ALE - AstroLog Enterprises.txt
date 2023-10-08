@@ -6,7 +6,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = ascension
+	ruling_party = absolution
 	last_election = "2265.1.1"
 	elections_allowed = no
 }
