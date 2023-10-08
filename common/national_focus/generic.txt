@@ -1460,7 +1460,10 @@ focus_tree = {
 
 
 		completion_reward = {
-			army_experience = 5
+			swap_ideas = {
+				remove_idea = gen_pol_prepper
+				add_idea = gen_pol_trench
+			}
 		}
 	}
 	focus = {
@@ -1483,7 +1486,10 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_ideas = gen_pol_force
+			swap_ideas = {
+				remove_idea = gen_pol_war_council
+				add_idea = gen_pol_conscripts
+			}
 		}
 	}
 	focus = {
@@ -1637,7 +1643,10 @@ focus_tree = {
 
 
 		completion_reward = {
-			army_experience = 5
+			swap_ideas = {
+				remove_idea = gen_pol_literacy
+				add_idea = gen_pol_knowledge
+			}
 		}
 	}
 	focus = {
@@ -1660,7 +1669,10 @@ focus_tree = {
 
 
 		completion_reward = {
-			army_experience = 5
+			swap_ideas = {
+				remove_idea = gen_pol_values
+				add_idea = gen_pol_unity
+			}
 		}
 	}
 	focus = {
@@ -1683,7 +1695,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			army_experience = 5
+			add_ideas = gen_pol_fruits
 		}
 	}
 	focus = {
@@ -1703,7 +1715,10 @@ focus_tree = {
 
 
 		completion_reward = {
-			army_experience = 5
+			swap_ideas = {
+				remove_idea = gen_pol_fruits
+				add_idea = gen_pol_path
+			}
 		}
 	}
 }

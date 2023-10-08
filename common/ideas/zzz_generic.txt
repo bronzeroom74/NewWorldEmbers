@@ -133,5 +133,64 @@ ideas = {
 				defence = 0.03
 			}
 		}
+
+		gen_pol_trench = {
+			picture = starfall
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.02
+				local_resources_factor = 0.05
+				dig_in_speed = 1
+				max_dig_in = 1
+			}
+		}
+
+		gen_pol_conscripts = {
+			picture = starfall
+			modifier = {	
+				war_support_factor = 0.07
+				production_factory_efficiency_gain_factor = 0.03
+				offence = 0.02
+				defence = 0.02
+				conscription = 0.01
+			}
+		}
+
+		gen_pol_knowledge = {
+			picture = starfall
+			modifier = {
+				research_speed_factor = 0.07
+				stability_factor = 0.03
+			}
+		}
+
+		gen_pol_unity = {
+			picture = starfall
+			modifier = {
+				stability_factor = 0.07
+				war_support_factor = 0.04
+				political_power_gain = 0.2
+			}
+		}
+
+		gen_pol_fruits = {
+			picture = starfall
+			modifier = {
+				stability_factor = 0.03
+				monthly_population = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		gen_pol_path = {
+			picture = starfall
+			modifier = {
+				stability_factor = 0.03
+				monthly_population = 0.1
+				consumer_goods_factor = -0.05
+				political_power_factor = 0.1
+				stability_factor = 0.1
+			}
+		}
 	}
 }
