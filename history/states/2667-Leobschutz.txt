@@ -5,8 +5,8 @@ state = {
 		21729
 	}
 	history = {
-		owner = JAK
-		add_core_of = JAK
+		owner = FIS
+		add_core_of = FIS
 		#buildings = {
 		#	infrastructure = 3
 		#}

@@ -23,3 +23,6 @@ set_popularities = {
 	adaptation = 5
 	apocalypse = 0
 }
+
+recruit_character = WAF_leader
+

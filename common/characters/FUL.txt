@@ -1,0 +1,18 @@
+characters = {
+	FUL_leader = {
+		name = FUL_leader_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FUL/portrait_ful.dds"
+			}
+		}
+		country_leader = {
+			ideology = wasteland_community
+			traits = {
+				isolationist_trait
+			}
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}
