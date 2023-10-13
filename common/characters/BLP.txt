@@ -1,0 +1,16 @@
+characters = {
+	BLP_leader = {
+		name = BLP_leader_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BLP/portrait_blp.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

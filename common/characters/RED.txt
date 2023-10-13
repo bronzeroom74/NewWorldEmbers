@@ -1,0 +1,16 @@
+characters = {
+	RED_leader = {
+		name = RED_leader_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RED/portrait_red.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_ascensionists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -225,11 +225,11 @@ guiTypes = {
 		}
 
 		@warn_icon_x = 280
-		iconType = {
-			name = "single_player_button_warn"
-			position = { x = @warn_icon_x y = 22 }
-			spriteType = "GFX_missing_dlc_warning_sign"
-		}
+		#iconType = {
+		#	name = "single_player_button_warn"
+		#	position = { x = @warn_icon_x y = 22 }
+		#	spriteType = "GFX_missing_dlc_warning_sign"
+		#}
 
 		#instantTextBoxType = {
 		#
@@ -318,42 +318,42 @@ guiTypes = {
 			
 		}
 
-		iconType = {
-			name = "subscription_divider"
-			position = { x = 4 y = 336 }
-			spriteType = "GFX_main_lobby_divider"
-		}
+		#iconType = {
+		#	name = "subscription_divider"
+		#	position = { x = 4 y = 336 }
+		#	spriteType = "GFX_main_lobby_divider"
+		#}
 
-		containerWindowType = {
-			name = "subscription_widget"
-			position = { x = 16 y = 352 }
-			size = { width = 288 height = 108 }
+		#containerWindowType = {
+		#	name = "subscription_widget"
+		#	position = { x = 16 y = 352 }
+		#	size = { width = 288 height = 108 }
+		#
+		#	ButtonType = {
+		#		name = "show_subscription"
+		#		position = { x = 0 y = 0 }
+		#		quadTextureSprite ="GFX_subscription_widget"
+		#		buttonText = "SUBSCRIPTION_WIDGET"
+		#		buttonFont = "ashes_font"
+		#		multiline = yes
+		#	}
+		#}
 
-			ButtonType = {
-				name = "show_subscription"
-				position = { x = 0 y = 0 }
-				quadTextureSprite ="GFX_subscription_widget"
-				buttonText = "SUBSCRIPTION_WIDGET"
-				buttonFont = "ashes_font"
-				multiline = yes
-			}
-		}
-
-		containerWindowType = {
-			name = "subscription_widget_subscribed"
-			position = { x = 16 y = 352 }
-			size = { width = 288 height = 108 }
-
-			ButtonType = {
-				name = "show_subscription"
-				position = { x = 0 y = 0 }
-				quadTextureSprite ="GFX_subscription_widget_active"
-				frame = 1
-				buttonText = "SUBSCRIPTION_WIDGET_SUBSCRIBED"
-				buttonFont = "ashes_font"
-				multiline = yes
-			}
-		}
+		#containerWindowType = {
+		#	name = "subscription_widget_subscribed"
+		#	position = { x = 16 y = 352 }
+		#	size = { width = 288 height = 108 }
+		#
+		#	ButtonType = {
+		#		name = "show_subscription"
+		#		position = { x = 0 y = 0 }
+		#		quadTextureSprite ="GFX_subscription_widget_active"
+		#		frame = 1
+		#		buttonText = "SUBSCRIPTION_WIDGET_SUBSCRIBED"
+		#		buttonFont = "ashes_font"
+		#		multiline = yes
+		#	}
+		#}
 	}
 	
 	containerWindowType = {

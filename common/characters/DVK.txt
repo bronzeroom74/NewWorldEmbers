@@ -1,0 +1,15 @@
+characters = {
+	DVK_leader = {
+		name = DVK_leader_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DVK/portrait_dvk.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_ascensionists
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

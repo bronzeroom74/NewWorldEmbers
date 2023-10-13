@@ -30,6 +30,9 @@ set_popularities = {
 	apocalypse = 0
 }
 
+recruit_character = BLP_leader
+
+
 
 
 set_country_flag = BLP_last_frenzy_recovery_flag

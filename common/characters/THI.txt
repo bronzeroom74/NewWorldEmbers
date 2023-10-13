@@ -1,0 +1,16 @@
+characters = {
+	THI_leader = {
+		name = THI_leader_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/THI/portrait_thi.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

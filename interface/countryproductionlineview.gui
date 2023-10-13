@@ -35,8 +35,8 @@ guiTypes = {
 			name = "production_title"
 			position = { x = 45 y = 8 }
 			textureFile = ""
-			font = "hoi_36header"
-			borderSize = {x = 0 y = 0}
+			font = "hoi_24header"
+			borderSize = {x = 30 y = 3}
 			text = "PRODUCTION_PRODUCTION_LABEL"
 			maxWidth = 240
 			maxHeight = 20
