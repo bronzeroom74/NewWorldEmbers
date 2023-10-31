@@ -1,0 +1,7 @@
+﻿l_english:
+ debug.1.t:0 "This is a test for fucks sake"
+ debug.1.d:0 "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+ debug.1.a:0 "Option 1"
+ debug.1.b:0 "Option 2 but it's longer to check the boundaries"
+ debug.1.c:0 "Option 3 but decent sized"
+ debug.1.e:0 "Option 4 for reasons"

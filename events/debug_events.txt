@@ -1,0 +1,25 @@
+add_namespace = debug
+
+country_event = {
+	id = debug.1
+	title = debug.1.t
+	desc = debug.1.d
+	picture = GFX_event_picture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+
+	option = {
+		name = debug.1.a
+	}
+	option = {
+		name = debug.1.b
+	}
+	option = {
+		name = debug.1.c
+	}
+	option = {
+		name = debug.1.e
+	}
+}
