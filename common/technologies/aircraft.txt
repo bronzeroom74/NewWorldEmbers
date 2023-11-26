@@ -3,7 +3,7 @@ technologies = {
 	basic_aeronautics = {	
 		
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = -1 }
@@ -21,7 +21,7 @@ technologies = {
 	advanced_aeronautics = {	
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = -1 }
@@ -33,21 +33,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 10
-				tag = CHI
-				
-				OR = {
-					date > "1937.1.1"
-					JAP = { is_ai = no }
-				}
-			}
-			
-			modifier = {
-				factor = 10
-				date > "1936.1.3"
-			}
 		}
 	}	
 
@@ -71,7 +56,7 @@ technologies = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = 0 }
@@ -96,7 +81,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = 2 }
@@ -121,7 +106,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = 4 }
@@ -146,7 +131,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = 6 }
@@ -171,7 +156,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 3 y = 2 }
@@ -196,7 +181,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 3 y = 4 }
@@ -221,7 +206,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 3 y = 6 }
@@ -246,7 +231,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = -3 y = 2 }
@@ -271,7 +256,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = -3 y = 4 }
@@ -296,7 +281,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = -3 y = 6 }
@@ -321,7 +306,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = 10 }
@@ -342,7 +327,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = 12 }
@@ -364,7 +349,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = 0 }
@@ -406,7 +391,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = 2 }
@@ -433,7 +418,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = 4 }
@@ -460,7 +445,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = 6 }
@@ -487,7 +472,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = -3 y = 2 }
@@ -514,7 +499,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = -3 y = 4 }
@@ -536,7 +521,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = -3 y = 6 }
@@ -563,7 +548,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 3 y = 2 }
@@ -590,7 +575,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 3 y = 4 }
@@ -617,7 +602,7 @@ technologies = {
 		}	
 		
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 3 y = 6 }
@@ -644,7 +629,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = 10 }
@@ -671,7 +656,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 0 y = 12 }
@@ -698,7 +683,7 @@ technologies = {
 		}	
 		
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2265
 		folder = {
 			name = aircraft_folder
 			position = { x = 3 y = 12 }

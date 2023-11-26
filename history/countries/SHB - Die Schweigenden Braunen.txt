@@ -1,7 +1,5 @@
 capital = 392
 
-oob = "base"
-
 set_technology = {
 
 }
