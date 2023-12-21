@@ -1065,7 +1065,6 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
-			cat_synth_energetics
 		}
 
 		ai_will_do = {
@@ -1114,7 +1113,6 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
-			cat_synth_energetics
 		}
 
 		ai_will_do = {
@@ -1164,7 +1162,6 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
-			cat_synth_energetics
 		}
 
 		ai_will_do = {
@@ -1214,7 +1211,6 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
-			cat_synth_energetics
 		}
 
 		ai_will_do = {
@@ -1259,7 +1255,6 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
-			cat_synth_energetics
 		}
 
 		ai_will_do = {
@@ -1312,7 +1307,6 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
-			cat_synth_polymers
 		}
 
 		ai_will_do = {
@@ -1368,7 +1362,6 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
-			cat_synth_polymers
 		}
 
 		ai_will_do = {
@@ -1424,7 +1417,6 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
-			cat_synth_polymers
 		}
 
 		ai_will_do = {
@@ -1475,7 +1467,6 @@ technologies = {
 		categories = {
 			industry
 			synth_resources
-			cat_synth_polymers
 		}
 
 		ai_will_do = {
