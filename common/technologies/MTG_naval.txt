@@ -1,0 +1,3418 @@
+technologies = {
+
+	@990 = 0
+	@993 = 1
+	@993_2 = 2
+	@1000 = 4
+	@1007_0 = 6
+	@1007 = 7
+	@1007_2 = 8
+	@1008 = 9
+	@1009 = 10
+	@1010 = 11
+	@1011_0 = 12
+	@1011 = 13
+	@1011_2 = 14
+	@1012 = 15
+	@1013 = 16
+	@1014 = 17
+	@1015_0 = 18
+	@1015 = 19
+	@1015_2 = 20
+	@1016 = 21
+	@1017 = 22
+	@1018 = 23
+	@1019_0 = 24
+	@1019 = 25
+	@1019_2 = 26
+	@1020 = 27
+	@1021 = 28
+	@1022 = 29
+	@1023_0 = 30
+	@1023 = 31
+	@1023_2 = 32
+	@1024 = 33
+	@1025 = 34
+	@1026 = 35
+
+#   ###  ##  #  # ###      ## #  # ### ###   ## 
+#    #  #    #  #  #      #   #  #  #  #  # #   
+#    #  # ## ####  #       #  ####  #  ###   #  
+#    #  #  # #  #  #        # #  #  #  #      # 
+### ###  ##  #  #  #      ##  #  # ### #    ##  
+
+
+	early_ship_hull_light = {
+
+		enable_equipments = {
+			ship_hull_light_1
+		}
+		enable_equipment_modules = { 
+			light_ship_engine_1
+		}
+
+		path = {
+			leads_to_tech = basic_ship_hull_light 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = smoke_generator 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = basic_depth_charges
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = sonar
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 993
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @993 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	
+	basic_ship_hull_light = {
+
+		enable_equipments = { 
+			ship_hull_light_2
+		}
+		enable_equipment_modules = { 
+			light_ship_engine_2
+		}
+		path = {
+			leads_to_tech = improved_ship_hull_light 
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			gw_artillery = 1
+		}
+		research_cost = 1.5
+		
+		start_year = 1007
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1007 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+			modifier = {
+				factor = 4
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	
+	improved_ship_hull_light = {
+
+		enable_equipments = { 
+			ship_hull_light_3
+		}
+		enable_equipment_modules = { 
+			light_ship_engine_3
+		}
+		
+		path = {
+			leads_to_tech = advanced_ship_hull_light 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1011
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1011 }
+		}
+		
+		ai_will_do = {
+			factor = 5
+			
+			modifier = {
+				factor = 10
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	
+	advanced_ship_hull_light = {
+
+		enable_equipments = { 
+			ship_hull_light_4
+		}
+		enable_equipment_modules = { 
+			light_ship_engine_4
+		}
+		
+		path = {
+			leads_to_tech = semi_modern_ship_hull_light 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 1015
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1015 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	
+	semi_modern_ship_hull_light = {
+
+		enable_equipments = { 
+			ship_hull_light_5
+		}
+		enable_equipment_modules = { 
+			light_ship_engine_5
+		}
+				
+		path = {
+			leads_to_tech = modern_ship_hull_light 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 1019
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1019 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	
+	modern_ship_hull_light = {
+
+		enable_equipments = { 
+			ship_hull_light_6
+		}
+		enable_equipment_modules = { 
+			light_ship_engine_6
+		}
+		
+		research_cost = 2.5
+
+		start_year = 1023
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1023 }
+		}
+
+		path = {
+			leads_to_tech = light_nuclear_reactor 
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	
+	light_nuclear_reactor = {
+
+		enable_equipment_modules = { 
+			light_ship_engine_nuke
+		}
+		
+		dependencies = {
+			nuke_naval = 1
+		}
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1.25
+
+		start_year = 1026
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1026 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			nuclear
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
+	smoke_generator = {
+
+		naval_retreat_speed = 0.2
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 0.75
+
+		start_year = 993
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @993 }
+		}
+		dependencies = {
+			gw_artillery = 1
+		}
+		ai_will_do = {
+			factor = 8
+			
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
+ ##  #  # ### ###      ## #  # ###  #   #  ##  ###  ### #  # ### 
+#  # ## #  #   #      #   #  # #  # ## ## #  # #  #  #  ## # #   
+#### # ##  #   #       #  #  # ###  # # # #### ###   #  # ## ##  
+#  # #  #  #   #        # #  # #  # #   # #  # #  #  #  #  # #   
+#  # #  #  #  ###     ##   ##  ###  #   # #  # #  # ### #  # ### 
+
+
+	basic_depth_charges = {
+
+		enable_equipment_modules = { 
+			ship_depth_charge_1
+		}
+
+		path = {
+			leads_to_tech = improved_depth_charges
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1.5
+
+		start_year = 993
+		dependencies = {
+			pre_gw_artillery = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1000 }
+		}
+		
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_weaponry
+			dd_tech
+			asw_tech
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	improved_depth_charges = {
+
+		enable_equipment_modules = { 
+			ship_depth_charge_2
+		}
+
+		path = {
+			leads_to_tech = advanced_depth_charges
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1.5
+
+		start_year = 1007
+		dependencies = {
+			gw_artillery = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1007 }
+		}
+		
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_weaponry
+			dd_tech
+			asw_tech
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	advanced_depth_charges = {
+
+		enable_equipment_modules = { 
+			ship_depth_charge_3
+		}
+		path = {
+			leads_to_tech = modern_depth_charges
+			research_cost_coeff = 1
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1.5
+
+		start_year = 1011
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1011 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_weaponry
+			dd_tech
+			asw_tech
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	modern_depth_charges = {
+
+		enable_equipment_modules = { 
+			ship_depth_charge_4
+		}
+ ######## Mod Start ########
+		path = {
+			leads_to_tech = modern_depth_charges_2
+			research_cost_coeff = 1
+		}
+ ######## Mod End ########
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1.5
+
+		start_year = 1015
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1015 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_weaponry
+			dd_tech
+			asw_tech
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+ ######## Mod Start ########
+	modern_depth_charges_2 = {
+
+		enable_equipment_modules = { 
+			ship_depth_charge_5
+		}
+		path = {
+			leads_to_tech = modern_depth_charges_3
+			research_cost_coeff = 1
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1.5
+
+		start_year = 1019
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1019 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_weaponry
+			dd_tech
+			asw_tech
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	modern_depth_charges_3 = {
+
+		enable_equipment_modules = { 
+			ship_depth_charge_6
+		}
+		path = {
+			leads_to_tech = anti_sub_helicopter
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1.5
+
+		start_year = 1023
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1023 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_weaponry
+			dd_tech
+			asw_tech
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	
+######## Mod End ########
+	sonar = {
+		enable_equipment_modules = { 
+			ship_sonar_1
+		}
+
+		path = {
+			leads_to_tech = improved_sonar
+			research_cost_coeff = 1
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1.5
+		dependencies = {
+			electronic_mechanical_engineering = 1
+		}
+		start_year = 993
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = @990 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			asw_tech
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
+	improved_sonar = {
+		enable_equipment_modules = { 
+			ship_sonar_2
+		}
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+ ######## Mod Start ########
+ 		path = {
+			leads_to_tech = advanced_sonar
+			research_cost_coeff = 1
+		}
+ ######### Mod End #########	
+		start_year = 1007
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = @1007_0 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			asw_tech
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	
+ ######## Mod Start ########
+
+	advanced_sonar = {
+		enable_equipment_modules = { 
+			ship_sonar_3
+		}
+
+		path = {
+			leads_to_tech = semi_modern_sonar
+			research_cost_coeff = 1
+		}		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+
+		start_year = 1011
+	
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = @1011_0 }
+		}
+	
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+	
+		categories = {
+			naval_equipment
+			dd_tech
+			asw_tech
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
+	semi_modern_sonar = {
+		enable_equipment_modules = { 
+			ship_sonar_4
+		}
+
+		path = {
+			leads_to_tech = modern_sonar
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+
+		start_year = 1015
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = @1015_0 }
+		}
+	
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			asw_tech
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	modern_sonar = {
+		enable_equipment_modules = { 
+			ship_sonar_5
+		}
+
+		path = {
+			leads_to_tech = modern_sonar_2
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+
+		start_year = 1019
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = @1019_0 }
+		}
+	
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			asw_tech
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	modern_sonar_2 = {
+		enable_equipment_modules = { 
+			ship_sonar_6
+		}
+
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+
+		start_year = 1023
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = @1023_0 }
+		}
+	
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			asw_tech
+			ship_modules_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
+######### Mod End #########
+
+ ##  ###  #  # ###  ## ### ###   ## 
+#  # #  # #  #  #  #   #   #  # #   
+#    ###  #  #  #   #  ##  ###   #  
+#  # #  # #  #  #    # #   #  #   # 
+ ##  #  #  ##  ### ##  ### #  # ##  
+
+	early_ship_hull_cruiser = {
+
+		enable_equipments = {
+			ship_hull_cruiser_1
+		}
+		enable_equipment_modules = { 
+			ship_airplane_launcher_1
+			ship_armor_cruiser_1
+			cruiser_ship_engine_1
+		}
+		path = {
+			leads_to_tech = basic_ship_hull_cruiser
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = improved_airplane_launcher
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 1.5
+
+		start_year = 993
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @993 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+
+	basic_ship_hull_cruiser = {
+
+		enable_equipments = {
+			ship_hull_cruiser_2
+		}
+		enable_equipment_modules = { 
+			cruiser_ship_engine_2
+		}
+		
+		path = {
+			leads_to_tech = improved_ship_hull_cruiser
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			gw_artillery = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 1007
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1007 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+
+	improved_ship_hull_cruiser = {
+
+		enable_equipments = {
+			ship_hull_cruiser_3
+		}
+		enable_equipment_modules = { 
+			cruiser_ship_engine_3
+		}
+		path = {
+			leads_to_tech = advanced_ship_hull_cruiser
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1011
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1011 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 10
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+
+	advanced_ship_hull_cruiser = {
+
+		enable_equipments = {
+			ship_hull_cruiser_4
+		}
+		enable_equipment_modules = { 
+			cruiser_ship_engine_4
+		}
+		research_cost = 1.5
+		######## Mod Start ########
+		path = {
+			leads_to_tech = semi_modern_ship_hull_cruiser
+			research_cost_coeff = 1
+		}
+		######## Mod End ########
+		start_year = 1015
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1015 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.5
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+
+	######## Mod Start ########
+	semi_modern_ship_hull_cruiser = {
+
+		enable_equipments = {
+			ship_hull_cruiser_5
+		}
+		enable_equipment_modules = { 
+			cruiser_ship_engine_5
+		}
+		path = {
+			leads_to_tech = modern_ship_hull_cruiser
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+
+		start_year = 1019
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1019 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.5
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+	modern_ship_hull_cruiser = {
+
+		enable_equipments = {
+			ship_hull_cruiser_6
+		}
+		enable_equipment_modules = { 
+			cruiser_ship_engine_6
+		}
+		path = {
+			leads_to_tech = cruiser_nuclear_reactor
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+
+		start_year = 1023
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1023 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.5
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+	cruiser_nuclear_reactor = {
+
+		enable_equipment_modules = { 
+			cruiser_ship_engine_nuke
+		}
+		
+		dependencies = {
+			nuke_naval = 1
+		}
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1.25
+
+		start_year = 1026
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -2 y = @1026 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			nuclear
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+######## Mod End ########
+	improved_airplane_launcher = {
+
+		
+		enable_equipment_modules = { 
+			ship_airplane_launcher_2
+		}
+
+ ######## Mod Start ########
+ 		path = {
+			leads_to_tech = advanced_airplane_launcher
+			research_cost_coeff = 1
+		}
+######### Mod End #########
+
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 0.75
+
+		start_year = 1007
+		
+
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @993 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 1.5
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+
+######## Mod Start ########
+
+	advanced_airplane_launcher = {
+
+		enable_equipment_modules = { 
+			ship_airplane_launcher_3
+			ship_deck_space_recon_1
+		}
+		path = {
+			leads_to_tech = modern_airplane_launcher
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = airplane_launcher_advice_tt
+		}
+
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 0.75
+
+		start_year = 1011
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @1011_0 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+				
+			modifier = {
+				factor = 1.5
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+	modern_airplane_launcher = {
+
+		enable_equipment_modules = { 
+			ship_airplane_launcher_4
+			ship_deck_space_recon_2
+		}
+		dependencies = {
+			sonar = 1
+			decimetric_radar = 1
+		}
+		path = {
+			leads_to_tech = semi_modern_sensor_suite
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = airplane_launcher_advice_tt
+		}
+
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 0.75
+
+		start_year = 1015
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @1015_0 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+				
+			modifier = {
+				factor = 1.5
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+	semi_modern_sensor_suite = {
+
+		enable_equipment_modules = { 
+			ship_airplane_launcher_5
+		}
+		dependencies = {
+			jet_engines = 1
+		}
+		path = {
+			leads_to_tech = modern_sensor_suite
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = airplane_launcher_advice_tt
+		}
+
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 0.75
+
+		start_year = 1019
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @1019_0 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+				
+			modifier = {
+				factor = 1.5
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+	modern_sensor_suite = {
+
+		enable_equipment_modules = { 
+			ship_airplane_launcher_6
+		}
+		on_research_complete = {
+			custom_effect_tooltip = airplane_launcher_advice_tt
+		}
+
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 0.75
+
+		start_year = 1023
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @1023_0 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+				
+			modifier = {
+				factor = 1.5
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+	anti_sub_helicopter = {
+
+		enable_equipment_modules = { 
+			ship_heli_hanger_1
+		}
+		dependencies = {
+			experimental_helicopter = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = airplane_launcher_advice_tt
+		}
+
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 0.75
+
+		start_year = 1026
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 1 y = @1026 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+				
+			modifier = {
+				factor = 1.5
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+			asw_tech
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+######### Mod End #########
+
+	basic_cruiser_armor_scheme = {
+
+		enable_equipment_modules = { 
+			ship_armor_cruiser_2
+		}
+
+
+		
+		path = {
+			leads_to_tech = basic_heavy_armor_scheme
+			research_cost_coeff = 1
+		}
+
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 0.5
+
+		start_year = 993
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @993_2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.5
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_armor
+			cl_tech
+			ca_tech
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+######### Mod End #########
+
+#  # ###  ##  #   # #   #      ## #  # ### ###   ## 
+#  # #   #  # #   #  # #      #   #  #  #  #  # #   
+#### ##  ####  # #    #        #  ####  #  ###   #  
+#  # #   #  #  # #    #         # #  #  #  #      # 
+#  # ### #  #   #     #       ##  #  # ### #    ##  
+
+
+	early_ship_hull_heavy = {
+
+		enable_equipments = {
+			ship_hull_heavy_1
+		}
+
+		enable_equipment_modules = { 
+			ship_armor_bb_1
+			ship_armor_bc_1
+			heavy_ship_engine_1
+		}
+		
+		path = {
+			leads_to_tech = basic_ship_hull_heavy
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			gw_artillery = 1
+		}
+
+		research_cost = 1.75
+
+		start_year = 993
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @993 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+				factor = 3
+			}
+			modifier = {
+				naval_focused_nation = no
+				factor = 0
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+			bc_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+
+	basic_ship_hull_heavy = {
+
+		enable_equipments = {
+			ship_hull_heavy_2
+		}
+		enable_equipment_modules = { 
+			heavy_ship_engine_2
+		}
+		path = {
+			leads_to_tech = improved_ship_hull_heavy
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = basic_heavy_armor_scheme
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1007
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @1007 }
+		}
+		sub_technologies = {
+			ship_hull_super_heavy
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+				factor = 3
+			}
+			modifier = {
+				naval_focused_nation = no
+				factor = 0
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+			bc_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+	ship_hull_super_heavy = {
+
+		enable_equipments = {
+			ship_hull_super_heavy_1
+		}
+
+		enable_equipment_modules = { 
+			ship_armor_shbb
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1007
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+				factor = 1.5
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+			bc_tech
+			shbb_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+
+	improved_ship_hull_heavy = {
+
+		enable_equipments = {
+			ship_hull_heavy_3
+		}
+		enable_equipment_modules = { 
+			heavy_ship_engine_3
+		}
+		path = {
+			leads_to_tech = advanced_ship_hull_heavy
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1011
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @1011 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+			modifier = {
+				naval_focused_nation = no
+				factor = 0
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+			bc_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+
+	advanced_ship_hull_heavy = {
+
+		enable_equipments = {
+			ship_hull_heavy_4
+		}
+		enable_equipment_modules = { 
+			heavy_ship_engine_4
+		}
+######## Mod Start ########	
+		path = {
+			leads_to_tech = semi_modern_ship_hull_heavy
+			research_cost_coeff = 1
+		}
+######## Mod End ########	
+
+		research_cost = 1.5
+
+		start_year = 1015
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @1015 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+			modifier = {
+				naval_focused_nation = no
+				factor = 0
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+			bc_tech
+		}
+	}
+######## Mod Start ########	
+
+	semi_modern_ship_hull_heavy = {
+		path = {
+			leads_to_tech = modern_ship_hull_heavy
+			research_cost_coeff = 1
+		}
+		sub_technologies = {
+			semi_modern_ship_hull_super_heavy
+		}
+
+		enable_equipments = {
+			ship_hull_heavy_5
+		}
+		enable_equipment_modules = { 
+			heavy_ship_engine_5
+		}
+		research_cost = 1.5
+
+		start_year = 1019
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @1019 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+			modifier = {
+				naval_focused_nation = no
+				factor = 0
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+			bc_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+	semi_modern_ship_hull_super_heavy = {
+
+		enable_equipments = {
+			ship_hull_super_heavy_2
+		}
+		
+		enable_equipment_modules = { 
+			ship_armor_shbb_2
+		}
+		research_cost = 1.5
+
+		start_year = 1019
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+				factor = 1.5
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+			bc_tech
+			shbb_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+	modern_ship_hull_heavy = {
+
+		enable_equipments = {
+			ship_hull_heavy_6
+		}
+		enable_equipment_modules = { 
+			heavy_ship_engine_6
+		}
+		path = {
+			leads_to_tech = heavy_nuclear_reactor
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+
+		start_year = 1023
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @1023 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+			modifier = {
+				naval_focused_nation = no
+				factor = 0
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+			bc_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+	heavy_nuclear_reactor = {
+
+		enable_equipment_modules = { 
+			heavy_ship_engine_nuke
+		}
+		dependencies = {
+			nuke_naval = 1
+		}
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1.25
+
+		start_year = 1026
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1026 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+			bc_tech
+			nuclear
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+	######## Mod end ########	
+
+	basic_heavy_armor_scheme = {
+
+		enable_equipment_modules = { 
+			ship_armor_bb_2
+			ship_armor_bc_2
+			ship_armor_cruiser_3
+		}
+
+
+		
+		path = {
+			leads_to_tech = improved_heavy_armor_scheme
+			research_cost_coeff = 1
+		}
+
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1.25
+
+		start_year = 1007
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @1007_2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.5
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_armor
+			bb_tech
+			bc_tech
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+
+	improved_heavy_armor_scheme = {
+
+		enable_equipment_modules = { 
+			ship_armor_bb_3
+			ship_armor_bc_3
+			ship_armor_cruiser_4
+		}
+
+######## Mod Start ########	
+		path = {
+			leads_to_tech = semi_modern_heavy_armor_scheme
+			research_cost_coeff = 1
+		}
+######## Mod end ########	
+
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.25
+		research_cost = 1.25
+
+		start_year = 1011
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @1011 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+			modifier = {
+				has_tech = improved_ship_hull_heavy 
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_armor
+			bb_tech
+			bc_tech
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+
+	semi_modern_heavy_armor_scheme = {
+
+		enable_equipment_modules = { 
+			ship_armor_bb_4
+			ship_armor_bc_4
+			ship_armor_cruiser_5
+			ship_armor_carrier_deck_2
+			ship_deck_space_armored
+		}
+
+		path = {
+			leads_to_tech = modern_heavy_armor_scheme
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.25
+		research_cost = 1.25
+
+		start_year = 1019
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @1019 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+			modifier = {
+				has_tech = improved_ship_hull_heavy 
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_armor
+			bb_tech
+			bc_tech
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+
+	modern_heavy_armor_scheme = {
+
+		enable_equipment_modules = { 
+			ship_armor_bb_5
+			ship_armor_bc_5
+			ship_armor_cruiser_6
+		}
+
+
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.25
+		research_cost = 1.25
+
+		start_year = 1023
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = 0 y = @1023 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+			modifier = {
+				has_tech = improved_ship_hull_heavy 
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_armor
+			bb_tech
+			bc_tech
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+
+ ##   ##  ###  ###  ### ### ###   ## 
+#  # #  # #  # #  #  #  #   #  # #   
+#    #### ###  ###   #  ##  ###   #  
+#  # #  # #  # #  #  #  #   #  #   # 
+ ##  #  # #  # #  # ### ### #  # ##  
+
+early_ship_hull_carrier = {
+
+		enable_equipments = {
+			ship_hull_carrier_conversion_bb
+			ship_hull_carrier_conversion_ca
+		}
+
+		enable_equipment_modules = { 
+			ship_armor_carrier_deck
+			carrier_ship_engine_1
+			ship_deck_space
+		}
+		
+		path = {
+			leads_to_tech = basic_ship_hull_carrier
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.75
+
+		start_year = 993
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @993 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+			mio_cat_tech_all_carrier_and_modules
+		}
+	}
+
+	basic_ship_hull_carrier = {
+
+		enable_equipments = {
+			ship_hull_carrier_1
+		}
+		enable_equipment_modules = { 
+			carrier_ship_engine_2
+		}
+		path = {
+			leads_to_tech = improved_ship_hull_carrier
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1007
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1007 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+			mio_cat_tech_all_carrier_and_modules
+		}
+	}
+
+	improved_ship_hull_carrier = {
+
+		enable_equipments = {
+			ship_hull_carrier_2
+		}
+		enable_equipment_modules = { 
+			carrier_ship_engine_3
+		}
+		path = {
+			leads_to_tech = advanced_ship_hull_carrier
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1011
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1011 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+			mio_cat_tech_all_carrier_and_modules
+		}
+	}
+
+	advanced_ship_hull_carrier = {
+
+		enable_equipments = {
+			ship_hull_carrier_3
+		}
+		enable_equipment_modules = { 
+			carrier_ship_engine_4
+		}
+		research_cost = 1.5
+
+		start_year = 1015
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1015 }
+		}
+		######## Mod Start ########	
+
+		path = {
+			leads_to_tech = semi_modern_ship_hull_carrier
+			research_cost_coeff = 1
+		}
+		######## Mod End ########	
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+			mio_cat_tech_all_carrier_and_modules
+		}
+	}
+	######## Mod Start ########	
+	semi_modern_ship_hull_carrier = {
+		enable_equipments = {
+			ship_hull_carrier_4
+		}
+		enable_equipment_modules = { 
+			carrier_ship_engine_5
+		}
+		research_cost = 1.5
+
+		start_year = 1019
+		path = {
+			leads_to_tech = modern_ship_hull_carrier
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1019 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+			mio_cat_tech_all_carrier_and_modules
+		}
+
+	}
+
+	modern_ship_hull_carrier = {
+		enable_equipments = {
+			ship_hull_carrier_5
+		}
+		enable_equipment_modules = { 
+			carrier_ship_engine_6
+		}
+		path = {
+			leads_to_tech = carrier_nuclear_reactor
+			research_cost_coeff = 1
+		}
+		sub_technologies = {
+			ship_hull_supercarrier
+		}
+		research_cost = 1.5
+
+		start_year = 1023
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1023 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+			mio_cat_tech_all_carrier_and_modules
+		}
+
+	}
+	ship_hull_supercarrier = {
+
+		enable_equipments = {
+			ship_hull_supercarrier_1
+		}
+
+		research_cost = 1.5
+	
+		start_year = 1023
+			
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+				factor = 1.5
+			}
+		}
+			
+		categories = {
+			naval_equipment
+			cv_tech
+			mio_cat_tech_all_carrier_and_modules
+		}
+	}
+	carrier_nuclear_reactor = {
+
+		enable_equipment_modules = { 
+			carrier_ship_engine_nuke
+		}
+		dependencies = {
+			nuke_naval = 1
+		}
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1.25
+
+		start_year = 1026
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -2 y = @1026 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+			nuclear
+			ship_modules_tech
+			mio_cat_tech_all_carrier_and_modules
+		}
+	}
+	######## Mod End ########	
+
+###  ##  ###  ###  ### ###   ##      #   #  ##  ###   ##  ### ###  ###                  ## #  # ###  #   #  ##  ###  ### #  # ###  ## 
+ #  #  # #  # #  # #   #  # #  #     #   # #  # #  # #  # #   #  # #       {~._.~}     #   #  # #  # ## ## #  # #  #  #  ## # #   #   
+ #  #  # ###  ###  ##  #  # #  #     # # # #### ###  #### ##  ###  ##       ( Y )       #  #  # ###  # # # #### ###   #  # ## ##   #  
+ #  #  # #  # #    #   #  # #  #     # # # #  # #  # #  # #   #  # #       ()~*~()       # #  # #  # #   # #  # #  #  #  #  # #     # 
+ #   ##  #  # #    ### ###   ##       # #  #  # #  # #  # #   #  # ###     (_)-(_)     ##   ##  ###  #   # #  # #  # ### #  # ### ##  
+
+	
+######### Mod End #########
+	early_ship_hull_submarine = {
+
+		enable_equipments = {
+			ship_hull_submarine_1
+		}
+
+		enable_equipment_modules = { 
+			ship_torpedo_sub_1
+			sub_ship_engine_1
+		}
+		
+		path = {
+			leads_to_tech = basic_ship_hull_submarine
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		start_year = 993
+		
+		dependencies = {
+			infantry_weapons = 1
+			basic_torpedo = 1
+		}
+
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -2 y = @993 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+
+	basic_ship_hull_submarine = {
+
+		enable_equipments = {
+			ship_hull_submarine_2
+		}
+		enable_equipment_modules = { 
+			ship_torpedo_sub_2
+			sub_ship_engine_2
+		}
+		path = {
+			leads_to_tech = improved_ship_hull_submarine
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = basic_submarine_snorkel
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1007
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -2 y = @1007 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+
+	improved_ship_hull_submarine = {
+
+		enable_equipments = {
+			ship_hull_submarine_3
+		}
+		enable_equipment_modules = { 
+			ship_torpedo_sub_3
+			sub_ship_engine_3
+		}
+		
+		path = {
+			leads_to_tech = advanced_ship_hull_submarine
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 1011
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -2 y = @1011 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+
+	advanced_ship_hull_submarine = {
+
+		enable_equipments = {
+			ship_hull_submarine_4
+		}
+		enable_equipment_modules = { 
+			ship_torpedo_sub_4
+			sub_ship_engine_4
+		}
+		
+		research_cost = 2
+
+		start_year = 1015
+		
+######## Mod Start ########	
+		path = {
+			leads_to_tech = semi_modern_ship_hull_submarine
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improved_submarine_snorkel
+			research_cost_coeff = 1
+		}
+######## Mod End ########
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -2 y = @1015 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+
+######## Mod Start ########
+	semi_modern_ship_hull_submarine = {
+
+		enable_equipments = {
+			ship_hull_submarine_5
+		}
+		enable_equipment_modules = { 
+			ship_torpedo_sub_5
+			sub_ship_engine_5
+		}
+		path = {
+			leads_to_tech = modern_ship_hull_submarine
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+
+		start_year = 1019
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -2 y = @1019 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+	modern_ship_hull_submarine = {
+
+		enable_equipments = {
+			ship_hull_submarine_6
+		}
+		enable_equipment_modules = { 
+			ship_torpedo_sub_6
+			sub_ship_engine_6
+		}
+		sub_technologies = {
+			na1
+			ship_hull_missile_submarine
+		}
+		path = {
+			leads_to_tech = sub_nuclear_reactor
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+
+		start_year = 1023
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -2 y = @1023 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+	ship_hull_missile_submarine = {
+		enable_equipments = {
+			ship_hull_missile_submarine_1
+		}
+
+		research_cost = 1.5
+	
+		start_year = 1023
+			
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+				factor = 1.5
+			}
+		}
+			
+		categories = {
+			naval_equipment
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+
+	
+	sub_nuclear_reactor = {
+
+		enable_equipment_modules = { 
+			sub_ship_engine_nuke
+		}
+		dependencies = {
+			nuke_naval = 1
+		}
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1.25
+
+		start_year = 1026
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -3 y = @1026 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 3
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+			nuclear
+			ship_modules_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+
+######## Mod End ########
+	basic_submarine_snorkel = {
+
+		enable_equipment_modules = { 
+			ship_sub_snorkel_1
+		}
+		path = {
+			leads_to_tech = improved_submarine_snorkel
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+
+		start_year = 1011
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1011_2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+				OR = {
+					has_war = no
+					AND = {
+						surrender_progress < 0.1
+						any_enemy_is_on_the_same_landmass = no
+					}
+				}
+			}
+
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+			ship_modules_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+
+	improved_submarine_snorkel = {
+
+		enable_equipment_modules = { 
+			ship_sub_snorkel_2
+		}
+
+######## Mod Start ########
+		path = {
+			leads_to_tech = advanced_submarine_snorkel
+			research_cost_coeff = 1
+		}
+######## Mod End ########
+
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 2
+
+		start_year = 1015
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1015_2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+			ship_modules_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+
+######## Mod Start ########
+	advanced_submarine_snorkel = {
+
+		enable_equipment_modules = { 
+			ship_sub_snorkel_3
+		}
+		path = {
+			leads_to_tech = modern_submarine_snorkel
+			research_cost_coeff = 1
+		}
+
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 2
+
+		start_year = 1019
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1019_2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+			ship_modules_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+	modern_submarine_snorkel = {
+
+		enable_equipment_modules = { 
+			ship_sub_snorkel_4
+		}
+
+		
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 2
+
+		start_year = 1023
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = @1023_2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+			ship_modules_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+	######## Mod End ########
+
+ ##  ###  #   #  ##  #   # ### #  # ###  ## 
+#  # #  # ## ## #  # ## ## #   ## #  #  #   
+#### ###  # # # #### # # # ##  # ##  #   #  
+#  # #  # #   # #  # #   # #   #  #  #    # 
+#  # #  # #   # #  # #   # ### #  #  #  ##  
+
+
+	
+ ######## Mod End ########	
+
+
+
+#   # ###  ##  ## ### #   ###
+## ##  #  #   #    #  #   #
+# # #  #   #   #   #  #   ##
+#   #  #    #   #  #  #   #
+#   # ###  ##  ## ### ### ### 
+
+	
+
+######### Mod End #########
+
+###   ##  #   #  ##   ##  ###      ##   ##  #  # ### ###   ##  #   
+#  # #  # ## ## #  # #    #       #  # #  # ## #  #  #  # #  # #   
+#  # #### # # # #### # ## ##      #    #  # # ##  #  ###  #  # #   
+#  # #  # #   # #  # #  # #       #  # #  # #  #  #  #  # #  # #   
+###  #  # #   # #  #  ##  ###      ##   ##  #  #  #  #  #  ##  ### 
+
+	
+
+
+#   # ### #  # ###  ## 
+## ##  #  ## # #   #   
+# # #  #  # ## ##   #  
+#   #  #  #  # #     # 
+#   # ### #  # ### ##  
+
+	###Special snowflake hulls for special snowflake nations
+	panzerschiffe = {
+
+		enable_equipments = { 
+			ship_hull_cruiser_panzerschiff
+		}
+
+		research_cost = 1
+		start_year = 1007
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	torpedo_cruiser_mtg = {
+
+		enable_equipments = { 
+			ship_hull_torpedo_cruiser
+		}
+
+		research_cost = 1
+		start_year = 1007
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	pre_dreadnoughts = {
+
+		enable_equipments = { 
+			ship_hull_pre_dreadnought
+		}
+
+		research_cost = 1
+		start_year = 1007
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	carrier_cloud_tech_mtg = {
+
+		enable_equipments = {
+			ship_hull_cloud_carrier
+		}
+		enable_equipment_modules = { 
+			ship_deck_space_bad
+		}
+		research_cost = 1
+		start_year = 950
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	coastal_defense_ships = {
+
+		enable_equipments = { 
+			ship_hull_cruiser_coastal_defense_ship
+		}
+
+		research_cost = 1
+		start_year = 1007
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	cruiser_submarines = {
+
+		enable_equipments = { 
+			ship_hull_cruiser_submarine
+		}
+		enable_equipment_modules = { 
+			ship_extra_fuel_tank
+		}
+		research_cost = 1
+		start_year = 1007
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	advanced_cruiser_submarines = {
+
+		enable_equipments = { 
+			ship_hull_cruiser_submarine_2
+		}
+		enable_equipment_modules = {
+			ship_extra_fuel_tank_2
+		}
+		research_cost = 1
+		start_year = 1015
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	destroyer_escorts_mtg = {
+
+		enable_equipments = {
+			ship_hull_destroyer_escort
+		}
+		research_cost = 1
+		start_year = 950
+
+		allow = {
+			always = no
+		}
+	}
+	basic_ship_hull_grand_cruiser = {
+
+		enable_equipments = {
+			ship_hull_grand_cruiser
+		}
+		enable_equipment_modules = {
+			ship_armor_cb_1
+		}
+		research_cost = 1
+		start_year = 950
+
+		allow = {
+			always = no
+		}
+	}
+	improved_ship_hull_grand_cruiser = {
+
+		enable_equipments = {
+			ship_hull_grand_cruiser2
+		}
+		enable_equipment_modules = {
+			ship_armor_cb_2
+		}
+		research_cost = 1
+		start_year = 950
+
+		allow = {
+			always = no
+		}
+	}
+	advanced_ship_hull_grand_cruiser = {
+
+		enable_equipments = {
+			ship_hull_grand_cruiser3
+		}
+		enable_equipment_modules = {
+			ship_armor_cb_3
+		}
+		research_cost = 1
+		start_year = 950
+
+		allow = {
+			always = no
+		}
+	}
+	monitors_mtg = {
+
+		enable_equipments = {
+			ship_hull_monitor
+		}
+		research_cost = 1
+		start_year = 950
+
+		allow = {
+			always = no
+		}
+	}
+}

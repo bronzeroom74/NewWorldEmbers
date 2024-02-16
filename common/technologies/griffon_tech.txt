@@ -1,0 +1,1510 @@
+
+
+technologies = {
+
+	griffon_race = {
+
+		research_cost = 1
+
+		intel_network_gain_factor = -0.3
+
+		allow = {
+			always = no
+		}
+
+	}
+
+	tech_knights = {
+
+		dependencies = {
+			griffon_race = 1
+			tech_support = 1
+		}
+
+		enable_subunits = {
+			knights
+		}
+
+		on_research_complete = {
+			if = {
+				limit = {
+					has_griffon_race_tech = yes
+					NOT = {
+						has_template_containing_unit = knights
+					}
+				}
+				hidden_effect = {
+					division_template = {
+						name = "Griffon Knights"			#Infantry Division -
+					
+						regiments = {
+							knights = { x = 0 y = 0 }
+							knights = { x = 1 y = 0 }
+							knights = { x = 0 y = 1 }
+							knights = { x = 1 y = 1 }
+							knights = { x = 0 y = 2 }
+							knights = { x = 1 y = 2 }
+						}
+						priority = 2
+					}
+					
+				}
+				custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			}
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+
+		path = {
+			leads_to_tech = tech_knights2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 989
+		folder = {
+			name = griffon_folder
+			position = { x = 2 y = 0 }
+		}
+
+		categories = {
+
+			knights_tech
+			race_tech
+			special_forces_tech
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+	}
+
+	tech_knights2 = {
+
+		knights = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		path = {
+			leads_to_tech = tech_knights_magical
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_knights_regular
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 2 y = 3 }
+		}
+
+		on_research_complete = {
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+
+		categories = {
+
+			knights_tech
+			race_tech
+			special_forces_tech
+		}
+
+		ai_will_do = {
+			factor = 4
+		}
+	}
+
+	tech_knights_magical = {
+		knights = {
+			max_organisation = 5
+		}
+		dependencies = {
+			magical_weapons = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = ME_KNIGHTS_TOOLTIP
+			hidden_effect = {
+				if = {
+					limit = { is_ai = yes }
+					country_event = eaw_debug.2
+				}
+				fix_weapon_techs = yes
+			}
+		}
+		xor = { tech_knights_regular }
+		research_cost = 1
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 0 y = 6 }
+		}
+		path = {
+			leads_to_tech = tech_knights_magical2
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			knights_tech
+			race_tech
+			special_forces_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				OR = { is_major = yes num_of_military_factories > 59 }
+				factor = 6
+			}
+			modifier = {
+				has_government = communism
+				factor = 0.2
+			}
+		}
+	}
+
+	tech_knights_magical2 = {
+
+		knights = {
+			breakthrough = 0.1
+			defense = 0.1
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 0 y = 9 }
+		}
+		path = {
+			leads_to_tech = tech_knights3
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+
+		categories = {
+			knights_tech
+			race_tech
+			special_forces_tech
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	tech_knights_regular = {
+		knights = {
+			default_morale = 0.10
+		}
+		xor = { tech_knights_magical }
+		research_cost = 1
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 4 y = 6 }
+		}
+		path = {
+			leads_to_tech = tech_knights_regular2
+			research_cost_coeff = 1
+		}
+		categories = {
+			knights_tech
+			race_tech
+			special_forces_tech
+		}
+
+		on_research_complete = {
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+
+		ai_will_do = {
+			factor = 6
+			modifier = {
+				has_government = communism
+				factor = 2
+			}
+			modifier = {
+				NOT = { has_tech = magical_weapons }
+				factor = 0
+			}
+		}
+	}
+
+	tech_knights_regular2 = {
+
+		knights = {
+			max_strength = 3
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 4 y = 9 }
+		}
+		path = {
+			leads_to_tech = tech_knights3
+			research_cost_coeff = 1
+		}
+		categories = {
+			knights_tech
+			race_tech
+			special_forces_tech
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = percentage_increase_notice
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	tech_knights3 = {
+
+		knights = {
+			max_organisation = 5
+			breakthrough = 0.05
+		}
+		dependencies = {
+			infantry_weapons = 1
+		}
+		path = {
+			leads_to_tech = tech_knights_a
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 2 y = 12 }
+		}
+
+		on_research_complete = {
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+
+		categories = {
+
+			knights_tech
+			race_tech
+			special_forces_tech
+		}
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	tech_knights_a = {
+
+		knights = {
+			max_organisation = 5
+			defense = 0.05
+		}
+
+		path = {
+
+			leads_to_tech = tech_knights_b
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 2 y = 15 }
+		}
+
+		on_research_complete = {
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+
+		categories = {
+
+			knights_tech
+			race_tech
+			special_forces_tech
+		}
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	tech_knights_b = {
+
+		knights = {
+			max_organisation = 5
+			hard_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = tech_knights_c
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 2 y = 18 }
+		}
+
+		on_research_complete = {
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+
+		categories = {
+
+			knights_tech
+			race_tech
+			special_forces_tech
+		}
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	tech_knights_c = {
+
+		knights = {
+			max_organisation = 5
+			ap_attack = 0.2
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 2 y = 21 }
+		}
+
+		categories = {
+
+			knights_tech
+			race_tech
+			special_forces_tech
+		}
+
+		on_research_complete = {
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+
+	#Enchanted tools
+	tech_griffon_misc = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+		local_resources_factor = 0.05
+
+		path = {
+			leads_to_tech = tech_griffon_misc2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 6 y = 0 }
+		}
+
+		categories = {
+			race_tech
+			magical_tech
+		}
+
+		ai_will_do = {
+			factor = 4
+
+			modifier = {
+				factor = 1.5
+				date > "1008.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1009.1.1"
+			}
+		}
+	}
+
+	#Enchanted Machines
+	tech_griffon_misc2 = {
+
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		path = {
+			leads_to_tech = tech_griffon_misc3
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			infantry_weapons = 1
+		}
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 6 y = 3 }
+		}
+
+		categories = {
+			race_tech
+			magical_tech
+		}
+
+		ai_will_do = {
+			factor = 6
+
+			modifier = {
+				factor = 1.5
+				date > "1011.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1012.1.1"
+			}
+		}
+	}
+
+	#Griffon Architecture
+	tech_griffon_misc3 = {
+
+		industry_free_repair_factor = 0.5
+		global_building_slots_factor = 0.1
+
+		path = {
+			leads_to_tech = tech_griffon_misc_a
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 6 y = 6 }
+		}
+
+		categories = {
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 1.5
+				date > "1014.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1015.1.1"
+			}
+		}
+	}
+
+	#Magical early warning
+	tech_griffon_misc_a = {
+
+		army_intel_factor = 0.1
+		navy_intel_factor = 0.1
+		airforce_intel_factor = 0.1
+		civilian_intel_factor = 0.1
+		air_interception_detect_factor = 0.1
+
+		path = {
+			leads_to_tech = tech_griffon_misc_b
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 6 y = 9 }
+		}
+
+		categories = {
+			race_tech
+			magical_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 1.5
+				date > "1017.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1018.1.1"
+			}
+		}
+	}
+
+	#Flexible production
+	tech_griffon_misc_b = {
+
+		line_change_production_efficiency_factor = 0.15
+		production_factory_start_efficiency_factor = 0.05
+
+		path = {
+			leads_to_tech = tech_griffon_misc_c
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 6 y = 12 }
+		}
+
+		categories = {
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 1.5
+				date > "1021.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1022.1.1"
+			}
+		}
+	}
+
+	#Unbreakable materials
+	tech_griffon_misc_c = {
+
+		category_army = {
+			reliability = 0.05
+		}
+		category_all_planes = {
+			reliability = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 6 y = 15 }
+		}
+
+		categories = {
+			race_tech
+			magical_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 1.5
+				date > "1025.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1026.1.1"
+			}
+		}
+	}
+
+	#We can fly!
+	tech_griffon_army = {
+
+		dependencies = {
+			griffon_race = 1
+		}
+		on_research_complete = { custom_effect_tooltip = ME_WE_CAN_FLY_TOOLTIP }
+		category_light_infantry = {
+			hills = {
+				attack = 0.05
+				movement = 0.05
+			}
+			mountain = {
+				attack = 0.05
+				movement = 0.1
+			}
+		}
+
+		path = {
+			leads_to_tech = tech_griffon_army_def2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_griffon_army_atk2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 0.5
+		start_year = 800
+		folder = {
+			name = griffon_folder
+			position = { x = 10 y = 0 }
+		}
+
+		categories = {
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 20
+
+			modifier = {
+				factor = 1.5
+				date > "1008.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1009.1.1"
+			}
+		}
+	}
+
+	#Messenger enchantments
+	tech_griffon_army_def2 = {
+
+		signal_company = {
+			initiative = 0.06
+		}
+		category_front_line = {
+			max_organisation = 2
+		}
+		path = {
+			leads_to_tech = tech_griffon_army_def3
+			research_cost_coeff = 1
+		}
+		xor = { tech_griffon_army_atk2 }
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 8 y = 3 }
+		}
+
+		categories = {
+			race_tech
+			magical_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 1.5
+				date > "1011.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1012.1.1"
+			}
+		}
+	}
+
+	#Enchanted Armor
+	tech_griffon_army_def3 = {
+
+		category_special_forces = {
+			max_strength = 3
+			hardness = 50
+			maximum_speed = -0.03
+		}
+		amphibious_mechanized = {
+			hardness = -50
+		}
+		heavy_dragons = {
+			hardness = -50
+		}
+		knights = {
+			armor_value = 5000
+		}
+		on_research_complete = {
+			custom_effect_tooltip = percentage_increase_notice
+		}
+		dependencies = {
+			infantry_weapons = 1
+		}
+		path = {
+			leads_to_tech = tech_griffon_army_def_a
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 8 y = 6 }
+		}
+
+		categories = {
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 1.5
+				date > "1014.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1015.1.1"
+			}
+		}
+	}
+
+	#Hardened armor
+	tech_griffon_army_def_a = {
+
+		category_all_armor = {
+			defense = 0.1
+			breakthrough = 0.05
+		}
+		armored_car = {
+			defense = 0.1
+			breakthrough = 0.05
+		}
+
+		path = {
+			leads_to_tech = tech_griffon_army_def_b
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 8 y = 9 }
+		}
+
+		categories = {
+			race_tech
+			magical_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 1.5
+				date > "1017.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1018.1.1"
+			}
+		}
+	}
+
+	#Armored claw
+	tech_griffon_army_def_b = {
+
+		category_all_armor = {
+			max_organisation = 2
+		}
+		armored_car = {
+			max_organisation = 4
+		}
+
+		path = {
+			leads_to_tech = tech_griffon_army_def_c
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 8 y = 12 }
+		}
+
+		categories = {
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 1.5
+				date > "1021.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1022.1.1"
+			}
+		}
+	}
+
+	#Enchanted barrels
+	tech_griffon_army_def_c = {
+
+		category_all_artillery = {
+			soft_attack = 0.05
+		}
+
+		category_all_at = {
+			hard_attack = 0.05
+		}
+
+		category_all_aa = {
+			air_attack = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 8 y = 15 }
+		}
+
+		categories = {
+			race_tech
+			magical_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 1.5
+				date > "1025.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1026.1.1"
+			}
+		}
+	}
+
+	#Quick hitters
+	tech_griffon_army_atk2 = {
+
+		category_light_infantry = {
+			maximum_speed = 0.1
+		}
+		knights = {
+			maximum_speed = 0.1
+		}
+		category_recon = {
+			forest = {
+				movement = 0.05
+			}
+			hills = {
+				movement = 0.05
+			}
+			mountain = {
+				movement = 0.05
+			}
+			jungle = {
+				movement = 0.05
+			}
+			marsh = {
+				movement = 0.05
+			}
+			plains = {
+				movement = 0.05
+			}
+			desert = {
+				movement = 0.05
+			}
+			river = {
+				movement = 0.05
+			}
+		}
+		recon = {
+			maximum_speed = 0.05
+		}
+		path = {
+			leads_to_tech = tech_griffon_army_atk3
+			research_cost_coeff = 1
+		}
+		xor = { tech_griffon_army_def2 }
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 12 y = 3 }
+		}
+
+		categories = {
+			race_tech
+			magical_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 1.5
+				date > "1011.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1012.1.1"
+			}
+		}
+	}
+
+	#Tip of the spear
+	tech_griffon_army_atk3 = {
+
+		category_special_forces = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		category_recon = {
+			recon = 1
+		}
+		dependencies = {
+			infantry_weapons = 1
+		}
+		path = {
+			leads_to_tech = tech_griffon_army_atk_a
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 12 y = 6 }
+		}
+
+		categories = {
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 1.5
+				date > "1014.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1015.1.1"
+			}
+		}
+	}
+
+	#Leap of faith
+	tech_griffon_army_atk_a = {
+
+		air_paradrop_attack_factor = 0.15
+		logistics_company = {
+			battalion_mult = {
+				category = category_all_infantry
+				defense = 0.05
+			}
+		}
+
+		path = {
+			leads_to_tech = tech_griffon_army_atk_b
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 12 y = 9 }
+		}
+
+		categories = {
+			race_tech
+			magical_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 1.5
+				date > "1017.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1018.1.1"
+			}
+		}
+	}
+
+	#Air resupply
+	tech_griffon_army_atk_b = {
+
+		no_supply_grace = 36
+
+		path = {
+			leads_to_tech = tech_griffon_army_atk_c
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 12 y = 12 }
+		}
+
+		categories = {
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 1.5
+				date > "1021.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1022.1.1"
+			}
+		}
+	}
+
+	#Outriders
+	tech_griffon_army_atk_c = {
+
+		category_motmech = {
+			max_organisation = 3
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 12 y = 15 }
+		}
+
+		categories = {
+			race_tech
+			magical_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 1.5
+				date > "1025.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1026.1.1"
+			}
+		}
+	}
+
+	#Machine nests
+	tech_griffon_airnavy = {
+
+		dependencies = {
+			griffon_race = 1
+			infantry_weapons = 1
+		}
+		production_speed_air_base_factor = 0.15
+		production_speed_naval_base_factor = 0.15
+
+		path = {
+			leads_to_tech = tech_griffon_airnavy2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 16 y = 0 }
+		}
+
+		categories = {
+			infantry_tech
+
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 3
+
+			modifier = {
+				factor = 1.5
+				date > "1008.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1009.1.1"
+			}
+		}
+	}
+
+	#Enchanted hulls
+	tech_griffon_airnavy2 = {
+
+		category_all_planes = {
+			air_defence = 0.05
+		}
+		navy_capital_ship_defence_factor = 0.1
+		navy_screen_defence_factor = 0.1
+
+		path = {
+			leads_to_tech = tech_griffon_navy3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_griffon_air3
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 1
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 16 y = 3 }
+		}
+
+		categories = {
+			infantry_tech
+
+
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 1.5
+				date > "1011.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1012.1.1"
+			}
+		}
+	}
+
+	#Seeker munitions
+	tech_griffon_navy3 = {
+
+		naval_hit_chance = 0.2
+		navy_anti_air_attack_factor = 0.1
+
+		path = {
+			leads_to_tech = tech_griffon_navy4
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 14 y = 6 }
+		}
+
+		categories = {
+			infantry_tech
+			naval_equipment
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0.3
+				any_owned_state = {
+					is_coastal = no
+				}
+			}
+			modifier = {
+				factor = 1.5
+				date > "1011.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1012.1.1"
+			}
+		}
+	}
+
+	#Boarding parties
+	tech_griffon_navy4 = {
+
+		convoy_raiding_efficiency_factor = 0.1
+		navy_screen_attack_factor = 0.1
+
+
+		path = {
+			leads_to_tech = tech_griffon_navy5
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 14 y = 9 }
+		}
+
+		categories = {
+			infantry_tech
+			naval_equipment
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 1.5
+				date > "1017.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1018.1.1"
+			}
+		}
+	}
+
+	#Naval C&C
+	tech_griffon_navy5 = {
+
+		battleship = {
+			max_organisation = 10
+		}
+		battle_cruiser = {
+			max_organisation = 10
+		}
+		heavy_cruiser = {
+			max_organisation = 10
+		}
+		carrier = {
+			max_organisation = 10
+		}
+		destroyer = {
+			max_organisation = 10
+		}
+		light_cruiser = {
+			max_organisation = 10
+		}
+		submarine = {
+			max_organisation = 10
+		}
+		monitor = {
+			max_organisation = 10
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 14 y = 12 }
+		}
+
+		categories = {
+			infantry_tech
+			naval_equipment
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 1.5
+				date > "1023.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1024.1.1"
+			}
+		}
+	}
+
+	#Fighting pilots
+	tech_griffon_air3 = {
+
+		air_interception_attack_factor = 0.1
+		air_air_superiority_attack_factor = 0.1
+
+		path = {
+			leads_to_tech = tech_griffon_air4
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 18 y = 6 }
+		}
+
+		categories = {
+			infantry_tech
+			naval_equipment
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 1.8
+			modifier = {
+				factor = 1.5
+				date > "1011.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1012.1.1"
+			}
+		}
+	}
+
+	#Airships
+	tech_griffon_air4 = {
+
+		strat_bomber = {
+			air_defence = 0.1
+		}
+		tac_bomber = {
+			air_defence = 0.1
+		}
+
+		path = {
+			leads_to_tech = tech_griffon_air5
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 18 y = 9 }
+		}
+
+		categories = {
+			infantry_tech
+			naval_equipment
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 1.5
+				date > "1017.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1018.1.1"
+			}
+		}
+	}
+
+	#Born to fly
+	tech_griffon_air5 = {
+
+		air_ace_generation_chance_factor = 0.25
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = griffon_folder
+			position = { x = 18 y = 12 }
+		}
+
+		categories = {
+			infantry_tech
+			naval_equipment
+			race_tech
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 1.5
+				date > "1023.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1024.1.1"
+			}
+		}
+	}
+
+}
+
+#####-----------------------------------------------------------> End
