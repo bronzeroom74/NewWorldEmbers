@@ -64,7 +64,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_cruiser_armor }	
+				allowed_module_categories = { ship_cruiser_armor }
 			}
 			front_1_custom_slot = {
 				required = no
@@ -151,7 +151,7 @@ equipments = {
 
 	ship_hull_carrier_1 = {
 		abbreviation = "haa"
-		year = 1936
+		year = 2266
 		visual_level = 1
 		visual_tech_level_addition = 2
 		archetype = ship_hull_carrier
@@ -166,7 +166,7 @@ equipments = {
 
 	ship_hull_carrier_2 = {
 		abbreviation = "hab"
-		year = 1940
+		year = 2270
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -228,7 +228,7 @@ equipments = {
 
 	ship_hull_carrier_3 = {
 		abbreviation = "hac"
-		year = 1944
+		year = 2274
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -421,7 +421,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_cruiser_armor }	
+				allowed_module_categories = { ship_cruiser_armor }
 			}
 
 			front_1_custom_slot = {
@@ -482,7 +482,7 @@ equipments = {
 	}
 
 	carrier_2 = {
-		year = 1936
+		year = 2266
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -516,7 +516,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_cruiser_armor }	
+				allowed_module_categories = { ship_cruiser_armor }
 			}
 
 			front_1_custom_slot = {
@@ -571,7 +571,7 @@ equipments = {
 	}
 
 	carrier_3 = {
-		year = 1940
+		year = 2270
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000
@@ -618,7 +618,7 @@ equipments = {
 	}
 
 	carrier_4 = {
-		year = 1944
+		year = 2274
 		visual_level = 1
 		archetype = ship_hull_carrier
 		priority = 1000

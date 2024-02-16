@@ -1,23 +1,23 @@
 equipments = {
 
 	amphibious_mechanized_equipment = {
-		year = 1936
+		year = 2266
 
 		is_archetype = yes
-		picture = archetype_motorized_equipment		
+		picture = archetype_motorized_equipment
 		is_buildable = no
 		type = {
-			#infantry #Removing inf type 
+			#infantry #Removing inf type
 			mechanized
 		}
 		group_by = archetype
-		
+
 		interface_category = interface_category_land
-		
+
 		#Misc Abilities
 		maximum_speed = 7
 		reliability = 0.8
-		
+
 		#Defensive Abilities
 		defense = 26
 		breakthrough = 4
@@ -30,19 +30,19 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 8
 		resources = {
 			steel = 2
 			rubber = 1
 		}
-		
+
 		fuel_consumption = 4.0
 	}
 
 	# ~1941
 	amphibious_mechanized_equipment_1 = {
-		year = 1940
+		year = 2270
 
 		archetype = amphibious_mechanized_equipment
 		priority = 40
@@ -51,7 +51,7 @@ equipments = {
 
 	# ~1943
 	amphibious_mechanized_equipment_2 = {
-		year = 1942
+		year = 2272
 
 		archetype = amphibious_mechanized_equipment
 		parent = amphibious_mechanized_equipment_1
@@ -68,7 +68,7 @@ equipments = {
 
 		#Offensive Abilities
 		ap_attack = 16
-		
+
 		build_cost_ic = 10
 		resources = {
 			steel = 3

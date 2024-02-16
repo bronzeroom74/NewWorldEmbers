@@ -38,7 +38,7 @@ equipments = {
 	}
 	# cheap trains
 	train_equipment_2 = {
-		year = 1940
+		year = 2270
 
 		archetype = train_equipment
 		parent = train_equipment_1
@@ -51,7 +51,7 @@ equipments = {
 	}
 	# armored trains
 	train_equipment_3 = {
-		year = 1936
+		year = 2266
 
 		archetype = train_equipment
 		parent = train_equipment_1

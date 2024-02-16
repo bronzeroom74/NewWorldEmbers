@@ -38,7 +38,7 @@ equipments = {
 		air_map_icon_frame = 1
 		interface_category = interface_category_air
 		substitute = cv_small_plane_airframe
-		
+
 		interface_overview_category_index = 1
 		air_superiority = 1
 		reliability = 0.8
@@ -66,7 +66,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -229,7 +229,7 @@ equipments = {
 	small_plane_airframe_1 = { #Basic
 		abbreviation = "afs1"
 		derived_variant_name = fighter_equipment_1
-		year = 1936
+		year = 2266
 
 		archetype = small_plane_airframe
 		parent = small_plane_airframe_0
@@ -258,7 +258,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -306,7 +306,7 @@ equipments = {
 	small_plane_airframe_2 = { #Improved
 		abbreviation = "afs2"
 		derived_variant_name = fighter_equipment_2
-		year = 1939
+		year = 2269
 
 		archetype = small_plane_airframe
 		parent = small_plane_airframe_1
@@ -335,7 +335,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -346,7 +346,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -410,7 +410,7 @@ equipments = {
 	small_plane_airframe_3 = { #Advanced
 		abbreviation = "afs3"
 		derived_variant_name = fighter_equipment_3
-		year = 1942
+		year = 2272
 
 		archetype = small_plane_airframe
 		parent = small_plane_airframe_2
@@ -439,7 +439,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -450,7 +450,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -462,7 +462,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -533,7 +533,7 @@ equipments = {
 	small_plane_airframe_4 = { #modern
 		abbreviation = "afs4"
 		derived_variant_name = jet_fighter_equipment_1 # We should use "jet" for this or any of the ones below, but this is good enough for now.
-		year = 1945
+		year = 2275
 
 		archetype = small_plane_airframe
 		parent = small_plane_airframe_3
@@ -562,7 +562,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -573,7 +573,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -584,7 +584,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -696,7 +696,7 @@ equipments = {
 		sprite = light_plane
 		air_map_icon_frame = 16
 		interface_category = interface_category_air
-		
+
 		interface_overview_category_index = 1
 		air_superiority = 1
 		reliability = 0.8
@@ -722,7 +722,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -888,7 +888,7 @@ equipments = {
 	cv_small_plane_airframe_1 = { #Basic
 		abbreviation = "afc1"
 		derived_variant_name = cv_fighter_equipment_1
-		year = 1936
+		year = 2266
 
 		archetype = cv_small_plane_airframe
 		parent = cv_small_plane_airframe_0
@@ -917,7 +917,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -964,7 +964,7 @@ equipments = {
 	cv_small_plane_airframe_2 = { #Improved
 		abbreviation = "afc2"
 		derived_variant_name = cv_fighter_equipment_2
-		year = 1939
+		year = 2269
 
 		archetype = cv_small_plane_airframe
 		parent = cv_small_plane_airframe_1
@@ -993,7 +993,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1004,7 +1004,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1067,7 +1067,7 @@ equipments = {
 	cv_small_plane_airframe_3 = { #Advanced
 		abbreviation = "afc3"
 		derived_variant_name = cv_fighter_equipment_3
-		year = 1942
+		year = 2272
 
 		archetype = cv_small_plane_airframe
 		parent = cv_small_plane_airframe_2
@@ -1096,7 +1096,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1107,7 +1107,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1119,7 +1119,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1176,7 +1176,7 @@ equipments = {
 
 	cv_small_plane_airframe_4 = { #modern
 		abbreviation = "afc4"
-		year = 1945
+		year = 2275
 
 		archetype = cv_small_plane_airframe
 		parent = cv_small_plane_airframe_3
@@ -1205,7 +1205,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1216,7 +1216,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1227,7 +1227,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1321,7 +1321,7 @@ equipments = {
 		sprite = medium_plane
 		air_map_icon_frame = 6
 		interface_category = interface_category_air
-		
+
 		interface_overview_category_index = 4
 		air_superiority = 1
 		reliability = 0.8
@@ -1346,7 +1346,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					mine_warfare_offense
@@ -1357,7 +1357,7 @@ equipments = {
 					nav_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					mine_warfare_offense
@@ -1368,7 +1368,7 @@ equipments = {
 					nav_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					mine_warfare_offense
@@ -1563,7 +1563,7 @@ equipments = {
 	medium_plane_airframe_1 = { #Basic
 		abbreviation = "afm1"
 		derived_variant_name = tac_bomber_equipment_1
-		year = 1936
+		year = 2266
 
 		archetype = medium_plane_airframe
 		parent = medium_plane_airframe_0
@@ -1591,7 +1591,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1602,7 +1602,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1613,7 +1613,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1694,7 +1694,7 @@ equipments = {
 	medium_plane_airframe_2 = { #Improved
 		abbreviation = "afm2"
 		derived_variant_name = tac_bomber_equipment_2
-		year = 1939
+		year = 2269
 
 		archetype = medium_plane_airframe
 		parent = medium_plane_airframe_1
@@ -1722,7 +1722,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1733,7 +1733,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1744,7 +1744,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1842,7 +1842,7 @@ equipments = {
 	medium_plane_airframe_3 = { #Advanced
 		abbreviation = "afm3"
 		derived_variant_name = tac_bomber_equipment_3
-		year = 1942
+		year = 2272
 
 		archetype = medium_plane_airframe
 		parent = medium_plane_airframe_2
@@ -1870,7 +1870,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1881,7 +1881,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1892,7 +1892,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1904,7 +1904,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_4 = { 
+			fixed_auxiliary_weapon_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2002,7 +2002,7 @@ equipments = {
 	medium_plane_airframe_4 = { #Modern
 		abbreviation = "afm4"
 		derived_variant_name = jet_tac_bomber_equipment_1
-		year = 1945
+		year = 2275
 
 		archetype = medium_plane_airframe
 		parent = medium_plane_airframe_3
@@ -2030,7 +2030,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2041,7 +2041,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2052,7 +2052,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2064,7 +2064,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_4 = { 
+			fixed_auxiliary_weapon_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2193,7 +2193,7 @@ equipments = {
 		sprite = heavy_plane
 		air_map_icon_frame = 11
 		interface_category = interface_category_air
-		
+
 		interface_overview_category_index = 5
 		air_superiority = 0.01
 		reliability = 0.8
@@ -2219,7 +2219,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2228,7 +2228,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2238,7 +2238,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2431,7 +2431,7 @@ equipments = {
 	large_plane_airframe_1 = { #Basic
 		abbreviation = "afl1"
 		derived_variant_name = strat_bomber_equipment_1
-		year = 1936
+		year = 2266
 
 		archetype = large_plane_airframe
 		parent = large_plane_airframe_0
@@ -2458,34 +2458,34 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
 
@@ -2571,7 +2571,7 @@ equipments = {
 	large_plane_airframe_2 = { #Improved
 		abbreviation = "afl2"
 		derived_variant_name = strat_bomber_equipment_2
-		year = 1939
+		year = 2269
 
 		archetype = large_plane_airframe
 		parent = large_plane_airframe_1
@@ -2598,44 +2598,44 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					nav_bomber_weapon
 					recon_camera
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					nav_bomber_weapon
 					recon_camera
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					nav_bomber_weapon
 					recon_camera
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_4 = { 
+			fixed_auxiliary_weapon_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					nav_bomber_weapon
 					recon_camera
 					mine_warfare_offense
-					
+
 				}
 			}
 
@@ -2737,7 +2737,7 @@ equipments = {
 	large_plane_airframe_3 = { #Advanced
 		abbreviation = "afl3"
 		derived_variant_name = strat_bomber_equipment_3
-		year = 1942
+		year = 2272
 
 		archetype = large_plane_airframe
 		parent = large_plane_airframe_2
@@ -2764,44 +2764,44 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_4 = { 
+			fixed_auxiliary_weapon_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
 
@@ -2903,7 +2903,7 @@ equipments = {
 	large_plane_airframe_4 = { #Modern
 		abbreviation = "afl4"
 		derived_variant_name = jet_strat_bomber_equipment_1
-		year = 1945
+		year = 2275
 
 		archetype = large_plane_airframe
 		parent = large_plane_airframe_3
@@ -2930,44 +2930,44 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					recon_camera
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					recon_camera
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					recon_camera
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_4 = { 
+			fixed_auxiliary_weapon_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					recon_camera
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
 
