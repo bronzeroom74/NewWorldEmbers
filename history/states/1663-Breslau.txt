@@ -3,7 +3,7 @@ state = {
 	id = 1663
 	name = "STATE_1663"
 	resources = {
-		energetics = 0
+		oil = 0
 		refined_metals = 0
 		polymers = 5
 		hypertech = 0
@@ -11,7 +11,7 @@ state = {
 		electronics = 4
 	}
 	provinces = {
-		6575 7208 9490 12278 12288 20601 
+		6575 7208 9490 12278 12288 20601
 	}
 	history={
 	    owner = THB

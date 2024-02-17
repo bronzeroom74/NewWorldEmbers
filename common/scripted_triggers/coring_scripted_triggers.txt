@@ -14,7 +14,7 @@ state_calculate_coring_cost_trigger = {
 		round_temp_variable = state_coring_cost_buildings_temp
 		add_to_temp_variable = { state_coring_cost_temp = state_coring_cost_buildings_temp }
 		# Resources
-		set_temp_variable = { state_coring_cost_resources_temp = resource@energetics }
+		set_temp_variable = { state_coring_cost_resources_temp = resource@oil }
 		add_to_temp_variable = { state_coring_cost_resources_temp = resource@refined_metals }
 		add_to_temp_variable = { state_coring_cost_resources_temp = resource@polymers }
 		add_to_temp_variable = { state_coring_cost_resources_temp = resource@hypertech }

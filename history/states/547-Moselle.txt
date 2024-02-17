@@ -3,7 +3,7 @@ state = {
 	id = 547
 	name = "STATE_547"
 	resources = {
-		energetics = 0
+		oil = 0
 		refined_metals = 2
 		polymers = 4
 		hypertech = 0
@@ -14,7 +14,7 @@ state = {
 		owner = VRD
 		add_core_of = VRD
 		victory_points = {
-			13089 1 
+			13089 1
 		}
 		buildings = {
 			infrastructure = 4
@@ -26,7 +26,7 @@ state = {
 	}
 
 	provinces = {
-		5381 8467 13089 13129 8998 
+		5381 8467 13089 13129 8998
 	}
 	manpower = 27848
 	buildings_max_level_factor = 1.000

@@ -5,7 +5,7 @@ state = {
 		1037 1562 5425 9461 9555 12071 12132 20606
 	}
 	resources = {
-		energetics = 5
+		oil = 5
 		refined_metals = 5
 		polymers = 0
 		hypertech = 0

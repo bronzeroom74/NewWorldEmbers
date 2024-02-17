@@ -1,6 +1,6 @@
 ﻿l_english:
- PRODUCTION_MATERIALS_ENERGETICS:0 "Energetics"
- energetics_desc:1 "Energetics take on many forms, from synthetic oil to the elusive Red Mercury. They are the power source of generators which power our nation."
+ PRODUCTION_MATERIALS_oil:0 "oil"
+ oil_desc:1 "oil take on many forms, from synthetic oil to the elusive Red Mercury. They are the power source of generators which power our nation."
 
  PRODUCTION_MATERIALS_REFINED_METALS:0 "Refined Metals"
  refined_metals_desc:0 "Refined metals are the backbone of advanced vehicles."

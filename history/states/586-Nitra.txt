@@ -3,7 +3,7 @@ state = {
 	id = 586
 	name = "STATE_586"
 	resources = {
-		energetics = 0
+		oil = 0
 		refined_metals = 7
 		polymers = 0
 		hypertech = 0
@@ -11,7 +11,7 @@ state = {
 		electronics = 3
 	}
 	provinces = {
-		4579 4695 5262 6712 9477 13301 20076 20077 
+		4579 4695 5262 6712 9477 13301 20076 20077
 	}
 	history={
 		owner = CDA

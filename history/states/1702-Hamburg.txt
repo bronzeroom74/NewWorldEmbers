@@ -4,7 +4,7 @@ state = {
 	name = "STATE_1702"
 
 	resources = {
-		energetics = 6
+		oil = 6
 		refined_metals = 0
 		polymers = 8
 		hypertech = 0

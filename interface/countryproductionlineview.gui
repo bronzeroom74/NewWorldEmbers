@@ -97,15 +97,15 @@ guiTypes = {
 					size = { width = 100% height = 60 }
 
 					buttonType = {
-						name = "energetics_icon"
+						name = "oil_icon"
 						position = { x=0 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 1
-						#pdx_tooltip = "PRODUCTION_MATERIALS_ENERGETICS"
+						#pdx_tooltip = "PRODUCTION_MATERIALS_oil"
 					}
 
 					instantTextboxType = {
-						name = "energetics_value"
+						name = "oil_value"
 						position = { x = 31 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
@@ -114,7 +114,7 @@ guiTypes = {
 						maxWidth = 50
 						maxHeight = 20
 						format = left
-						#pdx_tooltip = "PRODUCTION_MATERIALS_ENERGETICS"
+						#pdx_tooltip = "PRODUCTION_MATERIALS_oil"
 					}
 
 					buttonType = {
@@ -1206,7 +1206,7 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "energetics_icon"
+				name = "oil_icon"
 				position = { x=0 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 1
@@ -1214,7 +1214,7 @@ guiTypes = {
 			}
 
 			buttonType = {
-				name = "energetics_checkbox"
+				name = "oil_checkbox"
 				position = { x = 22 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
@@ -1242,7 +1242,7 @@ guiTypes = {
 				position = { x=113 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 5
-				#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
+				#pdx_tooltip = "PRODUCTION_MATERIALS_salvage"
 			}
 
 			buttonType = {
@@ -1274,7 +1274,7 @@ guiTypes = {
 				position = { x=229 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 4
-				#pdx_tooltip = "PRODUCTION_MATERIALS_TUNGSTEN"
+				#pdx_tooltip = "PRODUCTION_MATERIALS_hypertech"
 			}
 
 			buttonType = {
@@ -1290,7 +1290,7 @@ guiTypes = {
 				position = { x=287 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 6
-				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+				#pdx_tooltip = "PRODUCTION_MATERIALS_electronics"
 			}
 
 			buttonType = {

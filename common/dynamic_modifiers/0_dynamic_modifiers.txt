@@ -33,7 +33,7 @@ sabotaged_resources = {
 
 	icon = GFX_modifiers_sabotaged_resource
 
-	temporary_state_resource_energetics = sabotaged_energetics
+	temporary_state_resource_oil = sabotaged_oil
 	temporary_state_resource_refined_metals = sabotaged_refined_metals
 	temporary_state_resource_polymers = sabotaged_polymers
 	temporary_state_resource_hypertech = sabotaged_hypertech
@@ -502,7 +502,7 @@ SOV_soviet_imports = { #STATE MODIFIER
 
 	icon = GFX_modifiers_increased_metal_production
 
-	state_resource_energetics = 16
+	state_resource_oil = 16
 	state_resource_salvage = 8
 	state_resource_electronics = 2
 	state_resource_polymers = 2
@@ -559,7 +559,7 @@ SOV_third_five_year_plan_civilian_dynamic_modifier = { #NATIONAL SPIRIT - Civili
 	industrial_capacity_factory = SOV_fyp_industrial_capacity_factory #0.05 -> Steel Casting Industry / Shift to Armaments Production
 	industrial_capacity_dockyard = SOV_fyp_industrial_capacity_dockyard #0.05 -> Steel Casting Industry
 	fuel_gain_factor_from_states = SOV_fyp_fuel_gain_factor_from_states #0.05 -> Oil Production
-	production_energetics_factor = SOV_fyp_production_energetics_factor #0.05 -> Oil Production
+	production_oil_factor = SOV_fyp_production_oil_factor #0.05 -> Oil Production
 }
 
 SOV_third_five_year_plan_military_dynamic_modifier = { #NATIONAL SPIRIT - Military
@@ -583,7 +583,7 @@ SOV_third_five_year_plan_military_dynamic_modifier = { #NATIONAL SPIRIT - Milita
 	industrial_capacity_factory = SOV_fyp_industrial_capacity_factory #0.05 -> Steel Casting Industry / Shift to Armaments Production
 	industrial_capacity_dockyard = SOV_fyp_industrial_capacity_dockyard #0.05 -> Steel Casting Industry
 	fuel_gain_factor_from_states = SOV_fyp_fuel_gain_factor_from_states #0.05 -> Oil Production
-	production_energetics_factor = SOV_fyp_production_energetics_factor #0.05 -> Oil Production
+	production_oil_factor = SOV_fyp_production_oil_factor #0.05 -> Oil Production
 }
 
 SOV_fourth_five_year_plan_dynamic_modifier = { #NATIONAL SPIRIT
@@ -605,7 +605,7 @@ SOV_fourth_five_year_plan_dynamic_modifier = { #NATIONAL SPIRIT
 	industrial_capacity_factory = SOV_fyp_industrial_capacity_factory #0.05 -> Steel Casting Industry / Shift to Armaments Production
 	industrial_capacity_dockyard = SOV_fyp_industrial_capacity_dockyard #0.05 -> Steel Casting Industry
 	fuel_gain_factor_from_states = SOV_fyp_fuel_gain_factor_from_states #0.05 -> Oil Production
-	production_energetics_factor = SOV_fyp_production_energetics_factor #0.05 -> Oil Production
+	production_oil_factor = SOV_fyp_production_oil_factor #0.05 -> Oil Production
 
 	#INITIAL -> Fourth Five Year Plan
 	industry_repair_factor = SOV_fyp_industry_repair_factor #0.1
@@ -649,7 +649,7 @@ SOV_third_five_year_plan_civilian_dynamic_modifier_alt = { #NATIONAL SPIRIT - Ci
 	industrial_capacity_factory = SOV_fyp_industrial_capacity_factory #0.05 -> Steel Casting Industry / Shift to Armaments Production
 	industrial_capacity_dockyard = SOV_fyp_industrial_capacity_dockyard #0.05 -> Steel Casting Industry
 	fuel_gain_factor_from_states = SOV_fyp_fuel_gain_factor_from_states #0.05 -> Oil Production
-	production_energetics_factor = SOV_fyp_production_energetics_factor #0.05 -> Oil Production
+	production_oil_factor = SOV_fyp_production_oil_factor #0.05 -> Oil Production
 }
 
 SOV_third_five_year_plan_military_dynamic_modifier_alt = { #NATIONAL SPIRIT - Military
@@ -673,7 +673,7 @@ SOV_third_five_year_plan_military_dynamic_modifier_alt = { #NATIONAL SPIRIT - Mi
 	industrial_capacity_factory = SOV_fyp_industrial_capacity_factory #0.05 -> Steel Casting Industry / Shift to Armaments Production
 	industrial_capacity_dockyard = SOV_fyp_industrial_capacity_dockyard #0.05 -> Steel Casting Industry
 	fuel_gain_factor_from_states = SOV_fyp_fuel_gain_factor_from_states #0.05 -> Oil Production
-	production_energetics_factor = SOV_fyp_production_energetics_factor #0.05 -> Oil Production
+	production_oil_factor = SOV_fyp_production_oil_factor #0.05 -> Oil Production
 }
 
 SOV_fourth_five_year_plan_dynamic_modifier_alt = { #NATIONAL SPIRIT
@@ -695,7 +695,7 @@ SOV_fourth_five_year_plan_dynamic_modifier_alt = { #NATIONAL SPIRIT
 	industrial_capacity_factory = SOV_fyp_industrial_capacity_factory #0.05 -> Steel Casting Industry / Shift to Armaments Production
 	industrial_capacity_dockyard = SOV_fyp_industrial_capacity_dockyard #0.05 -> Steel Casting Industry
 	fuel_gain_factor_from_states = SOV_fyp_fuel_gain_factor_from_states #0.05 -> Oil Production
-	production_energetics_factor = SOV_fyp_production_energetics_factor #0.05 -> Oil Production
+	production_oil_factor = SOV_fyp_production_oil_factor #0.05 -> Oil Production
 
 	#INITIAL -> Fourth Five Year Plan
 	industry_repair_factor = SOV_fyp_industry_repair_factor #0.1

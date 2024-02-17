@@ -3,7 +3,7 @@ state = {
 	id = 486
 	name = "STATE_486"
 	resources = {
-		energetics = 3
+		oil = 3
 		refined_metals = 0
 		polymers = 0
 		hypertech = 0
@@ -11,7 +11,7 @@ state = {
 		electronics = 4
 	}
 	provinces = {
-		3829 8664 12551 12584 12647 12727 12738 
+		3829 8664 12551 12584 12647 12727 12738
 	}
 	history={
 		owner = LRC

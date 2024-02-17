@@ -295,7 +295,7 @@ clear_sabotaged_resources_if_necesary = {
 			}
 		}
 
-		clear_variable = sabotaged_energetics
+		clear_variable = sabotaged_oil
 		clear_variable = sabotaged_refined_metals
 		clear_variable = sabotaged_polymers
 		clear_variable = sabotaged_hypertech

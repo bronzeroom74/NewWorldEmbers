@@ -1,7 +1,7 @@
 state = {
 	id = 1634
 	resources = {
-		energetics = 0
+		oil = 0
 		refined_metals = 3
 		polymers = 3
 		hypertech = 0

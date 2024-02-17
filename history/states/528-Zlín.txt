@@ -3,7 +3,7 @@ state = {
 	id = 528
 	name = "STATE_528"
 	resources = {
-		energetics = 5
+		oil = 5
 		refined_metals = 0
 		polymers = 7
 		hypertech = 0
@@ -11,7 +11,7 @@ state = {
 		electronics = 3
 	}
 	provinces = {
-		2205 3539 5170 7351 12979 13081 13137 
+		2205 3539 5170 7351 12979 13081 13137
 	}
 	history={
 		owner = SGG

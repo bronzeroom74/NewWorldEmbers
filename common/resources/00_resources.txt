@@ -1,6 +1,6 @@
 resources = {
 
-	energetics = {
+	oil = {
 		icon_frame = 1
 		cic = 0.2
 		convoys = 0.1
@@ -17,22 +17,52 @@ resources = {
 		cic = 0.175
 		convoys = 0.1
 	}
-	
+
 	hypertech = {
 		icon_frame = 4
 		cic = 0.3
 		convoys = 0.1
 	}
-	
+
 	salvage = {
 		icon_frame = 5
 		cic = 0.125
 		convoys = 0.1
 	}
-	
+
 	electronics = {
 		icon_frame = 6
 		cic = 0.25
+		convoys = 0.1
+	}
+
+	aluminium = {
+		icon_frame = 20
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	rubber = {
+		icon_frame = 30
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	tungsten = {
+		icon_frame = 40
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	steel = {
+		icon_frame = 50
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	chromium = {
+		icon_frame = 60
+		cic = 0.125
 		convoys = 0.1
 	}
 }

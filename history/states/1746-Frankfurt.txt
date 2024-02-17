@@ -4,7 +4,7 @@ state = {
 	name = "STATE_1746"
 
 	resources = {
-		energetics = 14
+		oil = 14
 		refined_metals = 5
 		polymers = 10
 		hypertech = 0
@@ -23,7 +23,7 @@ state = {
 		victory_points = {
 			12673 40
 		}
-	}	
+	}
 	provinces = {
 		8507 12623 12673 20728
 	}

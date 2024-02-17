@@ -3,7 +3,7 @@ state = {
 	id = 1656
 	name = "STATE_1656"
 	resources = {
-		energetics = 5
+		oil = 5
 		refined_metals = 0
 		polymers = 3
 		hypertech = 0
@@ -19,13 +19,13 @@ state = {
 			industrial_complex = 1
 		}
 		victory_points = {
-			5259 2 
+			5259 2
 		}
 
 	}
 
 	provinces = {
-		3617 5259 20603 
+		3617 5259 20603
 	}
 	manpower = 16141
 	buildings_max_level_factor = 1.000
