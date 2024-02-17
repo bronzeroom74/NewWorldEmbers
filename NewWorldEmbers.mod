@@ -3,6 +3,11 @@ tags={
 	"Alternative History,Events,Gameplay,Graphics,Technologies,Sound,National Focuses,Military,Map,Ideologies"
 }
 name="New World Embers"
+
+replace_path="common/military_industrial_organization/ai_bonus_weights"
+replace_path="common/military_industrial_organization/organizations"
+replace_path="common/military_industrial_organization/policies"
+
 replace_path="history/states"
 replace_path="history/countries"
 replace_path="history/general"
