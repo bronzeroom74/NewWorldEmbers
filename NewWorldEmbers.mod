@@ -1,5 +1,5 @@
 name="New World Embers"
-<<<<<<< HEAD
+
 
 tags={
 	"Alternative History"
