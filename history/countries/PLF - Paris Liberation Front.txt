@@ -1,7 +1,5 @@
 capital = 2615
 
-oob = "base"
-
 set_technology = {
 }
 
@@ -9,15 +7,16 @@ set_stability = 0.4
 set_war_support = 0.3
 set_research_slots = 3
 
-#set_politics = {
-#	ruling_party = elites
-#	elections_allowed = no
-#}
+set_politics = {
+	ruling_party = ascension
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
 
-#set_popularities = {
-#	people = 100
-#	elites = 0
-#	intellectuals = 0
-#	ruler = 0
-#}
-
+set_popularities = {
+	ascension = 75
+	aggression = 10
+	absolution = 10
+	adaptation = 5
+	apocalypse = 0
+}

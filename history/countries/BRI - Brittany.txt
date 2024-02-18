@@ -10,12 +10,16 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = ascension
 	last_election = "2265.1.1"
-	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	ascension = 75
+	aggression = 10
+	absolution = 10
+	adaptation = 5
+	apocalypse = 0
 }
+

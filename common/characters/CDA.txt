@@ -1,0 +1,16 @@
+characters = {
+	CDA_leader = {
+		name = CDA_leader_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CDA/portrait_cda.dds"
+			}
+		}
+		country_leader = {
+			ideology = ambitious_democracy
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

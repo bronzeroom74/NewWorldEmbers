@@ -1,0 +1,16 @@
+characters = {
+	SGG_leader = {
+		name = SGG_leader_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SGG/portrait_sgg.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

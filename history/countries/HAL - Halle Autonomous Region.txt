@@ -1,7 +1,5 @@
 ﻿capital = 418
 
-oob = ""
-
 set_research_slots = 3
 
 set_technology = {

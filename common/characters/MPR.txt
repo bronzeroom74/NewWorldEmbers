@@ -1,0 +1,15 @@
+characters = {
+	MPR_leader = {
+		name = MPR_leader_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MPR/portrait_mpr.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

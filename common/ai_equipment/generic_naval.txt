@@ -230,7 +230,7 @@ generic_escorts = {
 		}
 		enable = {
 			AND = {
-				has_tech = improved_depth_charges
+				#has_tech = improved_depth_charges
 				has_tech = decimetric_radar
 			}
 		}
@@ -1418,7 +1418,7 @@ naval_mine_sweeper = {
 				is_major = no
 			}
 		}
-		enable = { has_tech = basic_naval_mines }
+		enable = { #has_tech = basic_naval_mines }
 		role_icon_index = 5
 		
 		target_variant = {
@@ -1458,7 +1458,7 @@ naval_mine_sweeper = {
 		}
 
 		enable = {
-			has_tech = dp_secondary_battery
+			#has_tech = dp_secondary_battery
 			has_tech = improved_naval_mines
 		}
 		

@@ -1,0 +1,16 @@
+characters = {
+	NET_leader = {
+		name = NET_leader_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NET/portrait_net.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_ascensionists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}
