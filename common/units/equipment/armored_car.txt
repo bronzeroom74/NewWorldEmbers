@@ -4,16 +4,16 @@ equipments = {
 
 	armored_car_equipment = {
 		year = 1939
-	
+
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
-		picture = archetype_armored_car_equipment			
+		picture = archetype_armored_car_equipment
 		type = motorized
 		group_by = archetype
-		
+
 		interface_category = interface_category_armor
-		
+
 		upgrades = {
 			tank_reliability_upgrade
 			ac_engine_upgrade
@@ -40,11 +40,11 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 10
-		
+
 		build_cost_ic 	= 6
 		resources = {
-			#oil 		= 1
-			steel 		= 2
+			##oil 		= 1
+			#steel 		= 2
 		}
 
 		fuel_consumption 	= 1.8
@@ -53,12 +53,12 @@ equipments = {
 	# WW1 Armored Car
 	gw_armored_car_equipment = {
 		year = 1914
-	
+
 		archetype = armored_car_equipment
 		priority = 5
 		visual_level = 0
-		
-		
+
+
 
 		#Misc Abilities
 		maximum_speed 	= 9
@@ -76,13 +76,13 @@ equipments = {
 		ap_attack 		= 6
 		air_attack 		= 0
 
-		build_cost_ic 		= 4 
+		build_cost_ic 		= 4
 		fuel_consumption 	= 0.8
 	}
 
 	armored_car_equipment_1 = {
 		year = 1934
-		
+
 		archetype = armored_car_equipment
 		parent = gw_armored_car_equipment
 		priority = 10
@@ -94,7 +94,7 @@ equipments = {
 
 	armored_car_equipment_2 = {
 		year = 1941
-		
+
 		archetype = armored_car_equipment
 		parent = armored_car_equipment_1
 		priority = 10
@@ -115,13 +115,13 @@ equipments = {
 		soft_attack 	= 16
 		hard_attack 	= 8
 		ap_attack 		= 36
-		air_attack 		= 0		
-		
+		air_attack 		= 0
+
 		build_cost_ic = 8
 		resources = {
-			#oil = 1
-			steel = 2
-			tungsten = 1
+			##oil = 1
+			#steel = 2
+			#tungsten = 1
 		}
 	}
 
@@ -151,16 +151,16 @@ equipments = {
 		hard_attack 	= 14
 		ap_attack 		= 62
 		air_attack 		= 0
-		
+
 		build_cost_ic 	= 9
 		resources = {
-			#oil 		= 1
-			steel 		= 2
-			tungsten 	= 1
+			##oil 		= 1
+			#steel 		= 2
+			#tungsten 	= 1
 		}
 		fuel_consumption = 1.8
 	}
 
-	
-	
+
+
 }

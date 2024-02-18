@@ -38,7 +38,7 @@ equipments = {
 		air_map_icon_frame = 1
 		interface_category = interface_category_air
 		substitute = cv_small_plane_airframe
-		
+
 		interface_overview_category_index = 1
 		air_superiority = 1
 		reliability = 0.8
@@ -49,8 +49,8 @@ equipments = {
 		fuel_consumption = 0.05
 		build_cost_ic = 4
 		resources = {
-			aluminium = 2
-			rubber = 1
+			#aluminium = 2
+			#rubber = 1
 		}
 
 		lend_lease_cost = 8
@@ -66,7 +66,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -244,8 +244,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 5
 		resources = {
-			aluminium = 3
-			rubber = 1
+			#aluminium = 3
+			#rubber = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -258,7 +258,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -321,8 +321,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 6
 		resources = {
-			aluminium = 3
-			rubber = 1
+			#aluminium = 3
+			#rubber = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -335,7 +335,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -346,7 +346,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -425,8 +425,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 7
 		resources = {
-			aluminium = 4
-			rubber = 1
+			#aluminium = 4
+			#rubber = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -439,7 +439,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -450,7 +450,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -462,7 +462,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -548,8 +548,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 10
 		resources = {
-			aluminium = 4
-			rubber = 1
+			#aluminium = 4
+			#rubber = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -562,7 +562,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -573,7 +573,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -584,7 +584,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -696,7 +696,7 @@ equipments = {
 		sprite = light_plane
 		air_map_icon_frame = 16
 		interface_category = interface_category_air
-		
+
 		interface_overview_category_index = 1
 		air_superiority = 1
 		reliability = 0.8
@@ -707,8 +707,8 @@ equipments = {
 		fuel_consumption = 0.05
 		build_cost_ic = 6
 		resources = {
-			aluminium = 2
-			rubber = 1
+			#aluminium = 2
+			#rubber = 1
 		}
 
 		module_slots = {
@@ -722,7 +722,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -903,8 +903,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 8.5
 		resources = {
-			aluminium = 3
-			rubber = 1
+			#aluminium = 3
+			#rubber = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -917,7 +917,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -979,8 +979,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 9.5
 		resources = {
-			aluminium = 3
-			rubber = 1
+			#aluminium = 3
+			#rubber = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -993,7 +993,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1004,7 +1004,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1082,8 +1082,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 11
 		resources = {
-			aluminium = 4
-			rubber = 1
+			#aluminium = 4
+			#rubber = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -1096,7 +1096,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1107,7 +1107,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1119,7 +1119,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1191,8 +1191,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 14.5
 		resources = {
-			aluminium = 4
-			rubber = 1
+			#aluminium = 4
+			#rubber = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -1205,7 +1205,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1216,7 +1216,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1227,7 +1227,7 @@ equipments = {
 					kamikaze_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1321,7 +1321,7 @@ equipments = {
 		sprite = medium_plane
 		air_map_icon_frame = 6
 		interface_category = interface_category_air
-		
+
 		interface_overview_category_index = 4
 		air_superiority = 1
 		reliability = 0.8
@@ -1332,8 +1332,8 @@ equipments = {
 		fuel_consumption = 0
 		build_cost_ic = 6
 		resources = {
-			aluminium = 2
-			rubber = 1
+			#aluminium = 2
+			#rubber = 1
 		}
 
 		module_slots = {
@@ -1346,7 +1346,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					mine_warfare_offense
@@ -1357,7 +1357,7 @@ equipments = {
 					nav_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					mine_warfare_offense
@@ -1368,7 +1368,7 @@ equipments = {
 					nav_bomber_weapon
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					mine_warfare_offense
@@ -1497,7 +1497,7 @@ equipments = {
 		}
 
 		module_count_limit = {
-			module = demining_coil
+			module = demining_c#oil
 			count < 2
 		}
 
@@ -1578,8 +1578,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 8
 		resources = {
-			aluminium = 3
-			rubber = 1
+			#aluminium = 3
+			#rubber = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -1591,7 +1591,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1602,7 +1602,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1613,7 +1613,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1709,8 +1709,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 10
 		resources = {
-			aluminium = 4
-			rubber = 1
+			#aluminium = 4
+			#rubber = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -1722,7 +1722,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1733,7 +1733,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1744,7 +1744,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1857,8 +1857,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 13
 		resources = {
-			aluminium = 5
-			rubber = 1
+			#aluminium = 5
+			#rubber = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -1870,7 +1870,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1881,7 +1881,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1892,7 +1892,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -1904,7 +1904,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_4 = { 
+			fixed_auxiliary_weapon_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2017,8 +2017,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 14
 		resources = {
-			aluminium = 5
-			rubber = 1
+			#aluminium = 5
+			#rubber = 1
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -2030,7 +2030,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2041,7 +2041,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2052,7 +2052,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2064,7 +2064,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_4 = { 
+			fixed_auxiliary_weapon_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2193,7 +2193,7 @@ equipments = {
 		sprite = heavy_plane
 		air_map_icon_frame = 11
 		interface_category = interface_category_air
-		
+
 		interface_overview_category_index = 5
 		air_superiority = 0.01
 		reliability = 0.8
@@ -2204,8 +2204,8 @@ equipments = {
 		fuel_consumption = 0.16
 		build_cost_ic = 16
 		resources = {
-			aluminium = 3
-			rubber = 2
+			#aluminium = 3
+			#rubber = 2
 		}
 
 		lend_lease_cost = 12
@@ -2219,7 +2219,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2228,7 +2228,7 @@ equipments = {
 					mine_warfare_offense
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2238,7 +2238,7 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
@@ -2353,7 +2353,7 @@ equipments = {
 		}
 
 		module_count_limit = {
-			module = demining_coil
+			module = demining_c#oil
 			count < 2
 		}
 
@@ -2446,8 +2446,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 18
 		resources = {
-			aluminium = 3
-			rubber = 2
+			#aluminium = 3
+			#rubber = 2
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -2458,34 +2458,34 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
 
@@ -2586,8 +2586,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 20
 		resources = {
-			aluminium = 4
-			rubber = 2
+			#aluminium = 4
+			#rubber = 2
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -2598,44 +2598,44 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					nav_bomber_weapon
 					recon_camera
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					nav_bomber_weapon
 					recon_camera
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					nav_bomber_weapon
 					recon_camera
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_4 = { 
+			fixed_auxiliary_weapon_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					nav_bomber_weapon
 					recon_camera
 					mine_warfare_offense
-					
+
 				}
 			}
 
@@ -2752,8 +2752,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 22
 		resources = {
-			aluminium = 5
-			rubber = 2
+			#aluminium = 5
+			#rubber = 2
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -2764,44 +2764,44 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_4 = { 
+			fixed_auxiliary_weapon_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					recon_camera
 					strat_weapon
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
 
@@ -2918,8 +2918,8 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 23
 		resources = {
-			aluminium = 6
-			rubber = 2
+			#aluminium = 6
+			#rubber = 2
 		}
 		module_slots = {
 			fixed_main_weapon_slot = {
@@ -2930,44 +2930,44 @@ equipments = {
 				}
 			}
 
-			fixed_auxiliary_weapon_slot_1 = { 
+			fixed_auxiliary_weapon_slot_1 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					recon_camera
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_2 = { 
+			fixed_auxiliary_weapon_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					recon_camera
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_3 = { 
+			fixed_auxiliary_weapon_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					recon_camera
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
-			fixed_auxiliary_weapon_slot_4 = { 
+			fixed_auxiliary_weapon_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					strat_weapon
 					recon_camera
 					nav_bomber_weapon
 					mine_warfare_offense
-					
+
 				}
 			}
 
