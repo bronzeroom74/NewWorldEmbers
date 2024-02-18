@@ -4,6 +4,7 @@ tags={
 }
 name="New World Embers"
 replace_path="common/units"
+replace_path="common/units/equipment"
 replace_path="common/technologies"
 replace_path="history/states"
 replace_path="history/countries"

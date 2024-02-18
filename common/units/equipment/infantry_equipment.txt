@@ -1,20 +1,20 @@
 equipments = {
 	## TODO, change everything, all are placeholders
-	
+
 	## Basic Weapon
 	ballistic_infantry_equipment = {
 		year = 1936
-	
+
 		is_archetype = yes
-		picture = archetype_infantry_equipment		
+		picture = archetype_infantry_equipment
 		is_buildable = no
 		type = infantry
 		group_by = archetype
-		
+
 		interface_category = interface_category_land
-		
+
 		active = yes
-		
+
 		#Misc Abilities
 		reliability = 0.9
 		maximum_speed = 4
@@ -33,16 +33,16 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 1
-		
+
 		build_cost_ic = 0.43
 		resources = {
-			steel = 2
+		#	steel = 2
 		}
 	}
 
 	basic_infantry_equipment_1 = {
 		year = 1936
-	
+
 		archetype = ballistic_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -62,7 +62,7 @@ equipments = {
 
 	basic_infantry_equipment_2 = {
 		year = 1936
-	
+
 		archetype = ballistic_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -83,17 +83,17 @@ equipments = {
 	## Energy Weapon
 	energy_infantry_equipment = {
 		year = 1936
-	
+
 		is_archetype = yes
-		picture = archetype_infantry_equipment		
+		picture = archetype_infantry_equipment
 		is_buildable = no
 		type = infantry
 		group_by = archetype
-		
+
 		interface_category = interface_category_land
-		
+
 		active = yes
-		
+
 		#Misc Abilities
 		reliability = 0.9
 		maximum_speed = 4
@@ -112,16 +112,16 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 1
-		
+
 		build_cost_ic = 0.43
 		resources = {
-			steel = 2
+		#	steel = 2
 		}
 	}
 
 	energy_infantry_equipment_1 = {
 		year = 1936
-	
+
 		archetype = energy_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -141,7 +141,7 @@ equipments = {
 
 	energy_infantry_equipment_2 = {
 		year = 1936
-	
+
 		archetype = energy_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -161,7 +161,7 @@ equipments = {
 
 	energy_infantry_equipment_3 = {
 		year = 1936
-	
+
 		archetype = energy_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -181,7 +181,7 @@ equipments = {
 
 	energy_infantry_equipment_4 = {
 		year = 1936
-	
+
 		archetype = energy_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -202,7 +202,7 @@ equipments = {
 	## Ballistic Weapon
 	ballistic_infantry_equipment_1 = {
 		year = 1936
-	
+
 		archetype = ballistic_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -219,10 +219,10 @@ equipments = {
 
 		build_cost_ic = 0.50
 	}
-	
+
 	ballistic_infantry_equipment_2 = {
 		year = 1936
-	
+
 		archetype = ballistic_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -242,7 +242,7 @@ equipments = {
 
 	ballistic_infantry_equipment_3 = {
 		year = 1936
-	
+
 		archetype = ballistic_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -262,7 +262,7 @@ equipments = {
 
 	ballistic_infantry_equipment_4 = {
 		year = 1936
-	
+
 		archetype = ballistic_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -283,17 +283,17 @@ equipments = {
 	## Archaic Weapon
 	archaic_infantry_equipment = {
 		year = 1936
-	
+
 		is_archetype = yes
-		picture = archetype_infantry_equipment		
+		picture = archetype_infantry_equipment
 		is_buildable = no
 		type = infantry
 		group_by = archetype
-		
+
 		interface_category = interface_category_land
-		
+
 		active = yes
-		
+
 		#Misc Abilities
 		reliability = 0.9
 		maximum_speed = 4
@@ -312,16 +312,16 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 1
-		
+
 		build_cost_ic = 0.43
 		resources = {
-			steel = 2
+		#	steel = 2
 		}
 	}
 
 	archaic_infantry_equipment_1 = {
 		year = 1936
-	
+
 		archetype = archaic_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -341,7 +341,7 @@ equipments = {
 
 	archaic_infantry_equipment_2 = {
 		year = 1936
-	
+
 		archetype = archaic_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -361,7 +361,7 @@ equipments = {
 
 	archaic_infantry_equipment_3 = {
 		year = 1936
-	
+
 		archetype = archaic_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -381,7 +381,7 @@ equipments = {
 
 	archaic_infantry_equipment_4 = {
 		year = 1936
-	
+
 		archetype = archaic_infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -402,17 +402,17 @@ equipments = {
 	## Infantry Armor
 	infantry_armor = {
 		year = 1936
-	
+
 		is_archetype = yes
-		picture = archetype_infantry_equipment		
+		picture = archetype_infantry_equipment
 		is_buildable = no
 		type = infantry
 		group_by = archetype
-		
+
 		interface_category = interface_category_land
-		
+
 		active = yes
-		
+
 		#Misc Abilities
 		reliability = 0.9
 		maximum_speed = 4
@@ -431,16 +431,16 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 1
-		
+
 		build_cost_ic = 0.43
 		resources = {
-			steel = 2
+		#	steel = 2
 		}
 	}
 
 	infantry_armor_1 = {
 		year = 1936
-	
+
 		archetype = infantry_armor
 		priority = 10
 		visual_level = 1
@@ -460,7 +460,7 @@ equipments = {
 
 	infantry_armor_2 = {
 		year = 1936
-	
+
 		archetype = infantry_armor
 		priority = 10
 		visual_level = 1
@@ -480,7 +480,7 @@ equipments = {
 
 	infantry_armor_3 = {
 		year = 1936
-	
+
 		archetype = infantry_armor
 		priority = 10
 		visual_level = 1
@@ -500,7 +500,7 @@ equipments = {
 
 	infantry_armor_4 = {
 		year = 1936
-	
+
 		archetype = infantry_armor
 		priority = 10
 		visual_level = 1
@@ -520,7 +520,7 @@ equipments = {
 
 	infantry_armor_5 = {
 		year = 1936
-	
+
 		archetype = infantry_armor
 		priority = 10
 		visual_level = 1
@@ -541,17 +541,17 @@ equipments = {
 	## Grenadier Equipment
 	grenadier_equipment = {
 		year = 1936
-	
+
 		is_archetype = yes
-		picture = archetype_infantry_equipment		
+		picture = archetype_infantry_equipment
 		is_buildable = no
 		type = infantry
 		group_by = archetype
-		
+
 		interface_category = interface_category_land
-		
+
 		active = yes
-		
+
 		#Misc Abilities
 		reliability = 0.9
 		maximum_speed = 4
@@ -570,16 +570,16 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 1
-		
+
 		build_cost_ic = 0.43
 		resources = {
-			steel = 2
+		#	steel = 2
 		}
 	}
 
 	grenadier_equipment_1 = {
 		year = 1936
-	
+
 		archetype = grenadier_equipment
 		priority = 10
 		visual_level = 1
@@ -599,7 +599,7 @@ equipments = {
 
 	grenadier_equipment_2 = {
 		year = 1936
-	
+
 		archetype = grenadier_equipment
 		priority = 10
 		visual_level = 1
@@ -619,7 +619,7 @@ equipments = {
 
 	grenadier_equipment_3 = {
 		year = 1936
-	
+
 		archetype = grenadier_equipment
 		priority = 10
 		visual_level = 1
@@ -639,7 +639,7 @@ equipments = {
 
 	grenadier_equipment_4 = {
 		year = 1936
-	
+
 		archetype = grenadier_equipment
 		priority = 10
 		visual_level = 1
@@ -659,7 +659,7 @@ equipments = {
 
 	grenadier_equipment_5 = {
 		year = 1936
-	
+
 		archetype = grenadier_equipment
 		priority = 10
 		visual_level = 1
