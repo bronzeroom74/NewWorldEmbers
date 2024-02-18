@@ -1,0 +1,16 @@
+capital = 1
+
+set_research_slots = 1
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = apocalypse
+	last_election = "2265.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	apocalypse = 100
+}
