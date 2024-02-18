@@ -19,7 +19,7 @@ equipments = {
 
 		build_cost_ic = 70
 		resources = {
-			steel = 1
+			#steel = 1
 		}
 	}
 	# regular trains
@@ -33,7 +33,7 @@ equipments = {
 
 		build_cost_ic = 70
 		resources = {
-			steel = 1
+			#steel = 1
 		}
 	}
 	# cheap trains
@@ -46,7 +46,7 @@ equipments = {
 
 		build_cost_ic = 50
 		resources = {
-			steel = 1
+			#steel = 1
 		}
 	}
 	# armored trains
@@ -62,7 +62,7 @@ equipments = {
 
 		build_cost_ic = 105
 		resources = {
-			steel = 2
+			#steel = 2
 		}
 	}
 }
