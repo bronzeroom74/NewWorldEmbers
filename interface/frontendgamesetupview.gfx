@@ -250,6 +250,11 @@ spriteTypes = {
 		name = "GFX_select_date_1939"
 		texturefile = "gfx/interface/select_date_1939.dds"
 	}
+
+	spriteType = {
+		name = "GFX_select_date_2266"
+		texturefile = "gfx/interface/select_date_2266.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_disconnected_button"

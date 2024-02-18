@@ -9,11 +9,12 @@ guiTypes = {
 	### bookmark entry
 	containerWindowType = {
 		name = "bookmark_entry"
-		position = { x= 0 y = 0 }
-		size = { width=232 height=211}
+		position = { x= 100 y = 30 }
+		size = { width=464 height=211}
 		clipping = no
 		fade_time = 500
 		fade_type = linear
+
 
 		background = {
 			name = "background"
@@ -21,24 +22,24 @@ guiTypes = {
 			clicksound = click_checkbox
 		}
 
-		iconType = {
-			name = "icon"
-			spriteType = "GFX_select_date_1936"
-			position = { x = 27 y = 28 }
-			alwaystransparent = yes
-		}
+		#iconType = {
+		#	name = "icon"
+		#	spriteType = "GFX_select_date_2266"
+		#	position = { x = 1 y = 28 }
+		#	alwaystransparent = yes
+		#}
 
-		instantTextBoxType = {
-			name = "date"
-			position = { x = 22 y = 147 }
-			font = "ashes_font"
-			borderSize = {x = 0 y = 0}
-			text = "FE_BOOKMARK_DATE"
-			maxWidth = 185
-			maxHeight = 20
-			fixedsize = yes
-			format = centre
-		}
+		#instantTextBoxType = {
+		#	name = "date"
+		#	position = { x = 22 y = 147 }
+		#	font = "ashes_font"
+		#	borderSize = {x = 0 y = 0}
+		#	text = "FE_BOOKMARK_DATE"
+		#	maxWidth = 185
+		#	maxHeight = 20
+		#	fixedsize = yes
+		#	format = centre
+		#}
 	}
 
 	containerWindowType = {
@@ -503,23 +504,23 @@ guiTypes = {
 
 	containerWindowType = {
 		name ="gamesetup_scenario_window"
-		size = { width = 579 height = 512 }
+		size = { width = 1005 height = 721 }
 		clipping = no
 		orientation = center
 		origo = center
 		moveable = yes
 
-		instantTextBoxType = {
-			name = "title"
-			position = { x = 120 y = 14 }
-			textureFile = ""
-			font = "ashes_font"
-			borderSize = {x = 0 y = 0}
-			text = "FE_SELECT_SCENARIO"
-			maxWidth = 340
-			maxHeight = 30
-			format = center
-		}
+		#instantTextBoxType = {
+		#	name = "title"
+		#	position = { x = 120 y = 14 }
+		#	textureFile = ""
+		#	font = "ashes_font"
+		#	borderSize = {x = 0 y = 0}
+		#	text = "FE_SELECT_SCENARIO"
+		#	maxWidth = 340
+		#	maxHeight = 30
+		#	format = center
+		#}
 
 		background = {
 			name = "single_player_date_bg"
@@ -528,34 +529,34 @@ guiTypes = {
 
 		containerWindowType = {
 			name ="bookmarks"
-			position = { x = 43 y = 55 }
+			position = { x = 0 y = 0 }
 			size = { width = -10 height = 120}
 
 			gridboxType = {
 				name ="bookmarks_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 100%% height = 100%% }
-				slotsize = { width = 260 height = 0 }
-				add_horizontal = yes
-				max_slots_vertical = 1
+				slotsize = { width = 297 height = 193 }
+				add_horizontal = no
+				max_slots_vertical = 2
 				format = "UPPER_LEFT"
 			}
 		}
 
-		instantTextBoxType = {
-			name = "history_title"
-			position = { x = 110 y = 274 }
-			font = "ashes_font"
-			borderSize = {x = 0 y = 0}
-			text = "BM_HISTORY_TITLE"
-			maxWidth = 340
-			maxHeight = 30
-			format = centre
-		}
+		#instantTextBoxType = {
+		#	name = "history_title"
+		#	position = { x = 50 y = 474 }
+		#	font = "ashes_font"
+		#	borderSize = {x = 0 y = 0}
+		#	text = "BM_HISTORY_TITLE"
+		#	maxWidth = 340
+		#	maxHeight = 30
+		#	format = centre
+		#}
 
 		instantTextBoxType = {
 			name = "bookmark_title"
-			position = { x = 25 y = 305 }
+			position = { x = 155 y = 480 }
 			font = "ashes_font"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 340
@@ -565,7 +566,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "bookmark_desc"
-			position = { x = 25 y = 330 }
+			position = { x = 410 y = 470 }
 			font = "ashes_font"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 540
@@ -575,7 +576,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "back_button"
-			position = { x = 30 y = -57 }
+			position = { x = 279 y = -60 }
 			quadTextureSprite ="GFX_button_221x34"
 			buttonText = "BACK"
 			buttonFont = "ashes_font_20"
@@ -587,7 +588,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "select_button"
-			position = { x = -252 y = -57 }
+			position = { x = -504 y = -60 }
 			quadTextureSprite ="GFX_button_221x34"
 			buttonText = "FE_SELECT_SCENARIO"
 			buttonFont = "ashes_font_20"

@@ -1,0 +1,6 @@
+spriteTypes = {
+  spriteType = {
+    name = "GFX_tutorial_picture"
+    textureFile = "gfx/event_pictures/kszug_pic.dds"
+  }
+}
