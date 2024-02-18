@@ -1,16 +1,15 @@
 ﻿l_english:
- # commented out as it causes errors
  # Scripted Triggers:
- #HAS_AT_LEAST_STATE_AUTONOMY_TRIGGER_TT: "The autonomy in §Y[This.GetName]§! is at least at §Y[?autonomy_amount|2%%]§!"
- #HAS_LESS_STATE_AUTONOMY_TRIGGER_TT: "The autonomy in §Y[This.GetName]§! is lower than §Y[?autonomy_amount|2%%]§!"
- #HAS_AT_LEAST_STATE_DEVELOPMENT_TRIGGER_TT: "The development level in §Y[This.GetName]§! is at least §Y[?development_amount|0]§!"
- #HAS_LESS_STATE_DEVELOPMENT_TRIGGER_TT: "The development level in §Y[This.GetName]§! is lower than §Y[?development_amount|0]§!"
+ HAS_AT_LEAST_STATE_AUTONOMY_TRIGGER_TT: "The autonomy in §Y[This.GetName]§! is at least at §Y[?autonomy_amount|2%%]§!"
+ HAS_LESS_STATE_AUTONOMY_TRIGGER_TT: "The autonomy in §Y[This.GetName]§! is lower than §Y[?autonomy_amount|2%%]§!"
+ HAS_AT_LEAST_STATE_DEVELOPMENT_TRIGGER_TT: "The development level in §Y[This.GetName]§! is at least §Y[?development_amount|0]§!"
+ HAS_LESS_STATE_DEVELOPMENT_TRIGGER_TT: "The development level in §Y[This.GetName]§! is lower than §Y[?development_amount|0]§!"
 
  # Scripted Effects:
- #SET_STATE_AUTONOMY_EFFECT_TT: "The autonomy in §Y[This.GetName]§! is set to §Y[?autonomy_amount|2%%]§!.\n"
- #ADD_STATE_AUTONOMY_EFFECT_TT: "The autonomy in §Y[This.GetName]§! is changed by [?autonomy_amount|2%%=-].\n"
- #SET_STATE_DEVELOPMENT_EFFECT_TT: "The development level in §Y[This.GetName]§! is set to §Y[?development_amount|0]§!.\n"
- #ADD_STATE_DEVELOPMENT_EFFECT_TT: "The development level in §Y[This.GetName]§! is changed by [?development_amount|0=+].\n"
+ SET_STATE_AUTONOMY_EFFECT_TT: "The autonomy in §Y[This.GetName]§! is set to §Y[?autonomy_amount|2%%]§!.\n"
+ ADD_STATE_AUTONOMY_EFFECT_TT: "The autonomy in §Y[This.GetName]§! is changed by [?autonomy_amount|2%%=-].\n"
+ SET_STATE_DEVELOPMENT_EFFECT_TT: "The development level in §Y[This.GetName]§! is set to §Y[?development_amount|0]§!.\n"
+ ADD_STATE_DEVELOPMENT_EFFECT_TT: "The development level in §Y[This.GetName]§! is changed by [?development_amount|0=+].\n"
 
  # Dynamic Modifiers:
  coring_autonomy_modifier: "Local Autonomy"
