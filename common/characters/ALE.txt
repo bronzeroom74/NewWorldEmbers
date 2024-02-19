@@ -1,0 +1,15 @@
+characters = {
+	ALE_leader = {
+		name = ALE_leader_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ALE/portrait_ale.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

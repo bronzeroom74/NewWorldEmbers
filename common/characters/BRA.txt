@@ -1,0 +1,15 @@
+characters = {
+	BRA_leader = {
+		name = BRA_leader_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/portrait_bra.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_aggressionists
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

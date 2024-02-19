@@ -1,0 +1,16 @@
+characters = {
+	LUX_grand_duke = {
+		name = LUX_grand_duke_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUX/portrait_lux_grand_duke.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_ascensionists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+}

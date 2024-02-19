@@ -305,7 +305,7 @@ guiTypes = {
 		# Absence of this element triggers a warning
 		buttonType = {
 			name = "credits_button"
-			position = { x = 33 y = 238 }
+			position = { x = 33 y = 228 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "FE_CREDITS"
 			buttonFont = "ashes_font"
