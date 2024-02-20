@@ -14,7 +14,7 @@ state = {
 			industrial_complex = 1
 		}
 		victory_points = {
-			20682 10 #Osnabrück
+			20682 25 #Osnabrück
 		}
 	}
 	manpower = 23771
