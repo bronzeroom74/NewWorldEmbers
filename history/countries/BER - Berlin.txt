@@ -22,3 +22,5 @@ set_popularities = {
 recruit_character = BER_council
 recruit_character = BER_gruber
 recruit_character = BER_steiner
+
+add_ideas= BER_gruber_hc_idea

@@ -3,7 +3,7 @@ characters = {
 		name = BER_council_name
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/generic/Council1.dds"
+				large = "gfx/leaders/BER/portrait_council.dds"
 			}
 		}
 		country_leader = {
@@ -21,6 +21,7 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/BER/portrait_gruber.dds"
+				small = "gfx/interface/ideas/characters/portrait_gruber.dds"
 			}
 		}
 		country_leader = {
@@ -36,6 +37,13 @@ characters = {
 			defense_skill = 4
 			planning_skill = 2
 			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = BER_gruber_hc_idea
+			can_be_fired = no
+			traits = { military_theorist }
 		}
 	}
 	BER_steiner = {
