@@ -2,7 +2,7 @@ state = {
 	id = 1650
 	name = "STATE_1650"
 	provinces = {
-		805 6184 20588
+		805 6184 20588 20591 20590 11654 11711 20589
 	}
 	resources = {
 		energetics = 20
@@ -24,7 +24,7 @@ state = {
 			industrial_complex = 2
 		}
 	}
-	manpower = 140170
+	manpower = 432152
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
 	state_category = metropolis

@@ -4,8 +4,8 @@ state = {
 	name = "STATE_3"
 
 	history = {
-		owner = BER
-		add_core_of = BER
+		owner = SWI
+		add_core_of = SWI
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
@@ -15,7 +15,7 @@ state = {
 	}
 
 	provinces = {
-		11654 11711 20589
+		9611
 	}
 	manpower = 110098
 	buildings_max_level_factor = 1.000

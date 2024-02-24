@@ -13,6 +13,15 @@ country_event = {
 	option = {
 		name = nf_lor.1.a
 	}
+	option = {
+		name = nf_lor.1.b
+	}
+	option = {
+		name = nf_lor.1.c
+	}
+	option = {
+		name = nf_lor.1.e
+	}
 }
 country_event = {
 	id = nf_lor.2

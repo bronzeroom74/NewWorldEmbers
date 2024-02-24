@@ -36,8 +36,8 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "Title"
 				position = { x = 14 y = 70 }
-				font = "hoi4_typewriter22"
-				borderSize = {x = 0 y = 0}
+				font = "ashes_font"
+				borderSize = {x = -80 y = -35}
 				text = "Title text here!"	
 				maxWidth = 551
 				maxHeight = 32
@@ -46,7 +46,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=10 y=45}
+				position = {x=45 y=45}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 				pdx_tooltip = "MINIMIZE_EVENT"
@@ -69,8 +69,8 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "Description"
 				position = { x = 31 y = 0 }
-				font = "hoi4_typewriter16"
-				borderSize = {x = 0 y = 0}
+				font = "ashes_font_18"
+				borderSize = {x = 50 y = 0}
 				text = "Long text here!"	
 				maxWidth = 512
 				maxHeight = 230
@@ -99,25 +99,25 @@ guiTypes = {
 			iconType = {
 				name ="event_picture"
 				spriteType = "GFX_report_event_001"
-				position = { x = 5 y = 5 }
+				position = { x = 55 y = 83 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes				
 			}
 
-			iconType = {
-				name ="event_pic_clip"
-				spriteType = "GFX_event_pic_clip"
-				position = { x = -3 y = 35 }
-				Orientation = "UPPER_LEFT"
-			}
+			#iconType = {
+			#	name ="event_pic_clip"
+			#	spriteType = "GFX_event_pic_clip"
+			#	position = { x = -3 y = 35 }
+			#	Orientation = "UPPER_LEFT"
+			#}
 
 
 			gridBoxType = {
 				name = "options_grid"
-				position = { x = 215 y = -1 }
-				size = { width = 300 height = 30 }
-				slotsize = { width = 300 height = 47 }
-				max_slots_horizontal = 1
+				position = { x = 46 y = 255 }
+				size = { width = 300 height = 80 }
+				slotsize = { width = 280 height = 53 }
+				max_slots_horizontal = 2
 				format = "UPPER_LEFT"
 			}
 		}
@@ -570,8 +570,8 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 5 y = 0 }
-			font = "hoi_20bs"
+			position = { x = -20 y = 0 }
+			font = "ashes_font_20"
 			maxWidth = 340
 			maxHeight = 40
 			format = center
