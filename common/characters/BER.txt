@@ -43,7 +43,7 @@ characters = {
 			ledger = army
 			idea_token = BER_gruber_hc_idea
 			can_be_fired = no
-			traits = { military_theorist }
+			traits = { ber_old_man }
 		}
 	}
 	BER_steiner = {
