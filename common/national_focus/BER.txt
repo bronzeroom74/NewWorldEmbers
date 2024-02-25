@@ -1,4 +1,4 @@
-#Alduinmoment
+#Berlin Focus Tree
 focus_tree = {
 	id = ber_nf
 	country = {
@@ -12,12 +12,327 @@ focus_tree = {
 	continuous_focus_position = { x = 10 y = 0 }
 
 	focus = {
-		id = ber_noidea
+		id = ber_voteofcentury
 		icon = GFX_goal_generic_CAS
 		search_filters = {
 		}
+		cancelable = no
 		x = 12
 		y = 0
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+# Party Intro Focuses
+#SVD
+	focus = {
+		id = ber_thesvdparty
+		icon = GFX_goal_generic_CAS
+		available = {
+			always = no
+		}
+		mutually_exclusive = {
+			focus = ber_thelbdparty
+			focus = ber_thepneparty
+			focus = ber_dierationalen
+		}
+		search_filters = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = ber_voteofcentury
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_minofeco
+		icon = GFX_goal_generic_CAS
+		prerequisite = {
+			focus = ber_thesvdparty
+		}
+		search_filters = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_thesvdparty
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_boardchairmen
+		icon = GFX_goal_generic_CAS
+		prerequisite = {
+			focus = ber_minofeco
+		}
+			search_filters = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = ber_minofeco
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_workerappreciationday
+		icon = GFX_goal_generic_CAS
+		prerequisite = {
+			focus = ber_minofeco
+		}
+		search_filters = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = ber_minofeco
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+
+#Die Rationalen
+	focus = {
+		id = ber_dierationalen
+		icon = GFX_goal_generic_CAS
+		available = {
+			always = no
+		}
+		mutually_exclusive = {
+			focus = ber_thelbdparty
+			focus = ber_thesvdparty
+			focus = ber_thepneparty
+		}
+		search_filters = {
+		}
+		x = 4
+		y = 2
+		relative_position_id = ber_voteofcentury
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_minofdef
+		icon = GFX_goal_generic_CAS
+		prerequisite = {
+			focus = ber_dierationalen
+		}
+		search_filters = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_dierationalen
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_westernthreat
+		icon = GFX_goal_generic_CAS
+		prerequisite = {
+			focus = ber_minofdef
+		}
+		search_filters = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = ber_minofdef
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_modernization
+		icon = GFX_goal_generic_CAS
+		prerequisite = {
+			focus = ber_minofdef
+		}
+		search_filters = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = ber_minofdef
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+#LBD Party
+	focus = {
+		id = ber_thelbdparty
+		icon = GFX_goal_generic_CAS
+		available = {
+			always = no
+		}
+		mutually_exclusive = {
+			focus = ber_thepneparty
+			focus = ber_thesvdparty
+			focus = ber_dierationalen
+		}
+		search_filters = {
+		}
+		x = 8
+		y = 2
+		relative_position_id = ber_voteofcentury
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_minofint
+		icon = GFX_goal_generic_CAS
+		prerequisite = {
+			focus = ber_thelbdparty
+		}
+		search_filters = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_thelbdparty
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_classidivides
+		icon = GFX_goal_generic_CAS
+		prerequisite = {
+			focus = ber_minofint
+		}
+		search_filters = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = ber_minofint
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_taxesbaby
+		icon = GFX_goal_generic_CAS
+		prerequisite = {
+			focus = ber_minofint
+		}
+		search_filters = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = ber_minofint
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+#PNE Party
+	focus = {
+		id = ber_thepneparty
+		icon = GFX_goal_generic_CAS
+		available = {
+			always = no
+		}
+		mutually_exclusive = {
+			focus = ber_thelbdparty
+			focus = ber_thesvdparty
+			focus = ber_dierationalen
+		}
+		search_filters = {
+		}
+		x = 12
+		y = 2
+		relative_position_id = ber_voteofcentury
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_minofuni
+		icon = GFX_goal_generic_CAS
+		prerequisite = {
+			focus = ber_thepneparty
+		}
+		search_filters = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_thepneparty
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_goodneighbour
+		icon = GFX_goal_generic_CAS
+		prerequisite = {
+			focus = ber_minofuni
+		}
+		search_filters = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = ber_minofuni
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_einigkeit
+		icon = GFX_goal_generic_CAS
+		prerequisite = {
+			focus = ber_minofuni
+		}
+		search_filters = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = ber_minofuni
 		cost = 60
 
 		completion_reward = {

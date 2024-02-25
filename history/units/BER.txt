@@ -1,0 +1,4 @@
+﻿focus = {
+	current = "ber_voteofcentury"
+	progress = 0
+}
