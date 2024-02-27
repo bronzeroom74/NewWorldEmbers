@@ -339,4 +339,924 @@ focus_tree = {
 			army_experience = 5
 		}
 	}
+
+#Civil War Pre Starfall
+	focus = {
+		id = ber_foulstench
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		available = {
+			always = no
+		}
+
+		x = 1
+		y = 2
+		relative_position_id = ber_modernization
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+#Iron Heart Path
+	focus = {
+		id = ber_ironheart
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_foulstench
+		}
+		mutually_exclusive = {
+			focus = ber_soothingrepeat
+		}
+
+		x = -1
+		y = 1
+		relative_position_id = ber_foulstench
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_scroungingwhatevs
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_ironheart
+		}
+
+		x = -2
+		y = 1
+		relative_position_id = ber_ironheart
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freethinker
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_scroungingwhatevs
+		}
+
+		x = -1
+		y = 1
+		relative_position_id = ber_scroungingwhatevs
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_inhumanehumanity
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_ironheart
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = ber_ironheart
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_definingfreedom
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_inhumanehumanity
+		}
+
+		x = -1
+		y = 1
+		relative_position_id = ber_inhumanehumanity
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+#Soothing Repeat Path
+	focus = {
+		id = ber_soothingrepeat
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_foulstench
+		}
+		mutually_exclusive = {
+			focus = ber_ironheart
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = ber_foulstench
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_placationexperts
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_soothingrepeat
+		}
+
+		x = 2
+		y = 1
+		relative_position_id = ber_soothingrepeat
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_fedupeace
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_placationexperts
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = ber_placationexperts
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_armedtoteeth
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_soothingrepeat
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = ber_soothingrepeat
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_astrologcalling
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_armedtoteeth
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = ber_armedtoteeth
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_changeofpace
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_inhumanehumanity
+			focus = ber_armedtoteeth
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = ber_inhumanehumanity
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+#Civil War Starfall
+
+	focus = {
+		id = ber_eyeinthesky
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		available = {
+			always = no
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = ber_changeofpace
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+#Old Man Path
+	focus = {
+		id = ber_heartsandminds
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_eyeinthesky
+		}
+		mutually_exclusive = {
+			focus = ber_powderandsteel
+		}
+
+		x = -4
+		y = 1
+		relative_position_id = ber_eyeinthesky
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_powderandsteel
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_eyeinthesky
+		}
+		mutually_exclusive = {
+			focus = ber_heartsandminds
+		}
+
+		x = -2
+		y = 1
+		relative_position_id = ber_eyeinthesky
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_cooperation
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_heartsandminds
+			focus = ber_powderandsteel
+		}
+		mutually_exclusive = {
+			focus = ber_coordination
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = ber_heartsandminds
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_coordination
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_heartsandminds
+			focus = ber_powderandsteel
+		}
+		mutually_exclusive = {
+			focus = ber_cooperation
+		}
+
+		x = 3
+		y = 1
+		relative_position_id = ber_heartsandminds
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_onlychoice
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_cooperation
+			focus = ber_coordination
+		}
+		mutually_exclusive = {
+			focus = ber_unthinkablechoice
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = ber_cooperation
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_unthinkablechoice
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_cooperation
+			focus = ber_coordination
+		}
+		mutually_exclusive = {
+			focus = ber_onlychoice
+		}
+
+		x = 3
+		y = 1
+		relative_position_id = ber_cooperation
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_timetostrike
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_onlychoice
+			focus = ber_unthinkablechoice
+		}
+		mutually_exclusive = {
+			focus = ber_onlychoice
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = ber_onlychoice
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+#Council Path
+
+	focus = {
+		id = ber_forcedconscription
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_eyeinthesky
+		}
+		mutually_exclusive = {
+			focus = ber_raidingneighbours
+			focus = ber_robbingpopulation
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = ber_eyeinthesky
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_raidingneighbours
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_eyeinthesky
+		}
+		mutually_exclusive = {
+			focus = ber_forcedconscription
+			focus = ber_robbingpopulation
+		}
+
+		x = 2
+		y = 1
+		relative_position_id = ber_eyeinthesky
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_robbingpopulation
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_eyeinthesky
+		}
+		mutually_exclusive = {
+			focus = ber_forcedconscription
+			focus = ber_raidingneighbours
+		}
+
+		x = 4
+		y = 1
+		relative_position_id = ber_eyeinthesky
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_controlledbodies
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_forcedconscription
+			focus = ber_raidingneighbours
+		}
+		mutually_exclusive = {
+			focus = ber_controlledgoods
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = ber_forcedconscription
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_controlledgoods
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_robbingpopulation
+			focus = ber_raidingneighbours
+		}
+		mutually_exclusive = {
+			focus = ber_controlledbodies
+		}
+
+		x = 3
+		y = 1
+		relative_position_id = ber_forcedconscription
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_greatpush
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_controlledbodies
+			focus = ber_controlledgoods
+		}
+
+		x = 1
+		y = 1
+		relative_position_id = ber_controlledbodies
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_lastobstacle
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_greatpush
+		}
+
+		x = -1
+		y = 1
+		relative_position_id = ber_greatpush
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_onlyone
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_lastobstacle
+			focus = ber_timetostrike
+		}
+
+		x = -1
+		y = 1
+		relative_position_id = ber_lastobstacle
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+#Northern Expansion
+	focus = {
+		id = ber_cultistsnorth
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		available = {
+			always = no
+		}
+		x = -9
+		y = 0
+		relative_position_id = ber_minofeco
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+#Council Path
+
+	focus = {
+		id = ber_dealingwiththem
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_cultistsnorth
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_cultistsnorth
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_northslums
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_dealingwiththem
+		}
+		mutually_exclusive = {
+			focus = ber_northdistrict
+		}
+		x = -1
+		y = 1
+		relative_position_id = ber_dealingwiththem
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_northdistrict
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_dealingwiththem
+		}
+		mutually_exclusive = {
+			focus = ber_northslums
+		}
+		x = 1
+		y = 1
+		relative_position_id = ber_dealingwiththem
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_evilcapitalism
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_northslums
+			focus = ber_northdistrict
+		}
+		x = 1
+		y = 1
+		relative_position_id = ber_northslums
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_northconsolidation
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_evilcapitalism
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_evilcapitalism
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+#Free Men Branch
+	focus = {
+		id = ber_freemenintro
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		available = {
+			always = no
+		}
+		x = 6
+		y = 0
+		relative_position_id = ber_evilcapitalism
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+# Council Path
+	focus = {
+		id = ber_openhand
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemenintro
+		}
+		mutually_exclusive = {
+			focus = ber_closedhand
+		}
+		x = -1
+		y = 1
+		relative_position_id = ber_freemenintro
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_closedhand
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemenintro
+		}
+		mutually_exclusive = {
+			focus = ber_openhand
+		}
+		x = 1
+		y = 1
+		relative_position_id = ber_freemenintro
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemenultimatum
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_openhand
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_openhand
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemeninfiltration
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_closedhand
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_closedhand
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemenwar
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemeninfiltration
+			focus = ber_freemenultimatum
+		}
+		mutually_exclusive = {
+			focus = ber_freemenassassination
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_freemenultimatum
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemenassassination
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemeninfiltration
+		}
+		mutually_exclusive = {
+			focus = ber_freemenwar
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_freemeninfiltration
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemendecimation
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemenwar
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_freemenwar
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_puppeting
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemenassassination
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_freemenassassination
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemensoiledblood
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemendecimation
+			focus = ber_puppeting
+		}
+		x = 1
+		y = 1
+		relative_position_id = ber_freemendecimation
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemencoring
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemensoiledblood
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_freemensoiledblood
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
 }
