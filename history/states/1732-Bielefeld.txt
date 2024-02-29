@@ -21,7 +21,7 @@ state = {
 		owner = RED
 		add_core_of = RED
 		victory_points = {
-			20697 20
+			20697 30
 		}
 	}
 	manpower = 32824

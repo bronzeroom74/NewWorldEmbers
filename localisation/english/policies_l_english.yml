@@ -68,6 +68,11 @@
   food_for_the_few:0 "Food For The Few"
   food_shortages:0 "Bare Sustenance"
   wasteland_struggle:0 "Wasteland Struggle"
+  two_meals_day:0 "\"Two Meals\" Day"
+  warm_meals:0 "Warm Meals"
+  balanced_diet:0 "Balanced Diet"
+  currywurst_dienstag:0 "Currywurst Dienstag"
+  currywurst_dienstag_desc:0 "Finally some good fucking food."
   a_nation_fed:0 "A Nation Fed"
   groceries_o_plenty:0 "Groceries O' Plenty"
 # Food Level Tooltips

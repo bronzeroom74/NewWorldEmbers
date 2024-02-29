@@ -458,6 +458,58 @@ ideas = {
 			removal_cost = -1
 			default = yes
 		}
+		two_meals_day = {
+			ledger = civilian
+			modifier = {
+				consumer_goods_factor = 0.02
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = two_meals_day }
+			cost = 0
+			removal_cost = -1
+		}
+		warm_meals = {
+			ledger = civilian
+			modifier = {
+				consumer_goods_factor = 0.02
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = warm_meals }
+			cost = 0
+			removal_cost = -1
+		}
+		balanced_diet = {
+			ledger = civilian
+			modifier = {
+				consumer_goods_factor = 0.02
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = balanced_diet }
+			cost = 0
+			removal_cost = -1
+		}
+		currywurst_dienstag = {
+			ledger = civilian
+			modifier = {
+				consumer_goods_factor = 0.02
+			}
+			ai_will_do = {
+				factor = 1
+			}
+
+			available = { has_idea = currywurst_dienstag }
+			cost = 0
+			removal_cost = -1
+		}
 		a_nation_fed = {
 			ledger = civilian
 			modifier = {
