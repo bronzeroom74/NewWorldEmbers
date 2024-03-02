@@ -150,7 +150,7 @@ spriteTypes = {
 		name = "GFX_idea_autocracy"
 		texturefile = "gfx/interface/ideas/policies/autocracy.dds"
 	}
-
+	# Sustenance
 	spriteType = {
 		name = "GFX_idea_rampant_starvation"
 		texturefile = "gfx/interface/ideas/policies/rampant_starvation.dds"
@@ -169,6 +169,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_wasteland_struggle"
 		texturefile = "gfx/interface/ideas/policies/wasteland_struggle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_two_meals_day"
+		texturefile = "gfx/interface/ideas/policies/two_meals_day.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_warm_meals"
+		texturefile = "gfx/interface/ideas/policies/warm_meals.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_balanced_diet"
+		texturefile = "gfx/interface/ideas/policies/balanced_diet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_currywurst_dienstag"
+		texturefile = "gfx/interface/ideas/policies/currywurst_dienstag.dds"
 	}
 
 	spriteType = {
