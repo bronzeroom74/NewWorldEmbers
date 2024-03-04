@@ -1,0 +1,32 @@
+capital = 554
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = aggression
+	last_election = "2265.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+add_ideas = {
+	SON_memories_of_the_holdback
+}
+add_opinion_modifier = {
+	target = WAF
+	modifier = SON_in_our_way
+}
+add_opinion_modifier = {
+	target = FRI
+	modifier = SON_in_our_way
+}
+
+set_popularities = {
+	ascension = 0
+	aggression = 100
+	absolution = 0
+	adaptation = 0
+	apocalypse = 0
+}

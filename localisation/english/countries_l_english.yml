@@ -50,6 +50,20 @@
  SON_DEF:0 "Frundsberg"
  SON_ADJ:0 "Frundsberg"
 
+ ICM_aggression:0 "Iron Company"
+ ICM_aggression_DEF:0 "the Iron Company"
+ ICM_aggression_ADJ:0 "Iron Company"
+ ICM:0 "Iron Company"
+ ICM_DEF:0 "the Iron Company"
+ ICM_ADJ:0 "Iron Company"
+
+ HBR_adaptation:0 "Hilmar's Brigade"
+ HBR_adaptation_DEF:0 "Hilmar's Brigade"
+ HBR_adaptation_ADJ:0 "Hilmar's Brigade"
+ HBR:0 "Hilmar's Brigade"
+ HBR_DEF:0 "Hilmar's Brigade"
+ HBR_ADJ:0 "Hilmar's Brigade"
+
  ONE_ascension:0 "Tsardom of One"
  ONE_ascension_DEF:0 "Tsardom of One"
  ONE_ascension_ADJ:0 "Tsardom of One"

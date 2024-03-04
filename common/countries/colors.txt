@@ -8,6 +8,16 @@ SON = {
 	color_ui = rgb { 8  71  75 }
 }
 
+ICM = {
+	color = rgb { 64 84 120 }
+	color_ui = rgb { 64 84 120 }
+}
+
+HBR = {
+	color = rgb {  146 112 47  }
+	color_ui = rgb {  146 112 47  }
+}
+
 ONE = {
 	color = rgb { 51 153 255 }
 	color_ui = rgb { 51 153 255 }

@@ -1,0 +1,261 @@
+
+focus_tree = {
+	id = sons_nf
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SON
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 10 y = 0 }
+
+	focus = {
+		id = son_heldback
+		icon = GFX_goal_generic_allies_build_infantry
+		search_filters = {
+			FOCUS_FILTER_FRUNDSBERG
+			FOCUS_FILTER_IRONCOMPANY
+			FOCUS_FILTER_HILMAR
+		}
+		x = 12
+		y = 0
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	
+	####Path of Grief####
+	focus = {
+		id = son_shock
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = -2
+		y = 1
+		cost = 4.3
+		prerequisite = {
+			focus = son_heldback
+		}
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_denial
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = 0
+		y = 1
+		cost = 30
+		prerequisite = {
+			focus = son_heldback
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_anger
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = 2
+		y = 1
+		cost = 30
+		prerequisite = {
+			focus = son_heldback
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_bargaining
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = -3
+		y = 2
+		cost = 30
+		prerequisite = {
+			focus = son_shock
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_depression
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = -1
+		y = 2
+		cost = 30
+		prerequisite = {
+			focus = son_denial
+			focus = son_shock
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_acceptance
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = 1
+		y = 2
+		cost = 30
+		prerequisite = {
+			focus = son_denial
+			focus = son_anger
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_hope
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = 3
+		y = 2
+		cost = 30
+		prerequisite = {
+			focus = son_anger
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_rememberance
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = 2
+		y = 3
+		cost = 30
+		prerequisite = {
+			focus = son_acceptance
+		}
+		prerequisite = {
+			focus = son_hope
+		}
+		prerequisite = {
+			focus = son_depression
+		}
+		prerequisite = {
+			focus = son_bargaining
+		}
+		mutually_exclusive = {
+			focus = son_forward_and_forget
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_forward_and_forget
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = -2
+		y = 3
+		cost = 30
+		prerequisite = {
+			focus = son_acceptance
+		}
+		prerequisite = {
+			focus = son_hope
+		}
+		prerequisite = {
+			focus = son_depression
+		}
+		prerequisite = {
+			focus = son_bargaining
+		}
+		mutually_exclusive = {
+			focus = son_rememberance
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_infighting
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = 0
+		y = 4
+		prerequisite = {
+			focus = son_forward_and_forget
+			focus = son_rememberance
+		}
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	###Generic Industry###
+
+	###Generic War###
+
+	###Frundsberg###
+    focus = {
+		id = son_frundsberg_win
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = 0
+		y = 5
+		cost = 4.3
+		allow_branch = {
+			has_complated_focus = son_frundsberg_win
+			}
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	###Eisenherz###
+    focus = {
+		id = son_eisenherz_win
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = 3
+		y = 5
+		cost = 4.3
+		allow_branch = {
+			has_country_flag = sons_civil_war
+            has_complated_focus = son_eisenherz_win
+		}
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	###Hilmar###
+    focus = {
+		id = son_hilmar_win
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_heldback
+		x = -3
+		y = 5
+		cost = 4.3
+		allow_branch = {
+			SON = {
+				has_country_flag = sons_civil_war
+				}
+			has_complated_focus = son_hilmar_win
+		}
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+
+}
