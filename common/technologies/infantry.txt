@@ -6,9 +6,8 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
+			army_core_attack_factor = 0.025
+			army_attack_speed_factor = 0.025
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
@@ -21,6 +20,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_military_tradition
 		}
 		
 		ai_will_do = {
@@ -35,14 +35,13 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
+			army_core_attack_factor = 0.035
+			army_attack_speed_factor = 0.035
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2269
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = 0 }
@@ -50,6 +49,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_military_tradition
 		}
 		
 		ai_will_do = {
@@ -64,14 +64,14 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
+			army_core_attack_factor = 0.04
+			army_attack_speed_factor = 0.04
+			army_core_defence_factor = 0.025
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2271
 		folder = {
 			name = infantry_folder
 			position = { x = 5 y = 0 }
@@ -79,6 +79,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_military_tradition
 		}
 		
 		ai_will_do = {
@@ -93,14 +94,14 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
+			army_core_attack_factor = 0.045
+			army_attack_speed_factor = 0.045
+			army_core_defence_factor = 0.035
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2274
 		folder = {
 			name = infantry_folder
 			position = { x = 9 y = 0 }
@@ -108,6 +109,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_military_tradition
 		}
 		
 		ai_will_do = {
@@ -122,14 +124,15 @@ technologies = {
 		}
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
+			army_core_attack_factor = 0.045
+			army_attack_speed_factor = 0.045
+			army_core_defence_factor = 0.035
+			training_time_factor = 0.025
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2277
 		folder = {
 			name = infantry_folder
 			position = { x = 13 y = 0 }
@@ -137,6 +140,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_military_tradition
 		}
 		
 		ai_will_do = {
@@ -151,14 +155,15 @@ technologies = {
 		}
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
+			army_core_attack_factor = 0.05
+			army_attack_speed_factor = 0.05
+			army_core_defence_factor = 0.04
+			training_time_factor = -0.035
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2280
 		folder = {
 			name = infantry_folder
 			position = { x = 17 y = 0 }
@@ -166,6 +171,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_military_tradition
 		}
 		
 		ai_will_do = {
@@ -176,21 +182,24 @@ technologies = {
 	military_tradition_7 = {
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2283
 		folder = {
 			name = infantry_folder
 			position = { x = 21 y = 0 }
 		}
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
+			army_core_attack_factor = 0.055
+			army_attack_speed_factor = 0.055
+			army_core_defence_factor = 0.045
+			training_time_factor = -0.04
+			breakthrough_factor = 0.025
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 		
 		categories = {
 			infantry_equipment
+			infantry_military_tradition
 		}
 		
 		ai_will_do = {
@@ -214,11 +223,16 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
+		}
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
 
 		research_cost = 1.5
 		start_year = 2266
@@ -229,6 +243,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_ballistic
 		}
 		
 		ai_will_do = {
@@ -247,14 +262,20 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
+		}
+
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2269
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = 3 }
@@ -262,6 +283,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_ballistic
 		}
 		
 		ai_will_do = {
@@ -276,17 +298,27 @@ technologies = {
 		path = {
 			leads_to_tech = ballistic_infantry_equipment_1
 			research_cost_coeff = 1
-		}	
+		}
+
+		infantry = {
+			soft_attack = 0.05
+		}
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
+
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2269
 		folder = {
 			name = infantry_folder
 			position = { x = 3 y = 3 }
@@ -312,14 +344,20 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
+		}
+
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2271
 		folder = {
 			name = infantry_folder
 			position = { x = 5 y = 2 }
@@ -327,6 +365,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_energy
 		}
 		
 		ai_will_do = {
@@ -345,14 +384,20 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
+		}
+
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2271
 		folder = {
 			name = infantry_folder
 			position = { x = 5 y = 4 }
@@ -360,6 +405,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_ballistic
 		}
 		
 		ai_will_do = {
@@ -373,14 +419,24 @@ technologies = {
 		}
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
+
+		infantry = {
+			soft_attack = 0.1
+		}
+
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2271
 		folder = {
 			name = infantry_folder
 			position = { x = 8 y = 4 }
@@ -388,6 +444,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_ballistic
 		}
 		
 		ai_will_do = {
@@ -406,14 +463,20 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
+		}
+
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2274
 		folder = {
 			name = infantry_folder
 			position = { x = 11 y = 4 }
@@ -421,6 +484,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_ballistic
 		}
 		
 		ai_will_do = {
@@ -434,14 +498,24 @@ technologies = {
 		}
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
+		infantry = {
+			soft_attack = 0.15
+		}
+
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
+
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2274
 		folder = {
 			name = infantry_folder
 			position = { x = 14 y = 4 }
@@ -449,6 +523,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_ballistic
 		}
 		
 		ai_will_do = {
@@ -467,14 +542,20 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
+		}
+
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2277
 		folder = {
 			name = infantry_folder
 			position = { x = 17 y = 4 }
@@ -482,6 +563,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_ballistic
 		}
 		
 		ai_will_do = {
@@ -495,14 +577,20 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
+		}
+
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2280
 		folder = {
 			name = infantry_folder
 			position = { x = 21 y = 4 }
@@ -510,6 +598,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_ballistic
 		}
 		
 		ai_will_do = {
@@ -523,14 +612,24 @@ technologies = {
 		}
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
+
+		infantry = {
+			hard_attack = 0.1
+		}
+
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2271
 		folder = {
 			name = infantry_folder
 			position = { x = 8 y = 2 }
@@ -538,6 +637,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_energy
 		}
 		
 		ai_will_do = {
@@ -556,14 +656,20 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
+		}
+
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2274
 		folder = {
 			name = infantry_folder
 			position = { x = 11 y = 2 }
@@ -571,6 +677,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_energy
 		}
 		
 		ai_will_do = {
@@ -584,14 +691,24 @@ technologies = {
 		}
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
+
+		infantry = {
+			hard_attack = 0.15
+		}
+
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2274
 		folder = {
 			name = infantry_folder
 			position = { x = 14 y = 2 }
@@ -599,6 +716,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_energy
 		}
 		
 		ai_will_do = {
@@ -617,14 +735,20 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
+		}
+
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2277
 		folder = {
 			name = infantry_folder
 			position = { x = 17 y = 2 }
@@ -632,6 +756,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_energy
 		}
 		
 		ai_will_do = {
@@ -645,14 +770,20 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
+		}
+
+		XOR = {
+			archaic_infantry_equipment_1
+			archaic_infantry_equipment_2
+			archaic_infantry_equipment_3
+			archaic_infantry_equipment_4
+			archaic_unit_boost_1
+			archaic_unit_boost_2
+		}
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2280
 		folder = {
 			name = infantry_folder
 			position = { x = 21 y = 2 }
@@ -660,6 +791,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_energy
 		}
 		
 		ai_will_do = {
@@ -674,6 +806,7 @@ technologies = {
 		}
 		
 		enable_subunits = {
+			infantry
 		}
 		
 		path = {
@@ -681,10 +814,25 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
+		XOR = {
+			basic_infantry_equipment_1
+			basic_infantry_equipment_2
+			unit_boost_1
+			ballistic_infantry_equipment_1
+			ballistic_infantry_equipment_2
+			ballistic_infantry_equipment_3
+			ballistic_infantry_equipment_4
+			ballistic_unit_boost_1
+			ballistic_unit_boost_2
+			energy_infantry_equipment_1
+			energy_infantry_equipment_2
+			energy_infantry_equipment_3
+			energy_infantry_equipment_4
+			energy_unit_boost_1
+			energy_unit_boost_2
+		}
+
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
@@ -697,6 +845,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_archaic
 		}
 		
 		ai_will_do = {
@@ -710,10 +859,30 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		}
+
+		infantry = {
+			soft_attack = 0.025
+			defense = 0.025
+		}
+
+		XOR = {
+			basic_infantry_equipment_1
+			basic_infantry_equipment_2
+			unit_boost_1
+			ballistic_infantry_equipment_1
+			ballistic_infantry_equipment_2
+			ballistic_infantry_equipment_3
+			ballistic_infantry_equipment_4
+			ballistic_unit_boost_1
+			ballistic_unit_boost_2
+			energy_infantry_equipment_1
+			energy_infantry_equipment_2
+			energy_infantry_equipment_3
+			energy_infantry_equipment_4
+			energy_unit_boost_1
+			energy_unit_boost_2
 		}
 
 		research_cost = 1.5
@@ -725,6 +894,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_archaic
 		}
 		
 		ai_will_do = {
@@ -743,14 +913,29 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
+		XOR = {
+			basic_infantry_equipment_1
+			basic_infantry_equipment_2
+			unit_boost_1
+			ballistic_infantry_equipment_1
+			ballistic_infantry_equipment_2
+			ballistic_infantry_equipment_3
+			ballistic_infantry_equipment_4
+			ballistic_unit_boost_1
+			ballistic_unit_boost_2
+			energy_infantry_equipment_1
+			energy_infantry_equipment_2
+			energy_infantry_equipment_3
+			energy_infantry_equipment_4
+			energy_unit_boost_1
+			energy_unit_boost_2
+		}
+
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2269
 		folder = {
 			name = infantry_folder
 			position = { x = 3 y = 6 }
@@ -758,6 +943,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_archaic
 		}
 		
 		ai_will_do = {
@@ -776,28 +962,41 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}
+
+		XOR = {
+			basic_infantry_equipment_1
+			basic_infantry_equipment_2
+			unit_boost_1
+			ballistic_infantry_equipment_1
+			ballistic_infantry_equipment_2
+			ballistic_infantry_equipment_3
+			ballistic_infantry_equipment_4
+			ballistic_unit_boost_1
+			ballistic_unit_boost_2
+			energy_infantry_equipment_1
+			energy_infantry_equipment_2
+			energy_infantry_equipment_3
+			energy_infantry_equipment_4
+			energy_unit_boost_1
+			energy_unit_boost_2
 		}	
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2271
 		folder = {
 			name = infantry_folder
 			position = { x = 7 y = 6 }
 		}
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 		
 		categories = {
 			infantry_equipment
+			infantry_archaic
 		}
 		
 		ai_will_do = {
@@ -811,14 +1010,34 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
+		infantry = {
+			soft_attack = 0.05
+			defense = 0.05
+		}
+
+		XOR = {
+			basic_infantry_equipment_1
+			basic_infantry_equipment_2
+			unit_boost_1
+			ballistic_infantry_equipment_1
+			ballistic_infantry_equipment_2
+			ballistic_infantry_equipment_3
+			ballistic_infantry_equipment_4
+			ballistic_unit_boost_1
+			ballistic_unit_boost_2
+			energy_infantry_equipment_1
+			energy_infantry_equipment_2
+			energy_infantry_equipment_3
+			energy_infantry_equipment_4
+			energy_unit_boost_1
+			energy_unit_boost_2
+		}
+
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2271
 		folder = {
 			name = infantry_folder
 			position = { x = 10 y = 6 }
@@ -826,6 +1045,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_archaic
 		}
 		
 		ai_will_do = {
@@ -838,8 +1058,26 @@ technologies = {
 			archaic_infantry_equipment_4
 		}
 
+		XOR = {
+			basic_infantry_equipment_1
+			basic_infantry_equipment_2
+			unit_boost_1
+			ballistic_infantry_equipment_1
+			ballistic_infantry_equipment_2
+			ballistic_infantry_equipment_3
+			ballistic_infantry_equipment_4
+			ballistic_unit_boost_1
+			ballistic_unit_boost_2
+			energy_infantry_equipment_1
+			energy_infantry_equipment_2
+			energy_infantry_equipment_3
+			energy_infantry_equipment_4
+			energy_unit_boost_1
+			energy_unit_boost_2
+		}
+
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2274
 		folder = {
 			name = infantry_folder
 			position = { x = 13 y = 6 }
@@ -847,6 +1085,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_archaic
 		}
 		
 		ai_will_do = {
@@ -860,6 +1099,7 @@ technologies = {
 		}
 		
 		enable_subunits = {
+			infantry_armored
 		}
 		
 		path = {
@@ -868,9 +1108,6 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
@@ -883,6 +1120,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_armor
 		}
 		
 		ai_will_do = {
@@ -901,14 +1139,11 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2269
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = 9 }
@@ -916,6 +1151,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_armor
 		}
 		
 		ai_will_do = {
@@ -929,14 +1165,16 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
+		infantry_armored = {
+			hardness = 0.025
+			armor_value = 0.025
+		}
+
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2269
 		folder = {
 			name = infantry_folder
 			position = { x = 4 y = 9 }
@@ -944,6 +1182,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_armor
 		}
 		
 		ai_will_do = {
@@ -962,14 +1201,11 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2271
 		folder = {
 			name = infantry_folder
 			position = { x = 7 y = 9 }
@@ -977,6 +1213,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_armor
 		}
 		
 		ai_will_do = {
@@ -991,21 +1228,24 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2271
 		folder = {
 			name = infantry_folder
 			position = { x = 10 y = 9 }
 		}
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 		
+		infantry_armored = {
+			hardness = 0.05
+			armor_value = 0.05
+		}
+
 		categories = {
 			infantry_equipment
+			infantry_armor
 		}
 		
 		ai_will_do = {
@@ -1025,14 +1265,11 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2274
 		folder = {
 			name = infantry_folder
 			position = { x = 13 y = 9 }
@@ -1040,6 +1277,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_armor
 		}
 		
 		ai_will_do = {
@@ -1054,21 +1292,24 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2274
 		folder = {
 			name = infantry_folder
 			position = { x = 16 y = 9 }
 		}
 
+		infantry_armored = {
+			hardness = 0.1
+			armor_value = 0.1
+		}
+
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 		
 		categories = {
 			infantry_equipment
+			infantry_armor
 		}
 		
 		ai_will_do = {
@@ -1083,14 +1324,11 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2277
 		folder = {
 			name = infantry_folder
 			position = { x = 19 y = 9 }
@@ -1098,6 +1336,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_armor
 		}
 		
 		ai_will_do = {
@@ -1111,6 +1350,7 @@ technologies = {
 		}
 		
 		enable_subunits = {
+			infantry_grenadiers
 		}		
 
 		path = {
@@ -1119,9 +1359,6 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
@@ -1134,6 +1371,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_grenadier
 		}
 		
 		ai_will_do = {
@@ -1152,14 +1390,11 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2269
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = 12 }
@@ -1167,6 +1402,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_grenadier
 		}
 		
 		ai_will_do = {
@@ -1180,14 +1416,16 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
+		infantry_grenadiers = {
+			hard_attack = 0.025
+			ap_attack  = 0.025
+		}
+
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2269
 		folder = {
 			name = infantry_folder
 			position = { x = 4 y = 12 }
@@ -1195,6 +1433,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_grenadier
 		}
 		
 		ai_will_do = {
@@ -1213,14 +1452,11 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2271
 		folder = {
 			name = infantry_folder
 			position = { x = 7 y = 12 }
@@ -1228,6 +1464,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_grenadier
 		}
 		
 		ai_will_do = {
@@ -1242,14 +1479,16 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
+		infantry_grenadiers = {
+			hard_attack = 0.05
+			ap_attack  = 0.05
+		}
+
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2271
 		folder = {
 			name = infantry_folder
 			position = { x = 10 y = 12 }
@@ -1257,6 +1496,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_grenadier
 		}
 		
 		ai_will_do = {
@@ -1276,14 +1516,11 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2274
 		folder = {
 			name = infantry_folder
 			position = { x = 13 y = 12 }
@@ -1291,6 +1528,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_grenadier
 		}
 		
 		ai_will_do = {
@@ -1304,14 +1542,16 @@ technologies = {
 		}	
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
+		infantry_grenadiers = {
+			hard_attack = 0.1
+			ap_attack  = 0.1
+		}
+
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2274
 		folder = {
 			name = infantry_folder
 			position = { x = 16 y = 12 }
@@ -1319,6 +1559,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_grenadier
 		}
 		
 		ai_will_do = {
@@ -1335,14 +1576,11 @@ technologies = {
 		}		
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
 		research_cost = 1.5
-		start_year = 2266
+		start_year = 2277
 		folder = {
 			name = infantry_folder
 			position = { x = 19 y = 12 }
@@ -1350,6 +1588,7 @@ technologies = {
 		
 		categories = {
 			infantry_equipment
+			infantry_grenadier
 		}
 		
 		ai_will_do = {
