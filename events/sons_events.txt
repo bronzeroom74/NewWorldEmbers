@@ -61,37 +61,6 @@ country_event = {
                 set_country_flag = sons_civil_war1
                 mark_focus_tree_layout_dirty = yes
             }
-            HBR = { transfer_state = 1781 }
-            HBR = { transfer_state = 567 }
-            HBR = { transfer_state = 581 }
-            HBR = { transfer_state = 2549 }
-            SON_hilmar = {
-                set_nationality = HBR
-            }
-            HBR = {
-                promote_character = SON_hilmar
-                declare_war_on = {
-                    target = SON
-                    type = annex_everything
-                }
-                set_country_flag = sons_civil_war3
-				load_focus_tree = {
-					tree = sons_nf
-					keep_completed = yes
-				}
-                add_ideas = {
-                    SON_memories_of_the_holdback
-                }
-                add_opinion_modifier = {
-                    target = WAF
-                    modifier = SON_in_our_way
-                }
-                add_opinion_modifier = {
-                    target = FRI
-                    modifier = SON_in_our_way
-                }
-                
-            }
             ICM = { transfer_state = 554 }
             ICM = { transfer_state = 1788 }
             ICM = { transfer_state = 1786 }
@@ -101,6 +70,7 @@ country_event = {
             }
             ICM = {
                 promote_character = SON_eisenherz
+                set_country_flag = sons_civil_war2
                 declare_war_on = {
                     target = SON
                     type = annex_everything
@@ -109,7 +79,6 @@ country_event = {
                     target = HBR
                     type = annex_everything
                 }
-                set_country_flag = sons_civil_war2
 				load_focus_tree = {
 					tree = sons_nf
 					keep_completed = yes
@@ -126,7 +95,38 @@ country_event = {
                     modifier = SON_in_our_way
                 } 
             }
-			
+            HBR = { transfer_state = 1781 }
+            HBR = { transfer_state = 567 }
+            HBR = { transfer_state = 581 }
+            HBR = { transfer_state = 2549 }
+            SON_hilmar = {
+                set_nationality = HBR
+            }
+            HBR = {
+                promote_character = SON_hilmar
+                set_country_flag = sons_civil_war3
+                declare_war_on = {
+                    target = SON
+                    type = annex_everything
+                }
+                
+				load_focus_tree = {
+					tree = sons_nf
+					keep_completed = yes
+				}
+                add_ideas = {
+                    SON_memories_of_the_holdback
+                }
+                add_opinion_modifier = {
+                    target = WAF
+                    modifier = SON_in_our_way
+                }
+                add_opinion_modifier = {
+                    target = FRI
+                    modifier = SON_in_our_way
+                }
+                
+            }		
         }
     }
 
@@ -143,7 +143,7 @@ country_event = {
     option = {
         name = sof.20.b
         ai_chance = { base = 0 }
-        IMC = {
+        ICM = {
             change_tag_from = ROOT
         }
         hidden_effect = {

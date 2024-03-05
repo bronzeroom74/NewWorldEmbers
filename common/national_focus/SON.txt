@@ -195,6 +195,7 @@ focus_tree = {
 		relative_position_id = son_heldback
 		x = 0
 		y = 4
+		cost = 30
 		prerequisite = {
 			focus = son_forward_and_forget
 			focus = son_rememberance
@@ -214,7 +215,7 @@ focus_tree = {
 		relative_position_id = son_heldback
 		x = 0
 		y = 5
-		cost = 4.3
+		cost = 30
 		allow_branch = {
 			has_country_flag = sons_civil_war1
 		}
@@ -242,9 +243,9 @@ focus_tree = {
 		id = son_eisenherz_path
 		icon = GFX_goal_generic_allies_build_infantry
 		relative_position_id = son_heldback
-		x = 3
+		x = 0
 		y = 5
-		cost = 4.3
+		cost = 30
 		allow_branch = {
 			has_country_flag = sons_civil_war2
 		}
@@ -267,15 +268,14 @@ focus_tree = {
 			army_experience = 5
 		}
 	}
-	focus
 	###Hilmar###
     focus = {
 		id = son_hilmar_path
 		icon = GFX_goal_generic_allies_build_infantry
 		relative_position_id = son_heldback
-		x = -3
+		x = 0
 		y = 5
-		cost = 4.3
+		cost = 30
 		allow_branch = {
 			has_country_flag = sons_civil_war3
 		}
