@@ -209,53 +209,94 @@ focus_tree = {
 
 	###Frundsberg###
     focus = {
-		id = son_frundsberg_win
+		id = son_frundsberg_path
 		icon = GFX_goal_generic_allies_build_infantry
 		relative_position_id = son_heldback
 		x = 0
 		y = 5
 		cost = 4.3
 		allow_branch = {
-			has_complated_focus = son_frundsberg_win
-			}
+			has_country_flag = sons_civil_war1
+		}
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus = {
+		id = son_frundsberg_choice
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_frundsberg_path
+		x = 0
+		y = 1
+		cost = 30
+		prerequisite = {
+			focus = son_frundsberg_path
+		}
+
 		completion_reward = {
 			army_experience = 5
 		}
 	}
 	###Eisenherz###
     focus = {
-		id = son_eisenherz_win
+		id = son_eisenherz_path
 		icon = GFX_goal_generic_allies_build_infantry
 		relative_position_id = son_heldback
 		x = 3
 		y = 5
 		cost = 4.3
 		allow_branch = {
-			has_country_flag = sons_civil_war
-            has_complated_focus = son_eisenherz_win
+			has_country_flag = sons_civil_war2
 		}
 		completion_reward = {
 			army_experience = 5
 		}
 	}
+	focus = {
+		id = son_eisenherz_choice
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_eisenherz_path
+		x = 0
+		y = 1
+		cost = 30
+		prerequisite = {
+			focus = son_eisenherz_path
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+	focus
 	###Hilmar###
     focus = {
-		id = son_hilmar_win
+		id = son_hilmar_path
 		icon = GFX_goal_generic_allies_build_infantry
 		relative_position_id = son_heldback
 		x = -3
 		y = 5
 		cost = 4.3
 		allow_branch = {
-			SON = {
-				has_country_flag = sons_civil_war
-				}
-			has_complated_focus = son_hilmar_win
+			has_country_flag = sons_civil_war3
 		}
 		completion_reward = {
 			army_experience = 5
 		}
 	}
+    focus = {
+		id = son_hilmar_choice
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_hilmar_path
+		x = 0
+		y = 1
+		cost = 30
+		prerequisite = {
+			focus = son_eisenherz_path
+		}
 
+		completion_reward = {
+			army_experience = 5
+		}
+	}
 
 }
