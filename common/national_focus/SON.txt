@@ -291,7 +291,7 @@ focus_tree = {
 		y = 1
 		cost = 30
 		prerequisite = {
-			focus = son_eisenherz_path
+			focus = son_hilmar_path
 		}
 
 		completion_reward = {

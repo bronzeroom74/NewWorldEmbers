@@ -70,15 +70,26 @@ country_event = {
             }
             HBR = {
                 promote_character = SON_hilmar
-                set_country_flag = sons_civil_war3
                 declare_war_on = {
                     target = SON
                     type = annex_everything
                 }
+                set_country_flag = sons_civil_war3
 				load_focus_tree = {
 					tree = sons_nf
 					keep_completed = yes
 				}
+                add_ideas = {
+                    SON_memories_of_the_holdback
+                }
+                add_opinion_modifier = {
+                    target = WAF
+                    modifier = SON_in_our_way
+                }
+                add_opinion_modifier = {
+                    target = FRI
+                    modifier = SON_in_our_way
+                }
                 
             }
             ICM = { transfer_state = 554 }
@@ -90,7 +101,6 @@ country_event = {
             }
             ICM = {
                 promote_character = SON_eisenherz
-                set_country_flag = sons_civil_war2
                 declare_war_on = {
                     target = SON
                     type = annex_everything
@@ -99,11 +109,22 @@ country_event = {
                     target = HBR
                     type = annex_everything
                 }
+                set_country_flag = sons_civil_war2
 				load_focus_tree = {
 					tree = sons_nf
 					keep_completed = yes
 				}
-                
+                add_ideas = {
+                    SON_memories_of_the_holdback
+                }   
+                add_opinion_modifier = {
+                    target = WAF
+                    modifier = SON_in_our_way
+                }
+                add_opinion_modifier = {
+                    target = FRI
+                    modifier = SON_in_our_way
+                } 
             }
 			
         }
@@ -121,6 +142,10 @@ country_event = {
     }
     option = {
         name = sof.20.b
+        ai_chance = { base = 0 }
+        IMC = {
+            change_tag_from = ROOT
+        }
         hidden_effect = {
             ICM = { 
 				transfer_state = 576 
@@ -130,6 +155,9 @@ country_event = {
     option = {
         name = sof.20.c
         ai_chance = { base = 0 }
+        HBR = {
+            change_tag_from = ROOT
+        }
         hidden_effect = {
             HBR = { 
 				transfer_state = 1791
