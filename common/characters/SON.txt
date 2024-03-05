@@ -26,7 +26,7 @@ characters = {
 		}
 		country_leader = {
 			desc = SON_hilmar_desc
-			ideology = wasteland_community
+			ideology = light_handed_mercs
 			traits = { SON_underdog }
 			expire = "2400.1.1.1"
 			id = -1
@@ -54,7 +54,7 @@ characters = {
 		}
 		country_leader = {
 			desc = SON_eisenherz_desc
-			ideology = warlordship
+			ideology = mercenary_company
 			traits = { SON_blitzkrieg }
 			expire = "2400.1.1.1"
 			id = -1

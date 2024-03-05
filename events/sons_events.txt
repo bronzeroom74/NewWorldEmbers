@@ -60,6 +60,13 @@ country_event = {
             SON = {
                 set_country_flag = sons_civil_war1
                 mark_focus_tree_layout_dirty = yes
+                set_popularities = {
+                    ascension = 0
+                    aggression = 100
+                    absolution = 0
+                    adaptation = 0
+                    apocalypse = 0
+                }
             }
             ICM = { transfer_state = 554 }
             ICM = { transfer_state = 1788 }
@@ -73,10 +80,6 @@ country_event = {
                 set_country_flag = sons_civil_war2
                 declare_war_on = {
                     target = SON
-                    type = annex_everything
-                }
-                declare_war_on = {
-                    target = HBR
                     type = annex_everything
                 }
 				load_focus_tree = {
@@ -107,6 +110,10 @@ country_event = {
                 set_country_flag = sons_civil_war3
                 declare_war_on = {
                     target = SON
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = ICM
                     type = annex_everything
                 }
                 

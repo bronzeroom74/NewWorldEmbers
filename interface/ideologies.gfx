@@ -23,5 +23,8 @@ spriteTypes = {
 		name = "GFX_ideology_ascension_group"
 		texturefile = "gfx/interface/ideologies/ascension_group.dds"
 	}
-
+	spriteType = {
+		name = "GFX_ideology_light_handed_mercs"
+		texturefile = "gfx/interface/ideologies/subideologies/light_handed_mercs.dds"
+	}
 }

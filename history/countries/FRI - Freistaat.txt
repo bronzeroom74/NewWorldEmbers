@@ -15,6 +15,14 @@ add_opinion_modifier = {
 	target = SON
 	modifier = WAF_threatening_our_existance
 }
+add_opinion_modifier = {
+	target = ICM
+	modifier = WAF_threatening_our_existance
+}
+add_opinion_modifier = {
+	target = HBR
+	modifier = WAF_threatening_our_existance
+}
 
 set_popularities = {
 	ascension = 10

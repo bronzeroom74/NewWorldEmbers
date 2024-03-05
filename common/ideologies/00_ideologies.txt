@@ -80,6 +80,9 @@ ideologies = {
 			peoples_monarchy = {
 
 			}
+			light_handed_mercs = {
+				
+			}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_ADAPTATION_1"
@@ -112,6 +115,9 @@ ideologies = {
 
 			}
 			warlordship = {
+			}
+			mercenary_company = {
+
 			}
 		}
 		dynamic_faction_names = {
