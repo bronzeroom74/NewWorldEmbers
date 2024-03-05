@@ -4,6 +4,12 @@
 technology_categories = {
 	## Infantry
 	infantry_equipment
+	infantry_ballistic
+	infantry_energy
+	infantry_armor
+	infantry_grenadier
+	infantry_military_tradition
+	infantry_archaic
 
 	## Support 
 	support_tech

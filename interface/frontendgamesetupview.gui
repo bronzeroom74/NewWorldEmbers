@@ -1018,7 +1018,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "leader_label"
-				position = { x = 6 y = 3 }
+				position = { x = 20 y = -5 }
 				font = "ashes_font_14"
 				borderSize = {x = 0 y = 0}
 				text = "LEADER"
@@ -1028,7 +1028,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "leader"
-				position = { x = 72 y = 3 }
+				position = { x = 62 y = -5 }
 				font = "ashes_font_14"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
@@ -1037,7 +1037,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ideology_label"
-				position = { x = 6 y = 27 }
+				position = { x = 20 y = 22 }
 				font = "ashes_font_14"
 				borderSize = {x = 0 y = 0}
 				text = "IDEOLOGY"
@@ -1047,7 +1047,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ideology"
-				position = { x = 72 y = 27 }
+				position = { x = 55 y = 22 }
 				font = "ashes_font_14"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
@@ -1056,7 +1056,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "government_label"
-				position = { x = 6 y = 51 }
+				position = { x = 20 y = 47 }
 				font = "ashes_font_14"
 				borderSize = {x = 0 y = 0}
 				text = "GOVERNMENT"
@@ -1066,7 +1066,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "government"
-				position = { x = 72 y = 51 }
+				position = { x = 70 y = 47 }
 				textureFile = ""
 				font = "ashes_font_14"
 				borderSize = {x = 0 y = 0}
@@ -1076,7 +1076,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "elections_label"
-				position = { x = 6 y = 75 }
+				position = { x = 20 y = 70 }
 				textureFile = ""
 				font = "ashes_font_14"
 				borderSize = {x = 0 y = 0}
@@ -1087,7 +1087,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "elections"
-				position = { x = 72 y = 75 }
+				position = { x = 52 y = 70 }
 				textureFile = ""
 				font = "ashes_font_14"
 				borderSize = {x = 0 y = 0}
@@ -1097,7 +1097,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "party_label"
-				position = { x = 6 y = 99 }
+				position = { x = 20 y = 94 }
 				textureFile = ""
 				font = "ashes_font_14"
 				borderSize = {x = 0 y = 0}
@@ -1108,7 +1108,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "party"
-				position = { x = 148 y = 99 }
+				position = { x = 128 y = 94 }
 				textureFile = ""
 				font = "ashes_font_14"
 				borderSize = {x = 0 y = 0}
@@ -1724,13 +1724,13 @@ guiTypes = {
 
 		buttonType = {
 			name = "custom_settings_btn"
-			position = { x = 357 y = 12 }
+			position = { x = 335 y = 20 }
 			quadTextureSprite ="GFX_custom_set_button_2"
 			pdx_tooltip = FE_CUSTOM_DIFFUCULTY
 		}
 
 		instantTextBoxType={
-			position = { x = 362 y = 18 }
+			position = { x = 338 y = 22 }
 			name = "custom_text"
 			font = "ashes_font"
 			borderSize = {x = 0 y = 0}
@@ -1742,7 +1742,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 9 y = 12 }
+			position = {x = -30 y = 20 }
 			name = "difficulty_text"
 			font = "ashes_font"
 			borderSize = {x = 0 y = 0}
@@ -1754,7 +1754,7 @@ guiTypes = {
 
 		checkboxType = {
 			name = "very_easy_cb"
-			position = { x=9 y=47}
+			position = { x=25 y=140}
 			quadTextureSprite ="GFX_difficulty_button_civilian"
 			buttonText = "FE_DIFFICULTY_EASY"
 			buttonFont = "ashes_font"
@@ -1763,7 +1763,7 @@ guiTypes = {
 
 		checkboxType = {
 			name = "easy_cb"
-			position = { x=125 y=47}
+			position = { x=150 y=140}
 			quadTextureSprite ="GFX_difficulty_button_recruit"
 			buttonText = "FE_DIFFICULTY_EASY"
 			buttonFont = "ashes_font"
@@ -1772,7 +1772,7 @@ guiTypes = {
 
 		checkboxType = {
 			name = "normal_cb"
-			position = { x=241 y=47}
+			position = { x=25 y=100}
 			quadTextureSprite ="GFX_difficulty_button_regular"
 			clicksound = click_checkbox
 			buttonText = "FE_DIFFICULTY_NORMAL"
@@ -1781,7 +1781,7 @@ guiTypes = {
 
 		checkboxType = {
 			name = "hard_cb"
-			position = { x=357 y=47}
+			position = { x=150 y=100}
 			quadTextureSprite ="GFX_difficulty_button_veteran"
 			buttonText = "FE_DIFFICULTY_HARD"
 			buttonFont = "ashes_font"
@@ -1790,7 +1790,7 @@ guiTypes = {
 
 		checkboxType = {
 			name = "very_hard_cb"
-			position = { x=473 y=47}
+			position = { x=85 y=60}
 			quadTextureSprite ="GFX_difficulty_button_elite"
 			buttonText = "FE_DIFFICULTY_VERY_HARD"
 			buttonFont = "ashes_font"
@@ -1798,7 +1798,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x=18 y=53 }
+			position = {x=24 y=143 }
 			name = "civilian_text"
 			font = "ashes_font"
 			borderSize = {x = 0 y = 0}
@@ -1810,7 +1810,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x=133 y=53 }
+			position = {x=150 y=143 }
 			name = "beginner_text"
 			font = "ashes_font"
 			borderSize = {x = 0 y = 0}
@@ -1822,7 +1822,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x=250 y=53 }
+			position = {x=25 y=102 }
 			name = "normal_text"
 			font = "ashes_font"
 			borderSize = {x = 0 y = 0}
@@ -1834,7 +1834,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x=368 y=53 }
+			position = {x=150 y=102 }
 			name = "hard_text"
 			font = "ashes_font"
 			borderSize = {x = 0 y = 0}
@@ -1846,7 +1846,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x=480 y=53 }
+			position = {x=85 y=63 }
 			name = "very_hard_text"
 			font = "ashes_font"
 			borderSize = {x = 0 y = 0}
@@ -1858,7 +1858,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 30 y = 103 }
+			position = {x = 275 y = 103 }
 			name = "ironman_text"
 			font = "ashes_font"
 			maxWidth = 370
@@ -1877,7 +1877,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 30 y = 148 }
+			position = {x = 275 y = 148 }
 			name = "historical_text"
 			font = "ashes_font"
 			maxWidth = 370
