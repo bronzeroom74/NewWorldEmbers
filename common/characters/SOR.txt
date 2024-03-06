@@ -24,6 +24,7 @@ characters = {
 			expire = "1965.1.1.1"
 			traits={ sor_father_guild }
 			id = -1
+			desc = cizik_desc
 		}
 	}
 }
