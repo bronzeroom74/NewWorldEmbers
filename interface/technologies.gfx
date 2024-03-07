@@ -239,7 +239,47 @@ spriteTypes = {
 		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
 	}
 
-	###
+	### Stalker
+	spriteType = {
+		name = GFX_stalker_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_stalker_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_stalker_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_stalker_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_stalker_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_stalker_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_stalker_boost_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_stalker_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
 	## Support
 
 

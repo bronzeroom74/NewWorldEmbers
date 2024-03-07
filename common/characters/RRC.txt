@@ -9,6 +9,7 @@ characters = {
 		country_leader = {
 			ideology = wasteland_community
 			traits = { }
+			desc = RRC_quartermaster_kruger_desc
 			expire = "2300.1.1.1"
 			id = -1
 		}

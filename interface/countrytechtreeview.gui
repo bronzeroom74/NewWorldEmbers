@@ -84,6 +84,12 @@ guiTypes = {
 				format = "UP"
 			}
 			gridboxtype = {
+				name = "stalker_1_tree"
+				position = { x = 400 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
 				name = "infantry_armor_1_tree"
 				position = { x = 400 y = 100 }
 				slotsize = { width = 70 height = 70 }

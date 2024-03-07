@@ -9,6 +9,22 @@ characters = {
 		country_leader = {
 			ideology = classic_absolutionists
 			traits = { }
+			desc = RHW_major_bruno_ernst_desc
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
+	RHW_major_anna_ernst = {
+		name = RHW_major_anna_ernst_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RHW/portrait_major_anna_ernst.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_adaptationists
+			traits = { }
+			desc = RHW_major_anna_ernst_desc
 			expire = "2300.1.1.1"
 			id = -1
 		}
