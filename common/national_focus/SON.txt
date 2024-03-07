@@ -238,6 +238,21 @@ focus_tree = {
 			army_experience = 5
 		}
 	}
+	focus = {
+		id = son_frundsberg_d
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = son_frundsberg_path
+		x = 0
+		y = 2
+		cost = 30
+		prerequisite = {
+			focus = son_frundsberg_choice
+		}
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
 	###Eisenherz###
     focus = {
 		id = son_eisenherz_path
