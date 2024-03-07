@@ -1109,13 +1109,16 @@ technologies = {
 
 		modifier = {
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
+		}
+		XOR = {
+			stalker_1
+		}
 
 		research_cost = 1.5
 		start_year = 2266
 		folder = {
 			name = infantry_folder
-			position = { x = -3 y = 9 }
+			position = { x = -3 y = 12 }
 		}
 		
 		categories = {
@@ -1146,7 +1149,7 @@ technologies = {
 		start_year = 2269
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = 9 }
+			position = { x = 1 y = 12 }
 		}
 		
 		categories = {
@@ -1177,7 +1180,7 @@ technologies = {
 		start_year = 2269
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 9 }
+			position = { x = 4 y = 12 }
 		}
 		
 		categories = {
@@ -1208,7 +1211,7 @@ technologies = {
 		start_year = 2271
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = 9 }
+			position = { x = 7 y = 12 }
 		}
 		
 		categories = {
@@ -1231,7 +1234,7 @@ technologies = {
 		start_year = 2271
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 9 }
+			position = { x = 10 y = 12 }
 		}
 
 		modifier = {
@@ -1272,7 +1275,7 @@ technologies = {
 		start_year = 2274
 		folder = {
 			name = infantry_folder
-			position = { x = 13 y = 9 }
+			position = { x = 13 y = 12 }
 		}
 		
 		categories = {
@@ -1295,7 +1298,7 @@ technologies = {
 		start_year = 2274
 		folder = {
 			name = infantry_folder
-			position = { x = 16 y = 9 }
+			position = { x = 16 y = 12 }
 		}
 
 		infantry_armored = {
@@ -1331,12 +1334,270 @@ technologies = {
 		start_year = 2277
 		folder = {
 			name = infantry_folder
-			position = { x = 19 y = 9 }
+			position = { x = 19 y = 12 }
 		}
 		
 		categories = {
 			infantry_equipment
 			infantry_armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	stalker_1 = {
+
+		enable_equipments = {
+			stalker_equipment_1
+		}
+		
+		enable_subunits = {
+			infantry_stalker
+		}
+		
+		path = {
+			leads_to_tech = stalker_2
+			research_cost_coeff = 1
+		}		
+
+		modifier = {
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}	
+
+		XOR = {
+			infantry_armor_1
+		}
+
+		research_cost = 1.5
+		start_year = 2266
+		folder = {
+			name = infantry_folder
+			position = { x = -3 y = 15 }
+		}
+		
+		categories = {
+			infantry_equipment
+			infantry_stalker
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	stalker_2 = {
+
+		enable_equipments = {
+			stalker_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = stalker_boost_1
+			research_cost_coeff = 1
+		}		
+
+		modifier = {
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}	
+
+		research_cost = 1.5
+		start_year = 2269
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = 15 }
+		}
+		
+		categories = {
+			infantry_equipment
+			infantry_stalker
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	stalker_boost_1 = {		
+		path = {
+			leads_to_tech = stalker_3
+			research_cost_coeff = 1
+		}		
+
+		modifier = {
+			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		}
+
+		infantry_stalker = {
+			recon = 0.025
+			initiative = 0.025
+			casualty_trickleback = 0.025
+		}
+
+		research_cost = 1.5
+		start_year = 2269
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 15 }
+		}
+		
+		categories = {
+			infantry_equipment
+			infantry_stalker
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	stalker_3 = {
+
+		enable_equipments = {
+			stalker_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = stalker_boost_2
+			research_cost_coeff = 1
+		}		
+
+		modifier = {
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}	
+
+		research_cost = 1.5
+		start_year = 2271
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 15 }
+		}
+		
+		categories = {
+			infantry_equipment
+			infantry_stalker
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	stalker_boost_2 = {		
+		path = {
+			leads_to_tech = stalker_4
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 2271
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = 15 }
+		}
+
+		modifier = {
+			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		}
+		
+		infantry_stalker = {
+			recon = 0.05
+			initiative = 0.05
+			casualty_trickleback = 0.05
+		}
+
+		categories = {
+			infantry_equipment
+			infantry_stalker
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	stalker_4 = {
+
+		enable_equipments = {
+			stalker_equipment_4
+		}
+		
+		path = {
+			leads_to_tech = stalker_boost_3
+			research_cost_coeff = 1
+		}		
+
+		modifier = {
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}	
+
+		research_cost = 1.5
+		start_year = 2274
+		folder = {
+			name = infantry_folder
+			position = { x = 13 y = 15 }
+		}
+		
+		categories = {
+			infantry_equipment
+			infantry_stalker
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	stalker_boost_3 = {		
+		path = {
+			leads_to_tech = stalker_5
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 2274
+		folder = {
+			name = infantry_folder
+			position = { x = 16 y = 15 }
+		}
+
+		infantry_stalker = {
+			recon = 0.1
+			initiative = 0.1
+			casualty_trickleback = 0.1
+		}
+
+		modifier = {
+			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		}
+		
+		categories = {
+			infantry_equipment
+			infantry_stalker
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	stalker_5 = {
+
+		enable_equipments = {
+			stalker_equipment_5
+		}	
+
+		modifier = {
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
+		}	
+
+		research_cost = 1.5
+		start_year = 2277
+		folder = {
+			name = infantry_folder
+			position = { x = 19 y = 15 }
+		}
+		
+		categories = {
+			infantry_equipment
+			infantry_stalker
 		}
 		
 		ai_will_do = {
@@ -1366,7 +1627,7 @@ technologies = {
 		start_year = 2266
 		folder = {
 			name = infantry_folder
-			position = { x = -3 y = 12 }
+			position = { x = -3 y = 9 }
 		}
 		
 		categories = {
@@ -1397,7 +1658,7 @@ technologies = {
 		start_year = 2269
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = 12 }
+			position = { x = 1 y = 9 }
 		}
 		
 		categories = {
@@ -1428,7 +1689,7 @@ technologies = {
 		start_year = 2269
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 12 }
+			position = { x = 4 y = 9 }
 		}
 		
 		categories = {
@@ -1459,7 +1720,7 @@ technologies = {
 		start_year = 2271
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = 12 }
+			position = { x = 7 y = 9 }
 		}
 		
 		categories = {
@@ -1491,7 +1752,7 @@ technologies = {
 		start_year = 2271
 		folder = {
 			name = infantry_folder
-			position = { x = 10 y = 12 }
+			position = { x = 10 y = 9 }
 		}
 		
 		categories = {
@@ -1523,7 +1784,7 @@ technologies = {
 		start_year = 2274
 		folder = {
 			name = infantry_folder
-			position = { x = 13 y = 12 }
+			position = { x = 13 y = 9 }
 		}
 		
 		categories = {
@@ -1554,7 +1815,7 @@ technologies = {
 		start_year = 2274
 		folder = {
 			name = infantry_folder
-			position = { x = 16 y = 12 }
+			position = { x = 16 y = 9 }
 		}
 		
 		categories = {
@@ -1583,7 +1844,7 @@ technologies = {
 		start_year = 2277
 		folder = {
 			name = infantry_folder
-			position = { x = 19 y = 12 }
+			position = { x = 19 y = 9 }
 		}
 		
 		categories = {

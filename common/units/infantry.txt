@@ -132,6 +132,49 @@ sub_units = {
 		}
 	}
 
+	infantry_stalker = {
+		abbreviation = "IST"
+		sprite = infantry
+		map_icon_category = infantry
+
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			infantry
+		}
+
+		group = infantry
+
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+
+		combat_width = 4
+
+		#Size Definitions
+		max_strength = 35
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 200
+
+		#Misc Abilities
+		training_time = 120
+		suppression = 0.5
+		weight = 1.5
+
+		supply_consumption = 0.08
+
+		need = {
+			infantry_equipment = 150
+			stalker_equipment = 150
+		}
+	}
+
 	bicycle_battalion = {
 		abbreviation = "BIC"
 		sprite = bicycle

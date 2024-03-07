@@ -20,6 +20,8 @@ set_popularities = {
 }
 
 recruit_character = RHW_major_bruno_ernst
+recruit_character = RHW_major_anna_ernst
 
 parliament_gui_initial = yes
 set_country_flag = is_rhine_nation
+

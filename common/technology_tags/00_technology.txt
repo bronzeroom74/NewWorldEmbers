@@ -10,6 +10,7 @@ technology_categories = {
 	infantry_grenadier
 	infantry_military_tradition
 	infantry_archaic
+	infantry_stalker
 
 	## Support 
 	support_tech

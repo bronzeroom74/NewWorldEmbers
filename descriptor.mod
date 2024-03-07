@@ -88,6 +88,6 @@ replace_path="scenario_tests/triggers"
 
 picture="blank_map_template_5632x2048.jpg"
 version="0.01"
-supported_version="1.13.*"
+supported_version="1.14.*"
 
 path="mod/NewWorldEmbers"

@@ -9,6 +9,7 @@ characters = {
 		country_leader = {
 			ideology = ambitious_democracy
 			traits = { }
+			desc = STR_chancellor_leon_beck_desc
 			expire = "2300.1.1.1"
 			id = -1
 		}
