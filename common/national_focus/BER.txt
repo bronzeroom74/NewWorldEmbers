@@ -9,7 +9,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 10 y = 0 }
+	continuous_focus_position = { x = 120 y = 0 }
 
 	focus = {
 		id = ber_voteofcentury
@@ -959,7 +959,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ber_cultistsnorth
 		}
-		x = 0
+		available = { always = no }
+		x = 2
 		y = 1
 		relative_position_id = ber_cultistsnorth
 		cost = 60
@@ -1047,39 +1048,409 @@ focus_tree = {
 			army_experience = 5
 		}
 	}
-#Free Men Branch
+
+#Old Man Path
 	focus = {
-		id = ber_freemenintro
+		id = ber_northdealforpeace
 		icon = GFX_goal_generic_CAS
 		search_filters = {
 		}
-		available = {
-			always = no
+		prerequisite = {
+			focus = ber_cultistsnorth
 		}
-		x = 6
-		y = 0
-		relative_position_id = ber_evilcapitalism
+		available = { always = no }
+		x = -2
+		y = 1
+		relative_position_id = ber_cultistsnorth
 		cost = 60
 
 		completion_reward = {
 			army_experience = 5
 		}
 	}
-# Council Path
+
+	focus = {
+		id = ber_northknowledge
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_northdealforpeace
+		}
+		mutually_exclusive = {
+			focus = ber_northpower
+		}
+		x = -1
+		y = 1
+		relative_position_id = ber_northdealforpeace
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_northpower
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_northdealforpeace
+		}
+		mutually_exclusive = {
+			focus = ber_northknowledge
+		}
+		x = 1
+		y = 1
+		relative_position_id = ber_northdealforpeace
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_northleeches
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_northknowledge
+			focus = ber_northpower
+		}
+		x = 1
+		y = 1
+		relative_position_id = ber_northknowledge
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_northbirthofunion
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_northleeches
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_northleeches
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+
+
+
+#Free Men Branch
+
+	focus = {
+		id = ber_countryforfreemen
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		available = {
+			always = no
+		}
+		x = 1
+		y = 7
+		relative_position_id = ber_cultistsnorth
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+#Old Man Path
+
+	focus = {
+		id = ber_freemennegotiations
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_countryforfreemen
+		}
+		mutually_exclusive = {
+			focus = ber_freemendemands
+		}
+		x = -4
+		y = 1
+		relative_position_id = ber_countryforfreemen
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemendemands
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_countryforfreemen
+		}
+		mutually_exclusive = {
+			focus = ber_freemennegotiations
+		}
+		x = -2
+		y = 1
+		relative_position_id = ber_countryforfreemen
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freementogetherbetterfuture
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemennegotiations
+		}
+		mutually_exclusive = {
+			focus = ber_freemenunevencooperation
+			focus = ber_freemennomore
+		}
+		x = -1
+		y = 1
+		relative_position_id = ber_freemennegotiations
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemenunevencooperation
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemennegotiations
+			focus = ber_freemendemands
+		}
+		mutually_exclusive = {
+			focus = ber_freemennomore
+			focus = ber_freementogetherbetterfuture
+		}
+		x = 1
+		y = 1
+		relative_position_id = ber_freemennegotiations
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemennomore
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemendemands
+		}
+		mutually_exclusive = {
+			focus = ber_freemenunevencooperation
+			focus = ber_freementogetherbetterfuture
+		}
+		x = 3
+		y = 1
+		relative_position_id = ber_freemennegotiations
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemenopenmarket
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freementogetherbetterfuture
+			focus = ber_freemenunevencooperation
+		}
+		mutually_exclusive = {
+			focus = ber_freemenbankroll
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_freementogetherbetterfuture
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemenbankroll
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freementogetherbetterfuture
+			focus = ber_freemenunevencooperation
+		}
+		mutually_exclusive = {
+			focus = ber_freemenopenmarket
+		}
+		x = 2
+		y = 1
+		relative_position_id = ber_freementogetherbetterfuture
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemenintegration
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemendemands
+		}
+		x = 4
+		y = 1
+		relative_position_id = ber_freementogetherbetterfuture
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemenwondersoftrade
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemenopenmarket
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_freemenopenmarket
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemeninvestmentreturns
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemenbankroll
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_freemenbankroll
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemengermansubsidies
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemenintegration
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_freemenintegration
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemengateway
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemenwondersoftrade
+			focus = ber_freemeninvestmentreturns
+			focus = ber_freemengermansubsidies
+		}
+		x = 0
+		y = 2
+		relative_position_id = ber_freemenbankroll
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+	focus = {
+		id = ber_freemensurprise
+		icon = GFX_goal_generic_CAS
+		search_filters = {
+		}
+		prerequisite = {
+			focus = ber_freemengateway
+		}
+		x = 0
+		y = 1
+		relative_position_id = ber_freemengateway
+		cost = 60
+
+		completion_reward = {
+			army_experience = 5
+		}
+	}
+
+#Council Path
 	focus = {
 		id = ber_openhand
 		icon = GFX_goal_generic_CAS
 		search_filters = {
 		}
 		prerequisite = {
-			focus = ber_freemenintro
+			focus = ber_countryforfreemen
 		}
 		mutually_exclusive = {
 			focus = ber_closedhand
 		}
-		x = -1
+		x = 1
 		y = 1
-		relative_position_id = ber_freemenintro
+		relative_position_id = ber_countryforfreemen
 		cost = 60
 
 		completion_reward = {
@@ -1093,14 +1464,14 @@ focus_tree = {
 		search_filters = {
 		}
 		prerequisite = {
-			focus = ber_freemenintro
+			focus = ber_countryforfreemen
 		}
 		mutually_exclusive = {
 			focus = ber_openhand
 		}
-		x = 1
+		x = 3
 		y = 1
-		relative_position_id = ber_freemenintro
+		relative_position_id = ber_countryforfreemen
 		cost = 60
 
 		completion_reward = {
@@ -1259,4 +1630,5 @@ focus_tree = {
 			army_experience = 5
 		}
 	}
+
 }
