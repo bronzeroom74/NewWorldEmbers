@@ -1,0 +1,22 @@
+focus_tree = {
+	id = RRC_nf
+	country = {
+		factor= 0
+		modifier = {
+			add = 50
+			tag = RRC
+		}
+	}
+
+	#Starting Focuses
+	focus = {
+		id = RRC_forged_by_krupp_steal
+		icon =
+		cost = 7
+		x = 15
+		y = 1
+		completion_reward = {
+			country_event = { id = nf_rrc.1 }
+		}
+	}
+}

@@ -20,6 +20,7 @@ set_popularities = {
 }
 
 recruit_character = SLD_duke_otto_schulz
+recruit_character = SLD_baron_christoph_von_braun
 
 parliament_gui_initial = yes
 set_country_flag = is_rhine_nation

@@ -14,8 +14,8 @@ bookmarks = {
 			focuses = { }
 		}
 
-		"RUK" = {
-			history = "FTA_RUK_DESC"
+		"STR" = {
+			history = "FTA_STR_DESC"
 			ideology = ascension
 			ideas = { }
 			focuses = { }
@@ -29,8 +29,17 @@ bookmarks = {
 			focuses = { }
 		}
 
-		"SOR" = {
-			history = "FTA_SOR_DESC"
+		"RHW" = {
+			history = "FTA_RHW_DESC"
+			ideology = absolution
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"SLD" = {
+			history = "FTA_SLD_DESC"
 			ideology = ascension
 			ideas = {
 			}
@@ -38,27 +47,18 @@ bookmarks = {
 			}
 		}
 
-		"KYB" = {
-			history = "FTA_KYB_DESC"
+		"RRC" = {
+			history = "FTA_RRC_DESC"
+			ideology = adaptation
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"LUX" = {
+			history = "FTA_LUX_DESC"
 			ideology = ascension
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-
-		"CHU" = {
-			history = "FTA_CHU_DESC"
-			ideology = adaptation
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-
-		"COL" = {
-			history = "FTA_COL_DESC"
-			ideology = adaptation
 			ideas = {
 			}
 			focuses = {
@@ -71,9 +71,9 @@ bookmarks = {
 
 		# minors ####
 
-		"NET" = {
+		"LOR" = {
 			minor = yes
-			history = "FTA_NET_DESC"
+			history = "FTA_LOR_DESC"
 			ideology = ascension
 			ideas = {
 			}
@@ -81,10 +81,10 @@ bookmarks = {
 			}
 		}
 
-		"MPC" = {
+		"VRD" = {
 			minor = yes
-			history = "FTA_MPC_DESC"
-			ideology = ascension
+			history = "FTA_VRD_DESC"
+			ideology = apocalypse
 			ideas = {
 			}
 			focuses = {
