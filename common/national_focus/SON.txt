@@ -204,9 +204,16 @@ focus_tree = {
 			army_experience = 5
 		}
 	}
-	###Generic Industry###
-
-	###Generic War###
+	###Generic###
+    focus = {
+		id = son_bavarian_industry
+		icon = GFX_robotic_assisted_tools_medium
+		relative_position_id = son_heldback
+		cost = 30
+		x = 10
+		y = 3
+		completion_reward = { }
+	}
 
 	###Frundsberg###
     focus = {
