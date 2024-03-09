@@ -18,3 +18,9 @@ set_popularities = {
 	adaptation = 5
 	apocalypse = 0
 }
+create_faction = "Roman Imperium"
+
+ATH = {add_to_faction = BYN}
+ATH = {add_to_faction = BLU}
+ATH = {add_to_faction = LAT}
+ATH = {add_to_faction = CRO}
