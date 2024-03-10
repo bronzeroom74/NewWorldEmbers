@@ -1,0 +1,50 @@
+sub_units = {
+	fireteam_company = {
+		abbreviation = "FIT"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+		soft_attack = 0.05
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.04
+		can_be_parachuted = yes
+		
+		own_equipment_fuel_consumption_mult = 0.15 # no fuel use
+		
+		essential = {
+			heavy_support_equipment
+		}
+
+		need = {
+			heavy_support_equipment = 50
+		}
+
+	}
+}

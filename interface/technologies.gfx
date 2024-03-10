@@ -281,141 +281,284 @@ spriteTypes = {
 	}
 
 	## Support
-
-
-
-
-
-
-	###
-	## Artilery
-	### Basic Mortar
 	spriteType = {
-		name = GFX_basic_mortar_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	### Autocannon
-	spriteType = {
-		name = GFX_autocannon_equipment_1_medium
+		name = GFX_support_tech_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
 	}
 
 	spriteType = {
-		name = GFX_autocannon_equipment_2_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_autocannon_equipment_boost_1_medium
+		name = GFX_support_medical_1_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
 	spriteType = {
-		name = GFX_autocannon_equipment_boost_2_medium
+		name = GFX_support_medical_2_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
 	spriteType = {
-		name = GFX_autocannon_equipment_3_medium
+		name = GFX_support_medical_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_medical_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_medical_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_medical_6_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_recon_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_recon_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_recon_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_recon_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_recon_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_recon_6_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_heavy_support_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
 	}
 
 	spriteType = {
-		name = GFX_autocannon_equipment_boost_3_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_autocannon_equipment_boost_4_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_autocannon_equipment_4_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	### Howitzer
-	spriteType = {
-		name = GFX_howitzer_equipment_1_medium
+		name = GFX_sniper_support_1_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
 	}
 
 	spriteType = {
-		name = GFX_howitzer_equipment_2_medium
+		name = GFX_sniper_support_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_sniper_support_2_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
 	}
 
 	spriteType = {
-		name = GFX_howitzer_equipment_boost_1_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_howitzer_equipment_boost_2_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_howitzer_equipment_3_medium
+		name = GFX_sniper_support_3_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
 	}
 
 	spriteType = {
-		name = GFX_howitzer_equipment_boost_3_medium
+		name = GFX_sniper_support_boost_2_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
 	spriteType = {
-		name = GFX_howitzer_equipment_boost_4_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_howitzer_equipment_4_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	### Siege
-	spriteType = {
-		name = GFX_siege_artillery_equipment_1_medium
+		name = GFX_sniper_support_4_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
 	}
 
 	spriteType = {
-		name = GFX_siege_artillery_equipment_2_medium
+		name = GFX_fire_team_support_1_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
 	}
 
 	spriteType = {
-		name = GFX_siege_artillery_equipment_boost_1_medium
+		name = GFX_fire_support_boost_1_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
 	spriteType = {
-		name = GFX_siege_artillery_equipment_boost_2_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_siege_artillery_equipment_3_medium
+		name = GFX_fire_team_support_2_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
 	}
 
 	spriteType = {
-		name = GFX_siege_artillery_equipment_boost_3_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_siege_artillery_equipment_boost_4_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_siege_artillery_equipment_4_medium
+		name = GFX_fire_team_support_3_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_fire_support_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_fire_team_support_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_artillery_support_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_artillery_support_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_artillery_support_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_artillery_support_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_artillery_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_artillery_support_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_support_logistics_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_logistics_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_logistics_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_logistics_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_logistics_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_logistics_6_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_maintenance_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_maintenance_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_maintenance_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_maintenance_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_maintenance_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_maintenance_6_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_engineer_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_engineer_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_engineer_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_engineer_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_engineer_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_engineer_6_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_signal_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_signal_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_signal_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_signal_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_signal_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_signal_6_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
 	###
