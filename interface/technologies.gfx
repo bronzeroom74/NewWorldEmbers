@@ -1315,6 +1315,36 @@ spriteTypes = {
 		name = GFX_robotic_assisted_tools_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
+	#######
+	##Backgrounds
+	#######
+	spriteType = {
+		name = GFX_vehicles_techtree_bg
+		textureFile = gfx/interface/techtree/vehicles_techtree_bg.dds
+	}
+
+	spriteType = {
+		name = GFX_aircraft_techtree_bg
+		textureFile = gfx/interface/techtree/aircraft_techtree_bg.dds
+	}
+
+	spriteType = {
+		name = GFX_robots_techtree_bg
+		textureFile = gfx/interface/techtree/robots_techtree_bg.dds
+	}
+	#######
+	##Tabs
+	#######
+	spriteType = {
+		name = GFX_robots_folder_tab
+		textureFile = gfx/interface/techtree/robots_folder_tab.dds
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = GFX_vehicles_folder_tab
+		textureFile = gfx/interface/techtree/vehicles_folder_tab.dds
+		noOfFrames = 2
+	}
 }
 
 
