@@ -79,6 +79,9 @@ technology_folders = {
 	industry_folder = {
 		ledger = civilian
 	}
+	naval_folder = {
+		ledger = navy
+	}
 }
 
  

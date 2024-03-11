@@ -136,8 +136,8 @@ equipments = {
 
 		build_cost_ic = 3500
 		resources = {
-			#steel = 1
-			#chromium = 1
+			salvage = 1
+			refined_metals = 1
 		}
 
 		manpower = 4000
@@ -202,8 +202,8 @@ equipments = {
 		reliability = 0.65
 		build_cost_ic = 2600
 		resources = {
-			#steel = 1
-			#chromium = 1
+			salvage = 1
+			refined_metals = 1
 		}
 
 		manpower = 3200
@@ -359,9 +359,9 @@ equipments = {
 		naval_speed = 24
 		build_cost_ic = 3000
 		resources = {
-			##oil = 1
-			#steel = 1
-			#chromium = 1
+			energetics = 1
+			salvage = 1
+			refined_metals = 1
 		}
 
 		manpower = 5200
@@ -425,9 +425,9 @@ equipments = {
 
 		build_cost_ic = 3200
 		resources = {
-			##oil = 1
-			#steel = 1
-			#chromium = 1
+			energetics = 1
+			salvage = 1
+			refined_metals = 1
 		}
 
 		manpower = 6000
@@ -492,9 +492,9 @@ equipments = {
 		reliability = 0.95
 		build_cost_ic = 3400
 		resources = {
-			##oil = 1
-			#steel = 1
-			#chromium = 1
+			energetics = 1
+			salvage = 1
+			refined_metals = 1
 		}
 
 		manpower = 6000
@@ -591,8 +591,8 @@ equipments = {
 		reliability = 0.80
 		build_cost_ic = 5500
 		resources = {
-			#steel = 1
-			#chromium = 1
+			salvage = 1
+			refined_metals = 1
 		}
 		manpower = 9000
 	}
@@ -697,9 +697,9 @@ equipments = {
 
 		build_cost_ic = 5600
 		resources = {
-			##oil = 1
-			#steel = 3
-			#chromium = 1
+			energetics = 1
+			salvage = 3
+			refined_metals = 1
 		}
 
 		manpower = 6000
@@ -751,9 +751,9 @@ equipments = {
 
 		build_cost_ic = 5400
 		resources = {
-			##oil = 2
-			#steel = 4
-			#chromium = 1
+			energetics = 2
+			salvage = 4
+			refined_metals = 1
 		}
 		manpower = 6600
 
@@ -806,9 +806,9 @@ equipments = {
 
 		build_cost_ic = 5200
 		resources = {
-			##oil = 2
-			#steel = 4
-			#chromium = 2
+			energetics = 2
+			salvage = 4
+			refined_metals = 2
 		}
 		manpower = 7000
 
@@ -861,9 +861,9 @@ equipments = {
 
 		build_cost_ic = 6000
 		resources = {
-			##oil = 2
-			#steel = 5
-			#chromium = 3
+			energetics = 2
+			salvage = 5
+			refined_metals = 3
 		}
 		manpower = 7400
 
@@ -984,9 +984,9 @@ equipments = {
 
 		build_cost_ic = 8500
 		resources = {
-			##oil = 2
-			#steel = 4
-			#chromium = 1
+			energetics = 2
+			salvage = 4
+			refined_metals = 1
 		}
 		manpower = 9000
 	}
@@ -1107,9 +1107,9 @@ equipments = {
 
 		build_cost_ic = 13000
 		resources = {
-			##oil = 2
-			#steel = 5
-			#chromium = 3
+			energetics = 2
+			salvage = 5
+			refined_metals = 3
 		}
 		manpower = 10000
 
@@ -1161,9 +1161,9 @@ equipments = {
 
 		build_cost_ic = 2500
 		resources = {
-			##oil = 1
-			#steel = 3
-			#chromium = 1
+			energetics = 1
+			salvage = 3
+			refined_metals = 1
 		}
 
 		manpower = 3500
@@ -1216,9 +1216,9 @@ equipments = {
 
 		build_cost_ic = 4000
 		resources = {
-			##oil = 1
-			#steel = 4
-			#chromium = 1
+			energetics = 1
+			salvage = 4
+			refined_metals = 1
 		}
 		manpower = 4000
 	}
