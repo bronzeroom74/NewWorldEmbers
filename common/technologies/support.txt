@@ -1377,7 +1377,7 @@ technologies = {
 		}
 
 		dependencies = {
-			radio = 1
+			radio_1 = 1
 		}
 
 		research_cost = 2

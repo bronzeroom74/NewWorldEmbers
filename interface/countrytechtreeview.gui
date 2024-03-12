@@ -43,10 +43,79 @@ guiTypes = {
 			horizontalScrollbar = "bottom_horizontal_slider"
 			scroll_wheel_factor = 40
 
+
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
+
+				instantTextBoxType = {
+					name = "infantry_header"
+					position = { x = 30 y = 215 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "infantry_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "infantry_header_desc"
+				}
+				instantTextBoxType = {
+					name = "mil_tradition_header"
+					position = { x = 30 y = 15 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "mil_tradition_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "mil_tradition_header_desc"
+				}
+				instantTextBoxType = {
+					name = "grenadier_header"
+					position = { x = 30 y = 625 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "grenadier_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "grenadier_header_desc"
+				}
+
+				instantTextBoxType = {
+					name = "armor_header"
+					position = { x = 30 y = 835 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "armor_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "armor_header_desc"
+				}
+
+				instantTextBoxType = {
+					name = "stalker_header"
+					position = { x = 30 y = 1045 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "stalker_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "stalker_header_desc"
+				}
 
 			containerWindowType = {
 				name = "techtree_stripes"
@@ -299,6 +368,33 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
+				instantTextBoxType = {
+					name = "radio_header"
+					position = { x = 30 y = 155 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "radio_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "radio_header_desc"
+				}
+				instantTextBoxType = {
+					name = "computation_header"
+					position = { x = 665 y = 155 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "computation_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "computation_header_desc"
+				}
+
 			containerWindowType = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
@@ -340,6 +436,90 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
+
+				instantTextBoxType = {
+					name = "submarine_header"
+					position = { x = 30 y = 35 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "submarine_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "submarine_header_desc"
+				}
+
+				instantTextBoxType = {
+					name = "patrol_ship_header"
+					position = { x = 30 y = 175 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "patrol_ship_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "patrol_ship_header_desc"
+				}
+
+				instantTextBoxType = {
+					name = "light_ship_header"
+					position = { x = 30 y = 325 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "light_ship_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "light_ship_header_desc"
+				}
+
+				instantTextBoxType = {
+					name = "heavy_ship_header"
+					position = { x = 30 y = 475 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "heavy_ship_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "heavy_ship_header_desc"
+				}
+
+				instantTextBoxType = {
+					name = "carrier_header"
+					position = { x = 30 y = 630 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "carrier_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "carrier_header_desc"
+				}
+
+				instantTextBoxType = {
+					name = "transport_header"
+					position = { x = 30 y = 810 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "transport_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "transport_header_desc"
+				}
 
 #			containerWindowType = {
 #				name = "size_filler"
@@ -409,7 +589,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "transport_tree"
-				position = { x = 75 y = 760 }
+				position = { x = 75 y = 840 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -455,6 +635,48 @@ containerWindowType = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
+
+				instantTextBoxType = {
+					name = "construction_header"
+					position = { x = 0 y = 35 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "construction_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "construction_header_desc"
+				}
+
+				instantTextBoxType = {
+					name = "energy_header"
+					position = { x = 590 y = 35 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "energy_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "energy_header_desc"
+				}
+
+				instantTextBoxType = {
+					name = "production_header"
+					position = { x = 855 y = 35 }
+
+					font = "tech_font"
+					borderSize = { x = 0 y = 0 }
+					text = "production_header_title"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "production_header_desc"
+				}
 
 			containerWindowType = {
 				name = "techtree_stripes"
