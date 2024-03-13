@@ -1,0 +1,137 @@
+sub_units = {
+
+	light_mech = {
+		abbreviation = "LME"
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 2501
+		ai_priority = 2000
+		active = yes
+		
+		type = {
+			armor
+		}
+		
+		group = armor
+		
+		categories = {
+			category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+		}
+
+
+		combat_width = 2
+
+		need = {
+			light_mech_equipment = 60
+		}
+		manpower = 500
+		max_organisation = 10
+		default_morale = 0.3
+		training_time = 180
+		max_strength = 2
+		weight = 1
+		supply_consumption = 0.22
+
+		#Tanks are awesome
+		# soft_attack = 0.5
+
+		breakthrough = 0.15
+
+		suppression = 2.5
+
+		forest = {
+		    attack = -0.2
+			movement = -0.4
+		}
+		mountain = 	{
+		    attack = -0.1
+		}
+		jungle = {
+		    attack = -0.3
+			movement = -0.4
+		}
+		marsh = {
+		    attack = -0.1 
+			movement = -0.1
+		}
+		urban = {
+			attack = -0.4
+			defence = -0.1
+		}
+		river = { 
+			attack = -0.2 
+			movement = -0.2
+		}
+		amphibious = { 
+			attack = -0.4
+		}	
+	}
+
+	light_mech_artillery_brigade = {
+		abbreviation = "LAR"
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 1795
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			armor
+			artillery
+		}
+		
+		group = armor
+		
+		categories = {
+			category_all_armor
+			category_army
+		}		
+
+		combat_width = 3
+
+		need = {
+			light_mech_artillery_equipment = 50
+		}
+		manpower = 500
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0.6
+		training_time = 180
+		weight = 1
+		supply_consumption = 0.42
+
+		breakthrough = -0.42
+
+		suppression = 1.25
+
+		forest = {
+		    attack = -0.2
+			movement = -0.4
+		}
+		mountain = 	{
+		    attack = -0.1
+		}
+		jungle = {
+		    attack = -0.3
+			movement = -0.4
+		}
+		marsh = {
+		    attack = -0.1 
+			movement = -0.1
+		}
+		urban = {
+			attack = -0.4
+			defence = -0.1
+		}
+		river = { 
+			attack = -0.2 
+			movement = -0.2
+		}
+		amphibious = { 
+			attack = -0.6
+		}
+	}
+}

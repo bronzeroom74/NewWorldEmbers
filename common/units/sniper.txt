@@ -41,10 +41,12 @@ sub_units = {
 		
 		essential = {
 			heavy_support_equipment
+			sniper_support_equipment
 		}
 
 		need = {
 			heavy_support_equipment = 35
+			sniper_support_equipment = 25
 		}
 
 	}

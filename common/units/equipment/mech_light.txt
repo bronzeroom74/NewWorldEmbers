@@ -1,0 +1,214 @@
+# All equipment based on light tank chassis
+
+equipments = {
+
+	light_mech_equipment = {
+		year = 1934
+	
+		is_archetype = yes
+		is_buildable = no
+		is_convertable = yes
+		picture = archetype_light_mech_equipment			
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+
+
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 26
+		hardness = 0.8
+		armor_value = 10
+
+		#Offensive Abilities#
+		soft_attack = 13
+		hard_attack = 4
+		ap_attack = 10
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 10
+		
+		build_cost_ic = 8
+		resources = {
+			energetics = 1
+			salvage = 2
+		}
+
+		fuel_consumption = 2.4
+	}
+
+	light_mech_equipment_1 = {
+		year = 1914
+	
+		parent = light_mech_equipment
+		archetype = light_mech_equipment
+		priority = 5
+		visual_level = 0
+		
+		upgrades = {  # no upgrades for GW tank :'(
+		}
+
+		#Misc Abilities
+		maximum_speed = 6
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 18
+		armor_value = 5
+
+		#Offensive Abilities
+		soft_attack = 8
+		hard_attack = 4
+		ap_attack = 15
+		air_attack = 0
+
+		build_cost_ic = 7 #gw tanks are clunky
+		fuel_consumption = 1.0
+	}
+
+	light_mech_equipment_2 = {
+		year = 1934
+		
+		archetype = light_mech_equipment
+		parent = light_mech_equipment_1
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}
+
+	light_mech_equipment_3 = {
+		year = 1936
+		
+		archetype = light_mech_equipment
+		parent = light_mech_equipment_2
+		priority = 10
+		visual_level = 1
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 12
+
+		#Defensive Abilities
+		defense = 5
+		breakthrough = 36
+		armor_value = 15
+
+		#Offensive Abilities
+		soft_attack = 16
+		hard_attack = 6
+		ap_attack = 30
+		air_attack = 0		
+		
+		build_cost_ic = 9
+		resources = {
+			energetics = 1
+			salvage = 3
+		}
+	}
+
+	light_mech_equipment_4 = {
+		year = 1941
+	
+		archetype = light_mech_equipment
+		parent = light_mech_equipment_3
+		priority = 10
+		visual_level = 2
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 14
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 46
+		armor_value = 30
+
+		#Offensive Abilities
+		soft_attack = 22
+		hard_attack = 9
+		ap_attack = 50
+		air_attack = 0	
+		
+		build_cost_ic = 10 
+		resources = {
+			energetics = 2
+			salvage = 4
+		}
+	}
+
+	light_mech_artillery_equipment = {
+		year = 1934
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_light_mech_equipment					
+		is_buildable = no
+		family = light_mech_equipment
+		type = { 
+			armor
+			artillery
+		}
+		group_by = archetype
+
+		interface_category = interface_category_armor
+
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 2
+		hardness = 0.5
+		armor_value = 5
+
+		#Offensive Abilities
+		soft_attack = 34
+		hard_attack = 0.5
+		ap_attack = 4
+		air_attack = 0		
+		
+		build_cost_ic = 8
+		resources = {
+			energetics = 1
+			salvage = 2
+			refined_metals = 1
+		}
+		fuel_consumption = 1.2
+	}
+
+	light_mech_artillery_equipment_1 = {
+		year = 1941
+
+		parent = light_mech_artillery_equipment
+		archetype = light_mech_artillery_equipment
+		priority = 20
+		visual_level = 2
+		
+		#Misc Abilities
+		maximum_speed = 14
+
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 3.5
+		armor_value = 25
+
+		#Offensive Abilities
+		soft_attack = 46
+		hard_attack = 1.5
+		
+		build_cost_ic = 10
+		resources = {
+			salvage = 4
+			energetics = 2
+			refined_metals = 1
+		}
+	}
+}

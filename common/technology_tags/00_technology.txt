@@ -27,6 +27,7 @@ technology_categories = {
 	## Vehicles
 	motorized_equipment
 	armor
+	mech
 
 	## Robots
 

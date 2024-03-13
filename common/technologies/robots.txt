@@ -4,6 +4,10 @@ technologies = {
 			robotic_support_1
 		}
 
+		enable_subunits = {
+			robot_support
+		}
+
 		path = {
 			leads_to_tech = air_defense_robot_1
 			research_cost_coeff = 1
@@ -21,15 +25,8 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2266
 		folder = {
 			name = robots_folder
 			position = { x = 0 y = 0 }
@@ -49,20 +46,17 @@ technologies = {
 			air_defense_robot_1
 		}
 
+		enable_subunits = {
+			robot_aa_brigade
+		}
+
 		path = {
 			leads_to_tech = air_defense_robot_buff_1
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2268
 		folder = {
 			name = robots_folder
 			position = { x = -6 y = 2 }
@@ -83,15 +77,12 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		robot_aa_brigade = {
+			air_attack = 0.05
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2270
 		folder = {
 			name = robots_folder
 			position = { x = -6 y = 4 }
@@ -116,15 +107,8 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2272
 		folder = {
 			name = robots_folder
 			position = { x = -6 y = 6 }
@@ -145,15 +129,12 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		robot_aa_brigade = {
+			air_attack = 0.075
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2274
 		folder = {
 			name = robots_folder
 			position = { x = -6 y = 8 }
@@ -174,15 +155,12 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		robot_aa_brigade = {
+			air_attack = 0.1
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2276
 		folder = {
 			name = robots_folder
 			position = { x = -6 y = 10 }
@@ -206,15 +184,8 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2278
 		folder = {
 			name = robots_folder
 			position = { x = -6 y = 12 }
@@ -235,15 +206,13 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		robot_support = {
+			soft_attack = 0.025
+			entrenchment = 0.025
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2268
 		folder = {
 			name = robots_folder
 			position = { x = -2 y = 2 }
@@ -268,15 +237,8 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2270
 		folder = {
 			name = robots_folder
 			position = { x = -2 y = 4 }
@@ -297,15 +259,13 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		robot_support = {
+			soft_attack = 0.05
+			entrenchment = 0.05
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2272
 		folder = {
 			name = robots_folder
 			position = { x = -2 y = 6 }
@@ -326,15 +286,13 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		robot_support = {
+			soft_attack = 0.075
+			entrenchment = 0.075
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2274
 		folder = {
 			name = robots_folder
 			position = { x = -2 y = 8 }
@@ -359,15 +317,8 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2276
 		folder = {
 			name = robots_folder
 			position = { x = -2 y = 10 }
@@ -388,15 +339,13 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		robot_support = {
+			soft_attack = 0.1
+			entrenchment = 0.1
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2278
 		folder = {
 			name = robots_folder
 			position = { x = -2 y = 12 }
@@ -416,20 +365,16 @@ technologies = {
 			heavy_robotic_support_1
 		}
 
+		enable_subunits = {
+			robot_heavy
+		}
+
 		path = {
 			leads_to_tech = heavy_robotic_support_buff_1
 			research_cost_coeff = 1
-		}	
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
+		}
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2268
 		folder = {
 			name = robots_folder
 			position = { x = 2 y = 2 }
@@ -450,15 +395,13 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		robot_heavy = {
+			hard_attack = 0.05
+			breakthrough = 0.05
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2270
 		folder = {
 			name = robots_folder
 			position = { x = 2 y = 4 }
@@ -481,16 +424,8 @@ technologies = {
 			leads_to_tech = heavy_robotic_support_buff_2
 			research_cost_coeff = 1
 		}	
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2272
 		folder = {
 			name = robots_folder
 			position = { x = 2 y = 6 }
@@ -511,15 +446,13 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		robot_heavy = {
+			hard_attack = 0.075
+			breakthrough = 0.075
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2274
 		folder = {
 			name = robots_folder
 			position = { x = 2 y = 8 }
@@ -540,15 +473,13 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		robot_heavy = {
+			hard_attack = 0.1
+			breakthrough = 0.1
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2276
 		folder = {
 			name = robots_folder
 			position = { x = 2 y = 10 }
@@ -572,16 +503,8 @@ technologies = {
 			leads_to_tech = robot_commando_1
 			research_cost_coeff = 1
 		}	
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2278
 		folder = {
 			name = robots_folder
 			position = { x = 2 y = 12 }
@@ -600,20 +523,15 @@ technologies = {
 		enable_equipments = {
 			tank_hunters_robot_1
 		}
+		enable_subunits = {
+			robot_at_brigade
+		}
 		path = {
 			leads_to_tech = tank_hunters_robot_buff_1
 			research_cost_coeff = 1
 		}	
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2268
 		folder = {
 			name = robots_folder
 			position = { x = 6 y = 2 }
@@ -634,15 +552,12 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		robot_at_brigade = {
+			ap_attack = 0.05
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2270
 		folder = {
 			name = robots_folder
 			position = { x = 6 y = 4 }
@@ -666,16 +581,8 @@ technologies = {
 			leads_to_tech = tank_hunters_robot_buff_2
 			research_cost_coeff = 1
 		}	
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2272
 		folder = {
 			name = robots_folder
 			position = { x = 6 y = 6 }
@@ -696,15 +603,12 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		robot_at_brigade = {
+			ap_attack = 0.075
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2274
 		folder = {
 			name = robots_folder
 			position = { x = 6 y = 8 }
@@ -725,15 +629,12 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
+		robot_at_brigade = {
+			ap_attack = 0.1
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2276
 		folder = {
 			name = robots_folder
 			position = { x = 6 y = 10 }
@@ -757,16 +658,8 @@ technologies = {
 			leads_to_tech = robot_commando_1
 			research_cost_coeff = 1
 		}	
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2278
 		folder = {
 			name = robots_folder
 			position = { x = 6 y = 12 }
@@ -791,15 +684,8 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2280
 		folder = {
 			name = robots_folder
 			position = { x = 0 y = 15 }
@@ -819,15 +705,8 @@ technologies = {
 			robot_commando_2
 		}
 
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}	
-
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2280
 		folder = {
 			name = robots_folder
 			position = { x = 0 y = 17 }

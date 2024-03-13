@@ -246,7 +246,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "advanced_warfare_tree"
-				position = { x = 700 y = 100 }
+				position = { x = 1000 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
@@ -326,28 +326,35 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "basic_aeronautics_tree"
-				position = { x = 750 y = 100 } #785 100
+				position = { x = 1075 y = 100 } #785 100
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "improved_aeronautics_tree"
+				position = { x = 1075 y = 385 } #785 100
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 
 			gridboxtype = {
 				name = "advanced_aeronautics_tree"
-				position = { x = 750 y = 650 }
+				position = { x = 1075 y = 650 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 
 			gridboxtype = {
 				name = "interceptor_1_tree"
-				position = { x = 400 y = 100 }
+				position = { x = 500 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 
 			gridboxtype = {
 				name = "combat_bimp_1_tree"
-				position = { x = 1100 y = 100 }
+				position = { x = 1500 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}

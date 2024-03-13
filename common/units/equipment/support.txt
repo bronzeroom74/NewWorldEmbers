@@ -67,10 +67,36 @@ equipments = {
 		priority = 20
 	}
 
+	autocannon_equipment = {
+		year = 2266
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			support
+		}
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.43
+		resources = {
+			refined_metals = 2
+			polymers = 1
+			salvage = 2
+		}
+	}
+
 	autocannon_equipment_1 = {
 		year = 2266
 
-		archetype = heavy_support_equipment
+		parent = autocannon_equipment
+		archetype = autocannon_equipment
 		priority = 10
 		visual_level = 1
 
@@ -102,7 +128,8 @@ equipments = {
 	autocannon_equipment_2 = {
 		year = 2269
 
-		archetype = heavy_support_equipment
+		parent = autocannon_equipment_1
+		archetype = autocannon_equipment
 		priority = 10
 		visual_level = 1
 
@@ -122,7 +149,8 @@ equipments = {
 	autocannon_equipment_3 = {
 		year = 2272
 
-		archetype = heavy_support_equipment
+		parent = autocannon_equipment_2
+		archetype = autocannon_equipment
 		priority = 10
 		visual_level = 1
 
@@ -147,7 +175,8 @@ equipments = {
 	autocannon_equipment_4 = {
 		year = 2275
 
-		archetype = heavy_support_equipment
+		parent = autocannon_equipment_3
+		archetype = autocannon_equipment
 		priority = 10
 		visual_level = 1
 
@@ -169,10 +198,35 @@ equipments = {
 		}
 	}
 
+	sniper_support_equipment = {
+		year = 2266
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			support
+		}
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.43
+		resources = {
+			polymers = 2
+			salvage = 2
+		}
+	}
+
 	sniper_support_equipment_1 = {
 		year = 2266
 
-		archetype = heavy_support_equipment
+		parent = sniper_support_equipment
+		archetype = sniper_support_equipment
 		priority = 10
 		visual_level = 1
 
@@ -201,7 +255,8 @@ equipments = {
 	sniper_support_equipment_2 = {
 		year = 2269
 
-		archetype = heavy_support_equipment
+		parent = sniper_support_equipment_1
+		archetype = sniper_support_equipment
 		priority = 10
 		visual_level = 1
 
@@ -220,7 +275,8 @@ equipments = {
 	sniper_support_equipment_3 = {
 		year = 2272
 
-		archetype = heavy_support_equipment
+		parent = sniper_support_equipment_2
+		archetype = sniper_support_equipment
 		priority = 10
 		visual_level = 1
 
@@ -243,7 +299,8 @@ equipments = {
 	sniper_support_equipment_4 = {
 		year = 2275
 
-		archetype = heavy_support_equipment
+		parent = sniper_support_equipment_3
+		archetype = sniper_support_equipment
 		priority = 10
 		visual_level = 1
 
@@ -302,6 +359,7 @@ equipments = {
 	basic_mortar_equipment = {
 		year = 2266
 
+		parent = howitzer_equipment
 		archetype = howitzer_equipment
 		priority = 10
 		visual_level = 1
@@ -321,6 +379,7 @@ equipments = {
 	howitzer_equipment_1 = {
 		year = 2269
 
+		parent = basic_mortar_equipment
 		archetype = howitzer_equipment
 		priority = 10
 		visual_level = 1
@@ -344,6 +403,7 @@ equipments = {
 	howitzer_equipment_2 = {
 		year = 2272
 
+		parent = howitzer_equipment_1
 		archetype = howitzer_equipment
 		priority = 10
 		visual_level = 1
@@ -367,6 +427,7 @@ equipments = {
 	howitzer_equipment_3 = {
 		year = 2275
 
+		parent = howitzer_equipment_2
 		archetype = howitzer_equipment
 		priority = 10
 		visual_level = 1
