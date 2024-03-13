@@ -13,7 +13,7 @@ sub_units = {
 			support
 		}
 
-		group = armor
+		group = support
 
 		categories = {
 			category_front_line
@@ -184,10 +184,9 @@ sub_units = {
 		type = {
 			armor
 			flame
-			support
 		}
 
-		group = support
+		group = armor
 		
 		battalion_mult = {
 			category = category_all_infantry
