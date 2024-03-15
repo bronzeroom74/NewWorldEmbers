@@ -4,8 +4,8 @@ state = {
 	name = "STATE_874"
 
 	history = {
-		owner = SWI
-		add_core_of = SWI
+		owner = INQ
+		add_core_of = INQ
 		buildings = {
 			infrastructure = 3
 			4439 = {
@@ -15,19 +15,19 @@ state = {
 
 		}
 		victory_points = {
-			4439 20 
+			4439 20
 		}
 		victory_points = {
-			14861 5 
+			14861 5
 		}
 		victory_points = {
-			5202 2 
+			5202 2
 		}
 
 	}
 
 	provinces = {
-		3718 4439 5202 6516 14795 14826 14846 14861 19730 
+		3718 4439 5202 6516 14795 14826 14846 14861 19730
 	}
 	manpower = 58250
 	buildings_max_level_factor = 1.000

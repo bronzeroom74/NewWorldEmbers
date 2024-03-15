@@ -361,3 +361,7 @@ KER = {
 	color = rgb { 13 94 175 }
 	color_ui = rgb { 13 94 175 }
 }
+INQ = {
+	color = rgb { 95 32 25 }
+	color_ui = rgb { 95 32 25 }
+}
