@@ -1,4 +1,4 @@
-﻿capital = 2003
+﻿capital = 830
 
 set_research_slots = 3
 
@@ -18,3 +18,5 @@ set_popularities = {
 	adaptation = 5
 	apocalypse = 10
 }
+
+recruit_character = INQ_leader
