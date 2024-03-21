@@ -1733,6 +1733,24 @@ spriteTypes = {
 		textureFile = gfx/interface/techtree/vehicles_folder_tab.dds
 		noOfFrames = 2
 	}
+	#######
+	##Custom
+	#######
+	spriteType = {
+		name = GFX_STR_energy_infantry_equipment_1_medium
+		textureFile = gfx/interface/technologies/unique/STR/STR_energy_infantry_equipment_1.dds
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = GFX_STR_energy_infantry_equipment_2_medium
+		textureFile = gfx/interface/technologies/unique/STR/STR_energy_infantry_equipment_2.dds
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = GFX_STR_energy_infantry_equipment_3_medium
+		textureFile = gfx/interface/technologies/unique/STR/STR_energy_infantry_equipment_3.dds
+		alwaystransparent = yes
+	}
 }
 
 

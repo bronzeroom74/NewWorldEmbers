@@ -83,6 +83,18 @@ technology_folders = {
 	naval_folder = {
 		ledger = navy
 	}
+	land_doctrine_folder = {
+		ledger = army
+		doctrine = yes
+	}
+	naval_doctrine_folder = {
+		ledger = navy
+		doctrine = yes
+	}
+	air_doctrine_folder = {
+		ledger = air
+		doctrine = yes
+	}
 }
 
  
