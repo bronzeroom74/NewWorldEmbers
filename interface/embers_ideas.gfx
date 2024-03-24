@@ -94,4 +94,9 @@ spriteTypes = {
 		name = "GFX_idea_CHU_teachings"
 		texturefile = "gfx/interface/ideas/chu_teachings.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_FOT_apothecaries"
+		texturefile = "gfx/interface/ideas/fot_apothecaries.dds"
+	}
 }
