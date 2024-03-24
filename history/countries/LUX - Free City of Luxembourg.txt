@@ -1,23 +1,40 @@
 ﻿capital = 512
 
+oob = "LUX_templates"
+
 set_research_slots = 3
 
 set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
 }
 
 set_politics = {
-	ruling_party = ascension
+	ruling_party = adaptation
 	last_election = "2265.1.1"
 	elections_allowed = no
 }
 
 set_popularities = {
-	ascension = 75
+	ascension = 15
 	aggression = 10
-	absolution = 10
-	adaptation = 5
-	apocalypse = 0
+	absolution = 15
+	adaptation = 55
+	apocalypse = 5
 }
 
-recruit_character = LUX_grand_duke
+recruit_character = LUX_Duke
+recruit_character = LUX_gruber
+recruit_character = LUX_council
 
+
+	set_autonomy = {
+		target = WAL
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.4
+	}

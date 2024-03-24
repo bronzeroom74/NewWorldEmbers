@@ -1,0 +1,77 @@
+leader_traits = {
+	##################################
+	# Race Traits
+	##################################
+
+	UnspecifiedMutant_race_trait = {
+		type = all
+		trait_type = status_trait
+
+		modifier = {
+			own_operative_detection_chance_factor = 0.1
+			operation_outcome = -0.1
+			operation_cost = 0.1
+		}
+
+		new_commander_weight = { factor = 0 }
+	}
+
+	Vulpine_race_trait = {
+		type = all
+		trait_type = status_trait
+
+		modifier = {
+			own_operative_detection_chance_factor = 0.1
+			operation_outcome = -0.1
+			operation_cost = 0.1
+			recon_factor = 0.05
+			max_planning = 0.15
+		}
+
+		new_commander_weight = { factor = 0 }
+	}
+
+	Human_race_trait = {
+		type = all
+		trait_type = status_trait
+
+		modifier = {
+			own_operative_detection_chance_factor = 0.1
+			operation_outcome = -0.1
+			operation_cost = 0.1
+		}
+
+		new_commander_weight = { factor = 0 }
+	}
+
+	RoyalFamily_trait = {
+		type = all
+		trait_type = status_trait
+
+		modifier = {
+			own_operative_detection_chance_factor = 0.1
+			operation_outcome = -0.1
+			operation_cost = 0.1
+			max_planning = 0.15
+			planning_speed = 0.2
+			army_morale_factor = 0.03
+			land_reinforce_rate = 0.03
+			army_org_factor = 0.07
+		}
+
+		new_commander_weight = { factor = 0 }
+	}
+	
+	bleeding_heart = {
+		type = all
+		trait_type = personality_trait
+
+		modifier = {
+			attrition = -0.1
+			experience_loss_factor = -0.05
+		}
+
+		new_commander_weight = { factor = 0.4 }
+	}
+
+}

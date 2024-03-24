@@ -1,0 +1,750 @@
+focus_tree = {
+	id = LUX_nf
+	country = {
+		factor= 0
+		modifier = {
+			add = 50
+			tag = LUX
+		}
+	}
+
+	#Starting Focuses
+	focus = {
+		id = LUX_TheNewYear
+		icon = GFX_propaganda_bg
+		cost = 1
+		x = 12
+		y = 17
+		completion_reward = {	country_event = { id = nf_vrd.1 }	}
+		ai_will_do = {	factor = 100  }
+	}
+
+	focus = {
+		id = LUX_NewProblems
+		icon = hGFX_idea_ROM_gheorghe_potopeanu
+		cost = 7
+		x = 0
+		y = 3
+		prerequisite = { focus = LUX_TheNewYear }
+		relative_position_id = LUX_TheNewYear
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	#Military
+	focus = {
+		id = LUX_ArmyProblems
+		icon = GFX_mio_policy_cutting_corners
+		cost = 7
+		x = -16
+		y = 4
+		prerequisite = { focus = LUX_NewProblems }
+		relative_position_id = LUX_TheNewYear
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_Army1ReplenishingNCOCorp
+		icon = GFX_idea_nepotism_academy_spirit
+		cost = 7
+		x = -2
+		y = 2
+		prerequisite = { focus = LUX_ArmyProblems }
+		relative_position_id = LUX_ArmyProblems
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_Army2ReassessingInfantryTactics
+		icon = GFX_idea_rigid_bureaucracy_spirit
+		cost = 7
+		x = 2
+		y = 2
+		prerequisite = { focus = LUX_ArmyProblems }
+		relative_position_id = LUX_ArmyProblems
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_Army3ReviewDoctrine
+		icon = GFX_idea_relief_of_command_spirit
+		cost = 7
+		x = 0
+		y = 4
+		prerequisite = { focus = LUX_Army1ReplenishingNCOCorp focus = LUX_Army2ReassessingInfantryTactics }
+		relative_position_id = LUX_ArmyProblems
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	###DoctrineSelection
+
+	focus = {
+		id = LUX_ArmyDoctrineRecklessAttack1
+		icon = GFX_human_wave_offensive_medium
+		cost = 7
+		x = -8
+		y = 2
+		mutually_exclusive = { focus =  LUX_ArmyDoctrineCarefulPlanning1 focus =  LUX_ArmyDoctrineMobility1 focus =  LUX_ArmyDoctrineFireSupremacy1 }
+		prerequisite = { focus = LUX_Army3ReviewDoctrine }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineRecklessAttack2
+		icon = GFX_idea_constraining_hierarchy_spirit
+		cost = 7
+		x = -13
+		y = 3
+		prerequisite = { focus = LUX_ArmyDoctrineRecklessAttack1 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineRecklessAttack3
+		icon = GFX_idea_operational_reserve_spirit
+		cost = 7
+		x = -13
+		y = 5
+		prerequisite = { focus = LUX_ArmyDoctrineRecklessAttack2 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineRecklessAttack4
+		icon = GFX_idea_operational_reserve_spirit
+		cost = 7
+		x = -10
+		y = 5
+		prerequisite = { focus = LUX_ArmyDoctrineRecklessAttack3 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineRecklessAttack5
+		icon = GFX_idea_operational_reserve_spirit
+		cost = 7
+		x = -13
+		y = 0
+		prerequisite = { focus = LUX_ArmyDoctrineRecklessAttack3 focus = LUX_ArmyDoctrineRecklessAttack2 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineRecklessAttack6
+		icon = GFX_idea_disregard_for_the_common_soldier_spirit
+		cost = 7
+		x = -10
+		y = 0
+		prerequisite = { focus = LUX_ArmyDoctrineRecklessAttack5 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineCarefulPlanning1
+		icon = GFX_attritional_containment_medium
+		cost = 7
+		x = -8
+		y = -12
+		mutually_exclusive = { focus =  LUX_ArmyDoctrineMobility1 focus =  LUX_ArmyDoctrineRecklessAttack1 focus =  LUX_ArmyDoctrineFireSupremacy1 }
+		prerequisite = { focus = LUX_Army3ReviewDoctrine }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineCarefulPlanning2
+		icon = GFX_idea_logistical_focus_spirit
+		cost = 7
+		x = -13
+		y = -12
+		prerequisite = { focus = LUX_ArmyDoctrineCarefulPlanning1 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineCarefulPlanning3
+		icon = GFX_idea_elevated_engineering_corps_spirit
+		cost = 7
+		x = -13
+		y = -10
+		prerequisite = { focus = LUX_ArmyDoctrineCarefulPlanning2 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineCarefulPlanning4
+		icon = GFX_idea_intercommand_rivalries_spirit
+		cost = 7
+		x = -10
+		y = -10
+		prerequisite = { focus = LUX_ArmyDoctrineCarefulPlanning3 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineCarefulPlanning5
+		icon = GFX_idea_elevated_engineering_corps_spirit
+		cost = 7
+		x = -13
+		y = -14
+		prerequisite = { focus = LUX_ArmyDoctrineCarefulPlanning3 focus = LUX_ArmyDoctrineCarefulPlanning2 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineCarefulPlanning6
+		icon = GFX_idea_operational_reserve_spirit
+		cost = 7
+		x = -10
+		y = -14
+		prerequisite = { focus = LUX_ArmyDoctrineCarefulPlanning5 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	
+	focus = {
+		id = LUX_ArmyDoctrineFireSupremacy1
+		icon = GFX_centralized_fire_control_medium
+		cost = 7
+		x = -8
+		y = -5
+		mutually_exclusive = { focus =  LUX_ArmyDoctrineCarefulPlanning1 focus =  LUX_ArmyDoctrineRecklessAttack1 focus =  LUX_ArmyDoctrineMobility1 }
+		prerequisite = { focus = LUX_Army3ReviewDoctrine }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineFireSupremacy2
+		icon = GFX_idea_reserve_officers_spirit
+		cost = 7
+		x = -13
+		y = -5
+		prerequisite = { focus = LUX_ArmyDoctrineFireSupremacy1 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineFireSupremacy3
+		icon = GFX_idea_smoke_and_fire_spirit
+		cost = 7
+		x = -13
+		y = -7
+		prerequisite = { focus = LUX_ArmyDoctrineFireSupremacy2 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineFireSupremacy4
+		icon = GFX_idea_operational_reserve_spirit
+		cost = 7
+		x = -10
+		y = -7
+		prerequisite = { focus = LUX_ArmyDoctrineFireSupremacy3 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineFireSupremacy5
+		icon = GFX_idea_operational_reserve_spirit
+		cost = 7
+		x = -13
+		y = -3
+		prerequisite = { focus = LUX_ArmyDoctrineFireSupremacy3 focus = LUX_ArmyDoctrineFireSupremacy2 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineFireSupremacy6
+		icon = GFX_idea_heritage_of_accomplishment
+		cost = 7
+		x = -10
+		y = -3
+		prerequisite = { focus = LUX_ArmyDoctrineFireSupremacy5 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineMobility1
+		icon = GFX_deep_operations_medium
+		cost = 7
+		x = -8
+		y = 9
+		mutually_exclusive = { focus =  LUX_ArmyDoctrineCarefulPlanning1 focus =  LUX_ArmyDoctrineRecklessAttack1 focus =  LUX_ArmyDoctrineFireSupremacy1 }
+		prerequisite = { focus = LUX_Army3ReviewDoctrine }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineMobility2
+		icon = GFX_idea_operational_reserve_spirit
+		cost = 7
+		x = -13
+		y = 9
+		prerequisite = { focus = LUX_ArmyDoctrineMobility1 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineMobility3
+		icon = GFX_idea_disdain_for_the_digging_spirit
+		cost = 7
+		x = -13
+		y = 7
+		prerequisite = { focus = LUX_ArmyDoctrineMobility2 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineMobility4
+		icon = GFX_idea_upbeat_command_spirit
+		cost = 7
+		x = -10
+		y = 7
+		prerequisite = { focus = LUX_ArmyDoctrineMobility3 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineMobility5
+		icon = GFX_idea_flexible_organization_spirit
+		cost = 7
+		x = -13
+		y = 11
+		prerequisite = { focus = LUX_ArmyDoctrineMobility3 focus = LUX_ArmyDoctrineMobility2 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_ArmyDoctrineMobility6
+		icon = GFX_idea_aggressive_reconnaisance_spirit
+		cost = 7
+		x = -10
+		y = 11
+		prerequisite = { focus = LUX_ArmyDoctrineMobility5 }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	###Post-Doctrine Review
+	
+	focus = {
+		id = LUX_Army4OrganizeDraftForCadetProgram
+		icon = GFX_idea_upbeat_command_spirit
+		cost = 7
+		x = 0
+		y = 2
+		prerequisite = { focus = LUX_Army3ReviewDoctrine  }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	add_manpower = 600	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	focus = {
+		id = LUX_Army5RememberTrenchRaiders
+		icon = GFX_idea_operational_reserve_spirit
+		cost = 7
+		x = -3
+		y = 4
+		prerequisite = { focus = LUX_Army4OrganizeDraftForCadetProgram  }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	army_experience = 25	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	focus = {
+		id = LUX_Army6InstillControlledAggression
+		icon = GFX_idea_aggressive_reconnaisance_spirit
+		cost = 7
+		x = 0
+		y = 4
+		prerequisite = { focus = LUX_Army4OrganizeDraftForCadetProgram  }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	add_ideas =		}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	focus = {
+		id = LUX_Army7ImproveServiceWeapons
+		icon = GFX_idea_logistical_focus_spirit
+		cost = 7
+		x = 3
+		y = 4
+		prerequisite = { focus = LUX_Army4OrganizeDraftForCadetProgram  }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+	}
+
+	
+	focus = {
+		id = LUX_Army8OldWorldTacticsNewWorldGrit
+		icon = GFX_idea_smoke_and_fire_spirit
+		cost = 7
+		x = -5
+		y = 6
+		prerequisite = { focus = LUX_Army5RememberTrenchRaiders  }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	focus = {
+		id = LUX_Army9CloseCombatDrill
+		icon = GFX_idea_operational_reserve_spirit
+		cost = 7
+		x = -2
+		y = 6
+		prerequisite = { focus = LUX_Army5RememberTrenchRaiders	focus = LUX_Army6InstillControlledAggression  }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	focus = {
+		id = LUX_Army10MarksmanshipDrills
+		icon = GFX_idea_operational_reserve_spirit
+		cost = 7
+		x = 2
+		y = 6
+		prerequisite = { focus = LUX_Army7ImproveServiceWeapons	focus = LUX_Army6InstillControlledAggression  }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus LUX_Army10MarksmanshipDrills"
+		army_experience = 10
+		add_tech_bonus = {
+			name = infantry_bonus
+			bonus = 0.4
+			uses = 1
+			category = ballistic_weapon_tech
+			category = energy_weapon_tech
+		}
+	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	focus = {
+		id = LUX_Army11WastelandWeaponFamiliarity
+		icon = GFX_idea_operational_reserve_spirit
+		cost = 7
+		x = 5
+		y = 6
+		prerequisite = { focus = LUX_Army7ImproveServiceWeapons  }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	focus = {
+		id = LUX_Army12UpdatingVRTrainingPods
+		icon = GFX_advanced_computing_machine_medium
+		cost = 7
+		x = -4
+		y = 9
+		prerequisite = { focus = LUX_Army11WastelandWeaponFamiliarity  }
+		prerequisite = { focus = LUX_Army10MarksmanshipDrills  }
+		prerequisite = { focus = LUX_Army9CloseCombatDrill  }
+		prerequisite = { focus = LUX_Army8OldWorldTacticsNewWorldGrit  }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	army_experience = 20	}
+		
+		ai_will_do = {	factor = 120  }
+	}
+	
+	###VRPodUpgrades
+	
+	focus = {
+		id = LUX_RefurbishingSpecialistTrainingPrograms
+		icon = GFX_regimental_combat_teams_medium
+		cost = 7
+		x = -4
+		y = 12
+		prerequisite = { focus = LUX_Army12UpdatingVRTrainingPods  }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	army_experience = 45	navy_experience = 45 air_experience = 45	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+##Air
+	focus = {
+		id = LUX_AirVR1
+		icon = GFX_formation_flying_medium
+		cost = 7
+		x = -4
+		y = 1
+		prerequisite = { focus = LUX_RefurbishingSpecialistTrainingPrograms  }
+		relative_position_id = LUX_RefurbishingSpecialistTrainingPrograms
+		completion_reward = { air_experience = 45	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	focus = {
+		id = LUX_AirVR2
+		icon = GFX_fighter_sweeps_medium
+		cost = 7
+		x = -7
+		y = 2
+		prerequisite = { focus = LUX_AirVR1  }
+		relative_position_id = LUX_RefurbishingSpecialistTrainingPrograms
+		completion_reward = { air_experience = 45	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	focus = {
+		id = LUX_AirVR3
+		icon = GFX_hunt_and_destroy_medium
+		cost = 7
+		x = -10
+		y = 3
+		prerequisite = { focus = LUX_AirVR2  }
+		relative_position_id = LUX_RefurbishingSpecialistTrainingPrograms
+		completion_reward = { air_experience = 45	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+###Naval
+
+	focus = {
+		id = LUX_NavyVR1
+		icon = GFX_convoy_sailing_medium
+		cost = 7
+		x = -2
+		y = 2
+		prerequisite = { focus = LUX_RefurbishingSpecialistTrainingPrograms  }
+		relative_position_id = LUX_RefurbishingSpecialistTrainingPrograms
+		completion_reward = { navy_experience = 45	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	focus = {
+		id = LUX_NavyVR2
+		icon = GFX_convoy_escorts_bs_medium
+		cost = 7
+		x = -5
+		y = 3
+		prerequisite = { focus = LUX_NavyVR1  }
+		relative_position_id = LUX_RefurbishingSpecialistTrainingPrograms
+		completion_reward = { navy_experience = 45	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_NavyVR3
+		icon = GFX_battlefleet_concentration_medium
+		cost = 7
+		x = -8
+		y = 4
+		prerequisite = { focus = LUX_NavyVR2  }
+		relative_position_id = LUX_RefurbishingSpecialistTrainingPrograms
+		completion_reward = { navy_experience = 45	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+###SpecialForces
+
+	focus = {
+		id = LUX_SFVR1
+		icon = GFX_rangers_medium
+		cost = 7
+		x = 0
+		y = 3
+		prerequisite = { focus = LUX_RefurbishingSpecialistTrainingPrograms  }
+		relative_position_id = LUX_RefurbishingSpecialistTrainingPrograms
+		completion_reward = { army_experience = 45	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	focus = {
+		id = LUX_SFVR2
+		icon = GFX_mountaineers_keystone_1_medium
+		cost = 7
+		x = -3
+		y = 4
+		prerequisite = { focus = LUX_SFVR1  }
+		relative_position_id = LUX_RefurbishingSpecialistTrainingPrograms
+		completion_reward = { army_experience = 45	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	
+	focus = {
+		id = LUX_SFVR3
+		icon = GFX_mountaineers_combat_3_medium
+		cost = 7
+		x = -6
+		y = 5
+		prerequisite = { focus = LUX_SFVR2  }
+		relative_position_id = LUX_RefurbishingSpecialistTrainingPrograms
+		completion_reward = { navy_experience = 45	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	focus = {
+		id = LUX_CoordinationVR1
+		icon = GFX_c3i_theory_medium
+		cost = 7
+		x = -10
+		y = 5
+		prerequisite = { focus = LUX_AirVR3  }
+		prerequisite = { focus = LUX_NavyVR3  }
+
+		relative_position_id = LUX_RefurbishingSpecialistTrainingPrograms
+		completion_reward = { navy_experience = 15 air_experience = 15 army_experience = 5	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	###VR Trained Trainers
+
+	focus = {
+		id = LUX_TrainerVR1
+		icon = GFX_mountaineers_keystone_2_medium
+		cost = 7
+		x = -8
+		y = 7
+		prerequisite = { focus = LUX_CoordinationVR1  }
+		prerequisite = { focus = LUX_SFVR3  }
+		relative_position_id = LUX_RefurbishingSpecialistTrainingPrograms
+		completion_reward = { navy_experience = 20 air_experience = 20 army_experience = 20 add_idea =	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+	#EndVRPodUpgrades
+
+	focus = {
+		id = LUX_Army13NewArmyNewWorld
+		icon = GFX_peoples_army_medium
+		cost = 7
+		x = 0
+		y = 10
+		prerequisite = { focus = LUX_Army11WastelandWeaponFamiliarity  }
+		prerequisite = { focus = LUX_Army10MarksmanshipDrills  }
+		prerequisite = { focus = LUX_Army9CloseCombatDrill  }
+		prerequisite = { focus = LUX_Army8OldWorldTacticsNewWorldGrit  }
+		relative_position_id = LUX_Army3ReviewDoctrine
+		completion_reward = {	army_experience = 45	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	#Civilian
+	focus = {
+		id = LUX_CivilianProblems
+		icon = GFX_turning_back_the_clock
+		cost = 7
+		x = -4
+		y = 4
+		prerequisite = { focus = LUX_NewProblems }
+		relative_position_id = LUX_TheNewYear
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 100  }
+	}
+
+	#Local/Internal Politics	
+	focus = {
+		id = LUX_PoliticalProblems
+		icon = GFX_turning_back_the_clock
+		cost = 7
+		x = 8
+		y = 4
+		prerequisite = { focus = LUX_NewProblems }
+		relative_position_id = LUX_TheNewYear
+		completion_reward = {	}
+		
+		ai_will_do = {	factor = 90  }
+	}
+
+}

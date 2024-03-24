@@ -1,0 +1,23 @@
+objectTypes = {
+
+
+	
+	pdxmesh = {
+		name = "LUX_mechanized_mesh"
+		file = "gfx/models/units/LUX/LUXMechanized.mesh"
+		
+		animation = { id = "idle"			type = "US_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "US_mechanized_01_move_animation" }
+		animation = { id = "attack"			type = "US_mechanized_01_attack_animation" }
+	}
+	
+	pdxmesh = {
+		name = "LUX_motorized_mesh"
+		file = "gfx/models/units/LUX/LUXMotorized.mesh"
+		
+		animation = { id = "idle"			type = "US_motorized_01_idle_animation" }
+		animation = { id = "move"			type = "US_motorized_01_move_animation" }
+	}
+
+	
+}

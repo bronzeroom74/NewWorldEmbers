@@ -1,4 +1,82 @@
 characters = {
+	LUX_Duke = {
+		name = LUX_Duke_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LUX/portrait_lux_grand_duke.dds"
+			}
+			army = {
+				large = "gfx/leaders/LUX/portrait_lux_grand_duke.dds"
+			}
+		}
+		country_leader = {
+		ideology = wasteland_community
+		traits = { }
+		expire = "2300.1.1.1"
+		id = -1
+		}
+		field_marshal = {
+			traits={ career_officer brilliant_strategist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor={
+			slot = army_chief
+			idea_token = 
+			allowed = {
+				original_tag = LUX
+			}
+			traits = {
+				army_chief_planning_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	LUX_gruber = {
+		name = LUX_gruber_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BER/portrait_gruber.dds"
+			}
+			army = {
+				large = "gfx/leaders/BER/portrait_gruber.dds"
+			}
+		}
+		country_leader = {
+			ideology = wasteland_community
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	LUX_council = {
+		name = LUX_council_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/generic/Council1.dds"
+			}
+		}
+		country_leader = {
+			ideology = classic_absolutionists
+			traits = { }
+			expire = "2300.1.1.1"
+			id = -1
+		}
+	}
 	LUX_grand_duke = {
 		name = LUX_grand_duke_name
 		portraits = {

@@ -1,0 +1,78 @@
+﻿l_english: 
+
+##################
+### FOCUS TREE ###
+##################
+
+  LUX_our_city:0 ""
+  LUX_our_city_desc:0 ""
+
+
+
+
+
+
+
+
+
+
+
+
+#######################
+### Custom Tooltips ###
+#######################
+
+ 
+#################
+### Decisions ###
+#################
+
+
+#############
+### Ideas ###
+#############
+  
+
+
+
+
+
+
+
+### Advisors ###
+
+######################
+###     Events     ###
+######################
+Roam.1.t:0 ""
+Roam.1.d:0 ""
+Roam.1.a:0 ""
+
+
+##################
+### Characters ###
+##################
+
+############
+### Misc ###
+############
+
+### Leader Description
+
+LUX_Duke_name:0 "Grand Duke Leto of Luxembourg"
+LUX_Duke_name_DESC:0 "Long Live Duke Leto, the Eagle of the West!"
+
+### Country Flags ###
+
+### Scripted Loc ###
+
+
+
+####################
+### Scripted GUI ###
+####################
+
+####################
+### Nation Names ###
+####################
+
