@@ -1,0 +1,20 @@
+objectTypes = {
+	####radroach
+	pdxmesh = {
+		name = "radroach_mesh"
+		file = "gfx/models/NWEUnits/critters/radroach/radroach.mesh"
+
+		animation = { id = "idle"			type = "radroach_idle_anim" }
+		animation = { id = "move"			type = "radroach_move_anim" }
+		animation = { id = "attack"			type = "radroach_attack_anim" }
+		animation = { id = "defend"			type = "radroach_attack_anim" }
+		animation = { id = "retreat"		type = "radroach_move_anim" }
+
+		meshsettings = {
+			texture_diffuse = "radroach_d.dds"
+			texture_normal = "radroach_n.dds"
+			texture_specular = "radroach_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}	
+}

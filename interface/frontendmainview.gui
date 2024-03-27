@@ -92,8 +92,8 @@ guiTypes = {
 	### SINGLE PLAYER MENU
 	containerWindowType = {
 		name = "mainmenu_single_player"
-		position = { x=0 y =150}
-		size = { width = 320 height = 395}
+		position = { x=14 y =103}
+		size = { width = 348 height = 468 }
 		Orientation = CENTER
 		Origo = center
 
@@ -190,7 +190,7 @@ guiTypes = {
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
 		position = { x=0 y =150}
-		size = { width = 320 height = 435 }
+		size = { width = 348 height = 468 }
 		Orientation = CENTER
 		Origo = center
 

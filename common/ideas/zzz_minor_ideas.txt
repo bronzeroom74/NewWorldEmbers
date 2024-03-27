@@ -47,5 +47,18 @@ ideas = {
 				special_forces_min = 12
 			}
 		}
+		fot_apothecaries = {
+			picture = FOT_apothecaries
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.01
+				custom_modifier_tooltip = "Add something nice here. Lel. Love, Meld"
+			}
+		}
 	}
 }

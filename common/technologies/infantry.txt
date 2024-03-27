@@ -216,9 +216,9 @@ technologies = {
 		enable_subunits = {
 			infantry
 		}
-		
+			
 		path = {
-			leads_to_tech = basic_infantry_equipment_2
+			leads_to_tech = unit_boost_1
 			research_cost_coeff = 1
 		}	
 
@@ -227,11 +227,6 @@ technologies = {
 		}
 		XOR = {
 			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
 		}
 
 		research_cost = 1.5
@@ -250,53 +245,9 @@ technologies = {
 			factor = 1
 		}
 	}
-	basic_infantry_equipment_2 = {
-
-		enable_equipments = {
-			basic_infantry_equipment_2
-		}
-		
-		path = {
-			leads_to_tech = unit_boost_1
-			research_cost_coeff = 1
-		}		
-
-		modifier = {
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
-		}
-
-		research_cost = 1.5
-		start_year = 2269
-		folder = {
-			name = infantry_folder
-			position = { x = 1 y = 3 }
-		}
-		
-		categories = {
-			infantry_equipment
-			infantry_ballistic
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	unit_boost_1 = {
 		path = {
-			leads_to_tech = energy_infantry_equipment_1
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = ballistic_infantry_equipment_1
+			leads_to_tech = basic_infantry_equipment_2
 			research_cost_coeff = 1
 		}
 
@@ -308,24 +259,49 @@ technologies = {
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
+		research_cost = 1.5
+		start_year = 2269
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 3 }
+		}
+		
+		categories = {
+			infantry_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	basic_infantry_equipment_2 = {
+
+		enable_equipments = {
+			basic_infantry_equipment_2
+		}
+		path = {
+			leads_to_tech = energy_infantry_equipment_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ballistic_infantry_equipment_1
+			research_cost_coeff = 1
+		}	
+
+		modifier = {
+			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
 
 		research_cost = 1.5
 		start_year = 2269
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 3 }
+			position = { x = 2 y = 3 }
 		}
 		
 		categories = {
 			infantry_equipment
+			infantry_ballistic
 		}
 		
 		ai_will_do = {
@@ -337,7 +313,7 @@ technologies = {
 		enable_equipments = {
 			energy_infantry_equipment_1
 		}
-		
+
 		path = {
 			leads_to_tech = energy_unit_boost_1
 			research_cost_coeff = 1
@@ -345,15 +321,6 @@ technologies = {
 
 		modifier = {
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
 		}
 
 		research_cost = 1.5
@@ -387,15 +354,6 @@ technologies = {
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
 
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
-		}
-
 		research_cost = 1.5
 		start_year = 2271
 		folder = {
@@ -420,15 +378,6 @@ technologies = {
 
 		modifier = {
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
-		}
-
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
 		}
 
 		infantry = {
@@ -466,15 +415,6 @@ technologies = {
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
 
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
-		}
-
 		research_cost = 1.5
 		start_year = 2274
 		folder = {
@@ -503,15 +443,6 @@ technologies = {
 
 		infantry = {
 			soft_attack = 0.15
-		}
-
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
 		}
 
 		research_cost = 1.5
@@ -545,15 +476,6 @@ technologies = {
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
 
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
-		}
-
 		research_cost = 1.5
 		start_year = 2277
 		folder = {
@@ -580,15 +502,6 @@ technologies = {
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
 
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
-		}
-
 		research_cost = 1.5
 		start_year = 2280
 		folder = {
@@ -613,15 +526,6 @@ technologies = {
 
 		modifier = {
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
-		}
-
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
 		}
 
 		infantry = {
@@ -659,15 +563,6 @@ technologies = {
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
 
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
-		}
-
 		research_cost = 1.5
 		start_year = 2274
 		folder = {
@@ -692,15 +587,6 @@ technologies = {
 
 		modifier = {
 			custom_modifier_tooltip = technology_modifier_placeholder_tt
-		}
-
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
 		}
 
 		infantry = {
@@ -738,15 +624,6 @@ technologies = {
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
 
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
-		}
-
 		research_cost = 1.5
 		start_year = 2277
 		folder = {
@@ -771,15 +648,6 @@ technologies = {
 
 		modifier = {
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		XOR = {
-			archaic_infantry_equipment_1
-			archaic_infantry_equipment_2
-			archaic_infantry_equipment_3
-			archaic_infantry_equipment_4
-			archaic_unit_boost_1
-			archaic_unit_boost_2
 		}
 
 		research_cost = 1.5
@@ -816,20 +684,6 @@ technologies = {
 
 		XOR = {
 			basic_infantry_equipment_1
-			basic_infantry_equipment_2
-			unit_boost_1
-			ballistic_infantry_equipment_1
-			ballistic_infantry_equipment_2
-			ballistic_infantry_equipment_3
-			ballistic_infantry_equipment_4
-			ballistic_unit_boost_1
-			ballistic_unit_boost_2
-			energy_infantry_equipment_1
-			energy_infantry_equipment_2
-			energy_infantry_equipment_3
-			energy_infantry_equipment_4
-			energy_unit_boost_1
-			energy_unit_boost_2
 		}
 
 		modifier = {
@@ -867,24 +721,6 @@ technologies = {
 			defense = 0.025
 		}
 
-		XOR = {
-			basic_infantry_equipment_1
-			basic_infantry_equipment_2
-			unit_boost_1
-			ballistic_infantry_equipment_1
-			ballistic_infantry_equipment_2
-			ballistic_infantry_equipment_3
-			ballistic_infantry_equipment_4
-			ballistic_unit_boost_1
-			ballistic_unit_boost_2
-			energy_infantry_equipment_1
-			energy_infantry_equipment_2
-			energy_infantry_equipment_3
-			energy_infantry_equipment_4
-			energy_unit_boost_1
-			energy_unit_boost_2
-		}
-
 		research_cost = 1.5
 		start_year = 2266
 		folder = {
@@ -916,24 +752,6 @@ technologies = {
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}	
 
-		XOR = {
-			basic_infantry_equipment_1
-			basic_infantry_equipment_2
-			unit_boost_1
-			ballistic_infantry_equipment_1
-			ballistic_infantry_equipment_2
-			ballistic_infantry_equipment_3
-			ballistic_infantry_equipment_4
-			ballistic_unit_boost_1
-			ballistic_unit_boost_2
-			energy_infantry_equipment_1
-			energy_infantry_equipment_2
-			energy_infantry_equipment_3
-			energy_infantry_equipment_4
-			energy_unit_boost_1
-			energy_unit_boost_2
-		}
-
 		research_cost = 1.5
 		start_year = 2269
 		folder = {
@@ -964,24 +782,6 @@ technologies = {
 		modifier = {
 			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
-
-		XOR = {
-			basic_infantry_equipment_1
-			basic_infantry_equipment_2
-			unit_boost_1
-			ballistic_infantry_equipment_1
-			ballistic_infantry_equipment_2
-			ballistic_infantry_equipment_3
-			ballistic_infantry_equipment_4
-			ballistic_unit_boost_1
-			ballistic_unit_boost_2
-			energy_infantry_equipment_1
-			energy_infantry_equipment_2
-			energy_infantry_equipment_3
-			energy_infantry_equipment_4
-			energy_unit_boost_1
-			energy_unit_boost_2
-		}	
 
 		research_cost = 1.5
 		start_year = 2271
@@ -1018,24 +818,6 @@ technologies = {
 			defense = 0.05
 		}
 
-		XOR = {
-			basic_infantry_equipment_1
-			basic_infantry_equipment_2
-			unit_boost_1
-			ballistic_infantry_equipment_1
-			ballistic_infantry_equipment_2
-			ballistic_infantry_equipment_3
-			ballistic_infantry_equipment_4
-			ballistic_unit_boost_1
-			ballistic_unit_boost_2
-			energy_infantry_equipment_1
-			energy_infantry_equipment_2
-			energy_infantry_equipment_3
-			energy_infantry_equipment_4
-			energy_unit_boost_1
-			energy_unit_boost_2
-		}
-
 		research_cost = 1.5
 		start_year = 2271
 		folder = {
@@ -1056,24 +838,6 @@ technologies = {
 
 		enable_equipments = {
 			archaic_infantry_equipment_4
-		}
-
-		XOR = {
-			basic_infantry_equipment_1
-			basic_infantry_equipment_2
-			unit_boost_1
-			ballistic_infantry_equipment_1
-			ballistic_infantry_equipment_2
-			ballistic_infantry_equipment_3
-			ballistic_infantry_equipment_4
-			ballistic_unit_boost_1
-			ballistic_unit_boost_2
-			energy_infantry_equipment_1
-			energy_infantry_equipment_2
-			energy_infantry_equipment_3
-			energy_infantry_equipment_4
-			energy_unit_boost_1
-			energy_unit_boost_2
 		}
 
 		research_cost = 1.5

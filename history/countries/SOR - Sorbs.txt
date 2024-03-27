@@ -22,10 +22,9 @@ set_popularities = {
 recruit_character = SOR_pawl_cizik
 
 add_ideas = {
-sor_beacon_of_hope
-sor_economic_titan
-sor_oh_liberty
-sor_merchant_army
+sor_merchant_money
+sor_water_cartel
+sor_league_army
 }
 
 country_lock_all_division_template = yes

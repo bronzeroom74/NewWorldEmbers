@@ -20,3 +20,5 @@ set_popularities = {
 }
 
 recruit_character = FOT_high_elder_paykull
+
+add_ideas = fot_apothecaries

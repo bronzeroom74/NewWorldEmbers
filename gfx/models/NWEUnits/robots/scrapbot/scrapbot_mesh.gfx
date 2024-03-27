@@ -1,0 +1,20 @@
+objectTypes = {
+	####scrapbot
+	pdxmesh = {
+		name = "scrapbot_mesh"
+		file = "gfx/models/NWEUnits/robots/scrapbot/scrapbot.mesh"
+
+		animation = { id = "idle"			type = "scrapbot_idle_anim" }
+		animation = { id = "move"			type = "scrapbot_move_anim" }
+		animation = { id = "attack"			type = "scrapbot_attack_anim" }
+		animation = { id = "defend"			type = "scrapbot_attack_anim" }
+		animation = { id = "retreat"		type = "scrapbot_move_anim" }
+
+		meshsettings = {
+			texture_diffuse = "scrapbot_d.dds"
+			texture_normal = "scrapbot_n.dds"
+			texture_specular = "scrapbot_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}	
+}

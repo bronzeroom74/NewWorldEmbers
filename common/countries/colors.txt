@@ -156,8 +156,8 @@ LAT = {
 	color_ui = rgb { 127 0 0 }
 }
 ATH = {
-	color = rgb { 96 96 96 }
-	color_ui = rgb { 96 96 96 }
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
 }
 CRO = {
 	color = rgb { 220 20 60 }
@@ -370,4 +370,8 @@ KMG = {
 KER = {
 	color = rgb { 13 94 175 }
 	color_ui = rgb { 13 94 175 }
+}
+INQ = {
+	color = rgb { 95 32 25 }
+	color_ui = rgb { 95 32 25 }
 }

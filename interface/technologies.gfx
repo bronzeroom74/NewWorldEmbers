@@ -281,205 +281,492 @@ spriteTypes = {
 	}
 
 	## Support
+	spriteType = {
+		name = GFX_support_tech_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
 
+	spriteType = {
+		name = GFX_support_medical_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
 
+	spriteType = {
+		name = GFX_support_medical_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
 
+	spriteType = {
+		name = GFX_support_medical_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
 
+	spriteType = {
+		name = GFX_support_medical_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
 
+	spriteType = {
+		name = GFX_support_medical_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_medical_6_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_recon_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_recon_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_recon_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_recon_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_recon_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_recon_6_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_heavy_support_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_sniper_support_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_sniper_support_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_sniper_support_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_sniper_support_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_sniper_support_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_sniper_support_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_fire_team_support_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_fire_support_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_fire_team_support_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_fire_team_support_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_fire_support_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_fire_team_support_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_artillery_support_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_artillery_support_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_artillery_support_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_artillery_support_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_artillery_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_artillery_support_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_support_logistics_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_logistics_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_logistics_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_logistics_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_logistics_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_logistics_6_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_maintenance_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_maintenance_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_maintenance_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_maintenance_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_maintenance_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_maintenance_6_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_engineer_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_engineer_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_engineer_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_engineer_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_engineer_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_engineer_6_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_signal_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_signal_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_signal_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_signal_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_signal_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_support_signal_6_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
 
 	###
-	## Artilery
-	### Basic Mortar
-	spriteType = {
-		name = GFX_basic_mortar_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	## Navy
+	### 
+	SpriteType = {
+		name = "GFX_advanced_destroyer_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
 	}
 
-	### Autocannon
-	spriteType = {
-		name = GFX_autocannon_equipment_1_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	SpriteType = {
+		name = "GFX_improved_destroyer_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_basic_destroyer_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_destroyer_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
 	}
 
 	spriteType = {
-		name = GFX_autocannon_equipment_2_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_autocannon_equipment_boost_1_medium
+		name = GFX_destoryer_boost_1_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
 	spriteType = {
-		name = GFX_autocannon_equipment_boost_2_medium
+		name = GFX_destoryer_boost_2_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
 	spriteType = {
-		name = GFX_autocannon_equipment_3_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+		name = GFX_destoryer_boost_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_basic_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
 	}
 
 	spriteType = {
-		name = GFX_autocannon_equipment_boost_3_medium
+		name = GFX_light_cruiser_boost_3_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
 	spriteType = {
-		name = GFX_autocannon_equipment_boost_4_medium
+		name = GFX_light_cruiser_boost_2_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
 	spriteType = {
-		name = GFX_autocannon_equipment_4_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+		name = GFX_light_cruiser_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
-	### Howitzer
-	spriteType = {
-		name = GFX_howitzer_equipment_1_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	SpriteType = {
+		name = "GFX_advanced_battleship_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_battleship_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_basic_battleship_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_battleship_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
 	}
 
 	spriteType = {
-		name = GFX_howitzer_equipment_2_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_howitzer_equipment_boost_1_medium
+		name = GFX_battleship_boost_1_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
 	spriteType = {
-		name = GFX_howitzer_equipment_boost_2_medium
+		name = GFX_battleship_boost_2_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
 	spriteType = {
-		name = GFX_howitzer_equipment_3_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_howitzer_equipment_boost_3_medium
+		name = GFX_battleship_boost_3_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
-	spriteType = {
-		name = GFX_howitzer_equipment_boost_4_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	SpriteType = {
+		name = "GFX_tank_landing_craft_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_landing_craft_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_small.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_transport_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_small.dds"
 	}
 
-	spriteType = {
-		name = GFX_howitzer_equipment_4_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	SpriteType = {
+		name = "GFX_transport_4_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_small.dds"
 	}
 
-	### Siege
-	spriteType = {
-		name = GFX_siege_artillery_equipment_1_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	SpriteType = {
+		name = "GFX_transport_5_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_small.dds"
 	}
 
-	spriteType = {
-		name = GFX_siege_artillery_equipment_2_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	SpriteType = {
+		name = "GFX_advanced_carrier_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
 	}
 
-	spriteType = {
-		name = GFX_siege_artillery_equipment_boost_1_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	SpriteType = {
+		name = "GFX_improved_carrier_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
 	}
 
-	spriteType = {
-		name = GFX_siege_artillery_equipment_boost_2_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	SpriteType = {
+		name = "GFX_basic_carrier_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
 	}
 
-	spriteType = {
-		name = GFX_siege_artillery_equipment_3_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	SpriteType = {
+		name = "GFX_early_carrier_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
 	}
 
-	spriteType = {
-		name = GFX_siege_artillery_equipment_boost_3_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	SpriteType = {
+		name = "GFX_carrier_boost_1_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_small.dds"
 	}
 
-	spriteType = {
-		name = GFX_siege_artillery_equipment_boost_4_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	SpriteType = {
+		name = "GFX_carrier_boost_2_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_small.dds"
 	}
 
-	spriteType = {
-		name = GFX_siege_artillery_equipment_4_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	SpriteType = {
+		name = "GFX_carrier_boost_3_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_small.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_submarine_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_submarine_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_basic_submarine_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_submarine_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_big.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_submarine_boost_1_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_small.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_submarine_boost_2_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_small.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_submarine_boost_3_medium"
+		texturefile = "gfx/interface/technologies/placeholder_tech_small.dds"
 	}
 
 	###
 	## Vehicles
 	### 
-	spriteType = {
-		name = GFX_advanced_warfare_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_battle_tank_1_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_battle_tank_2_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_battle_tank_3_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_battle_tank_4_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_amphibious_tank_1_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_amphibious_tank_2_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_modern_tank_1_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_modern_tank_1_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_modern_tank_2_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_truck_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
-
-	spriteType = {
-		name = GFX_armored_truck_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
-	}
 
 	spriteType = {
 		name = GFX_light_mech_1_medium
@@ -527,19 +814,228 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = GFX_super_heavy_mech_1_medium
+		name = GFX_prototype_mech_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
 	}
 
 	spriteType = {
-		name = GFX_super_heavy_mech_2_medium
+		name = GFX_heavy_mech_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_heavy_mech_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_heavy_mech_3_boost_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_heavy_tank_destoryer_mech_1_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_heavy_tank_destoryer_mech_1_boost_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_light_mech_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_light_mech_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_light_mech_3_boost_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_light_mech_art_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_light_mech_art_boost_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_armored_tractor_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_armored_tractor_boost_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_bulldozer_tank_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_bulldozer_tank_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_bulldozer_tank_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_makeshift_tank_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_pre_war_tank_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_pre_war_tank_boost_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_heavy_flame_tank_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_heavy_flame_tank_boost_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_heavy_flame_tank_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_horse_transport_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_horse_transport_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_horse_transport_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_professional_cavalry_transport_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_professional_cavalry_transport_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_professional_cavalry_transport_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_makeshift_chariots_transport_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_makeshift_chariots_transport_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_makeshift_chariots_transport_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_armored_chariots_transport_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_atv_transport_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_atv_transport_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_atv_transport_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_scavanged_cars_transport_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_scavanged_cars_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_scavanged_cars_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_trucks_transport_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_truck_boost_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_truck_boost_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_armored_trucks_transport_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_advanced_warfare_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
 	###
 	##  Aircraft
 	spriteType = {
 		name = GFX_basic_aeronautics_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+	spriteType = {
+		name = GFX_improved_aeronautics_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 	spriteType = {
@@ -673,6 +1169,21 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_barage_bomber_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_cas_interceptor_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_cas_interceptor_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
+	}
+
+	spriteType = {
+		name = GFX_cas_interceptor_3_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_big.dds
 	}
 
@@ -1048,17 +1559,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = GFX_rudimentary_steam_turbines_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
 		name = GFX_portable_generators_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_steam_pre_heaters_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
@@ -1068,17 +1569,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = GFX_steam_engines_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
 		name = GFX_internal_combustion_engines_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_thermal_decay_engines_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
@@ -1088,17 +1579,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = GFX_small_nuclear_pile_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
 		name = GFX_converted_combustion_generators_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_nuclear_steam_turbines_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
@@ -1114,17 +1595,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = GFX_polymer_production_1_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
 		name = GFX_basic_hand_tools_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_refined_metal_production_1_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
@@ -1134,32 +1605,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = GFX_polymer_production_2_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
 		name = GFX_power_tools_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
 	spriteType = {
-		name = GFX_refined_metal_production_2_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
 		name = GFX_milling_machines_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_polymer_production_3_medium
-		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
-	}
-
-	spriteType = {
-		name = GFX_refined_metal_production_3_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
 	}
 
@@ -1171,6 +1622,134 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_robotic_assisted_tools_medium
 		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_bunker_technology_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_bunker_technology_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_bunker_technology_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_bunker_technology_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_protected_supplylines_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_protected_supplylines_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_protected_supplylines_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_output_6_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_output_5_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_output_4_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_output_3_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_output_2_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_output_1_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_increased_natural_gas_tanks_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_steam_power_systems_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+
+	spriteType = {
+		name = GFX_advanced_combustion_generators_medium
+		textureFile = gfx/interface/technologies/placeholder_tech_small.dds
+	}
+	#######
+	##Backgrounds
+	#######
+	spriteType = {
+		name = GFX_vehicles_techtree_bg
+		textureFile = gfx/interface/techtree/vehicles_techtree_bg.dds
+	}
+
+	spriteType = {
+		name = GFX_aircraft_techtree_bg
+		textureFile = gfx/interface/techtree/aircraft_techtree_bg.dds
+	}
+
+	spriteType = {
+		name = GFX_robots_techtree_bg
+		textureFile = gfx/interface/techtree/robots_techtree_bg.dds
+	}
+	#######
+	##Tabs
+	#######
+	spriteType = {
+		name = GFX_robots_folder_tab
+		textureFile = gfx/interface/techtree/robots_folder_tab.dds
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = GFX_vehicles_folder_tab
+		textureFile = gfx/interface/techtree/vehicles_folder_tab.dds
+		noOfFrames = 2
+	}
+	#######
+	##Custom
+	#######
+	spriteType = {
+		name = GFX_STR_energy_infantry_equipment_1_medium
+		textureFile = gfx/interface/technologies/unique/STR/STR_energy_infantry_equipment_1.dds
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = GFX_STR_energy_infantry_equipment_2_medium
+		textureFile = gfx/interface/technologies/unique/STR/STR_energy_infantry_equipment_2.dds
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = GFX_STR_energy_infantry_equipment_3_medium
+		textureFile = gfx/interface/technologies/unique/STR/STR_energy_infantry_equipment_3.dds
+		alwaystransparent = yes
 	}
 }
 

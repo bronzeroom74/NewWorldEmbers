@@ -136,7 +136,7 @@ equipments = {
 
 		build_cost_ic = 1800
 		resources = {
-			#steel = 1
+			salvage = 1
 		}
 
 		manpower = 600
@@ -172,7 +172,7 @@ equipments = {
 		naval_range = 3000
 		max_strength = 110
 		resources = {
-			#steel = 2
+			salvage = 2
 		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -244,7 +244,7 @@ equipments = {
 		naval_range = 4000
 		manpower = 1200
 		resources = {
-			#steel = 2
+			salvage = 2
 		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -329,7 +329,7 @@ equipments = {
 		naval_range = 4500
 		max_strength = 130
 		resources = {
-			#steel = 3
+			salvage = 3
 		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -432,8 +432,8 @@ equipments = {
 		naval_speed = 29
 		reliability = 0.8
 		resources = {
-			##oil = 1
-			#steel = 2
+			energetics = 1
+			salvage = 2
 		}
 	}
 
@@ -481,8 +481,8 @@ equipments = {
 		}
 		build_cost_ic = 1650
 		resources = {
-			##oil = 1
-			#steel = 3
+			energetics = 1
+			salvage = 3
 		}
 		manpower = 800
 	}
@@ -532,8 +532,8 @@ equipments = {
 		}
 		build_cost_ic = 1700
 		resources = {
-			##oil = 2
-			#steel = 3
+			energetics = 2
+			salvage = 3
 		}
 		manpower = 960
 	}
@@ -584,9 +584,9 @@ equipments = {
 		}
 		build_cost_ic = 2000
 		resources = {
-			##oil = 2
-			#steel = 4
-			#chromium = 1
+			energetics = 2
+			salvage = 4
+			refined_metals = 1
 		}
 		manpower = 1140
 	}
@@ -701,8 +701,8 @@ equipments = {
 
 		build_cost_ic = 2200
 		resources = {
-			##oil = 1
-			#steel = 3
+			energetics = 1
+			salvage = 3
 		}
 
 		manpower = 1500
@@ -751,8 +751,8 @@ equipments = {
 
 		build_cost_ic = 2600
 		resources = {
-			##oil = 1
-			#steel = 4
+			energetics = 1
+			salvage = 4
 		}
 		manpower = 1700
 	}
@@ -801,8 +801,8 @@ equipments = {
 
 		build_cost_ic = 3000
 		resources = {
-			##oil = 2
-			#steel = 4
+			energetics = 2
+			salvage = 4
 		}
 		manpower = 1900
 	}
@@ -852,127 +852,11 @@ equipments = {
 
 		build_cost_ic = 3400
 		resources = {
-			##oil = 2
-			#steel = 5
-			#chromium = 1
+			energetics = 2
+			salvage = 5
+			refined_metals = 1
 		}
 		manpower = 2200
-	}
-
-	###### SPECIAL JAP TECH FROM FOCUS ######
-
-	torpedo_cruiser = {
-		abbreviation = "hbh"
-		year = 1940
-
-		archetype = ship_hull_cruiser
-		priority = 1850
-		visual_level = 0
-		upgrades = {
-			ship_torpedo_upgrade
-			ship_engine_upgrade
-			ship_gun_upgrade
-			ship_reliability_upgrade
-		}
-
-		interface_category = interface_category_screen_ships
-		module_slots = {
-			fixed_ship_battery_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_medium_battery
-					ship_light_medium_battery
-				}
-			}
-			fixed_ship_anti_air_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-				}
-			}
-			fixed_ship_fire_control_system_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_fire_control_system
-				}
-			}
-			fixed_ship_engine_slot = {
-				required = no
-				allowed_module_categories = {
-					cruiser_ship_engine
-				}
-			}
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-				}
-			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-				}
-			}
-			mid_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-				}
-			}
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-				}
-			}
-			rear_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_anti_air
-				}
-			}
-		}
-		default_modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_engine_slot = cruiser_ship_engine_2
-			front_1_custom_slot = ship_anti_air_1
-			mid_1_custom_slot = ship_torpedo_2
-			mid_2_custom_slot = ship_torpedo_2
-			rear_1_custom_slot = ship_torpedo_1
-			rear_2_custom_slot = ship_anti_air_1
-		}
-		lg_armor_piercing = 0
-		lg_attack = 0
-		torpedo_attack = 0
-		sub_attack = 6
-
-		anti_air_attack = 0
-
-		armor_value = 7
-
-
-		surface_detection = 40
-		sub_detection = 10
-		surface_visibility = 15
-		naval_speed = 25
-		reliability = 0.9
-
-		naval_range = 4000
-
-		max_strength = 140
-
-
-
-		build_cost_ic = 1700
-		resources = {
-			##oil = 2
-			#steel = 2
-		}
-
-		manpower = 960
 	}
 
 	###special snowflake hulls
@@ -1061,8 +945,8 @@ equipments = {
 
 		build_cost_ic = 1700
 		resources = {
-			##oil = 2
-			#steel = 3
+			energetics = 2
+			salvage = 3
 		}
 
 		manpower = 960
@@ -1080,7 +964,7 @@ equipments = {
 		naval_range = 7500
 		max_strength = 220
 		resources = {
-			#steel = 3
+			salvage = 3
 		}
 		module_slots = {
 			fixed_ship_battery_slot = {
@@ -1138,7 +1022,7 @@ equipments = {
 		manpower = 1800
 		build_cost_ic = 3500
 		resources = {
-			#steel = 3
+			salvage = 3
 		}
 
 		hg_attack = 0

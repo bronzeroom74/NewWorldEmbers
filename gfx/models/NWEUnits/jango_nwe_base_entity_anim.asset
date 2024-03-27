@@ -1,0 +1,346 @@
+#######################
+####Human Anim defs####
+#######################
+
+animation = {
+	name = "moleman_melee_idle_anim"
+	file = "human/moleman/moleman_melee_idle.anim"
+}
+animation = {
+	name = "moleman_melee_move_anim"
+	file = "human/moleman/moleman_melee_run.anim"
+}
+animation = {
+	name = "moleman_melee_charge_anim"
+	file = "human/moleman/moleman_melee_runattack.anim"
+}
+animation = {
+	name = "moleman_melee_attack_anim"
+	file = "human/moleman/moleman_melee_attack.anim"
+}
+
+animation = {
+	name = "moleman_ranged_idle_anim"
+	file = "human/moleman/moleman_ranged_idle.anim"
+}
+animation = {
+	name = "moleman_ranged_move_anim"
+	file = "human/moleman/moleman_ranged_run.anim"
+}
+animation = {
+	name = "moleman_ranged_charge_anim"
+	file = "human/moleman/moleman_ranged_runattack.anim"
+}
+animation = {
+	name = "moleman_ranged_attack_anim"
+	file = "human/moleman/moleman_ranged_attack.anim"
+}
+
+animation = {
+	name = "knight_melee_idle_anim"
+	file = "human/knight/knight_melee_idle.anim"
+}
+animation = {
+	name = "knight_melee_idle2_anim"
+	file = "human/knight/knight_melee_idle2.anim"
+}
+animation = {
+	name = "knight_melee_move_anim"
+	file = "human/knight/knight_melee_run.anim"
+}
+animation = {
+	name = "knight_melee_charge_anim"
+	file = "human/knight/knight_melee_attack.anim"
+}
+animation = {
+	name = "knight_melee_attack_anim"
+	file = "human/knight/knight_melee_attack.anim"
+}
+
+animation = {
+	name = "knight_ranged_idle_anim"
+	file = "human/knight/knight_ranged_idle.anim"
+}
+animation = {
+	name = "knight_ranged_move_anim"
+	file = "human/knight/knight_ranged_run.anim"
+}
+animation = {
+	name = "knight_ranged_charge_anim"
+	file = "human/knight/knight_ranged_attack.anim"
+}
+animation = {
+	name = "knight_ranged_attack_anim"
+	file = "human/knight/knight_ranged_attack.anim"
+}
+animation = {
+	name = "knight_ranged_longattack_anim"
+	file = "human/knight/knight_ranged_attacklong.anim"
+}
+
+animation = {
+	name = "supermutantbehemoth_idle_anim"
+	file = "human/supermutantbehemoth/supermutantbehemoth_idle.anim"
+}
+animation = {
+	name = "supermutantbehemoth_move_anim"
+	file = "human/supermutantbehemoth/supermutantbehemoth_run.anim"
+}
+animation = {
+	name = "supermutantbehemoth_charge_anim"
+	file = "human/supermutantbehemoth/supermutantbehemoth_attackrun.anim"
+}
+animation = {
+	name = "supermutantbehemoth_attack_anim"
+	file = "human/supermutantbehemoth/supermutantbehemoth_attack.anim"
+}
+animation = {
+	name = "supermutantbehemoth_attack2_anim"
+	file = "human/supermutantbehemoth/supermutantbehemoth_attack2.anim"
+}
+animation = {
+	name = "supermutantbehemoth_attack3_anim"
+	file = "human/supermutantbehemoth/supermutantbehemoth_attack3.anim"
+}
+animation = {
+	name = "supermutantbehemoth_throw_anim"
+	file = "human/supermutantbehemoth/supermutantbehemoth_rangedattack.anim"
+}
+animation = {
+	name = "supermutantbehemoth_retreat_anim"
+	file = "human/supermutantbehemoth/supermutantbehemoth_retreat.anim"
+}
+animation = {
+	name = "supermutantbehemoth_training_anim"
+	file = "human/supermutantbehemoth/supermutantbehemoth_idle.anim"
+}
+
+########################
+####Robots Anim defs####
+########################
+
+animation = {
+	name = "behemoth_idle_anim"
+	file = "robots/behemoth/behemoth_idle.anim"
+}
+animation = {
+	name = "behemoth_move_anim"
+	file = "robots/behemoth/behemoth_run.anim"
+}
+animation = {
+	name = "behemoth_attack_anim"
+	file = "robots/behemoth/behemoth_attack.anim"
+}
+
+animation = {
+	name = "behemothlight_idle_anim"
+	file = "robots/behemoth/behemothlight_idle.anim"
+}
+animation = {
+	name = "behemothlight_move_anim"
+	file = "robots/behemoth/behemothlight_run.anim"
+}
+animation = {
+	name = "behemothlight_attack_anim"
+	file = "robots/behemoth/behemothlight_attack.anim"
+}
+
+animation = {
+	name = "liberator_idle_anim"
+	file = "robots/liberator/liberator_idle.anim"
+}
+animation = {
+	name = "liberator_move_anim"
+	file = "robots/liberator/liberator_move.anim"
+}
+animation = {
+	name = "liberator_attack_anim"
+	file = "robots/liberator/liberator_attack.anim"
+}
+animation = {
+	name = "liberator_retreat_anim"
+	file = "robots/liberator/liberator_retreat.anim"
+}
+animation = {
+	name = "liberator_training_anim"
+	file = "robots/liberator/liberator_training.anim"
+}
+
+animation = {
+	name = "sentrybot_idle_anim"
+	file = "robots/sentrybot/sentrybot_idle.anim"
+}
+animation = {
+	name = "sentrybot_move_anim"
+	file = "robots/sentrybot/sentrybot_run.anim"
+}
+animation = {
+	name = "sentrybot_charge_anim"
+	file = "robots/sentrybot/sentrybot_runattack.anim"
+}
+animation = {
+	name = "sentrybot_attack_anim"
+	file = "robots/sentrybot/sentrybot_attack.anim"
+}
+animation = {
+	name = "sentrybot_retreat_anim"
+	file = "robots/sentrybot/sentrybot_run.anim"
+}
+
+animation = {
+	name = "sentrybotmk2_idle_anim"
+	file = "robots/sentrybotmk2/sentrybotmk2_idle.anim"
+}
+animation = {
+	name = "sentrybotmk2_move_anim"
+	file = "robots/sentrybotmk2/sentrybotmk2_run.anim"
+}
+animation = {
+	name = "sentrybotmk2_attackmove_anim"
+	file = "robots/sentrybotmk2/sentrybotmk2_runattack.anim"
+}
+animation = {
+	name = "sentrybotmk2_attack_anim"
+	file = "robots/sentrybotmk2/sentrybotmk2_attack.anim"
+}
+
+animation = {
+	name = "assaultron_idle_anim"
+	file = "robots/assaultron/assaultron_idle.anim"
+}
+animation = {
+	name = "assaultron_move_anim"
+	file = "robots/assaultron/assaultron_run.anim"
+}
+animation = {
+	name = "assaultron_attack_anim"
+	file = "robots/assaultron/assaultron_attack.anim"
+}
+
+animation = {
+	name = "scrapbot_idle_anim"
+	file = "robots/scrapbot/scrapbot_idle.anim"
+}
+animation = {
+	name = "scrapbot_move_anim"
+	file = "robots/scrapbot/scrapbot_run.anim"
+}
+animation = {
+	name = "scrapbot_attack_anim"
+	file = "robots/scrapbot/scrapbot_attack.anim"
+}
+
+##########################
+####Critters Anim defs####
+##########################
+
+animation = {
+	name = "deathclaw_idle_anim"
+	file = "critters/deathclaw/deathclaw_idle.anim"
+}
+animation = {
+	name = "deathclaw_move_anim"
+	file = "critters/deathclaw/deathclaw_run.anim"
+}
+animation = {
+	name = "deathclaw_attack_anim"
+	file = "critters/deathclaw/deathclaw_attack.anim"
+}
+
+animation = {
+	name = "mirelurk_idle_anim"
+	file = "critters/mirelurk/mirelurk_idle.anim"
+}
+animation = {
+	name = "mirelurk_idle2_anim"
+	file = "critters/mirelurk/mirelurk_idle2.anim"
+}
+animation = {
+	name = "mirelurk_move_anim"
+	file = "critters/mirelurk/mirelurk_run.anim"
+}
+animation = {
+	name = "mirelurk_charge_anim"
+	file = "critters/mirelurk/mirelurk_attackrun.anim"
+}
+animation = {
+	name = "mirelurk_attack_anim"
+	file = "critters/mirelurk/mirelurk_attack.anim"
+}
+animation = {
+	name = "mirelurk_attack2_anim"
+	file = "critters/mirelurk/mirelurk_attack2.anim"
+}
+animation = {
+	name = "mirelurk_retreat_anim"
+	file = "critters/mirelurk/mirelurk_retreat.anim"
+}
+animation = {
+	name = "mirelurk_training_anim"
+	file = "critters/mirelurk/mirelurk_idle3.anim"
+}
+
+animation = {
+	name = "slanter_melee_idle_anim"
+	file = "critters/slanter/slanter_melee_idle.anim"
+}
+animation = {
+	name = "slanter_melee_move_anim"
+	file = "critters/slanter/slanter_melee_run.anim"
+}
+animation = {
+	name = "slanter_melee_charge_anim"
+	file = "critters/slanter/slanter_melee_runattack.anim"
+}
+animation = {
+	name = "slanter_melee_attack_anim"
+	file = "critters/slanter/slanter_melee_attack.anim"
+}
+
+animation = {
+	name = "slanter_ranged_idle_anim"
+	file = "critters/slanter/slanter_ranged_idle.anim"
+}
+animation = {
+	name = "slanter_ranged_move_anim"
+	file = "critters/slanter/slanter_ranged_run.anim"
+}
+animation = {
+	name = "slanter_ranged_charge_anim"
+	file = "critters/slanter/slanter_ranged_runattack.anim"
+}
+animation = {
+	name = "slanter_ranged_attack_anim"
+	file = "critters/slanter/slanter_ranged_attack.anim"
+}
+
+animation = {
+	name = "radroach_idle_anim"
+	file = "critters/radroach/radroach_idle.anim"
+}
+animation = {
+	name = "radroach_move_anim"
+	file = "critters/radroach/radroach_run.anim"
+}
+animation = {
+	name = "radroach_attack_anim"
+	file = "critters/radroach/radroach_run.anim"
+}
+
+##########################
+####Vehicles Anim defs####
+##########################
+
+animation = {
+	name = "nucleartank_idle_anim"
+	file = "vehicles/nucleartank/nucleartank_idle.anim"
+}
+animation = {
+	name = "nucleartank_move_anim"
+	file = "vehicles/nucleartank/nucleartank_run.anim"
+}
+animation = {
+	name = "nucleartank_attack_anim"
+	file = "vehicles/nucleartank/nucleartank_attack.anim"
+}
+

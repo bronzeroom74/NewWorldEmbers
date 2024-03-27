@@ -43,6 +43,7 @@ equipments = {
 	basic_infantry_equipment_1 = {
 		year = 2266
 
+		parent = infantry_equipment
 		archetype = infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -63,6 +64,7 @@ equipments = {
 	basic_infantry_equipment_2 = {
 		year = 2269
 
+		parent = basic_infantry_equipment_1
 		archetype = infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -126,6 +128,7 @@ equipments = {
 	energy_infantry_equipment_1 = {
 		year = 2271
 
+		parent = basic_infantry_equipment_2
 		archetype = infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -146,6 +149,7 @@ equipments = {
 	energy_infantry_equipment_2 = {
 		year = 2274
 
+		parent = energy_infantry_equipment_1
 		archetype = infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -170,6 +174,7 @@ equipments = {
 	energy_infantry_equipment_3 = {
 		year = 2277
 
+		parent = energy_infantry_equipment_2
 		archetype = infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -190,6 +195,7 @@ equipments = {
 	energy_infantry_equipment_4 = {
 		year = 2280
 
+		parent = energy_infantry_equipment_3
 		archetype = infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -215,6 +221,7 @@ equipments = {
 	ballistic_infantry_equipment_1 = {
 		year = 2271
 
+		parent = basic_infantry_equipment_2
 		archetype = infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -235,6 +242,7 @@ equipments = {
 	ballistic_infantry_equipment_2 = {
 		year = 2274
 
+		parent = ballistic_infantry_equipment_1
 		archetype = infantry_equipment
 		priority = 40
 		visual_level = 1
@@ -255,6 +263,7 @@ equipments = {
 	ballistic_infantry_equipment_3 = {
 		year = 2277
 
+		parent = ballistic_infantry_equipment_2
 		archetype = infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -275,6 +284,7 @@ equipments = {
 	ballistic_infantry_equipment_4 = {
 		year = 2280
 
+		parent = ballistic_infantry_equipment_3
 		archetype = infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -334,6 +344,7 @@ equipments = {
 	archaic_infantry_equipment_1 = {
 		year = 2269
 
+		parent = archaic_infantry_equipment
 		archetype = infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -355,6 +366,7 @@ equipments = {
 	archaic_infantry_equipment_2 = {
 		year = 2271
 
+		parent = archaic_infantry_equipment_1
 		archetype = infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -379,6 +391,7 @@ equipments = {
 	archaic_infantry_equipment_3 = {
 		year = 2274
 
+		parent = archaic_infantry_equipment_2
 		archetype = infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -400,6 +413,7 @@ equipments = {
 	archaic_infantry_equipment_4 = {
 		year = 2277
 
+		parent = archaic_infantry_equipment_3
 		archetype = infantry_equipment
 		priority = 10
 		visual_level = 1
@@ -457,6 +471,7 @@ equipments = {
 	infantry_armor_1 = {
 		year = 2269
 
+		parent = infantry_armor
 		archetype = infantry_armor
 		priority = 10
 		visual_level = 1
@@ -480,6 +495,7 @@ equipments = {
 	infantry_armor_2 = {
 		year = 2271
 
+		parent = infantry_armor_1
 		archetype = infantry_armor
 		priority = 10
 		visual_level = 1
@@ -500,6 +516,7 @@ equipments = {
 	infantry_armor_3 = {
 		year = 2274
 
+		parent = infantry_armor_2
 		archetype = infantry_armor
 		priority = 10
 		visual_level = 1
@@ -524,6 +541,7 @@ equipments = {
 	infantry_armor_4 = {
 		year = 2277
 
+		parent = infantry_armor_3
 		archetype = infantry_armor
 		priority = 10
 		visual_level = 1
@@ -549,6 +567,7 @@ equipments = {
 	infantry_armor_5 = {
 		year = 2280
 
+		parent = infantry_armor_4
 		archetype = infantry_armor
 		priority = 10
 		visual_level = 1
@@ -612,6 +631,7 @@ equipments = {
 	stalker_equipment_1 = {
 		year = 2269
 
+		parent = stalker_equipment
 		archetype = stalker_equipment
 		priority = 10
 		visual_level = 1
@@ -639,6 +659,7 @@ equipments = {
 	stalker_equipment_2 = {
 		year = 2271
 
+		parent = stalker_equipment_1
 		archetype = stalker_equipment
 		priority = 10
 		visual_level = 1
@@ -663,6 +684,7 @@ equipments = {
 	stalker_equipment_3 = {
 		year = 2274
 
+		parent = stalker_equipment_2
 		archetype = stalker_equipment
 		priority = 10
 		visual_level = 1
@@ -691,6 +713,7 @@ equipments = {
 	stalker_equipment_4 = {
 		year = 2277
 
+		parent = stalker_equipment_3
 		archetype = stalker_equipment
 		priority = 10
 		visual_level = 1
@@ -719,6 +742,7 @@ equipments = {
 	stalker_equipment_5 = {
 		year = 2280
 
+		parent = stalker_equipment_4
 		archetype = stalker_equipment
 		priority = 10
 		visual_level = 1
@@ -784,6 +808,7 @@ equipments = {
 	grenadier_equipment_1 = {
 		year = 2266
 
+		parent = grenadier_equipment
 		archetype = grenadier_equipment
 		priority = 10
 		visual_level = 1
@@ -803,6 +828,7 @@ equipments = {
 	grenadier_equipment_2 = {
 		year = 2269
 
+		parent = grenadier_equipment_1
 		archetype = grenadier_equipment
 		priority = 10
 		visual_level = 1
@@ -827,6 +853,7 @@ equipments = {
 	grenadier_equipment_3 = {
 		year = 2271
 
+		parent = grenadier_equipment_2
 		archetype = grenadier_equipment
 		priority = 10
 		visual_level = 1
@@ -851,6 +878,7 @@ equipments = {
 	grenadier_equipment_4 = {
 		year = 2274
 
+		parent = grenadier_equipment_3
 		archetype = grenadier_equipment
 		priority = 10
 		visual_level = 1
@@ -875,6 +903,7 @@ equipments = {
 	grenadier_equipment_5 = {
 		year = 2277
 
+		parent = grenadier_equipment_4
 		archetype = grenadier_equipment
 		priority = 10
 		visual_level = 1

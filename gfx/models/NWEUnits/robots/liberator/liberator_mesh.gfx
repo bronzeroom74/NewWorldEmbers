@@ -1,0 +1,25 @@
+objectTypes = {
+	####liberty
+	pdxmesh = {
+		name = "liberator_mesh"
+		file = "gfx/models/NWEUnits/robots/liberator/liberty.mesh"
+		#scale = 1.7
+
+
+		animation = { id = "idle"			type = "liberator_idle_anim" }
+		animation = { id = "move"			type = "liberator_move_anim" }
+		animation = { id = "attack"			type = "liberator_attack_anim" }
+		animation = { id = "defend"			type = "liberator_attack_anim" }
+		animation = { id = "training"			type = "liberator_training_anim" }
+		animation = { id = "jumping_jacks"			type = "liberator_training_anim" }
+		animation = { id = "pushup"			type = "liberator_training_anim" }
+		animation = { id = "retreat"		type = "liberator_retreat_anim" }
+
+		meshsettings = {
+			texture_diffuse = "liberator_new_d.dds"	
+			texture_normal = "liberator_new_n.dds"
+			texture_specular = "liberator_new_m.dds"			
+			shader = PdxMeshAdvanced
+		}
+	}	
+}

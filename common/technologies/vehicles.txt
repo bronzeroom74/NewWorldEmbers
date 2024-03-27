@@ -1,642 +1,485 @@
 technologies = {
 	advanced_warfare = {
 		path = {
-			leads_to_tech = truck
+			leads_to_tech = atv_transport
 			research_cost_coeff = 1
-		}	
+		}
 		path = {
-			leads_to_tech = battle_tank_1
+			leads_to_tech = horse_transport
 			research_cost_coeff = 1
-		}	
+		}
 		path = {
-			leads_to_tech = light_mech_1
+			leads_to_tech = armored_tractor
 			research_cost_coeff = 1
-		}	
+		}
+		path = {
+			leads_to_tech = prototype_mech
+			research_cost_coeff = 1
+		}
 
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_modifier_placeholder_tt
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2266
 		folder = {
 			name = vehicles_folder
 			position = { x = 0 y = 0 }
 		}
 		
 		categories = {
-			aircraft
+			motorized_equipment
 		}
 		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
-	truck = {
-		enable_equipments = {
-			truck
-		}
+	prototype_mech = {
 		path = {
-			leads_to_tech = armored_truck
-			research_cost_coeff = 1
-		}	
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = 0 y = 2 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	armored_truck = {
-		enable_equipments = {
-			armored_truck
-		}
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = 0 y = 4 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	battle_tank_1 = {
-		enable_equipments = {
-			battle_tank_1
-		}
-		path = {
-			leads_to_tech = battle_tank_2
+			leads_to_tech = light_mech_1
 			research_cost_coeff = 1
 		}
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = -4 y = 2 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	battle_tank_2 = {
-		enable_equipments = {
-			battle_tank_2
-		}
-		path = {
-			leads_to_tech = battle_tank_3
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = amphibious_tank_1
-			research_cost_coeff = 1
-		}
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = -4 y = 4 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	battle_tank_3 = {
-		enable_equipments = {
-			battle_tank_3
-		}
-		path = {
-			leads_to_tech = battle_tank_4
-			research_cost_coeff = 1
-		}	
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = -4 y = 6 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	battle_tank_4 = {
-		enable_equipments = {
-			battle_tank_4
-		}
-		path = {
-			leads_to_tech = modern_tank_1
-			research_cost_coeff = 1
-		}	
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = -4 y = 8 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	amphibious_tank_1 = {
-		enable_equipments = {
-			amphibious_tank_1
-		}
-		path = {
-			leads_to_tech = amphibious_tank_2
-			research_cost_coeff = 1
-		}	
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = -8 y = 6 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	amphibious_tank_2 = {
-		enable_equipments = {
-			amphibious_tank_2
-		}
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = -8 y = 8 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	modern_tank_1 = {
-		enable_equipments = {
-			modern_tank_1
-		}
-		path = {
-			leads_to_tech = modern_tank_2
-			research_cost_coeff = 1
-		}	
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = -4 y = 10 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	modern_tank_2 = {
-		enable_equipments = {
-			modern_tank_2
-		}
-
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = -4 y = 12 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	light_mech_1 = {
-		enable_equipments = {
-			light_mech_1
-		}
-		path = {
-			leads_to_tech = light_mech_2
-			research_cost_coeff = 1
-		}	
 		path = {
 			leads_to_tech = heavy_mech_1
 			research_cost_coeff = 1
-		}	
-		
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
 
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = 4 y = 2 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	light_mech_2 = {
 		enable_equipments = {
-			light_mech_2
+			light_mech_equipment_1
 		}
-		path = {
-			leads_to_tech = light_mech_3
-			research_cost_coeff = 1
-		}	
 		
+		enable_subunits = {
+			light_mech
+		}
+
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2266
 		folder = {
 			name = vehicles_folder
-			position = { x = 4 y = 4 }
+			position = { x = 12 y = 2 }
 		}
 		
 		categories = {
-			aircraft
+			armor
 		}
 		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
-	light_mech_3 = {
-		enable_equipments = {
-			light_mech_3
-		}
-		path = {
-			leads_to_tech = light_mech_4
-			research_cost_coeff = 1
-		}	
-		path = {
-			leads_to_tech = support_mech_1
-			research_cost_coeff = 1
-		}		
-		
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = 4 y = 6 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	light_mech_4 = {
-		enable_equipments = {
-			light_mech_4
-		}
-		path = {
-			leads_to_tech = light_mech_5
-			research_cost_coeff = 1
-		}	
-		
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = 4 y = 8 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	light_mech_5 = {
-		enable_equipments = {
-			light_mech_5
-		}
-		
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = 4 y = 12 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	support_mech_1 = {
-		enable_equipments = {
-			support_mech_1
-		}
-		
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
-		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = 2 y = 10 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	heavy_mech_1 = {
-		enable_equipments = {
-			heavy_mech_1
+		path = {
+			leads_to_tech = heavy_mech_boost_1
+			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = heavy_mech_boost_2
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			heavy_mech_equipment_1
+		}
+		enable_subunits = {
+			heavy_mech
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2268
+		folder = {
+			name = vehicles_folder
+			position = { x = 16 y = 4 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	heavy_mech_boost_1 = {
 		path = {
 			leads_to_tech = heavy_mech_2
 			research_cost_coeff = 1
-		}	
-		
+		}
+		XOR = {
+			heavy_mech_boost_2
+		}
+		heavy_mech = {
+			breakthrough = 0.05
+			hardness = 0.05
+		}
+
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2270
+		folder = {
+			name = vehicles_folder
+			position = { x = 14 y = 6 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	heavy_mech_boost_2 = {
+		path = {
+			leads_to_tech = heavy_mech_2
+			research_cost_coeff = 1
+		}
+		XOR = {
+			heavy_mech_boost_1
+		}
+		heavy_mech = {
+			hard_attack = 0.05
+			armor_value = 0.05
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2270
+		folder = {
+			name = vehicles_folder
+			position = { x = 18 y = 6 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	heavy_mech_2 = {
+		path = {
+			leads_to_tech = heavy_mech_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavy_tank_destoryer_mech_1
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			heavy_mech_equipment_2
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2272
+		folder = {
+			name = vehicles_folder
+			position = { x = 16 y = 8 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	heavy_mech_3 = {
+		path = {
+			leads_to_tech = heavy_mech_3_boost
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			heavy_mech_equipment_3
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2274
+		folder = {
+			name = vehicles_folder
+			position = { x = 14 y = 10 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	heavy_mech_3_boost = {
+
+		modifier = {
+		}
+		heavy_mech = {
+			reliability_factor = 0.05
+			soft_attack = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 2276
+		folder = {
+			name = vehicles_folder
+			position = { x = 14 y = 12 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	heavy_tank_destoryer_mech_1 = {
+		path = {
+			leads_to_tech = heavy_tank_destoryer_mech_1_boost
+			research_cost_coeff = 1
+		}
+		enable_subunits = {
+			heavy_mech_tank_destroyer_brigade
+		}
+
+		enable_equipments = {
+			heavy_mech_tank_destroyer_equipment_1
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2274
+		folder = {
+			name = vehicles_folder
+			position = { x = 18 y = 10 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	heavy_tank_destoryer_mech_1_boost = {
+
+		modifier = {
+		}
+		heavy_mech_tank_destroyer_brigade = {
+			ap_attack = 0.05
+			breakthrough = 0.05
+			armor_value = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 2276
+		folder = {
+			name = vehicles_folder
+			position = { x = 18 y = 12 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	light_mech_1 = {
+		path = {
+			leads_to_tech = light_mech_boost_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = light_mech_boost_2
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			light_mech_equipment_2
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2268
 		folder = {
 			name = vehicles_folder
 			position = { x = 8 y = 4 }
 		}
 		
 		categories = {
-			aircraft
+			armor
 		}
 		
 		ai_will_do = {
 			factor = 1
 		}
 	}
+	light_mech_boost_1 = {
+		path = {
+			leads_to_tech = light_mech_2
+			research_cost_coeff = 1
+		}
+		XOR = {
+			light_mech_boost_2
+		}
+		light_mech = {
+			max_strength = 0.05
+			entrenchment = 0.05
+		}
 
-	heavy_mech_2 = {
-		enable_equipments = {
-			heavy_mech_2
-		}
-		path = {
-			leads_to_tech = heavy_mech_3
-			research_cost_coeff = 1
-		}	
-		
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
-		
-		path = {
-			leads_to_tech = super_heavy_mech_1
-			research_cost_coeff = 1
-		}	
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2270
 		folder = {
 			name = vehicles_folder
-			position = { x = 8 y = 6 }
+			position = { x = 6 y = 6 }
 		}
 		
 		categories = {
-			aircraft
+			armor
 		}
 		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
-	heavy_mech_3 = {
-		enable_equipments = {
-			heavy_mech_3
+	light_mech_boost_2 = {
+		path = {
+			leads_to_tech = light_mech_2
+			research_cost_coeff = 1
 		}
-		
+		XOR = {
+			light_mech_boost_1
+		}
+		light_mech = {
+			soft_attack = 0.05
+			movement = 0.05
+		}
+
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2270
+		folder = {
+			name = vehicles_folder
+			position = { x = 10 y = 6 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	light_mech_2 = {
+		path = {
+			leads_to_tech = light_mech_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = light_mech_art
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			light_mech_equipment_3
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2272
 		folder = {
 			name = vehicles_folder
 			position = { x = 8 y = 8 }
 		}
 		
 		categories = {
-			aircraft
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	light_mech_3 = {
+		path = {
+			leads_to_tech = light_mech_3_boost
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			light_mech_equipment_4
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2274
+		folder = {
+			name = vehicles_folder
+			position = { x = 10 y = 10 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	light_mech_3_boost = {
+
+		modifier = {
+		}
+		light_mech = {
+			ap_attack = 0.05
+			air_attack = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 2276
+		folder = {
+			name = vehicles_folder
+			position = { x = 10 y = 12 }
+		}
+		
+		categories = {
+			armor
 		}
 		
 		ai_will_do = {
@@ -644,63 +487,969 @@ technologies = {
 		}
 	}
 
-	super_heavy_mech_1 = {
+	light_mech_art = {
+		path = {
+			leads_to_tech = light_mech_art_boost
+			research_cost_coeff = 1
+		}
+
 		enable_equipments = {
-			super_heavy_mech_1
+			light_mech_artillery_equipment_1
+		}
+
+		enable_subunits = {
+			light_mech_artillery_brigade
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2274
+		folder = {
+			name = vehicles_folder
+			position = { x = 6 y = 10 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	light_mech_art_boost = {
+		path = {
+			leads_to_tech = light_mech_art_boost
+			research_cost_coeff = 1
+		}
+
+		light_mech_artillery_brigade = {
+			recon = 0.05
+			ap_attack = 0.05
+			hard_attack = 0.05
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2276
+		folder = {
+			name = vehicles_folder
+			position = { x = 6 y = 12 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	armored_tractor = {
+		path = {
+			leads_to_tech = armored_tractor_boost
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			heavy_tanks_equipment_1
+		}
+		
+		enable_subunits = {
+			heavy_armor
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2266
+		folder = {
+			name = vehicles_folder
+			position = { x = -8 y = 2 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	armored_tractor_boost = {
+		path = {
+			leads_to_tech = bulldozer_tank
+			research_cost_coeff = 1
+		}
+		heavy_armor = {
+			ap_attack = 0.05
+			armor_value = 0.05
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2268
+		folder = {
+			name = vehicles_folder
+			position = { x = -8 y = 4 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	bulldozer_tank = {
+		path = {
+			leads_to_tech = bulldozer_tank_boost_1
+			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = super_heavy_mech_2
+			leads_to_tech = bulldozer_tank_boost_2
 			research_cost_coeff = 1
-		}	
-		
-		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = vehicles_folder
-			position = { x = 12 y = 8 }
-		}
-		
-		categories = {
-			aircraft
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	super_heavy_mech_2 = {
 		enable_equipments = {
-			super_heavy_mech_2
+			heavy_tanks_equipment_2
 		}
-		
+
 		modifier = {
-			hidden_modifier = {
-				political_power_gain = 0.1
-			}
-			custom_modifier_tooltip = technology_equipment_placeholder_tt
 		}
 
 		research_cost = 1.5
-		start_year = 1918
+		start_year = 2270
 		folder = {
 			name = vehicles_folder
-			position = { x = 12 y = 10 }
+			position = { x = -8 y = 6 }
 		}
 		
 		categories = {
-			aircraft
+			armor
 		}
 		
 		ai_will_do = {
 			factor = 1
 		}
 	}
+	bulldozer_tank_boost_1 = {
+		path = {
+			leads_to_tech = makeshift_tank
+			research_cost_coeff = 1
+		}
+		XOR = {
+			bulldozer_tank_boost_2
+		}
+		heavy_armor = {
+			breakthrough = 0.05
+			hard_attack = 0.05
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2272
+		folder = {
+			name = vehicles_folder
+			position = { x = -7 y = 8 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	bulldozer_tank_boost_2 = {
+		path = {
+			leads_to_tech = makeshift_tank
+			research_cost_coeff = 1
+		}
+		XOR = {
+			bulldozer_tank_boost_1
+		}
+		heavy_armor = {
+			armor_value = 0.05
+			soft_attack = 0.05
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2272
+		folder = {
+			name = vehicles_folder
+			position = { x = -9 y = 8 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	makeshift_tank = {
+		path = {
+			leads_to_tech = pre_war_tank
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavy_flame_tank
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			heavy_tanks_equipment_3
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2274
+		folder = {
+			name = vehicles_folder
+			position = { x = -8 y = 10 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	pre_war_tank = {
+		path = {
+			leads_to_tech = pre_war_tank_boost
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			modern_tanks_equipment_1
+		}
+
+		enable_subunits = {
+			modern_armor
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2276
+		folder = {
+			name = vehicles_folder
+			position = { x = -10 y = 12 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	pre_war_tank_boost = {
+
+		modifier = {
+		}
+		modern_armor = {
+			hard_attack = 0.075
+			ap_attack = 0.075
+		}
+
+		research_cost = 1.5
+		start_year = 2278
+		folder = {
+			name = vehicles_folder
+			position = { x = -10 y = 14 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	heavy_flame_tank = {
+		path = {
+			leads_to_tech = heavy_flame_tank_boost
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			heavy_tank_flame_equipment_1
+		}
+
+		enable_subunits = {
+			heavy_flame_tank
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2276
+		folder = {
+			name = vehicles_folder
+			position = { x = -6 y = 12 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	heavy_flame_tank_boost = {
+
+		modifier = {
+		}
+
+		heavy_flame_tank = {
+			soft_attack = 0.075
+			initiative = 0.075
+		}
+
+		research_cost = 1.5
+		start_year = 2278
+		folder = {
+			name = vehicles_folder
+			position = { x = -6 y = 14 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	horse_transport = {
+		path = {
+			leads_to_tech = horse_transport_boost_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = horse_transport_boost_2
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			horse_equipment
+		}
+		
+		enable_subunits = {
+			cavalry
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2266
+		folder = {
+			name = vehicles_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	horse_transport_boost_1 = {
+		path = {
+			leads_to_tech = professional_cavalry_transport
+			research_cost_coeff = 1
+		}
+		XOR = {
+			horse_transport_boost_2
+		}
+		cavalry = {
+			hard_attack = 0.05
+		}
+
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2268
+		folder = {
+			name = vehicles_folder
+			position = { x = 3 y = 4 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	horse_transport_boost_2 = {
+		path = {
+			leads_to_tech = professional_cavalry_transport
+			research_cost_coeff = 1
+		}
+		XOR = {
+			horse_transport_boost_1
+		}
+		cavalry = {
+			soft_attack = 0.05
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2268
+		folder = {
+			name = vehicles_folder
+			position = { x = 1 y = 4 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	professional_cavalry_transport = {
+		path = {
+			leads_to_tech = professional_cavalry_transport_boost_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = professional_cavalry_transport_boost_2
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			professional_cavaltry_equipment
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2270
+		folder = {
+			name = vehicles_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	professional_cavalry_transport_boost_1 = {
+		path = {
+			leads_to_tech = makeshift_chariots_transport
+			research_cost_coeff = 1
+		}
+		XOR = {
+			professional_cavalry_transport_boost_2
+		}
+		cavalry = {
+			hard_attack = 0.075
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2272
+		folder = {
+			name = vehicles_folder
+			position = { x = 3 y = 8 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	professional_cavalry_transport_boost_2 = {
+		path = {
+			leads_to_tech = makeshift_chariots_transport
+			research_cost_coeff = 1
+		}
+		XOR = {
+			professional_cavalry_transport_boost_1
+		}
+		cavalry = {
+			soft_attack = 0.075
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2272
+		folder = {
+			name = vehicles_folder
+			position = { x = 1 y = 8 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	makeshift_chariots_transport = {
+		path = {
+			leads_to_tech = makeshift_chariots_transport_boost_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = makeshift_chariots_transport_boost_2
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			makeshift_chariots_equipment
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2274
+		folder = {
+			name = vehicles_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	makeshift_chariots_transport_boost_1 = {
+		path = {
+			leads_to_tech = armored_chariots_transport
+			research_cost_coeff = 1
+		}
+		XOR = {
+			makeshift_chariots_transport_boost_2
+		}
+		cavalry = {
+			hard_attack = 0.1
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2276
+		folder = {
+			name = vehicles_folder
+			position = { x = 3 y = 12 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	makeshift_chariots_transport_boost_2 = {
+		path = {
+			leads_to_tech = armored_chariots_transport
+			research_cost_coeff = 1
+		}
+		XOR = {
+			makeshift_chariots_transport_boost_1
+		}
+		cavalry = {
+			soft_attack = 0.1
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2276
+		folder = {
+			name = vehicles_folder
+			position = { x = 1 y = 12 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	armored_chariots_transport = {
+
+		enable_equipments = {
+			armored_chariots_equipment
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2278
+		folder = {
+			name = vehicles_folder
+			position = { x = 2 y = 14 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	atv_transport = {
+		path = {
+			leads_to_tech = atv_transport_boost_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = atv_transport_boost_2
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			atv_equipment
+		}
+		
+		enable_subunits = {
+			motorized
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2266
+		folder = {
+			name = vehicles_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	atv_transport_boost_1 = {
+		path = {
+			leads_to_tech = scavanged_cars_transport
+			research_cost_coeff = 1
+		}
+		XOR = {
+			atv_transport_boost_2
+		}
+		motorized = {
+			hardness = 0.05
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2268
+		folder = {
+			name = vehicles_folder
+			position = { x = -3 y = 4 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	atv_transport_boost_2 = {
+		path = {
+			leads_to_tech = scavanged_cars_transport
+			research_cost_coeff = 1
+		}
+		XOR = {
+			atv_transport_boost_1
+		}
+		motorized = {
+			armor_value = 0.05
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2268
+		folder = {
+			name = vehicles_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	scavanged_cars_transport = {
+		path = {
+			leads_to_tech = scavanged_cars_boost_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = scavanged_cars_boost_2
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			scavenged_cars_equipment
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2270
+		folder = {
+			name = vehicles_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	scavanged_cars_boost_1 = {
+		path = {
+			leads_to_tech = trucks_transport
+			research_cost_coeff = 1
+		}
+		XOR = {
+			scavanged_cars_boost_2
+		}
+		motorized = {
+			hardness = 0.075
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2272
+		folder = {
+			name = vehicles_folder
+			position = { x = -3 y = 8 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	scavanged_cars_boost_2 = {
+		path = {
+			leads_to_tech = trucks_transport
+			research_cost_coeff = 1
+		}
+		XOR = {
+			scavanged_cars_boost_1
+		}
+		motorized = {
+			armor_value = 0.075
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2272
+		folder = {
+			name = vehicles_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	trucks_transport = {
+		path = {
+			leads_to_tech = truck_boost_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = truck_boost_2
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			truck_equipment
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2274
+		folder = {
+			name = vehicles_folder
+			position = { x = -2 y = 10 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	truck_boost_1 = {
+		path = {
+			leads_to_tech = armored_trucks_transport
+			research_cost_coeff = 1
+		}
+		XOR = {
+			truck_boost_2
+		}
+		motorized = {
+			hardness = 0.1
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2276
+		folder = {
+			name = vehicles_folder
+			position = { x = -3 y = 12 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	truck_boost_2 = {
+		path = {
+			leads_to_tech = armored_trucks_transport
+			research_cost_coeff = 1
+		}
+		XOR = {
+			truck_boost_1
+		}
+		motorized = {
+			armor_value = 0.11
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2276
+		folder = {
+			name = vehicles_folder
+			position = { x = -1 y = 12 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	armored_trucks_transport = {
+
+		enable_equipments = {
+			armored_truck_equipment
+		}
+
+		modifier = {
+		}
+
+		research_cost = 1.5
+		start_year = 2278
+		folder = {
+			name = vehicles_folder
+			position = { x = -2 y = 14 }
+		}
+		
+		categories = {
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		
 }

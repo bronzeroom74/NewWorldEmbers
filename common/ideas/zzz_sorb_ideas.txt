@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		sor_beacon_of_hope = {
+		sor_merchant_money = {
 			picture = weary_trades
 			allowed = {
 				tag = SOR
@@ -19,7 +19,7 @@ ideas = {
 		}
 	}
 	country = {
-		sor_economic_titan = {
+		sor_water_cartel = {
 			picture = groceries_o_plenty
 			allowed = {
 				tag = SOR
@@ -37,22 +37,7 @@ ideas = {
 		}
 	}
 	country = {
-		sor_oh_liberty = {
-			picture = groceries_o_plenty
-			allowed = {
-				tag = SOR
-			}
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-			modifier = {
-			}
-		}
-	}
-	country = {
-		sor_merchant_army = {
+		sor_league_army = {
 			picture = groceries_o_plenty
 			allowed = {
 				tag = SOR

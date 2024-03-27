@@ -43,8 +43,8 @@ technologies = {
 	}
 	
 	radio_1 = {
-		land_reinforce_rate = 0.05
-		coordination_bonus = 0.04
+		land_reinforce_rate = 0.025
+		coordination_bonus = 0.025
 		
 		path = {
 			leads_to_tech = radio_2 
@@ -65,11 +65,6 @@ technologies = {
 			position = { x = 1 y = 2 }
 		}
 		
-		enable_equipment_modules = { 
-			tank_radio_1
-			radio_navigation_1
-		}
-		
 		ai_will_do = {
 			factor = 3
 		}
@@ -80,7 +75,9 @@ technologies = {
 	}
 
 	radio_2 = {
-		
+		land_reinforce_rate = 0.05
+		coordination_bonus = 0.05
+		start_year = 2268
 		path = {
 			leads_to_tech = radio_3 
 			research_cost_coeff = 1
@@ -114,6 +111,9 @@ technologies = {
 	}
 
 	radio_3 = {
+		land_reinforce_rate = 0.075
+		coordination_bonus = 0.075
+		start_year = 2270
 		
 		path = {
 			leads_to_tech = radio_4 
@@ -148,6 +148,9 @@ technologies = {
 	}
 
 	radio_4 = {
+		land_reinforce_rate = 0.1
+		coordination_bonus = 0.1
+		start_year = 2272
 		
 		path = {
 			leads_to_tech = radio_5
@@ -182,6 +185,9 @@ technologies = {
 	}
 
 	radio_5 = {
+		land_reinforce_rate = 0.125
+		coordination_bonus = 0.125
+		start_year = 2274
 		
 		path = {
 			leads_to_tech = radio_6
@@ -216,7 +222,9 @@ technologies = {
 	}
 
 	radio_6 = {
-		
+		land_reinforce_rate = 0.15
+		coordination_bonus = 0.15
+		start_year = 2276
 		path = {
 			leads_to_tech = radio_7
 			research_cost_coeff = 1
@@ -250,6 +258,9 @@ technologies = {
 	}
 
 	radio_7 = {
+		land_reinforce_rate = 0.175
+		coordination_bonus = 0.175
+		start_year = 2278
 
 		path = {
 			leads_to_tech = advanced_centimetric_radar
@@ -295,7 +306,7 @@ technologies = {
 		coordination_bonus = 0.01
 		
 		research_cost = 1.75
-		
+		start_year = 2268
 		folder = {
 			name = electronics_folder
 			position = { x = -1 y = 5 }
@@ -322,7 +333,7 @@ technologies = {
 
 		coordination_bonus = 0.01
 		research_cost = 1.25
-		start_year = 2266
+		start_year = 2270
 		enable_equipment_modules = { 
 			ship_radar_1
 			tank_radio_2
@@ -368,7 +379,7 @@ technologies = {
 		}
 		
 		research_cost = 1.25
-		start_year = 2266
+		start_year = 2272
 		
 		folder = {
 			name = electronics_folder
@@ -409,7 +420,7 @@ technologies = {
 		static_anti_air_hit_chance_factor = 0.2
 		
 		research_cost = 1.25
-		start_year = 2266
+		start_year = 2274
 		
 		folder = {
 			name = electronics_folder
@@ -448,7 +459,7 @@ technologies = {
 		static_anti_air_hit_chance_factor = 0.2
 		
 		research_cost = 1.25
-		start_year = 2266
+		start_year = 2276
 		
 		folder = {
 			name = electronics_folder
@@ -489,7 +500,7 @@ technologies = {
 		static_anti_air_hit_chance_factor = 0.2
 		
 		research_cost = 1.25
-		start_year = 2266
+		start_year = 2278
 		
 		folder = {
 			name = electronics_folder
@@ -528,7 +539,8 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		
+		start_year = 2266
+
 		folder = {
 			name = electronics_folder
 			position = { x = 5 y = 2 }
@@ -570,7 +582,7 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 2266
+		start_year = 2268
 		
 		folder = {
 			name = electronics_folder
@@ -618,7 +630,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 2266
+		start_year = 2270
 		
 		folder = {
 			name = electronics_folder
@@ -663,7 +675,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 2266
+		start_year = 2272
 		
 		folder = {
 			name = electronics_folder
@@ -695,7 +707,7 @@ technologies = {
 		research_speed_factor = 0.08
 		
 		research_cost = 2.5
-		start_year = 2266
+		start_year = 2276
 		
 		folder = {
 			name = electronics_folder
@@ -726,7 +738,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 2.5
-		start_year = 2266
+		start_year = 2268
 		
 		folder = {
 			name = electronics_folder
@@ -755,7 +767,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 2.5
-		start_year = 2266
+		start_year = 2270
 		
 		folder = {
 			name = electronics_folder
@@ -784,7 +796,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 2.5
-		start_year = 2266
+		start_year = 2272
 		
 		folder = {
 			name = electronics_folder
@@ -813,7 +825,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 2.5
-		start_year = 2266
+		start_year = 2274
 		
 		folder = {
 			name = electronics_folder
@@ -842,7 +854,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 2.5
-		start_year = 2266
+		start_year = 2268
 		
 		folder = {
 			name = electronics_folder
@@ -871,7 +883,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 2.5
-		start_year = 2266
+		start_year = 2270
 		
 		folder = {
 			name = electronics_folder
@@ -900,7 +912,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 2.5
-		start_year = 2266
+		start_year = 2272
 		
 		folder = {
 			name = electronics_folder
@@ -929,7 +941,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 2.5
-		start_year = 2266
+		start_year = 2274
 		
 		folder = {
 			name = electronics_folder

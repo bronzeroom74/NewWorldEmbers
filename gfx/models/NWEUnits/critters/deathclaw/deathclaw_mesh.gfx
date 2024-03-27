@@ -1,0 +1,18 @@
+objectTypes = {
+	####deathclaw
+	pdxmesh = {
+		name = "deathclaw_mesh"
+		file = "gfx/models/NWEUnits/critters/deathclaw/deathclaw.mesh"
+
+		animation = { id = "idle"			type = "deathclaw_idle_anim" }
+		animation = { id = "move"			type = "deathclaw_move_anim" }
+		animation = { id = "attack"			type = "deathclaw_attack_anim" }		
+		
+		meshsettings = {
+			texture_diffuse = "deathclaw_d.dds"
+			texture_normal = "deathclaw_n.dds"
+			texture_specular = "deathclaw_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}	
+}

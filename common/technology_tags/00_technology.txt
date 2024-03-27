@@ -27,6 +27,7 @@ technology_categories = {
 	## Vehicles
 	motorized_equipment
 	armor
+	mech
 
 	## Robots
 
@@ -64,9 +65,6 @@ technology_folders = {
 	support_folder = {
 		ledger = army
 	}
-	artillery_folder = {
-		ledger = army
-	}
 	vehicles_folder = {
 		ledger = army
 	}
@@ -81,6 +79,21 @@ technology_folders = {
 	}
 	industry_folder = {
 		ledger = civilian
+	}
+	naval_folder = {
+		ledger = navy
+	}
+	land_doctrine_folder = {
+		ledger = army
+		doctrine = yes
+	}
+	naval_doctrine_folder = {
+		ledger = navy
+		doctrine = yes
+	}
+	air_doctrine_folder = {
+		ledger = air
+		doctrine = yes
 	}
 }
 

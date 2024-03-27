@@ -1,14 +1,13 @@
 equipments = {
 
 	support_equipment = {
-		year = 1918
+		year = 2266
 
 		is_archetype = yes
 		picture = archetype_support_equipment
 		is_buildable = no
 		type = {
 			infantry
-			motorized
 			support
 		}
 		group_by = archetype
@@ -22,16 +21,430 @@ equipments = {
 
 		build_cost_ic = 4
 		resources = {
-			#aluminium = 1
-			#steel = 2
+			polymers = 1
+			salvage = 2
+		}
+	}
+
+	heavy_support_equipment = {
+		year = 2266
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			support
+		}
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+		reliability = 1
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 6
+		resources = {
+			refined_metals = 1
+			polymers = 1
+			salvage = 2
 		}
 	}
 
 	support_equipment_1 = {
-		year = 1918
+		year = 2266
 
 		archetype = support_equipment
 		priority = 20
 	}
 
+	heavy_support_equipment_1 = {
+		year = 2266
+
+		archetype = heavy_support_equipment
+		priority = 20
+	}
+
+	autocannon_equipment = {
+		year = 2266
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			support
+		}
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.43
+		resources = {
+			refined_metals = 2
+			polymers = 1
+			salvage = 2
+		}
+	}
+
+	autocannon_equipment_1 = {
+		year = 2266
+
+		parent = autocannon_equipment
+		archetype = autocannon_equipment
+		priority = 10
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.9
+		maximum_speed = 4
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 2
+
+		#Offensive Abilities
+		soft_attack = 1.5
+		hard_attack = 1.5
+		ap_attack = 1
+		air_attack = 1
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.43
+		resources = {
+			refined_metals = 2
+			polymers = 1
+			salvage = 2
+		}
+	}
+
+	autocannon_equipment_2 = {
+		year = 2269
+
+		parent = autocannon_equipment_1
+		archetype = autocannon_equipment
+		priority = 10
+		visual_level = 1
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 2.5
+
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 2
+		ap_attack = 1.5
+		air_attack = 1.5
+
+		build_cost_ic = 0.50
+	}
+
+	autocannon_equipment_3 = {
+		year = 2272
+
+		parent = autocannon_equipment_2
+		archetype = autocannon_equipment
+		priority = 10
+		visual_level = 1
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 2.5
+
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 2
+		ap_attack = 1.5
+		air_attack = 1.5
+
+		build_cost_ic = 0.50
+		resources = {
+			refined_metals = 2
+			polymers = 2
+			salvage = 3
+		}
+	}
+
+	autocannon_equipment_4 = {
+		year = 2275
+
+		parent = autocannon_equipment_3
+		archetype = autocannon_equipment
+		priority = 10
+		visual_level = 1
+
+		#Defensive Abilities
+		defense = 10
+		breakthrough = 3
+
+		#Offensive Abilities
+		soft_attack = 2.5
+		hard_attack = 2.5
+		ap_attack = 2
+		air_attack = 2
+
+		build_cost_ic = 0.50
+		resources = {
+			refined_metals = 3
+			polymers = 3
+			salvage = 3
+		}
+	}
+
+	sniper_support_equipment = {
+		year = 2266
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			support
+		}
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.43
+		resources = {
+			polymers = 2
+			salvage = 2
+		}
+	}
+
+	sniper_support_equipment_1 = {
+		year = 2266
+
+		parent = sniper_support_equipment
+		archetype = sniper_support_equipment
+		priority = 10
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.9
+		maximum_speed = 4
+		experience_loss_factor = 0.5
+		initiative = 0.5
+
+		#Defensive Abilities
+		defense = 2
+
+		#Offensive Abilities
+		soft_attack = 3
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.43
+		resources = {
+			polymers = 2
+			salvage = 2
+		}
+	}
+
+	sniper_support_equipment_2 = {
+		year = 2269
+
+		parent = sniper_support_equipment_1
+		archetype = sniper_support_equipment
+		priority = 10
+		visual_level = 1
+
+		experience_loss_factor = 0.75
+		initiative = 0.75
+
+		#Defensive Abilities
+		defense = 2.5
+
+		#Offensive Abilities
+		soft_attack = 3.5
+
+		build_cost_ic = 0.50
+	}
+
+	sniper_support_equipment_3 = {
+		year = 2272
+
+		parent = sniper_support_equipment_2
+		archetype = sniper_support_equipment
+		priority = 10
+		visual_level = 1
+
+		experience_loss_factor = 1
+		initiative = 1
+
+		#Defensive Abilities
+		defense = 3
+
+		#Offensive Abilities
+		soft_attack = 4
+
+		build_cost_ic = 0.50
+		resources = {
+			polymers = 2
+			salvage = 3
+		}
+	}
+
+	sniper_support_equipment_4 = {
+		year = 2275
+
+		parent = sniper_support_equipment_3
+		archetype = sniper_support_equipment
+		priority = 10
+		visual_level = 1
+
+		experience_loss_factor = 1.25
+		initiative = 1.25
+
+		#Defensive Abilities
+		defense = 3.5
+
+		#Offensive Abilities
+		soft_attack = 4.5
+
+		build_cost_ic = 0.50
+		resources = {
+			polymers = 3
+			salvage = 3
+		}
+	}
+
+	howitzer_equipment = {
+		year = 2266
+
+		is_archetype = yes
+		picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+		active = yes
+
+		#Misc Abilities
+		reliability = 0.9
+		maximum_speed = 4
+
+		#Defensive Abilities
+		defense = 10
+		max_strength = 0.5
+		breakthrough = 2
+
+		#Offensive Abilities
+		hard_attack = 1
+		ap_attack = 1
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.43
+		resources = {
+			refined_metals = 2
+			salvage = 2
+		}
+	}
+
+	basic_mortar_equipment = {
+		year = 2266
+
+		parent = howitzer_equipment
+		archetype = howitzer_equipment
+		priority = 10
+		visual_level = 1
+
+		#Defensive Abilities
+		defense = 12
+		max_strength = 0.75
+		breakthrough = 2.5
+
+		#Offensive Abilities
+		hard_attack = 1.5
+		ap_attack = 1.5
+
+		build_cost_ic = 0.50
+	}
+
+	howitzer_equipment_1 = {
+		year = 2269
+
+		parent = basic_mortar_equipment
+		archetype = howitzer_equipment
+		priority = 10
+		visual_level = 1
+
+		#Defensive Abilities
+		defense = 14
+		max_strength = 1
+		breakthrough = 3
+
+		#Offensive Abilities
+		hard_attack = 2
+		ap_attack = 2
+
+		build_cost_ic = 0.50
+		resources = {
+			refined_metals = 2
+			salvage = 3
+		}
+	}
+
+	howitzer_equipment_2 = {
+		year = 2272
+
+		parent = howitzer_equipment_1
+		archetype = howitzer_equipment
+		priority = 10
+		visual_level = 1
+
+		#Defensive Abilities
+		defense = 16
+		max_strength = 1.25
+		breakthrough = 3.5
+
+		#Offensive Abilities
+		hard_attack = 2.5
+		ap_attack = 2.5
+
+		build_cost_ic = 0.50
+		resources = {
+			refined_metals = 3
+			salvage = 3
+		}
+	}
+
+	howitzer_equipment_3 = {
+		year = 2275
+
+		parent = howitzer_equipment_2
+		archetype = howitzer_equipment
+		priority = 10
+		visual_level = 1
+
+		#Defensive Abilities
+		defense = 18
+		max_strength = 1.5
+		breakthrough = 4
+
+		#Offensive Abilities
+		hard_attack = 3
+		ap_attack = 3
+
+		build_cost_ic = 0.50
+		resources = {
+			refined_metals = 4
+			salvage = 4
+		}
+	}
 }

@@ -1,0 +1,35 @@
+objectTypes = {
+	####slanter
+	pdxmesh = {
+		name = "slanter_mesh"
+		file = "gfx/models/NWEUnits/critters/slanter/slanter.mesh"
+		
+		animation = { id = "march_move"			type = "slanter_ranged_move_anim" }
+		animation = { id = "attack"			type = "slanter_ranged_attack_anim" }
+		animation = { id = "support_attack"			type = "slanter_ranged_attack_anim" }
+		animation = { id = "charge_rifle"			type = "slanter_ranged_move_anim" }
+		animation = { id = "charge_rifle_shoot"			type = "slanter_ranged_charge_anim" }
+		animation = { id = "idle"			type = "slanter_ranged_idle_anim" }
+		animation = { id = "retreat"			type = "slanter_ranged_move_anim" }
+		animation = { id = "move"			type = "slanter_ranged_move_anim" }
+		animation = { id = "death"			type = "slanter_ranged_move_anim" }
+		##MELEE
+		animation = { id = "melee_1h_attack" type = "slanter_melee_attack_anim"}
+		animation = { id = "melee_1h_attack_idle" type = "slanter_melee_attack_anim"}
+		animation = { id = "melee_1h_charge" type = "slanter_melee_move_anim"}
+		animation = { id = "melee_1h_charge_attack" type = "slanter_melee_charge_anim"}
+		animation = { id = "melee_2h_attack" type = "slanter_melee_attack_anim"}
+		animation = { id = "melee_2h_attack_idle" type = "slanter_melee_attack_anim"}
+		animation = { id = "melee_2h_charge" type = "slanter_melee_move_anim"}
+		animation = { id = "melee_2h_charge_attack" type = "slanter_melee_charge_anim"}
+		animation = { id = "melee_idle" type = "slanter_melee_idle_anim"}
+		animation = { id = "melee_move" type = "slanter_melee_move_anim"}		
+		
+		meshsettings = {
+			texture_diffuse = "slanter_d.dds"
+			texture_normal = "slanter_n.dds"
+			texture_specular = "slanter_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}	
+}

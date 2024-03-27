@@ -27,5 +27,11 @@ bitmapfonts = {
 		path = "gfx/fonts/ashes_font_14"
 		color = 0xffffffff
 	}
+
+	bitmapfont = {
+		name = "tech_font"
+		path = "gfx/fonts/tech_font"
+		color = 0xffffffff
+	}
 	
 }

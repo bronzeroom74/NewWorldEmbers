@@ -1,0 +1,12 @@
+####################### ANIMATION INFANTRY ######################
+sound = {
+	name = "laser_pistol_attack_01"
+	file = "animations/laser_pistol_attack_01.wav"
+	always_load = no
+}
+
+sound = {
+	name = "laser_pistol_attack_02"
+	file = "animations/laser_pistol_attack_02.wav"
+	always_load = no
+}

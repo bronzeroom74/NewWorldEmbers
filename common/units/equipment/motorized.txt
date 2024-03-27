@@ -7,7 +7,6 @@ equipments = {
 		picture = archetype_motorized_equipment
 		is_buildable = no
 		type = {
-			#infantry #Removing inf type
 			motorized
 		}
 		group_by = archetype
@@ -25,18 +24,105 @@ equipments = {
 
 		build_cost_ic = 2.5
 		resources = {
-			##oil = 1
-			#rubber = 1
-			#steel = 1
+			energetics = 1
+			polymers = 1
+			salvage = 1
 		}
 
 		fuel_consumption = 1.2
 		supply_truck = yes
 	}
 
-	motorized_equipment_0 = { # Introducing WW1 style trucks
+	cavalry_equipment = {
 		year = 1936
 
+		is_archetype = yes
+		picture = archetype_motorized_equipment
+		is_buildable = no
+		type = {
+			motorized
+		}
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+		maximum_speed = 8
+		reliability = 1.8
+		hardness = 0.05
+
+		breakthrough = 2.5
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+
+		build_cost_ic = 0.5
+		resources = {
+			salvage = 1
+		}
+		supply_truck = yes
+	}
+
+	horse_equipment = { 
+		year = 1936
+
+		parent = cavalry_equipment
+		archetype = cavalry_equipment
+		priority = 30
+		maximum_speed = 6
+		reliability = 1.5
+		breakthrough = 1.5
+	}
+
+	professional_cavaltry_equipment = { 
+		year = 1936
+
+		parent = horse_equipment
+		archetype = cavalry_equipment
+		priority = 30
+		maximum_speed = 8
+		reliability = 2
+		breakthrough = 2.5
+		recon = 5
+		soft_attack = 5
+	}
+
+	makeshift_chariots_equipment = { 
+		year = 1936
+
+		parent = professional_cavaltry_equipment
+		archetype = cavalry_equipment
+		priority = 30
+		maximum_speed = 10
+		reliability = 2.3
+		breakthrough = 4
+		recon = 7.5
+		soft_attack = 7.5
+		resources = {
+			salvage = 2
+		}
+	}
+
+	armored_chariots_equipment = { 
+		year = 1936
+
+		parent = makeshift_chariots_equipment
+		archetype = cavalry_equipment
+		priority = 30
+		maximum_speed = 12
+		reliability = 2.8
+		breakthrough = 4.5
+		recon = 10
+		soft_attack = 10
+		resources = {
+			salvage = 3
+		}
+	}
+
+
+	atv_equipment = { 
+		year = 1936
+
+		parent = motorized_equipment
 		archetype = motorized_equipment
 		priority = 30
 		maximum_speed = 10
@@ -44,12 +130,53 @@ equipments = {
 		breakthrough = 2
 	}
 
-	motorized_equipment_1 = {
+	scavenged_cars_equipment = {
 		year = 1936
 
 		archetype = motorized_equipment
-		parent = motorized_equipment_0
+		parent = atv_equipment
 		priority = 30
+		maximum_speed = 12
+		reliability = 0.8
+		breakthrough = 5
+		soft_attack = 5
+		initiative = 0.05
+	}
+
+	truck_equipment = {
+		year = 1936
+
+		archetype = motorized_equipment
+		parent = scavenged_cars_equipment
+		priority = 30
+		maximum_speed = 14
+		reliability = 1
+		breakthrough = 7.5
+		soft_attack = 7.5
+		initiative = 0.075
+		resources = {
+			energetics = 1
+			polymers = 2
+			salvage = 2
+		}
+	}
+
+	armored_truck_equipment = {
+		year = 1936
+
+		archetype = motorized_equipment
+		parent = truck_equipment
+		priority = 30
+		maximum_speed = 14
+		reliability = 1
+		breakthrough = 7.5
+		soft_attack = 10
+		initiative = 0.1
+		resources = {
+			energetics = 2
+			polymers = 2
+			salvage = 3
+		}
 	}
 
 }

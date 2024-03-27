@@ -1,0 +1,102 @@
+objectTypes = {
+	####knight
+	pdxmesh = {
+		name = "knight_mesh"
+		file = "gfx/models/NWEUnits/human/knight/knight.mesh"
+
+		animation = { id = "march_move"			type = "knight_ranged_move_anim" }
+		animation = { id = "attack"			type = "knight_ranged_attack_anim" }
+		animation = { id = "defend"			type = "knight_ranged_longattack_anim" }
+		animation = { id = "support_attack"			type = "knight_ranged_attack_anim" }
+		animation = { id = "charge_rifle"			type = "knight_ranged_move_anim" }
+		animation = { id = "charge_rifle_shoot"			type = "knight_ranged_charge_anim" }
+		animation = { id = "idle"			type = "knight_ranged_idle_anim" }
+		animation = { id = "retreat"			type = "knight_ranged_move_anim" }
+		animation = { id = "move"			type = "knight_ranged_move_anim" }
+		animation = { id = "death"			type = "knight_ranged_move_anim" }
+		##MELEE
+		animation = { id = "melee_1h_attack" type = "knight_melee_attack_anim"}
+		animation = { id = "melee_1h_attack_idle" type = "knight_melee_attack_anim"}
+		animation = { id = "melee_1h_charge" type = "knight_melee_move_anim"}
+		animation = { id = "melee_1h_charge_attack" type = "knight_melee_charge_anim"}
+		animation = { id = "melee_2h_attack" type = "knight_melee_attack_anim"}
+		animation = { id = "melee_2h_attack_idle" type = "knight_melee_attack_anim"}
+		animation = { id = "melee_2h_charge" type = "knight_melee_move_anim"}
+		animation = { id = "melee_2h_charge_attack" type = "knight_melee_charge_anim"}
+		animation = { id = "melee_idle" type = "knight_melee_idle_anim"}
+		animation = { id = "melee_move" type = "knight_melee_move_anim"}	
+		
+		meshsettings = {
+			texture_diffuse = "knight_d.dds"
+			texture_normal = "knight_n.dds"
+			texture_specular = "knight_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+	pdxmesh = {
+		name = "knight_sword_mesh"
+		file = "gfx/models/NWEUnits/human/knight/knight_sword.mesh"
+
+		animation = { id = "march_move"			type = "knight_ranged_move_anim" }
+		animation = { id = "attack"			type = "knight_ranged_attack_anim" }
+		animation = { id = "defend"			type = "knight_ranged_longattack_anim" }		
+		animation = { id = "support_attack"			type = "knight_ranged_attack_anim" }
+		animation = { id = "charge_rifle"			type = "knight_ranged_move_anim" }
+		animation = { id = "charge_rifle_shoot"			type = "knight_ranged_charge_anim" }
+		animation = { id = "idle"			type = "knight_ranged_idle_anim" }
+		animation = { id = "retreat"			type = "knight_ranged_move_anim" }
+		animation = { id = "move"			type = "knight_ranged_move_anim" }
+		animation = { id = "death"			type = "knight_ranged_move_anim" }
+		##MELEE
+		animation = { id = "melee_1h_attack" type = "knight_melee_attack_anim"}
+		animation = { id = "melee_1h_attack_idle" type = "knight_melee_attack_anim"}
+		animation = { id = "melee_1h_charge" type = "knight_melee_move_anim"}
+		animation = { id = "melee_1h_charge_attack" type = "knight_melee_charge_anim"}
+		animation = { id = "melee_2h_attack" type = "knight_melee_attack_anim"}
+		animation = { id = "melee_2h_attack_idle" type = "knight_melee_attack_anim"}
+		animation = { id = "melee_2h_charge" type = "knight_melee_move_anim"}
+		animation = { id = "melee_2h_charge_attack" type = "knight_melee_charge_anim"}
+		animation = { id = "melee_idle" type = "knight_melee_idle_anim"}
+		animation = { id = "melee_move" type = "knight_melee_move_anim"}	
+		
+		meshsettings = {
+			texture_diffuse = "knight_d.dds"
+			texture_normal = "knight_n.dds"
+			texture_specular = "knight_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+	pdxmesh = {
+		name = "knight_mace_mesh"
+		file = "gfx/models/NWEUnits/human/knight/knight_mace.mesh"
+
+		animation = { id = "march_move"			type = "knight_ranged_move_anim" }
+		animation = { id = "attack"			type = "knight_ranged_attack_anim" }
+		animation = { id = "defend"			type = "knight_ranged_longattack_anim" }
+		animation = { id = "support_attack"			type = "knight_ranged_attack_anim" }
+		animation = { id = "charge_rifle"			type = "knight_ranged_move_anim" }
+		animation = { id = "charge_rifle_shoot"			type = "knight_ranged_charge_anim" }
+		animation = { id = "idle"			type = "knight_ranged_idle_anim" }
+		animation = { id = "retreat"			type = "knight_ranged_move_anim" }
+		animation = { id = "move"			type = "knight_ranged_move_anim" }
+		animation = { id = "death"			type = "knight_ranged_move_anim" }
+		##MELEE
+		animation = { id = "melee_1h_attack" type = "knight_melee_attack_anim"}
+		animation = { id = "melee_1h_attack_idle" type = "knight_melee_attack_anim"}
+		animation = { id = "melee_1h_charge" type = "knight_melee_move_anim"}
+		animation = { id = "melee_1h_charge_attack" type = "knight_melee_charge_anim"}
+		animation = { id = "melee_2h_attack" type = "knight_melee_attack_anim"}
+		animation = { id = "melee_2h_attack_idle" type = "knight_melee_attack_anim"}
+		animation = { id = "melee_2h_charge" type = "knight_melee_move_anim"}
+		animation = { id = "melee_2h_charge_attack" type = "knight_melee_charge_anim"}
+		animation = { id = "melee_idle" type = "knight_melee_idle_anim"}
+		animation = { id = "melee_move" type = "knight_melee_move_anim"}	
+		
+		meshsettings = {
+			texture_diffuse = "knight_d.dds"
+			texture_normal = "knight_n.dds"
+			texture_specular = "knight_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}	
+}

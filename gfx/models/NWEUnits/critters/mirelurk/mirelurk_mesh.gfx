@@ -1,0 +1,26 @@
+objectTypes = {
+	####mirelurk
+	pdxmesh = {
+		name = "mirelurk_mesh"
+		file = "gfx/models/NWEUnits/critters/mirelurk/mirelurk.mesh"
+
+
+		animation = { id = "idle"			type = "mirelurk_idle_anim" }
+		animation = { id = "idle2"			type = "mirelurk_idle2_anim" }
+		animation = { id = "move"			type = "mirelurk_move_anim" }
+		animation = { id = "charge"			type = "mirelurk_charge_anim" }
+		animation = { id = "attack"			type = "mirelurk_attack_anim" }
+		animation = { id = "defend"			type = "mirelurk_attack2_anim" }
+		animation = { id = "training"			type = "mirelurk_training_anim" }
+		animation = { id = "jumping_jacks"			type = "mirelurk_training_anim" }
+		animation = { id = "pushup"			type = "mirelurk_training_anim" }
+		animation = { id = "retreat"		type = "mirelurk_retreat_anim" }
+		
+		meshsettings = {
+			texture_diffuse = "mirelurk_d.dds"
+			texture_normal = "mirelurk_n.dds"
+			texture_specular = "mirelurk_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}	
+}
