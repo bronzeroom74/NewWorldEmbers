@@ -1,0 +1,35 @@
+objectTypes = {
+	####moleman
+	pdxmesh = {
+		name = "moleman_mesh"
+		file = "gfx/models/NWEUnits/human/moleman/moleman.mesh"
+		
+		animation = { id = "march_move"			type = "moleman_ranged_move_anim" }
+		animation = { id = "attack"			type = "moleman_ranged_attack_anim" }
+		animation = { id = "support_attack"			type = "moleman_ranged_attack_anim" }
+		animation = { id = "charge_rifle"			type = "moleman_ranged_move_anim" }
+		animation = { id = "charge_rifle_shoot"			type = "moleman_ranged_charge_anim" }
+		animation = { id = "idle"			type = "moleman_ranged_idle_anim" }
+		animation = { id = "retreat"			type = "moleman_ranged_move_anim" }
+		animation = { id = "move"			type = "moleman_ranged_move_anim" }
+		animation = { id = "death"			type = "moleman_ranged_move_anim" }
+		##MELEE
+		animation = { id = "melee_1h_attack" type = "moleman_melee_attack_anim"}
+		animation = { id = "melee_1h_attack_idle" type = "moleman_melee_attack_anim"}
+		animation = { id = "melee_1h_charge" type = "moleman_melee_move_anim"}
+		animation = { id = "melee_1h_charge_attack" type = "moleman_melee_charge_anim"}
+		animation = { id = "melee_2h_attack" type = "moleman_melee_attack_anim"}
+		animation = { id = "melee_2h_attack_idle" type = "moleman_melee_attack_anim"}
+		animation = { id = "melee_2h_charge" type = "moleman_melee_move_anim"}
+		animation = { id = "melee_2h_charge_attack" type = "moleman_melee_charge_anim"}
+		animation = { id = "melee_idle" type = "moleman_melee_idle_anim"}
+		animation = { id = "melee_move" type = "moleman_melee_move_anim"}		
+		
+		meshsettings = {
+			texture_diffuse = "moleman_d.dds"
+			texture_normal = "moleman_n.dds"
+			texture_specular = "moleman_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}	
+}

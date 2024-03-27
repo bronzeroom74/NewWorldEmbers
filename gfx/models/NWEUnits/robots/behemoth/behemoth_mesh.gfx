@@ -1,0 +1,37 @@
+objectTypes = {
+	####behemoth
+	pdxmesh = {
+		name = "behemoth_mesh"
+		file = "gfx/models/NWEUnits/robots/behemoth/behemoth.mesh"
+
+		animation = { id = "idle"			type = "behemoth_idle_anim" }
+		animation = { id = "move"			type = "behemoth_move_anim" }
+		animation = { id = "attack"			type = "behemoth_attack_anim" }
+		animation = { id = "defend"			type = "behemoth_attack_anim" }
+		animation = { id = "retreat"		type = "behemoth_move_anim" }
+
+		meshsettings = {
+			texture_diffuse = "behemoth_d.dds"
+			texture_normal = "behemoth_n.dds"
+			texture_specular = "behemoth_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}
+	pdxmesh = {
+		name = "behemothlight_mesh"
+		file = "gfx/models/NWEUnits/robots/behemoth/behemothlight.mesh"
+
+		animation = { id = "idle"			type = "behemothlight_idle_anim" }
+		animation = { id = "move"			type = "behemothlight_move_anim" }
+		animation = { id = "attack"			type = "behemothlight_attack_anim" }
+		animation = { id = "defend"			type = "behemothlight_attack_anim" }
+		animation = { id = "retreat"		type = "behemothlight_move_anim" }
+
+		meshsettings = {
+			texture_diffuse = "behemoth_d.dds"
+			texture_normal = "behemoth_n.dds"
+			texture_specular = "behemoth_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}	
+}

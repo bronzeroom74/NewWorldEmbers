@@ -1,0 +1,27 @@
+objectTypes = {
+	####supermutantbehemoth
+	pdxmesh = {
+		name = "supermutantbehemoth_mesh"
+		file = "gfx/models/NWEUnits/human/supermutantbehemoth/supermutantbehemoth.mesh"
+
+
+		animation = { id = "idle"			type = "supermutantbehemoth_idle_anim" }
+		animation = { id = "move"			type = "supermutantbehemoth_move_anim" }
+		animation = { id = "charge"			type = "supermutantbehemoth_charge_anim" }
+		animation = { id = "attack"			type = "supermutantbehemoth_attack_anim" }
+		animation = { id = "attack2"			type = "supermutantbehemoth_attack3_anim" }
+		animation = { id = "attack3"			type = "supermutantbehemoth_throw_anim" }
+		animation = { id = "defend"			type = "supermutantbehemoth_attack2_anim" }
+		animation = { id = "training"			type = "supermutantbehemoth_training_anim" }
+		animation = { id = "jumping_jacks"			type = "supermutantbehemoth_training_anim" }
+		animation = { id = "pushup"			type = "supermutantbehemoth_training_anim" }
+		animation = { id = "retreat"		type = "supermutantbehemoth_retreat_anim" }
+		
+		meshsettings = {
+			texture_diffuse = "supermutantbehemoth_d.dds"
+			texture_normal = "supermutantbehemoth_n.dds"
+			texture_specular = "supermutantbehemoth_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}	
+}

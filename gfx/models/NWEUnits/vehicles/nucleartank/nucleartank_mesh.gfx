@@ -1,0 +1,18 @@
+objectTypes = {
+	####nucleartank
+	pdxmesh = {
+		name = "nucleartank_mesh"
+		file = "gfx/models/NWEUnits/vehicles/nucleartank/nucleartank.mesh"
+
+		animation = { id = "idle"			type = "nucleartank_idle_anim" }
+		animation = { id = "move"			type = "nucleartank_move_anim" }
+		animation = { id = "attack"			type = "nucleartank_attack_anim" }
+		
+		meshsettings = {
+			texture_diffuse = "nucleartank_d.dds"
+			texture_normal = "nucleartank_n.dds"
+			texture_specular = "nucleartank_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}	
+}

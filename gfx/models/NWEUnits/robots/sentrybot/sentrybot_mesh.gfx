@@ -1,0 +1,21 @@
+objectTypes = {
+	####sentrybot
+	pdxmesh = {
+		name = "sentrybot_mesh"
+		file = "gfx/models/NWEUnits/robots/sentrybot/sentrybot.mesh"
+
+		animation = { id = "idle"			type = "sentrybot_idle_anim" }
+		animation = { id = "move"			type = "sentrybot_move_anim" }
+		animation = { id = "charge"			type = "sentrybot_charge_anim" }
+		animation = { id = "attack"			type = "sentrybot_attack_anim" }
+		animation = { id = "defend"			type = "sentrybot_attack_anim" }
+		animation = { id = "retreat"		type = "sentrybot_move_anim" }
+		
+		meshsettings = {
+			texture_diffuse = "sentrybot_d.dds"
+			texture_normal = "sentrybot_n.dds"
+			texture_specular = "sentrybot_s.dds"
+			shader = PdxMeshAdvanced
+		}
+	}	
+}
