@@ -22,17 +22,17 @@ spriteTypes = {
 
 	corneredTileSpriteType = {
 		name = "GFX_event_report_tileable_midsection"
-		size = { x = 580 y = 66 }
+		size = { x = 650 y = 213 }
 		textureFile = "gfx/interface/event_report_tileable_midsection.dds"
-		borderSize = { x = 290 y = 16 }
+		borderSize = { x = 650 y = 0 }
 		alwaystransparent = yes
 	}
 
 	corneredTileSpriteType = {
 		name = "GFX_event_report_tileable_bottom_section"
-		size = { x = 580 y = 66 }
+		size = { x = 650 y = 392 }
 		textureFile = "gfx/interface/event_report_tileable_midsection.dds"
-		borderSize = { x = 290 y = 16 }
+		borderSize = { x = 650 y = 0 }
 		alwaystransparent = yes
 	}
 

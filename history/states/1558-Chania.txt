@@ -2,11 +2,11 @@ state = {
 	id = 1558
 	name = "STATE_1558"
 	provinces = {
-		4060 20349 20351 
+		20349
 	}
 	history = {
-		owner = SWI
-		add_core_of = SWI
+		owner = OSV
+		add_core_of = OSV
 		buildings = {
 			infrastructure = 2
 			20349 = { naval_base = 1 }

@@ -592,7 +592,6 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 12
-		attack = 10
 
 		#Defensive Abilities
 		defense = 14
@@ -623,7 +622,6 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 14
-		attack = 12
 
 		#Defensive Abilities
 		defense = 16
@@ -651,7 +649,6 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 16
-		attack = 14
 
 		#Defensive Abilities
 		defense = 18
@@ -676,7 +673,6 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 18
-		attack = 16
 
 		#Defensive Abilities
 		defense = 20
@@ -705,7 +701,6 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 20
-		attack = 18
 
 		#Defensive Abilities
 		defense = 22
@@ -734,7 +729,6 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 22
-		attack = 20
 
 		#Defensive Abilities
 		defense = 24

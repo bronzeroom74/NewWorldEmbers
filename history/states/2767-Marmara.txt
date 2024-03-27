@@ -5,12 +5,11 @@ state = {
 		21471 
 	}
 	history = {
-		owner = SWI
-		add_core_of = SWI
+		owner = BYN
+		add_core_of = BYN
 		buildings = {
 			infrastructure = 2
 		}
-		set_demilitarized_zone = yes
 
 	}
 	manpower = 2102
